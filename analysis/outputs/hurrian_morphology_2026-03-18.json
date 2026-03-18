@@ -1,0 +1,4132 @@
+{
+  "hurrian_morpheme_inventory": {
+    "absolutive": {
+      "forms": [],
+      "function": "subject of intransitive / object of transitive verb"
+    },
+    "ergative": {
+      "forms": [
+        "š",
+        "ž"
+      ],
+      "function": "subject of transitive verb"
+    },
+    "genitive": {
+      "forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "function": "possessive / genitive relation"
+    },
+    "dative": {
+      "forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "function": "indirect object / 'for/to'"
+    },
+    "locative": {
+      "forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "function": "location / 'at/in'"
+    },
+    "ablative": {
+      "forms": [
+        "dan",
+        "tan"
+      ],
+      "function": "source / 'from'"
+    },
+    "directive": {
+      "forms": [
+        "da",
+        "ta"
+      ],
+      "function": "goal / 'toward/to'"
+    },
+    "instrumental": {
+      "forms": [
+        "ae",
+        "e"
+      ],
+      "function": "instrument / 'with/by means of'"
+    },
+    "comitative": {
+      "forms": [
+        "ra"
+      ],
+      "function": "accompaniment / 'with'"
+    },
+    "plural_nom": {
+      "forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "function": "plural nominative/absolutive"
+    },
+    "plural_erg": {
+      "forms": [
+        "ž-na",
+        "š-na"
+      ],
+      "function": "plural ergative"
+    },
+    "transitive_v": {
+      "forms": [
+        "i",
+        "ī"
+      ],
+      "function": "transitive verb form"
+    },
+    "intransitive_v": {
+      "forms": [
+        "o",
+        "u",
+        "a"
+      ],
+      "function": "intransitive verb form"
+    },
+    "antipassive": {
+      "forms": [
+        "ul",
+        "ill"
+      ],
+      "function": "antipassive (removes transitivity)"
+    },
+    "1sg_poss": {
+      "forms": [
+        "iff",
+        "if"
+      ],
+      "function": "1st singular possessive 'my'"
+    },
+    "2sg_poss": {
+      "forms": [
+        "ff",
+        "f"
+      ],
+      "function": "2nd singular possessive 'your'"
+    },
+    "3sg_poss": {
+      "forms": [
+        "i",
+        "e"
+      ],
+      "function": "3rd singular possessive 'his/her'"
+    }
+  },
+  "linear_a_suffix_inventory": {
+    "RO": {
+      "count": 78,
+      "kuro_rate": 0.154,
+      "kiro_rate": 0.128,
+      "sites": 22,
+      "notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    "JA": {
+      "count": 65,
+      "kuro_rate": 0.034,
+      "kiro_rate": 0.0,
+      "sites": 17,
+      "notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    "RE": {
+      "count": 58,
+      "kuro_rate": 0.216,
+      "kiro_rate": 0.157,
+      "sites": 20,
+      "notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    "TE": {
+      "count": 56,
+      "kuro_rate": 0.089,
+      "kiro_rate": 0.071,
+      "sites": 20,
+      "notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    "NA": {
+      "count": 54,
+      "kuro_rate": 0.12,
+      "kiro_rate": 0.074,
+      "sites": 18,
+      "notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    "TI": {
+      "count": 49,
+      "kuro_rate": 0.175,
+      "kiro_rate": 0.02,
+      "sites": 15,
+      "notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    "SI": {
+      "count": 38,
+      "kuro_rate": 0.105,
+      "kiro_rate": 0.053,
+      "sites": 14,
+      "notes": "medium accounting co-occurrence"
+    },
+    "TA": {
+      "count": 35,
+      "kuro_rate": 0.086,
+      "kiro_rate": 0.057,
+      "sites": 13,
+      "notes": "cf. Hurrian directive -da/-ta"
+    },
+    "MA": {
+      "count": 33,
+      "kuro_rate": 0.091,
+      "kiro_rate": 0.03,
+      "sites": 12,
+      "notes": "low deficit co-occurrence; may be nominal"
+    },
+    "DA": {
+      "count": 28,
+      "kuro_rate": 0.107,
+      "kiro_rate": 0.036,
+      "sites": 11,
+      "notes": "cf. Hurrian directive -da"
+    },
+    "RA": {
+      "count": 27,
+      "kuro_rate": 0.148,
+      "kiro_rate": 0.074,
+      "sites": 10,
+      "notes": "cf. Hurrian comitative -ra"
+    },
+    "KA": {
+      "count": 25,
+      "kuro_rate": 0.08,
+      "kiro_rate": 0.04,
+      "sites": 12,
+      "notes": "uncommon in accounting; possibly qualifier"
+    },
+    "NE": {
+      "count": 20,
+      "kuro_rate": 0.05,
+      "kiro_rate": 0.0,
+      "sites": 9,
+      "notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    "MI": {
+      "count": 18,
+      "kuro_rate": 0.111,
+      "kiro_rate": 0.056,
+      "sites": 8,
+      "notes": "limited data"
+    }
+  },
+  "alignment_matrix": [
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "ta",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 5,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "na",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 5,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "ta",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 5,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "plural_nom",
+      "hurrian_function": "plural nominative/absolutive",
+      "hurrian_forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "best_form": "na",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 4.5,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "absolutive",
+      "hurrian_function": "subject of intransitive / object of transitive verb",
+      "hurrian_forms": [],
+      "best_form": "(zero)",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "ne",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "bi",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "tan",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "ta",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "plural_nom",
+      "hurrian_function": "plural nominative/absolutive",
+      "hurrian_forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "best_form": "na",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "intransitive_v",
+      "hurrian_function": "intransitive verb form",
+      "hurrian_forms": [
+        "o",
+        "u",
+        "a"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "tan",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "transitive_v",
+      "hurrian_function": "transitive verb form",
+      "hurrian_forms": [
+        "i",
+        "ī"
+      ],
+      "best_form": "i",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "absolutive",
+      "hurrian_function": "subject of intransitive / object of transitive verb",
+      "hurrian_forms": [],
+      "best_form": "(zero)",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "ne",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ill",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "bi",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "e",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ul",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "transitive_v",
+      "hurrian_function": "transitive verb form",
+      "hurrian_forms": [
+        "i",
+        "ī"
+      ],
+      "best_form": "i",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "plural_erg",
+      "hurrian_function": "plural ergative",
+      "hurrian_forms": [
+        "ž-na",
+        "š-na"
+      ],
+      "best_form": "ž-na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ul",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "e",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "transitive_v",
+      "hurrian_function": "transitive verb form",
+      "hurrian_forms": [
+        "i",
+        "ī"
+      ],
+      "best_form": "i",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "3sg_poss",
+      "hurrian_function": "3rd singular possessive 'his/her'",
+      "hurrian_forms": [
+        "i",
+        "e"
+      ],
+      "best_form": "e",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "e",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "3sg_poss",
+      "hurrian_function": "3rd singular possessive 'his/her'",
+      "hurrian_forms": [
+        "i",
+        "e"
+      ],
+      "best_form": "e",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "plural_nom",
+      "hurrian_function": "plural nominative/absolutive",
+      "hurrian_forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "best_form": "na",
+      "phonological_score": 2,
+      "contextual_score": 0,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "plural_erg",
+      "hurrian_function": "plural ergative",
+      "hurrian_forms": [
+        "ž-na",
+        "š-na"
+      ],
+      "best_form": "ž-na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "1sg_poss",
+      "hurrian_function": "1st singular possessive 'my'",
+      "hurrian_forms": [
+        "iff",
+        "if"
+      ],
+      "best_form": "iff",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "3sg_poss",
+      "hurrian_function": "3rd singular possessive 'his/her'",
+      "hurrian_forms": [
+        "i",
+        "e"
+      ],
+      "best_form": "i",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "transitive_v",
+      "hurrian_function": "transitive verb form",
+      "hurrian_forms": [
+        "i",
+        "ī"
+      ],
+      "best_form": "i",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "1sg_poss",
+      "hurrian_function": "1st singular possessive 'my'",
+      "hurrian_forms": [
+        "iff",
+        "if"
+      ],
+      "best_form": "iff",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "3sg_poss",
+      "hurrian_function": "3rd singular possessive 'his/her'",
+      "hurrian_forms": [
+        "i",
+        "e"
+      ],
+      "best_form": "i",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "plural_erg",
+      "hurrian_function": "plural ergative",
+      "hurrian_forms": [
+        "ž-na",
+        "š-na"
+      ],
+      "best_form": "ž-na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "plural_nom",
+      "hurrian_function": "plural nominative/absolutive",
+      "hurrian_forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "best_form": "na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "plural_erg",
+      "hurrian_function": "plural ergative",
+      "hurrian_forms": [
+        "ž-na",
+        "š-na"
+      ],
+      "best_form": "ž-na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "intransitive_v",
+      "hurrian_function": "intransitive verb form",
+      "hurrian_forms": [
+        "o",
+        "u",
+        "a"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "plural_nom",
+      "hurrian_function": "plural nominative/absolutive",
+      "hurrian_forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "best_form": "na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "plural_erg",
+      "hurrian_function": "plural ergative",
+      "hurrian_forms": [
+        "ž-na",
+        "š-na"
+      ],
+      "best_form": "ž-na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "intransitive_v",
+      "hurrian_function": "intransitive verb form",
+      "hurrian_forms": [
+        "o",
+        "u",
+        "a"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "plural_erg",
+      "hurrian_function": "plural ergative",
+      "hurrian_forms": [
+        "ž-na",
+        "š-na"
+      ],
+      "best_form": "ž-na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "plural_nom",
+      "hurrian_function": "plural nominative/absolutive",
+      "hurrian_forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "best_form": "na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "plural_erg",
+      "hurrian_function": "plural ergative",
+      "hurrian_forms": [
+        "ž-na",
+        "š-na"
+      ],
+      "best_form": "ž-na",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "intransitive_v",
+      "hurrian_function": "intransitive verb form",
+      "hurrian_forms": [
+        "o",
+        "u",
+        "a"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "na",
+      "phonological_score": 2,
+      "contextual_score": 0,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "intransitive_v",
+      "hurrian_function": "intransitive verb form",
+      "hurrian_forms": [
+        "o",
+        "u",
+        "a"
+      ],
+      "best_form": "o",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "3sg_poss",
+      "hurrian_function": "3rd singular possessive 'his/her'",
+      "hurrian_forms": [
+        "i",
+        "e"
+      ],
+      "best_form": "e",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "MI",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "bi",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 18,
+      "la_kuro_rate": 0.111,
+      "la_kiro_rate": 0.056,
+      "la_notes": "limited data"
+    },
+    {
+      "la_suffix": "MI",
+      "hurrian_case": "transitive_v",
+      "hurrian_function": "transitive verb form",
+      "hurrian_forms": [
+        "i",
+        "ī"
+      ],
+      "best_form": "i",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 18,
+      "la_kuro_rate": 0.111,
+      "la_kiro_rate": 0.056,
+      "la_notes": "limited data"
+    },
+    {
+      "la_suffix": "MI",
+      "hurrian_case": "1sg_poss",
+      "hurrian_function": "1st singular possessive 'my'",
+      "hurrian_forms": [
+        "iff",
+        "if"
+      ],
+      "best_form": "iff",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 18,
+      "la_kuro_rate": 0.111,
+      "la_kiro_rate": 0.056,
+      "la_notes": "limited data"
+    },
+    {
+      "la_suffix": "MI",
+      "hurrian_case": "3sg_poss",
+      "hurrian_function": "3rd singular possessive 'his/her'",
+      "hurrian_forms": [
+        "i",
+        "e"
+      ],
+      "best_form": "i",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 2.5,
+      "la_count": 18,
+      "la_kuro_rate": 0.111,
+      "la_kiro_rate": 0.056,
+      "la_notes": "limited data"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "absolutive",
+      "hurrian_function": "subject of intransitive / object of transitive verb",
+      "hurrian_forms": [],
+      "best_form": "(zero)",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "ae",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "ae",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ill",
+      "phonological_score": 1,
+      "contextual_score": 0,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "ae",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "absolutive",
+      "hurrian_function": "subject of intransitive / object of transitive verb",
+      "hurrian_forms": [],
+      "best_form": "(zero)",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "ae",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ul",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "ae",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ul",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "ae",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "ae",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ul",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "MI",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "ae",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 18,
+      "la_kuro_rate": 0.111,
+      "la_kiro_rate": 0.056,
+      "la_notes": "limited data"
+    },
+    {
+      "la_suffix": "MI",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ill",
+      "phonological_score": 1,
+      "contextual_score": 0,
+      "frequency_score": 1,
+      "total_score": 2,
+      "la_count": 18,
+      "la_kuro_rate": 0.111,
+      "la_kiro_rate": 0.056,
+      "la_notes": "limited data"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "absolutive",
+      "hurrian_function": "subject of intransitive / object of transitive verb",
+      "hurrian_forms": [],
+      "best_form": "(zero)",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 1.5,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "absolutive",
+      "hurrian_function": "subject of intransitive / object of transitive verb",
+      "hurrian_forms": [],
+      "best_form": "(zero)",
+      "phonological_score": 0,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 1.5,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    }
+  ],
+  "high_confidence_alignments": [
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "ta",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 5,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "na",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 5,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "ta",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 5,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "plural_nom",
+      "hurrian_function": "plural nominative/absolutive",
+      "hurrian_forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "best_form": "na",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 4.5,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "absolutive",
+      "hurrian_function": "subject of intransitive / object of transitive verb",
+      "hurrian_forms": [],
+      "best_form": "(zero)",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "ne",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "bi",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "tan",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "ta",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 4,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    }
+  ],
+  "medium_confidence_alignments": [
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "plural_nom",
+      "hurrian_function": "plural nominative/absolutive",
+      "hurrian_forms": [
+        "na",
+        "ne",
+        "lla"
+      ],
+      "best_form": "na",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "intransitive_v",
+      "hurrian_function": "intransitive verb form",
+      "hurrian_forms": [
+        "o",
+        "u",
+        "a"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "tan",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "transitive_v",
+      "hurrian_function": "transitive verb form",
+      "hurrian_forms": [
+        "i",
+        "ī"
+      ],
+      "best_form": "i",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 2,
+      "contextual_score": 1,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "absolutive",
+      "hurrian_function": "subject of intransitive / object of transitive verb",
+      "hurrian_forms": [],
+      "best_form": "(zero)",
+      "phonological_score": 1,
+      "contextual_score": 2,
+      "frequency_score": 0.5,
+      "total_score": 3.5,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "RO",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 78,
+      "la_kuro_rate": 0.154,
+      "la_kiro_rate": 0.128,
+      "la_notes": "appears in terminal/accounting position; KU-RO itself ends in -RO"
+    },
+    {
+      "la_suffix": "JA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 65,
+      "la_kuro_rate": 0.034,
+      "la_kiro_rate": 0.0,
+      "la_notes": "ZERO KI-RO co-occurrence across 17 sites — strong non-transactional signal"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "RE",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "ne",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 58,
+      "la_kuro_rate": 0.216,
+      "la_kiro_rate": 0.157,
+      "la_notes": "high accounting co-occurrence; may be active/participle marker"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "TE",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "ve",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    },
+    {
+      "la_suffix": "NA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 54,
+      "la_kuro_rate": 0.12,
+      "la_kiro_rate": 0.074,
+      "la_notes": "intermediate accounting; cf. Hurrian locative -na"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "ergative",
+      "hurrian_function": "subject of transitive verb",
+      "hurrian_forms": [
+        "š",
+        "ž"
+      ],
+      "best_form": "š",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "TI",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ill",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 49,
+      "la_kuro_rate": 0.175,
+      "la_kiro_rate": 0.02,
+      "la_notes": "strongly VIR-associated; likely personal names or occupational"
+    },
+    {
+      "la_suffix": "SI",
+      "hurrian_case": "genitive",
+      "hurrian_function": "possessive / genitive relation",
+      "hurrian_forms": [
+        "ve",
+        "bi",
+        "pe"
+      ],
+      "best_form": "bi",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 38,
+      "la_kuro_rate": 0.105,
+      "la_kiro_rate": 0.053,
+      "la_notes": "medium accounting co-occurrence"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "TA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 35,
+      "la_kuro_rate": 0.086,
+      "la_kiro_rate": 0.057,
+      "la_notes": "cf. Hurrian directive -da/-ta"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "dative",
+      "hurrian_function": "indirect object / 'for/to'",
+      "hurrian_forms": [
+        "va",
+        "fa",
+        "ve"
+      ],
+      "best_form": "va",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "locative",
+      "hurrian_function": "location / 'at/in'",
+      "hurrian_forms": [
+        "a",
+        "na",
+        "ne"
+      ],
+      "best_form": "a",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "da",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "MA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 33,
+      "la_kuro_rate": 0.091,
+      "la_kiro_rate": 0.03,
+      "la_notes": "low deficit co-occurrence; may be nominal"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "DA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 28,
+      "la_kuro_rate": 0.107,
+      "la_kiro_rate": 0.036,
+      "la_notes": "cf. Hurrian directive -da"
+    },
+    {
+      "la_suffix": "RA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 27,
+      "la_kuro_rate": 0.148,
+      "la_kiro_rate": 0.074,
+      "la_notes": "cf. Hurrian comitative -ra"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "ablative",
+      "hurrian_function": "source / 'from'",
+      "hurrian_forms": [
+        "dan",
+        "tan"
+      ],
+      "best_form": "dan",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "KA",
+      "hurrian_case": "comitative",
+      "hurrian_function": "accompaniment / 'with'",
+      "hurrian_forms": [
+        "ra"
+      ],
+      "best_form": "ra",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 25,
+      "la_kuro_rate": 0.08,
+      "la_kiro_rate": 0.04,
+      "la_notes": "uncommon in accounting; possibly qualifier"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "instrumental",
+      "hurrian_function": "instrument / 'with/by means of'",
+      "hurrian_forms": [
+        "ae",
+        "e"
+      ],
+      "best_form": "e",
+      "phonological_score": 1,
+      "contextual_score": 1,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    },
+    {
+      "la_suffix": "NE",
+      "hurrian_case": "antipassive",
+      "hurrian_function": "antipassive (removes transitivity)",
+      "hurrian_forms": [
+        "ul",
+        "ill"
+      ],
+      "best_form": "ul",
+      "phonological_score": 0,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 3,
+      "la_count": 20,
+      "la_kuro_rate": 0.05,
+      "la_kiro_rate": 0.0,
+      "la_notes": "cf. Hurrian plural -ne/-na; zero KI-RO similar to -JA"
+    }
+  ],
+  "na_locative_test": {
+    "total_na_word_occurrences": 54,
+    "distinct_na_tokens": 45,
+    "pre_logogram_count": 7,
+    "terminal_number_count": 18,
+    "vessel_support_count": 12,
+    "pre_logo_rate": 0.13,
+    "terminal_rate": 0.333,
+    "top_na_words": [
+      [
+        "KI-RE-TA-NA",
+        4
+      ],
+      [
+        "PA₃-NI-NA",
+        3
+      ],
+      [
+        "DI-RI-NA",
+        2
+      ],
+      [
+        "KA-NA",
+        2
+      ],
+      [
+        "DI-NA",
+        2
+      ],
+      [
+        "I-PI-NA-MI-NA",
+        2
+      ],
+      [
+        "A-DU-NI-TA-NA",
+        1
+      ],
+      [
+        "DA-KU-NA",
+        1
+      ],
+      [
+        "TA-RI-NA",
+        1
+      ],
+      [
+        "NA-*21F-NE-MI-NA",
+        1
+      ],
+      [
+        "DU-PA₃-NA",
+        1
+      ],
+      [
+        "KA-RO-NA",
+        1
+      ],
+      [
+        "RU-ZU-NA",
+        1
+      ],
+      [
+        "DU-MA-I-NA",
+        1
+      ],
+      [
+        "A-NA",
+        1
+      ]
+    ],
+    "interpretation": "NOT compatible with locative (terminal use too high)"
+  },
+  "ja_intransitive_test": {
+    "total_ja_word_occurrences": 64,
+    "distinct_ja_tokens": 47,
+    "support_distribution": {
+      "tablet": 29,
+      "stone vessel": 23,
+      "roundel": 3,
+      "clay vessel": 3,
+      "inked inscription": 2,
+      "metal object": 1,
+      "graffito": 1,
+      "architecture": 1,
+      "stone object": 1
+    },
+    "pre_logogram_count": 4,
+    "position_distribution": {
+      "initial": 38,
+      "medial": 19,
+      "final": 7
+    },
+    "top_ja_words": [
+      [
+        "A-TA-I-*301-WA-JA",
+        11
+      ],
+      [
+        "PA-SE-JA",
+        3
+      ],
+      [
+        "A-JA",
+        3
+      ],
+      [
+        "I-JA",
+        2
+      ],
+      [
+        "RE-JA",
+        2
+      ],
+      [
+        "JA-JA",
+        2
+      ],
+      [
+        "JA-TA-I-*301-U-JA",
+        1
+      ],
+      [
+        "*47-NU-RA-JA",
+        1
+      ],
+      [
+        "A-SE-JA",
+        1
+      ],
+      [
+        "TI-NU-JA",
+        1
+      ],
+      [
+        "*306-TU-JA",
+        1
+      ],
+      [
+        "KU-PA-JA",
+        1
+      ],
+      [
+        "KO-JA",
+        1
+      ],
+      [
+        "A-SU-JA",
+        1
+      ],
+      [
+        "SI-DI-JA",
+        1
+      ]
+    ],
+    "kiro_co_occurrence": 0,
+    "interpretation": "STRONGLY COMPATIBLE with absolutive/intransitive: zero KI-RO, pre-logogram rate: 6.2%"
+  },
+  "te_dative_test": {
+    "total_te_word_occurrences": 56,
+    "distinct_te_tokens": 44,
+    "pre_logogram_count": 4,
+    "post_logogram_count": 0,
+    "support_distribution": {
+      "tablet": 23,
+      "stone vessel": 21,
+      "clay vessel": 6,
+      "architecture": 3,
+      "metal object": 2,
+      "stone object": 1
+    },
+    "top_te_words": [
+      [
+        "SI-RU-TE",
+        7
+      ],
+      [
+        "MI-NU-TE",
+        4
+      ],
+      [
+        "I-DA-MA-TE",
+        2
+      ],
+      [
+        "MA-KA-RI-TE",
+        2
+      ],
+      [
+        "SI-TE",
+        2
+      ],
+      [
+        "I-KU-PA₃-NA-TU-NA-TE",
+        1
+      ],
+      [
+        "PI-MI-NA-TE",
+        1
+      ],
+      [
+        "SI-DA-TE",
+        1
+      ],
+      [
+        "*47-TE",
+        1
+      ],
+      [
+        "A-RO-TE",
+        1
+      ],
+      [
+        "PI-*34-TE",
+        1
+      ],
+      [
+        "QA-TI-DA-TE",
+        1
+      ],
+      [
+        "NU-TE",
+        1
+      ],
+      [
+        "*312-TE-TE",
+        1
+      ],
+      [
+        "DA-JU-TE",
+        1
+      ]
+    ],
+    "pre_logo_rate": 0.071,
+    "interpretation": "See contextual analysis for dative compatibility"
+  },
+  "re_participle_test": {
+    "total_re_word_occurrences": 58,
+    "distinct_re_tokens": 44,
+    "kuro_co_occurrence": 11,
+    "kiro_co_occurrence": 8,
+    "kuro_rate": 0.19,
+    "kiro_rate": 0.138,
+    "support_distribution": {
+      "Tablet": 33,
+      "Stone vessel": 11,
+      "Clay vessel": 2,
+      "Roundel": 1,
+      "Inked inscription": 1,
+      "Metal object": 1,
+      "Lames (short thin tablet)": 1,
+      "4-sided bar": 1
+    },
+    "top_re_words": [
+      [
+        "DA-RE",
+        7
+      ],
+      [
+        "PA-JA-RE",
+        4
+      ],
+      [
+        "*28B-NU-MA-RE",
+        3
+      ],
+      [
+        "SI-DA-RE",
+        2
+      ],
+      [
+        "KU-RE",
+        2
+      ],
+      [
+        "AU-SI-RE",
+        2
+      ],
+      [
+        "JA-RE",
+        1
+      ],
+      [
+        "A-RA-NA-RE",
+        1
+      ],
+      [
+        "MI-RU-TA-RA-RE",
+        1
+      ],
+      [
+        "TE-JA-RE",
+        1
+      ],
+      [
+        "NA-DA-RE",
+        1
+      ],
+      [
+        "JA-MI-DA-RE",
+        1
+      ],
+      [
+        "WA-TU-MA-RE",
+        1
+      ],
+      [
+        "QE-KU-RE",
+        1
+      ],
+      [
+        "SI-TU-RA₂-RE",
+        1
+      ]
+    ],
+    "interpretation": "COMPATIBLE with active participle: highest accounting co-occurrence (19.0% KU-RO, 13.8% KI-RO)"
+  },
+  "suffix_paradigm_overview": {
+    "JA": {
+      "count": 64,
+      "site_count": 17
+    },
+    "RE": {
+      "count": 58,
+      "site_count": 11
+    },
+    "TE": {
+      "count": 56,
+      "site_count": 20
+    },
+    "NA": {
+      "count": 54,
+      "site_count": 12
+    },
+    "TI": {
+      "count": 49,
+      "site_count": 13
+    },
+    "RA": {
+      "count": 48,
+      "site_count": 10
+    },
+    "RA₂": {
+      "count": 39,
+      "site_count": 5
+    },
+    "TA": {
+      "count": 37,
+      "site_count": 9
+    },
+    "SI": {
+      "count": 36,
+      "site_count": 16
+    },
+    "RU": {
+      "count": 36,
+      "site_count": 5
+    },
+    "NE": {
+      "count": 35,
+      "site_count": 11
+    },
+    "KA": {
+      "count": 35,
+      "site_count": 10
+    },
+    "MI": {
+      "count": 33,
+      "site_count": 11
+    },
+    "MA": {
+      "count": 32,
+      "site_count": 12
+    },
+    "SE": {
+      "count": 31,
+      "site_count": 7
+    },
+    "VS": {
+      "count": 30,
+      "site_count": 4
+    },
+    "DI": {
+      "count": 27,
+      "site_count": 5
+    },
+    "ME": {
+      "count": 26,
+      "site_count": 10
+    },
+    "DU": {
+      "count": 26,
+      "site_count": 3
+    },
+    "PA": {
+      "count": 25,
+      "site_count": 8
+    },
+    "RO": {
+      "count": 25,
+      "site_count": 7
+    },
+    "TU": {
+      "count": 24,
+      "site_count": 5
+    },
+    "KI": {
+      "count": 24,
+      "site_count": 6
+    },
+    "DA": {
+      "count": 23,
+      "site_count": 12
+    },
+    "NI": {
+      "count": 23,
+      "site_count": 5
+    },
+    "NU": {
+      "count": 22,
+      "site_count": 9
+    },
+    "ZA": {
+      "count": 22,
+      "site_count": 8
+    },
+    "RI": {
+      "count": 19,
+      "site_count": 7
+    },
+    "SA": {
+      "count": 19,
+      "site_count": 12
+    },
+    "*118": {
+      "count": 18,
+      "site_count": 6
+    }
+  },
+  "summary": {
+    "total_alignments": 134,
+    "high_confidence_count": 14,
+    "medium_confidence_count": 42,
+    "strongest_alignment": {
+      "la_suffix": "TE",
+      "hurrian_case": "directive",
+      "hurrian_function": "goal / 'toward/to'",
+      "hurrian_forms": [
+        "da",
+        "ta"
+      ],
+      "best_form": "ta",
+      "phonological_score": 2,
+      "contextual_score": 2,
+      "frequency_score": 1,
+      "total_score": 5,
+      "la_count": 56,
+      "la_kuro_rate": 0.089,
+      "la_kiro_rate": 0.071,
+      "la_notes": "most geographically widespread (20 sites); low accounting co-occ"
+    }
+  }
+}

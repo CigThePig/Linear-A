@@ -1,0 +1,1076 @@
+{
+  "global_stats": {
+    "total_tokens_analyzed": 61,
+    "high_specificity_count": 42,
+    "toponym_match_count": 4,
+    "site_candidate_counts": {
+      "Haghia Triada": 20,
+      "Khania": 4,
+      "Phaistos": 0,
+      "Knossos": 0,
+      "Zakros": 3,
+      "Iouktas": 0,
+      "Palaikastro": 0,
+      "Tylissos": 0,
+      "Gournia": 0,
+      "Malia": 0
+    }
+  },
+  "site_candidates": {
+    "Haghia Triada": [
+      {
+        "token": "SA-RA₂",
+        "specificity": 1.0,
+        "total": 20,
+        "primary_count": 20,
+        "all_sites": {
+          "Haghia Triada": 20
+        }
+      },
+      {
+        "token": "I-RA₂",
+        "specificity": 1.0,
+        "total": 8,
+        "primary_count": 8,
+        "all_sites": {
+          "Haghia Triada": 8
+        }
+      },
+      {
+        "token": "KU-PA₃-NU",
+        "specificity": 0.857,
+        "total": 7,
+        "primary_count": 6,
+        "all_sites": {
+          "Haghia Triada": 6,
+          "Phaistos": 1
+        }
+      },
+      {
+        "token": "KA-PA",
+        "specificity": 1.0,
+        "total": 6,
+        "primary_count": 6,
+        "all_sites": {
+          "Haghia Triada": 6
+        }
+      },
+      {
+        "token": "SA-RU",
+        "specificity": 1.0,
+        "total": 6,
+        "primary_count": 6,
+        "all_sites": {
+          "Haghia Triada": 6
+        }
+      },
+      {
+        "token": "SI-KA",
+        "specificity": 1.0,
+        "total": 6,
+        "primary_count": 6,
+        "all_sites": {
+          "Haghia Triada": 6
+        }
+      },
+      {
+        "token": "MA-DI",
+        "specificity": 0.833,
+        "total": 6,
+        "primary_count": 5,
+        "all_sites": {
+          "Haghia Triada": 5,
+          "Phaistos": 1
+        }
+      },
+      {
+        "token": "KU-NI-SU",
+        "specificity": 1.0,
+        "total": 5,
+        "primary_count": 5,
+        "all_sites": {
+          "Haghia Triada": 5
+        }
+      },
+      {
+        "token": "DA-KA",
+        "specificity": 1.0,
+        "total": 5,
+        "primary_count": 5,
+        "all_sites": {
+          "Haghia Triada": 5
+        }
+      },
+      {
+        "token": "DI-NA-U",
+        "specificity": 0.8,
+        "total": 5,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4,
+          "Knossos": 1
+        }
+      },
+      {
+        "token": "MI-NU-TE",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "KI-RE-TA-NA",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "DA-RI-DA",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "TA-NA-TI",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "*306-TU",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "DA-ME",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "DA-SI-*118",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "QA-*310-I",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "JE-DI",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      },
+      {
+        "token": "SA-RO",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Haghia Triada": 4
+        }
+      }
+    ],
+    "Khania": [
+      {
+        "token": "*411-VS",
+        "specificity": 1.0,
+        "total": 15,
+        "primary_count": 15,
+        "all_sites": {
+          "Khania": 15
+        }
+      },
+      {
+        "token": "*409-VS",
+        "specificity": 0.8,
+        "total": 5,
+        "primary_count": 4,
+        "all_sites": {
+          "Khania": 4,
+          "Zominthos": 1
+        }
+      },
+      {
+        "token": "*86-RO",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Khania": 4
+        }
+      },
+      {
+        "token": "*408-VS",
+        "specificity": 1.0,
+        "total": 4,
+        "primary_count": 4,
+        "all_sites": {
+          "Khania": 4
+        }
+      }
+    ],
+    "Zakros": [
+      {
+        "token": "DU-RE-ZA-SE",
+        "specificity": 1.0,
+        "total": 3,
+        "primary_count": 3,
+        "all_sites": {
+          "Zakros": 3
+        }
+      },
+      {
+        "token": "*28B-NU-MA-RE",
+        "specificity": 1.0,
+        "total": 3,
+        "primary_count": 3,
+        "all_sites": {
+          "Zakros": 3
+        }
+      },
+      {
+        "token": "SI-PI-KI",
+        "specificity": 1.0,
+        "total": 3,
+        "primary_count": 3,
+        "all_sites": {
+          "Zakros": 3
+        }
+      }
+    ]
+  },
+  "toponym_matches": {
+    "I-RA₂": {
+      "consonant_skeleton": "R",
+      "toponym_matches": [
+        {
+          "toponym": "Zakros",
+          "pattern": "ZKR",
+          "match_type": "skeleton_match"
+        },
+        {
+          "toponym": "Nirou",
+          "pattern": "NR",
+          "match_type": "skeleton_match"
+        },
+        {
+          "toponym": "Gortyn",
+          "pattern": "GRT",
+          "match_type": "skeleton_match"
+        },
+        {
+          "toponym": "Arkhanes",
+          "pattern": "RK",
+          "match_type": "skeleton_match"
+        },
+        {
+          "toponym": "Haghia Triada",
+          "pattern": "TR",
+          "match_type": "skeleton_match"
+        }
+      ],
+      "linear_b_matches": []
+    },
+    "KU-NI-SU": {
+      "consonant_skeleton": "KNS",
+      "toponym_matches": [
+        {
+          "toponym": "Knossos",
+          "pattern": "KN",
+          "match_type": "skeleton_match"
+        }
+      ],
+      "linear_b_matches": []
+    },
+    "DA-KA": {
+      "consonant_skeleton": "DK",
+      "toponym_matches": [
+        {
+          "toponym": "Dikte",
+          "pattern": "DK",
+          "match_type": "skeleton_match"
+        }
+      ],
+      "linear_b_matches": []
+    },
+    "MI-NU-TE": {
+      "consonant_skeleton": "MNT",
+      "toponym_matches": [
+        {
+          "toponym": "Amnisos",
+          "pattern": "MN",
+          "match_type": "skeleton_match"
+        },
+        {
+          "toponym": "Minoai",
+          "pattern": "MN",
+          "match_type": "skeleton_match"
+        }
+      ],
+      "linear_b_matches": []
+    }
+  },
+  "vir_adjacent_analysis": {},
+  "support_profiles": {
+    "QE-RA₂-U": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "KU-PA₃-NU": {
+      "total": 8,
+      "support_distribution": {
+        "tablet": 8
+      },
+      "primary_support": "tablet"
+    },
+    "SA-RA₂": {
+      "total": 20,
+      "support_distribution": {
+        "tablet": 20
+      },
+      "primary_support": "tablet"
+    },
+    "KA-PA": {
+      "total": 6,
+      "support_distribution": {
+        "tablet": 6
+      },
+      "primary_support": "tablet"
+    },
+    "MI-NU-TE": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "KI-RE-TA-NA": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "KU-NI-SU": {
+      "total": 5,
+      "support_distribution": {
+        "tablet": 5
+      },
+      "primary_support": "tablet"
+    },
+    "DA-RI-DA": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "TA-NA-TI": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "*21F-TU-NE": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "MA-DI": {
+      "total": 6,
+      "support_distribution": {
+        "tablet": 6
+      },
+      "primary_support": "tablet"
+    },
+    "QA-QA-RU": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "*306-TU": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "DA-QE-RA": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "DA-ME": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "DA-SI-*118": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "QA-*310-I": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "*324-DI-RA": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "PA-DE": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "PA-TA-NE": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 2,
+        "nodule": 1
+      },
+      "primary_support": "tablet"
+    },
+    "JE-DI": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "SA-RU": {
+      "total": 6,
+      "support_distribution": {
+        "tablet": 6
+      },
+      "primary_support": "tablet"
+    },
+    "*188-DU": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 1,
+        "nodule": 1,
+        "roundel": 1
+      },
+      "primary_support": "tablet"
+    },
+    "TE-TU": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "KA-KU-PA": {
+      "total": 3,
+      "support_distribution": {
+        "roundel": 2,
+        "tablet": 1
+      },
+      "primary_support": "roundel"
+    },
+    "DI-NA-U": {
+      "total": 6,
+      "support_distribution": {
+        "tablet": 5,
+        "clay vessel": 1
+      },
+      "primary_support": "tablet"
+    },
+    "SA-RO": {
+      "total": 4,
+      "support_distribution": {
+        "tablet": 4
+      },
+      "primary_support": "tablet"
+    },
+    "A-KA-RU": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "TA-I-AROM": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "DI-DE-RU": {
+      "total": 3,
+      "support_distribution": {
+        "tablet": 3
+      },
+      "primary_support": "tablet"
+    },
+    "PA-SE-JA": {
+      "total": 3,
+      "support_distribution": {
+        "roundel": 2,
+        "tablet": 1
+      },
+      "primary_support": "roundel"
+    },
+    "DA-KA": {
+      "total": 5,
+      "support_distribution": {
+        "nodule": 5
+      },
+      "primary_support": "nodule"
+    },
+    "I-RA₂": {
+      "total": 8,
+      "support_distribution": {
+        "nodule": 8
+      },
+      "primary_support": "nodule"
+    },
+    "SI-KA": {
+      "total": 6,
+      "support_distribution": {
+        "nodule": 6
+      },
+      "primary_support": "nodule"
+    },
+    "*304+PA-CYP+D": {
+      "total": 3,
+      "support_distribution": {
+        "roundel": 2,
+        "nodule": 1
+      },
+      "primary_support": "roundel"
+    },
+    "*86-RO": {
+      "total": 4,
+      "support_distribution": {
+        "nodule": 4
+      },
+      "primary_support": "nodule"
+    },
+    "*411-VS": {
+      "total": 15,
+      "support_distribution": {
+        "roundel": 15
+      },
+      "primary_support": "roundel"
+    },
+    "*409-VS": {
+      "total": 5,
+      "support_distribution": {
+        "roundel": 4,
+        "tablet": 1
+      },
+      "primary_support": "roundel"
+    },
+    "*408-VS": {
+      "total": 4,
+      "support_distribution": {
+        "roundel": 4
+      },
+      "primary_support": "roundel"
+    },
+    "DU-RE-ZA-SE": {
+      "total": 3,
+      "support_distribution": {
+        "stone vessel": 3
+      },
+      "primary_support": "stone vessel"
+    },
+    "*28B-NU-MA-RE": {
+      "total": 3,
+      "support_distribution": {
+        "stone vessel": 3
+      },
+      "primary_support": "stone vessel"
+    },
+    "SI-PI-KI": {
+      "total": 3,
+      "support_distribution": {
+        "stone vessel": 3
+      },
+      "primary_support": "stone vessel"
+    }
+  },
+  "all_high_specificity": {
+    "SA-RA₂": {
+      "total_occurrences": 20,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 20,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 20
+      }
+    },
+    "*411-VS": {
+      "total_occurrences": 15,
+      "site_count": 1,
+      "primary_site": "Khania",
+      "primary_site_count": 15,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Khania": 15
+      }
+    },
+    "I-RA₂": {
+      "total_occurrences": 8,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 8,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 8
+      }
+    },
+    "KU-PA₃-NU": {
+      "total_occurrences": 7,
+      "site_count": 2,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 6,
+      "specificity_score": 0.857,
+      "site_distribution": {
+        "Haghia Triada": 6,
+        "Phaistos": 1
+      }
+    },
+    "KA-PA": {
+      "total_occurrences": 6,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 6,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 6
+      }
+    },
+    "MA-DI": {
+      "total_occurrences": 6,
+      "site_count": 2,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 5,
+      "specificity_score": 0.833,
+      "site_distribution": {
+        "Haghia Triada": 5,
+        "Phaistos": 1
+      }
+    },
+    "SA-RU": {
+      "total_occurrences": 6,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 6,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 6
+      }
+    },
+    "SI-KA": {
+      "total_occurrences": 6,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 6,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 6
+      }
+    },
+    "KU-NI-SU": {
+      "total_occurrences": 5,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 5,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 5
+      }
+    },
+    "DI-NA-U": {
+      "total_occurrences": 5,
+      "site_count": 2,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 0.8,
+      "site_distribution": {
+        "Haghia Triada": 4,
+        "Knossos": 1
+      }
+    },
+    "DA-KA": {
+      "total_occurrences": 5,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 5,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 5
+      }
+    },
+    "*409-VS": {
+      "total_occurrences": 5,
+      "site_count": 2,
+      "primary_site": "Khania",
+      "primary_site_count": 4,
+      "specificity_score": 0.8,
+      "site_distribution": {
+        "Khania": 4,
+        "Zominthos": 1
+      }
+    },
+    "MI-NU-TE": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "KI-RE-TA-NA": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "DA-RI-DA": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "TA-NA-TI": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "*306-TU": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "DA-ME": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "DA-SI-*118": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "QA-*310-I": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "JE-DI": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "SA-RO": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 4
+      }
+    },
+    "*86-RO": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Khania",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Khania": 4
+      }
+    },
+    "*408-VS": {
+      "total_occurrences": 4,
+      "site_count": 1,
+      "primary_site": "Khania",
+      "primary_site_count": 4,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Khania": 4
+      }
+    },
+    "QE-RA₂-U": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "*21F-TU-NE": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "QA-QA-RU": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "DA-QE-RA": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "*324-DI-RA": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "PA-DE": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "PA-TA-NE": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "*188-DU": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "TE-TU": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "KA-KU-PA": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "A-KA-RU": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "TA-I-AROM": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "DI-DE-RU": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "PA-SE-JA": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "*304+PA-CYP+D": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Haghia Triada",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Haghia Triada": 3
+      }
+    },
+    "DU-RE-ZA-SE": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Zakros",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Zakros": 3
+      }
+    },
+    "*28B-NU-MA-RE": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Zakros",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Zakros": 3
+      }
+    },
+    "SI-PI-KI": {
+      "total_occurrences": 3,
+      "site_count": 1,
+      "primary_site": "Zakros",
+      "primary_site_count": 3,
+      "specificity_score": 1.0,
+      "site_distribution": {
+        "Zakros": 3
+      }
+    }
+  }
+}

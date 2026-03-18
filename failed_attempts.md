@@ -57,6 +57,56 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #3 — Libation Table Formula Analysis + Proper Noun Isolation + Hurrian Morphology Testing
+
+**Date:** 2026-03-18
+**Hypothesis file:** `hypotheses/2026-03-18-libation-proper-nouns-hurrian.md`
+**Session:** claude/continue-deciphering-xuj7F
+**Strategy:** Libation Table Analysis / Proper Noun Isolation / Hurrian Language Testing
+**Language tested (if applicable):** Hurrian (systematic comparison); Aegean toponyms (cross-reference)
+
+#### Summary of Approach
+
+Three-pronged extension of Attempt #2: (1) analyzed the ritual register (stone vessels, metal objects) using JA-SA-SA-RA-ME as an anchor to find structurally equivalent companion tokens across sites; (2) computed formal site-specificity scores for all multi-syllable tokens to isolate proper noun candidates, cross-referencing against known Aegean toponym consonant skeletons; (3) systematically tested whether Linear A's suffix distribution is compatible with the Hurrian case/voice morpheme inventory using a three-factor scoring system.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl` (all 1721 records), `analysis/outputs/suffix_paradigm_results_2026-03-18.json`
+- Inscriptions analyzed: all 1721 for proper nouns and Hurrian testing; 136 ritual records for libation analysis
+- Methods: support-type filtering, context window analysis, site-specificity scoring, consonant skeleton matching, three-factor morpheme alignment scoring, corpus-validated hypothesis testing
+
+#### Results
+**Outcome:** PARTIAL SUCCESS
+**Key finding:** 10 ritual-exclusive tokens identified (100% ritual support); -JA confirmed as absolutive/intransitive marker (zero KI-RO at 17 sites, 59% word-initial); possible four-unit liturgical sequence `JA-SA-SA-RA-ME U-NA-KA-NA-SI I-PI-NA-MA SI-RU-TE` suggested by three overlapping bigram confirmations.
+**Confidence:** Medium (ritual analysis), Medium-High (-JA morphology), Low (toponym candidates)
+
+#### What Was Learned
+
+1. The ritual register is structurally separate: 10 tokens are categorically exclusive to stone vessels and metal objects, never appearing on tablets or nodules. Mixing ritual and administrative corpora may obscure patterns in both.
+2. -JA absolutive marker is now the most robustly supported grammatical claim in the project — zero KI-RO across 17 sites + word-initial dominance + low accounting co-occurrence all converge.
+3. The -NA locative hypothesis PARTIALLY FAILED: -NA words appear in terminal accounting positions (33%) far more than a pure locative predicts. Either -NA is an accounting morpheme, or the locative is used in accounting contexts for commodity storage locations.
+4. Proper noun isolation via consonant skeleton matching produces suggestive but low-confidence results — single-site candidates cannot be validated without cross-site occurrence.
+5. Hurrian morphological alignment matrix found 14 high-confidence alignments, but this test needs to be run against other agglutinative languages (Luwian, Kartvelian, etc.) before Hurrian can be preferred over alternatives.
+6. The `*301` sign (232 records as opening token; 11 ritual occurrences in `A-TA-I-*301-WA-JA`) is the most important unidentified sign in the corpus. Its paleographic identification is the single highest-priority action for future sessions.
+
+#### Why a Re-attempt Needs to Differ
+
+To advance beyond current Tier 3–5 findings:
+- The liturgical sequence hypothesis needs a search for complete four-unit sequences in single inscriptions
+- The -NA locative/accounting ambiguity needs a direct grammatical position test (pre-number vs. pre-logogram vs. record-initial)
+- Toponym candidates need grammatical slot analysis, not just specificity scores
+- The Hurrian test should be replicated against Luwian (Strategy 4) to determine which language family's morphology fits better
+- N-gram fingerprinting (Strategy 9) should be run to provide an independent language family compatibility score
+
+#### Follow-up Questions Generated
+- [ ] Can `JA-SA-SA-RA-ME U-NA-KA-NA-SI I-PI-NA-MA SI-RU-TE` be found complete in a single inscription?
+- [ ] What is sign `*301`? It appears in 232 records as opening token and in `A-TA-I-*301-WA-JA` (11 ritual occurrences at 3 sites)
+- [ ] Is -NA a locative OR an accounting terminal marker OR both? Line-level positional analysis required.
+- [ ] Does KU-NI-SU appear in destination/origin grammatical slot at Haghia Triada? If so, this could be "Knossos" as a trade partner reference.
+- [ ] What is -ME in JA-SA-SA-RA-ME? If it's a grammatical suffix, what is the bare root JA-SA-SA-RA?
+- [ ] Run Luwian morpheme comparison (Strategy 4) as a control against the Hurrian results from this attempt.
+
+---
+
 ### Attempt #2 — Administrative Formula Bootstrapping + Suffix Paradigm Reconstruction
 
 **Date:** 2026-03-18
