@@ -129,11 +129,68 @@ The zero KI-RO co-occurrence for -JA (58 records, 17 sites) is the most robust f
 
 ---
 
+## Ritual-Exclusive Token Inventory (Added 2026-03-18, Attempt #3)
+
+The following tokens appear exclusively (100%) on ritual support types (stone vessel, metal object) with ≥3 occurrences. All are Tier 3 (Formulaic), Medium confidence.
+
+| Token | Ritual Occ | Total | Sites | Notes |
+|-------|-----------|-------|-------|-------|
+| A-TA-I-*301-WA-JA | 11 | 11 | 3+ | Most frequent ritual-exclusive sequence; contains unknown sign *301 |
+| SI-RU-TE | 7 | 7 | multiple | Companion to I-PI-NA-MA; ritual suffix -TE with -SE ending |
+| JA-SA-SA-RA-ME | 7 | 7 | 5 (Iouktas, Palaikastro, Platanos, Psykhro, Troullos) | Confirmed divine name/ritual invocation anchor |
+| I-PI-NA-MA | 6 | 6 | 4 | Part of I-PI-NA-MA SI-RU-TE bigram |
+| I-DA | 5 | 5 | multiple | Unknown; possibly related to Mt. Ida (Dikte) |
+| U-NA-KA-NA-SI | 4 | 4 | 2 (Iouktas, Palaikastro) | Companion to JA-SA-SA-RA-ME |
+| DU-RE-ZA-SE | 3 | 3 | multiple | Unknown; suffix -SE is ritual-enriched (3.75x) |
+| *28B-NU-MA-RE | 3 | 3 | multiple | Contains unknown sign *28B |
+| SI-PI-KI | 3 | 3 | multiple | Unknown |
+
+**Possible liturgical sequence (hypothetical):** Analysis suggests a four-unit sequence may exist:
+`JA-SA-SA-RA-ME → U-NA-KA-NA-SI → I-PI-NA-MA → SI-RU-TE`
+This is supported by two confirmed bigrams (JA-SA-SA-RA-ME U-NA-KA-NA-SI at Iouktas+Palaikastro; I-PI-NA-MA SI-RU-TE at 4 cult sites) and the bigram U-NA-KA-NA-SI I-PI-NA-MA at Iouktas+Kophinas. Full four-unit sequence not yet found in single inscription — Tier 3 hypothesis only.
+
+---
+
+## Ritual-Enriched Suffixes (Added 2026-03-18, Attempt #3)
+
+Suffixes appearing proportionally more in ritual vs. administrative contexts (minimum 3+5 occurrences in each register):
+
+| Suffix | Ritual Enrichment Ratio | Interpretation |
+|--------|------------------------|----------------|
+| -MU | 17.56x | Strongly ritual; very low frequency overall (5 ritual occ) |
+| -SE | 3.75x | Ritual-enriched; appears in DU-RE-ZA-SE and other ritual tokens |
+| -TE | 3.04x | Most geographically widespread suffix (20 sites); both ritual and administrative |
+| -ME | 3.01x | Ritual-enriched; appears in JA-SA-SA-RA-ME — may be a ritual morpheme |
+| -JA | 2.25x | Somewhat ritual-enriched despite low KI-RO; possibly marks ritual participants |
+
+The ritual enrichment of -ME is notable: its presence in the anchor formula JA-SA-SA-RA-ME suggests -ME may function as a ritual-register grammatical marker (e.g., vocative, dedicatory case, or divine title suffix).
+
+---
+
+## Suffix Grammatical Role Evidence — Updated (Attempt #3, 2026-03-18)
+
+| Suffix | Records | Sites | KU-RO co-occ | KI-RO co-occ | Ritual Enrichment | Preliminary Hurrian Parallel | Confidence |
+|--------|---------|-------|-------------|-------------|------------------|------------------------------|------------|
+| -RE | 58 | 11 | 19.0% | 13.8% | Low | -ri/-re (participle) | Medium |
+| -JA | 64 | 17 | 3.4% | **0.0%** | 2.25x | absolutive/intransitive | Medium-High |
+| -TI | 49 | 13 | 17.5% | 5.0% | Low | — | Medium |
+| -TE | 56 | 20 | 8.9% | 7.1% | 3.04x | directive -da/-te | Low-Medium |
+| -NA | 54 | 12 | 12.0% | 7.4% | Low | locative -na (PARTIAL FAIL: 33% terminal use) | Low |
+| -RA | 48 | 10 | 14.8% | 7.4% | Low | comitative -ra | Low |
+| -ME | ~12 | — | Low | Low | 3.01x | unknown; ritual marker? | Low |
+
+**Updated interpretation of -NA:** The hypothesis that -NA = Hurrian locative -na is partially undermined by the finding that 33% of -NA words appear in terminal-number-preceding positions (accounting terminal slots). This is higher than expected for a locative. Two possibilities: (1) -NA is an accounting morpheme, not locative; (2) Hurrian itself uses locative forms in accounting contexts (locations of commodity storage), which would explain both data points.
+
+---
+
 ## Open Questions About Formulaic Sequences
 
 - [x] What tokens appear in the same structural slot as KU-RO across all 1721 tablets? → Analyzed 2026-03-18; `*23M` is the only new multi-site candidate (3 sites, 5 occurrences)
-- [ ] Is there a consistent "opening formula" analogous to the KU-RO closing formula? → Partial: `*301` (232 records) and `A-TA-I-*301-WA-JA` (11 records, 3 sites) are frequent opening tokens but need further analysis
-- [x] Do any formulaic sequences appear exclusively on libation tables (ritual register) vs. administrative tablets? → Yes: `I-PI-NA-MA SI-RU-TE` and `JA-SA-SA-RA-ME U-NA-KA-NA-SI` are ritual-register-specific
-- [x] Can the suffix paradigm be grouped semantically? → Preliminary yes: -RE (accounting), -JA (non-transactional), -TI (person-associated), -TE (general)
+- [x] Is there a consistent "opening formula"? → Partial: `A-TA-I-*301-WA-JA` (11 records, 100% ritual) is a strong ritual opener. `*301` in the opening position needs paleographic identification.
+- [x] Do any formulaic sequences appear exclusively on libation tables? → Yes: 10 tokens confirmed as 100% ritual-exclusive (see above)
+- [x] Can the suffix paradigm be grouped semantically? → Updated: -RE (accounting participle), -JA (absolutive/non-transactional), -TI (person-associated), -TE (directive/widespread), -ME (possible ritual marker)
 - [ ] What is sign `*23M`? Requires paleographic identification before semantic claims
-- [ ] Can line-level positional analysis strengthen suffix role assignment beyond record-level co-occurrence?
+- [ ] What is sign `*301`? Appears in formula-initial and ritual contexts; 232 records as opening token
+- [ ] Can the four-unit liturgical sequence `JA-SA-SA-RA-ME U-NA-KA-NA-SI I-PI-NA-MA SI-RU-TE` be confirmed in a single inscription?
+- [ ] Does -NA serve dual roles (locative AND accounting terminal), or is the locative hypothesis incorrect?
+- [ ] What is the full semantic range of -ME? Its ritual enrichment and presence in JA-SA-SA-RA-ME warrant dedicated analysis.

@@ -1,0 +1,773 @@
+{
+  "corpus_composition": {
+    "total_records": 1721,
+    "ritual_count": 136,
+    "admin_count": 1585,
+    "support_distribution": {
+      "nodule": 886,
+      "tablet": 393,
+      "roundel": 151,
+      "stone vessel": 107,
+      "clay vessel": 76,
+      "metal object": 23,
+      "stone object": 19,
+      "lames (short thin tablet)": 18,
+      "sealing": 12,
+      "inked inscription": 9,
+      "architecture": 6,
+      "4-sided bar": 5,
+      "3-sided bar": 5,
+      "graffito": 3,
+      "ivory object": 3,
+      "label": 3,
+      "loom weight": 1,
+      "triton": 1
+    },
+    "ritual_sites": {
+      "Zakros": 48,
+      "Iouktas": 15,
+      "Palaikastro": 14,
+      "Knossos": 11,
+      "Syme": 11,
+      "Haghia Triada": 8,
+      "Apodoulou": 3,
+      "Arkhalkhori": 3,
+      "Psykhro": 3,
+      "Crete": 2,
+      "Kophinas": 2,
+      "Mycenae": 2,
+      "Kannia": 1,
+      "Kardamoutsa": 1,
+      "Kythera": 1,
+      "Larani": 1,
+      "Malia": 1,
+      "Mokhilos": 1,
+      "Nerokurou": 1,
+      "Platanos": 1,
+      "Poros Herakleiou": 1,
+      "Prassa": 1,
+      "Selakanos": 1,
+      "Troullos": 1,
+      "Vrysinas": 1,
+      "Zominthos": 1
+    }
+  },
+  "anchor_JA_SA_SA_RA_ME": {
+    "anchor": "JA-SA-SA-RA-ME",
+    "total_occurrences": 7,
+    "support_distribution": {
+      "stone vessel": 6,
+      "metal object": 1
+    },
+    "site_distribution": {
+      "Iouktas": 3,
+      "Palaikastro": 1,
+      "Platanos": 1,
+      "Psykhro": 1,
+      "Troullos": 1
+    },
+    "immediate_pre_tokens": {
+      "JA-DI-KI-TU": 1,
+      "I-NA-TA-I-ZU-DI-SI-KA": 1,
+      "U-QE-TI": 1,
+      "𐄌-JA-TI": 1,
+      "O-SU-QA-RE": 1
+    },
+    "immediate_post_tokens": {
+      "U-NA-KA-NA-SI": 3,
+      "TA-NU-NI-KI-NA": 1,
+      "U-NA-KA-NA": 1
+    },
+    "pre_window_tokens": {
+      "A-TA-I-*301-WA-JA": 2,
+      "JA-DI-KI-TU": 1,
+      "TA-NA-I-*301-U-TI-NU": 1,
+      "I-NA-TA-I-ZU-DI-SI-KA": 1,
+      "WI-TE-JA-MU": 1,
+      "U-QE-TI": 1,
+      "RE-I-KE": 1,
+      "TA-NA-I-*301-TI": 1,
+      "𐄌-JA-TI": 1,
+      "O-SU-QA-RE": 1
+    },
+    "post_window_tokens": {
+      "U-NA-KA-NA-SI": 3,
+      "I-PI-NA-MA": 2,
+      "TA-NU-NI-KI-NA": 1,
+      "NI-NU-NI": 1,
+      "U-NA-KA-NA": 1,
+      "SI-RU-TE": 1
+    },
+    "pre_multisite_tokens": {},
+    "post_multisite_tokens": {
+      "U-NA-KA-NA-SI": [
+        "Iouktas",
+        "Palaikastro"
+      ]
+    },
+    "sample_occurrences": [
+      {
+        "record_id": "IOZa2",
+        "site": "Iouktas",
+        "support": "stone vessel",
+        "scribe": null,
+        "anchor_position": 4,
+        "total_tokens": 16,
+        "tokens_before": [
+          "A-TA-I-*301-WA-JA",
+          "𐄁",
+          "JA-DI-KI-TU",
+          "𐄁"
+        ],
+        "tokens_after": [
+          "𐄁",
+          "U-NA-KA-NA-SI",
+          "𐄁",
+          "I-PI-NA-MA"
+        ]
+      },
+      {
+        "record_id": "IOZa6",
+        "site": "Iouktas",
+        "support": "stone vessel",
+        "scribe": null,
+        "anchor_position": 4,
+        "total_tokens": 6,
+        "tokens_before": [
+          "TA-NA-I-*301-U-TI-NU",
+          "𐄁",
+          "I-NA-TA-I-ZU-DI-SI-KA",
+          "𐄁"
+        ],
+        "tokens_after": [
+          "𐄁"
+        ]
+      },
+      {
+        "record_id": "IOZa9",
+        "site": "Iouktas",
+        "support": "stone vessel",
+        "scribe": null,
+        "anchor_position": 0,
+        "total_tokens": 3,
+        "tokens_before": [],
+        "tokens_after": [
+          "𐄁",
+          "U-NA-KA-NA-SI"
+        ]
+      },
+      {
+        "record_id": "PKZa27",
+        "site": "Palaikastro",
+        "support": "stone vessel",
+        "scribe": null,
+        "anchor_position": 0,
+        "total_tokens": 2,
+        "tokens_before": [],
+        "tokens_after": [
+          "U-NA-KA-NA-SI"
+        ]
+      },
+      {
+        "record_id": "PLZf1",
+        "site": "Platanos",
+        "support": "metal object",
+        "scribe": null,
+        "anchor_position": 6,
+        "total_tokens": 16,
+        "tokens_before": [
+          "𐄁",
+          "WI-TE-JA-MU",
+          "𐄁",
+          "U-QE-TI",
+          "𐄁"
+        ],
+        "tokens_after": [
+          "𐄁",
+          "TA-NU-NI-KI-NA",
+          "𐄁",
+          "NI-NU-NI"
+        ]
+      },
+      {
+        "record_id": "PSZa2",
+        "site": "Psykhro",
+        "support": "stone vessel",
+        "scribe": "PS Scribe 1",
+        "anchor_position": 5,
+        "total_tokens": 7,
+        "tokens_before": [
+          "RE-I-KE",
+          "TA-NA-I-*301-TI",
+          "𐄁",
+          "𐄌-JA-TI",
+          "𐄁"
+        ],
+        "tokens_after": [
+          "𐄁"
+        ]
+      },
+      {
+        "record_id": "TLZa1",
+        "site": "Troullos",
+        "support": "stone vessel",
+        "scribe": null,
+        "anchor_position": 4,
+        "total_tokens": 9,
+        "tokens_before": [
+          "A-TA-I-*301-WA-JA",
+          "𐄁",
+          "O-SU-QA-RE",
+          "𐄁"
+        ],
+        "tokens_after": [
+          "𐄁",
+          "U-NA-KA-NA",
+          "I-PI-NA-MA",
+          "SI-RU-TE"
+        ]
+      }
+    ]
+  },
+  "bigram_IPINAMA_SIRUTE": {
+    "bigram": "I-PI-NA-MA SI-RU-TE",
+    "total_occurrences": 5,
+    "support_distribution": {
+      "stone vessel": 5
+    },
+    "site_distribution": {
+      "Iouktas": 2,
+      "Kophinas": 1,
+      "Troullos": 1,
+      "Vrysinas": 1
+    },
+    "companion_tokens": {
+      "U-NA-KA-NA-SI": 2,
+      "TA-NA-RA-TE-U-TI-NU": 1,
+      "JA-SA-SA-RA-ME": 1,
+      "U-NA-KA-NA": 1
+    },
+    "sample_occurrences": [
+      {
+        "record_id": "IOZa15",
+        "site": "Iouktas",
+        "support": "stone vessel",
+        "bigram_start": 0,
+        "bigram_end": 2,
+        "context": [
+          "I-PI-NA-MA",
+          "𐄁",
+          "SI-RU-TE"
+        ]
+      },
+      {
+        "record_id": "IOZa2",
+        "site": "Iouktas",
+        "support": "stone vessel",
+        "bigram_start": 8,
+        "bigram_end": 10,
+        "context": [
+          "𐄁",
+          "U-NA-KA-NA-SI",
+          "𐄁",
+          "I-PI-NA-MA",
+          "𐄁",
+          "SI-RU-TE",
+          "𐄁",
+          "TA-NA-RA-TE-U-TI-NU",
+          "𐄁"
+        ]
+      },
+      {
+        "record_id": "KOZa1",
+        "site": "Kophinas",
+        "support": "stone vessel",
+        "bigram_start": 9,
+        "bigram_end": 11,
+        "context": [
+          "𐄁",
+          "U-NA-KA-NA-SI",
+          "𐄁",
+          "I-PI-NA-MA",
+          "𐄁",
+          "SI-RU-TE"
+        ]
+      },
+      {
+        "record_id": "TLZa1",
+        "site": "Troullos",
+        "support": "stone vessel",
+        "bigram_start": 7,
+        "bigram_end": 8,
+        "context": [
+          "JA-SA-SA-RA-ME",
+          "𐄁",
+          "U-NA-KA-NA",
+          "I-PI-NA-MA",
+          "SI-RU-TE"
+        ]
+      },
+      {
+        "record_id": "VRYZa1",
+        "site": "Vrysinas",
+        "support": "stone vessel",
+        "bigram_start": 0,
+        "bigram_end": 1,
+        "context": [
+          "I-PI-NA-MA",
+          "SI-RU-TE",
+          "𐄁"
+        ]
+      }
+    ]
+  },
+  "ritual_exclusive_tokens": {
+    "A-TA-I-*301-WA-JA": {
+      "ritual_count": 11,
+      "admin_count": 0,
+      "total": 11,
+      "ritual_pct": 1.0
+    },
+    "SI-RU-TE": {
+      "ritual_count": 7,
+      "admin_count": 0,
+      "total": 7,
+      "ritual_pct": 1.0
+    },
+    "JA-SA-SA-RA-ME": {
+      "ritual_count": 7,
+      "admin_count": 0,
+      "total": 7,
+      "ritual_pct": 1.0
+    },
+    "I-PI-NA-MA": {
+      "ritual_count": 6,
+      "admin_count": 0,
+      "total": 6,
+      "ritual_pct": 1.0
+    },
+    "I-DA": {
+      "ritual_count": 5,
+      "admin_count": 0,
+      "total": 5,
+      "ritual_pct": 1.0
+    },
+    "U-NA-KA-NA-SI": {
+      "ritual_count": 4,
+      "admin_count": 0,
+      "total": 4,
+      "ritual_pct": 1.0
+    },
+    "DU-RE-ZA-SE": {
+      "ritual_count": 3,
+      "admin_count": 0,
+      "total": 3,
+      "ritual_pct": 1.0
+    },
+    "*28B-NU-MA-RE": {
+      "ritual_count": 3,
+      "admin_count": 0,
+      "total": 3,
+      "ritual_pct": 1.0
+    },
+    "SI-PI-KI": {
+      "ritual_count": 3,
+      "admin_count": 0,
+      "total": 3,
+      "ritual_pct": 1.0
+    },
+    "QI+SI": {
+      "ritual_count": 3,
+      "admin_count": 0,
+      "total": 3,
+      "ritual_pct": 1.0
+    }
+  },
+  "cult_site_formulas": {
+    "I-PI-NA-MA SI-RU-TE": {
+      "count": 5,
+      "cult_sites": [
+        "Iouktas",
+        "Kophinas",
+        "Troullos",
+        "Vrysinas"
+      ],
+      "cult_site_count": 4
+    },
+    "JA-SA-SA-RA-ME U-NA-KA-NA-SI": {
+      "count": 3,
+      "cult_sites": [
+        "Iouktas",
+        "Palaikastro"
+      ],
+      "cult_site_count": 2
+    },
+    "U-NA-KA-NA-SI I-PI-NA-MA": {
+      "count": 2,
+      "cult_sites": [
+        "Iouktas",
+        "Kophinas"
+      ],
+      "cult_site_count": 2
+    }
+  },
+  "ritual_vs_admin_suffix_enrichment": {
+    "MU": {
+      "ritual_count": 5,
+      "admin_count": 1,
+      "ritual_rate": 0.0178,
+      "admin_rate": 0.001,
+      "ritual_enrichment_ratio": 17.562
+    },
+    "QA": {
+      "ritual_count": 3,
+      "admin_count": 2,
+      "ritual_rate": 0.0107,
+      "admin_rate": 0.002,
+      "ritual_enrichment_ratio": 5.269
+    },
+    "SE": {
+      "ritual_count": 16,
+      "admin_count": 15,
+      "ritual_rate": 0.0569,
+      "admin_rate": 0.0152,
+      "ritual_enrichment_ratio": 3.747
+    },
+    "TE": {
+      "ritual_count": 26,
+      "admin_count": 30,
+      "ritual_rate": 0.0925,
+      "admin_rate": 0.0304,
+      "ritual_enrichment_ratio": 3.044
+    },
+    "ME": {
+      "ritual_count": 12,
+      "admin_count": 14,
+      "ritual_rate": 0.0427,
+      "admin_rate": 0.0142,
+      "ritual_enrichment_ratio": 3.011
+    },
+    "KE": {
+      "ritual_count": 3,
+      "admin_count": 4,
+      "ritual_rate": 0.0107,
+      "admin_rate": 0.0041,
+      "ritual_enrichment_ratio": 2.634
+    },
+    "DA": {
+      "ritual_count": 9,
+      "admin_count": 14,
+      "ritual_rate": 0.032,
+      "admin_rate": 0.0142,
+      "ritual_enrichment_ratio": 2.258
+    },
+    "JA": {
+      "ritual_count": 25,
+      "admin_count": 39,
+      "ritual_rate": 0.089,
+      "admin_rate": 0.0395,
+      "ritual_enrichment_ratio": 2.252
+    },
+    "PI": {
+      "ritual_count": 5,
+      "admin_count": 8,
+      "ritual_rate": 0.0178,
+      "admin_rate": 0.0081,
+      "ritual_enrichment_ratio": 2.195
+    },
+    "MA": {
+      "ritual_count": 12,
+      "admin_count": 20,
+      "ritual_rate": 0.0427,
+      "admin_rate": 0.0203,
+      "ritual_enrichment_ratio": 2.107
+    },
+    "KU": {
+      "ritual_count": 5,
+      "admin_count": 9,
+      "ritual_rate": 0.0178,
+      "admin_rate": 0.0091,
+      "ritual_enrichment_ratio": 1.951
+    },
+    "WA": {
+      "ritual_count": 3,
+      "admin_count": 6,
+      "ritual_rate": 0.0107,
+      "admin_rate": 0.0061,
+      "ritual_enrichment_ratio": 1.756
+    },
+    "SA": {
+      "ritual_count": 6,
+      "admin_count": 13,
+      "ritual_rate": 0.0214,
+      "admin_rate": 0.0132,
+      "ritual_enrichment_ratio": 1.621
+    },
+    "SI": {
+      "ritual_count": 11,
+      "admin_count": 25,
+      "ritual_rate": 0.0391,
+      "admin_rate": 0.0253,
+      "ritual_enrichment_ratio": 1.545
+    },
+    "PA": {
+      "ritual_count": 7,
+      "admin_count": 18,
+      "ritual_rate": 0.0249,
+      "admin_rate": 0.0182,
+      "ritual_enrichment_ratio": 1.366
+    },
+    "ZA": {
+      "ritual_count": 6,
+      "admin_count": 16,
+      "ritual_rate": 0.0214,
+      "admin_rate": 0.0162,
+      "ritual_enrichment_ratio": 1.317
+    },
+    "WI": {
+      "ritual_count": 2,
+      "admin_count": 6,
+      "ritual_rate": 0.0071,
+      "admin_rate": 0.0061,
+      "ritual_enrichment_ratio": 1.171
+    },
+    "DE": {
+      "ritual_count": 3,
+      "admin_count": 9,
+      "ritual_rate": 0.0107,
+      "admin_rate": 0.0091,
+      "ritual_enrichment_ratio": 1.171
+    },
+    "VIN": {
+      "ritual_count": 2,
+      "admin_count": 6,
+      "ritual_rate": 0.0071,
+      "admin_rate": 0.0061,
+      "ritual_enrichment_ratio": 1.171
+    },
+    "MI": {
+      "ritual_count": 8,
+      "admin_count": 25,
+      "ritual_rate": 0.0285,
+      "admin_rate": 0.0253,
+      "ritual_enrichment_ratio": 1.124
+    },
+    "RE": {
+      "ritual_count": 14,
+      "admin_count": 44,
+      "ritual_rate": 0.0498,
+      "admin_rate": 0.0446,
+      "ritual_enrichment_ratio": 1.118
+    },
+    "JU": {
+      "ritual_count": 4,
+      "admin_count": 13,
+      "ritual_rate": 0.0142,
+      "admin_rate": 0.0132,
+      "ritual_enrichment_ratio": 1.081
+    },
+    "NU": {
+      "ritual_count": 5,
+      "admin_count": 17,
+      "ritual_rate": 0.0178,
+      "admin_rate": 0.0172,
+      "ritual_enrichment_ratio": 1.033
+    },
+    "QE": {
+      "ritual_count": 2,
+      "admin_count": 7,
+      "ritual_rate": 0.0071,
+      "admin_rate": 0.0071,
+      "ritual_enrichment_ratio": 1.004
+    },
+    "DI": {
+      "ritual_count": 6,
+      "admin_count": 21,
+      "ritual_rate": 0.0214,
+      "admin_rate": 0.0213,
+      "ritual_enrichment_ratio": 1.004
+    },
+    "RI": {
+      "ritual_count": 4,
+      "admin_count": 15,
+      "ritual_rate": 0.0142,
+      "admin_rate": 0.0152,
+      "ritual_enrichment_ratio": 0.937
+    },
+    "KI": {
+      "ritual_count": 5,
+      "admin_count": 19,
+      "ritual_rate": 0.0178,
+      "admin_rate": 0.0193,
+      "ritual_enrichment_ratio": 0.924
+    },
+    "NA": {
+      "ritual_count": 11,
+      "admin_count": 43,
+      "ritual_rate": 0.0391,
+      "admin_rate": 0.0436,
+      "ritual_enrichment_ratio": 0.899
+    },
+    "AROM": {
+      "ritual_count": 1,
+      "admin_count": 4,
+      "ritual_rate": 0.0036,
+      "admin_rate": 0.0041,
+      "ritual_enrichment_ratio": 0.878
+    },
+    "TA₂": {
+      "ritual_count": 2,
+      "admin_count": 8,
+      "ritual_rate": 0.0071,
+      "admin_rate": 0.0081,
+      "ritual_enrichment_ratio": 0.878
+    },
+    "TA": {
+      "ritual_count": 7,
+      "admin_count": 30,
+      "ritual_rate": 0.0249,
+      "admin_rate": 0.0304,
+      "ritual_enrichment_ratio": 0.82
+    },
+    "TI": {
+      "ritual_count": 9,
+      "admin_count": 40,
+      "ritual_rate": 0.032,
+      "admin_rate": 0.0405,
+      "ritual_enrichment_ratio": 0.79
+    },
+    "TU": {
+      "ritual_count": 4,
+      "admin_count": 20,
+      "ritual_rate": 0.0142,
+      "admin_rate": 0.0203,
+      "ritual_enrichment_ratio": 0.702
+    },
+    "RA": {
+      "ritual_count": 7,
+      "admin_count": 41,
+      "ritual_rate": 0.0249,
+      "admin_rate": 0.0415,
+      "ritual_enrichment_ratio": 0.6
+    },
+    "JE": {
+      "ritual_count": 1,
+      "admin_count": 7,
+      "ritual_rate": 0.0036,
+      "admin_rate": 0.0071,
+      "ritual_enrichment_ratio": 0.502
+    },
+    "NE": {
+      "ritual_count": 4,
+      "admin_count": 31,
+      "ritual_rate": 0.0142,
+      "admin_rate": 0.0314,
+      "ritual_enrichment_ratio": 0.453
+    },
+    "*118": {
+      "ritual_count": 2,
+      "admin_count": 16,
+      "ritual_rate": 0.0071,
+      "admin_rate": 0.0162,
+      "ritual_enrichment_ratio": 0.439
+    },
+    "KA": {
+      "ritual_count": 3,
+      "admin_count": 32,
+      "ritual_rate": 0.0107,
+      "admin_rate": 0.0324,
+      "ritual_enrichment_ratio": 0.329
+    },
+    "PA₃": {
+      "ritual_count": 1,
+      "admin_count": 11,
+      "ritual_rate": 0.0036,
+      "admin_rate": 0.0111,
+      "ritual_enrichment_ratio": 0.319
+    },
+    "RU": {
+      "ritual_count": 3,
+      "admin_count": 33,
+      "ritual_rate": 0.0107,
+      "admin_rate": 0.0334,
+      "ritual_enrichment_ratio": 0.319
+    },
+    "SU": {
+      "ritual_count": 1,
+      "admin_count": 15,
+      "ritual_rate": 0.0036,
+      "admin_rate": 0.0152,
+      "ritual_enrichment_ratio": 0.234
+    },
+    "RA₂": {
+      "ritual_count": 2,
+      "admin_count": 37,
+      "ritual_rate": 0.0071,
+      "admin_rate": 0.0375,
+      "ritual_enrichment_ratio": 0.19
+    },
+    "NI": {
+      "ritual_count": 1,
+      "admin_count": 22,
+      "ritual_rate": 0.0036,
+      "admin_rate": 0.0223,
+      "ritual_enrichment_ratio": 0.16
+    },
+    "RO": {
+      "ritual_count": 1,
+      "admin_count": 24,
+      "ritual_rate": 0.0036,
+      "admin_rate": 0.0243,
+      "ritual_enrichment_ratio": 0.146
+    },
+    "*301": {
+      "ritual_count": 0,
+      "admin_count": 8,
+      "ritual_rate": 0.0,
+      "admin_rate": 0.0081,
+      "ritual_enrichment_ratio": 0.0
+    },
+    "PU": {
+      "ritual_count": 0,
+      "admin_count": 9,
+      "ritual_rate": 0.0,
+      "admin_rate": 0.0091,
+      "ritual_enrichment_ratio": 0.0
+    },
+    "ZU": {
+      "ritual_count": 0,
+      "admin_count": 6,
+      "ritual_rate": 0.0,
+      "admin_rate": 0.0061,
+      "ritual_enrichment_ratio": 0.0
+    },
+    "VS": {
+      "ritual_count": 0,
+      "admin_count": 30,
+      "ritual_rate": 0.0,
+      "admin_rate": 0.0304,
+      "ritual_enrichment_ratio": 0.0
+    },
+    "DU": {
+      "ritual_count": 0,
+      "admin_count": 26,
+      "ritual_rate": 0.0,
+      "admin_rate": 0.0263,
+      "ritual_enrichment_ratio": 0.0
+    },
+    "CYP": {
+      "ritual_count": 0,
+      "admin_count": 5,
+      "ritual_rate": 0.0,
+      "admin_rate": 0.0051,
+      "ritual_enrichment_ratio": 0.0
+    },
+    "*305": {
+      "ritual_count": 0,
+      "admin_count": 5,
+      "ritual_rate": 0.0,
+      "admin_rate": 0.0051,
+      "ritual_enrichment_ratio": 0.0
+    }
+  }
+}
