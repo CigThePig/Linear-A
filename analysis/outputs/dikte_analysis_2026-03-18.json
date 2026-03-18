@@ -1,0 +1,388 @@
+{
+  "metadata": {
+    "corpus_total": 1721,
+    "ritual_support_total": 155,
+    "baseline_ritual_rate": 0.09,
+    "diki_token_types": 8,
+    "total_diki_occurrences": 9,
+    "inscriptions_with_diki": 9
+  },
+  "token_summary": {
+    "DI-KI-SE": {
+      "token": "DI-KI-SE",
+      "occurrences": 2,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Tablet"
+      ],
+      "ritual_count": 0,
+      "ritual_rate": 0.0,
+      "ritual_enrichment_vs_baseline": 0.0,
+      "mountain_cult_count": 0,
+      "admin_center_count": 2,
+      "inscription_ids": [
+        "HT117b",
+        "HT87"
+      ]
+    },
+    "JA-DI-KI-TU": {
+      "token": "JA-DI-KI-TU",
+      "occurrences": 1,
+      "sites": [
+        "Iouktas"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "ritual_enrichment_vs_baseline": 11.1,
+      "mountain_cult_count": 1,
+      "admin_center_count": 0,
+      "inscription_ids": [
+        "IOZa2"
+      ]
+    },
+    "RA-O-DI-KI": {
+      "token": "RA-O-DI-KI",
+      "occurrences": 1,
+      "sites": [
+        "Phaistos"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Tablet"
+      ],
+      "ritual_count": 0,
+      "ritual_rate": 0.0,
+      "ritual_enrichment_vs_baseline": 0.0,
+      "mountain_cult_count": 0,
+      "admin_center_count": 1,
+      "inscription_ids": [
+        "PH2"
+      ]
+    },
+    "A-DI-KI-TE-TE": {
+      "token": "A-DI-KI-TE-TE",
+      "occurrences": 1,
+      "sites": [
+        "Palaikastro"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "ritual_enrichment_vs_baseline": 11.1,
+      "mountain_cult_count": 1,
+      "admin_center_count": 0,
+      "inscription_ids": [
+        "PKZa11"
+      ]
+    },
+    "A-DI-KI-TE": {
+      "token": "A-DI-KI-TE",
+      "occurrences": 1,
+      "sites": [
+        "Palaikastro"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "ritual_enrichment_vs_baseline": 11.1,
+      "mountain_cult_count": 1,
+      "admin_center_count": 0,
+      "inscription_ids": [
+        "PKZa12"
+      ]
+    },
+    "JA-DI-KI-TE-TE-DU-PU\u2082-RE": {
+      "token": "JA-DI-KI-TE-TE-DU-PU\u2082-RE",
+      "occurrences": 1,
+      "sites": [
+        "Palaikastro"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "ritual_enrichment_vs_baseline": 11.1,
+      "mountain_cult_count": 1,
+      "admin_center_count": 0,
+      "inscription_ids": [
+        "PKZa15"
+      ]
+    },
+    "JA-DI-KI-TE-TE-*307-PU\u2082-RE": {
+      "token": "JA-DI-KI-TE-TE-*307-PU\u2082-RE",
+      "occurrences": 1,
+      "sites": [
+        "Palaikastro"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "ritual_enrichment_vs_baseline": 11.1,
+      "mountain_cult_count": 1,
+      "admin_center_count": 0,
+      "inscription_ids": [
+        "PKZa8"
+      ]
+    },
+    "DI-KI": {
+      "token": "DI-KI",
+      "occurrences": 1,
+      "sites": [
+        "Zakros"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "ritual_enrichment_vs_baseline": 11.1,
+      "mountain_cult_count": 0,
+      "admin_center_count": 1,
+      "inscription_ids": [
+        "ZA27"
+      ]
+    }
+  },
+  "full_inscription_details": [
+    {
+      "id": "HT117b",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "is_ritual": false,
+      "tokens": [
+        "*21F-TU-NE",
+        "\ud800\udd01",
+        "\\n",
+        "KU-RE-JU",
+        "1",
+        "\\n",
+        "DI-KI-SE",
+        "1"
+      ],
+      "diki_tokens_found": [
+        "DI-KI-SE"
+      ]
+    },
+    {
+      "id": "HT87",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "is_ritual": false,
+      "tokens": [
+        "*21F-TU-NE",
+        "\ud800\udd01",
+        "MA-KA-RI-TE",
+        "\ud800\udd01",
+        "\\n",
+        "PI-TA-KE-SI",
+        "1",
+        "\\n",
+        "JA-RE-MI",
+        "1",
+        "\\n",
+        "DI-KI-SE",
+        "1",
+        "\\n",
+        "QE-SU-PU",
+        "1",
+        "\\n",
+        "KU-RU-KU",
+        "1",
+        "\\n",
+        "A-RA",
+        "\ud800\udd01",
+        "A-TU",
+        "1"
+      ],
+      "diki_tokens_found": [
+        "DI-KI-SE"
+      ]
+    },
+    {
+      "id": "IOZa2",
+      "site": "Iouktas",
+      "support": "Stone vessel",
+      "is_ritual": true,
+      "tokens": [
+        "A-TA-I-*301-WA-JA",
+        "\ud800\udd01",
+        "JA-DI-KI-TU",
+        "\ud800\udd01",
+        "JA-SA-SA-RA-ME",
+        "\ud800\udd01",
+        "U-NA-KA-NA-SI",
+        "\ud800\udd01",
+        "I-PI-NA-MA",
+        "\ud800\udd01",
+        "\\n",
+        "SI-RU-TE",
+        "\ud800\udd01",
+        "TA-NA-RA-TE-U-TI-NU",
+        "\ud800\udd01",
+        "I",
+        "\ud800\udd01"
+      ],
+      "diki_tokens_found": [
+        "JA-DI-KI-TU"
+      ]
+    },
+    {
+      "id": "PH2",
+      "site": "Phaistos",
+      "support": "Tablet",
+      "is_ritual": false,
+      "tokens": [
+        "A-SE-TU-*21F",
+        "1",
+        "\\n",
+        "RA-O-DI-KI",
+        "60",
+        "\\n",
+        "PI-RU-E-JU",
+        "60",
+        "\\n",
+        "SE-SA-PA\u2083",
+        "60",
+        "\\n",
+        "\ud801\udf6b"
+      ],
+      "diki_tokens_found": [
+        "RA-O-DI-KI"
+      ]
+    },
+    {
+      "id": "PKZa11",
+      "site": "Palaikastro",
+      "support": "Stone vessel",
+      "is_ritual": true,
+      "tokens": [
+        "A-TA-I-*301-WA-E",
+        "\ud800\udd01",
+        "A-DI-KI-TE-TE",
+        "\ud800\udd01",
+        "\\n",
+        "\ud800\udd01",
+        "RE",
+        "\ud800\udd01",
+        "PI-TE-RI",
+        "\ud800\udd01",
+        "A-KO-A-NE",
+        "\ud800\udd01",
+        "A",
+        "\\n",
+        "SA-SA-RA-ME",
+        "\ud800\udd01",
+        "U-NA-RU-KA-NA-TI",
+        "\ud800\udd01",
+        "\\n",
+        "I-PI-NA-MI-NA",
+        "SI-RU",
+        "\ud800\udd01",
+        "\ud801\udf6b",
+        "\ud800\udd01",
+        "I-NA-JA-PA-QA"
+      ],
+      "diki_tokens_found": [
+        "A-DI-KI-TE-TE"
+      ]
+    },
+    {
+      "id": "PKZa12",
+      "site": "Palaikastro",
+      "support": "Stone vessel",
+      "is_ritual": true,
+      "tokens": [
+        "A-TA-I-*301-WA-JA",
+        "\ud800\udd01",
+        "A-DI-KI-TE",
+        "\\n",
+        "SI",
+        "\\n",
+        "\ud800\udd01",
+        "\ud800\udd01",
+        "\\n",
+        "RA-ME",
+        "A-NE",
+        "U-NA-RU-KA-JA-SI",
+        "A-PA-DU-PA",
+        "JA",
+        "JA-PA-QA"
+      ],
+      "diki_tokens_found": [
+        "A-DI-KI-TE"
+      ]
+    },
+    {
+      "id": "PKZa15",
+      "site": "Palaikastro",
+      "support": "Stone vessel",
+      "is_ritual": true,
+      "tokens": [
+        "JA-DI-KI-TE-TE-DU-PU\u2082-RE"
+      ],
+      "diki_tokens_found": [
+        "JA-DI-KI-TE-TE-DU-PU\u2082-RE"
+      ]
+    },
+    {
+      "id": "PKZa8",
+      "site": "Palaikastro",
+      "support": "Stone vessel",
+      "is_ritual": true,
+      "tokens": [
+        "NU",
+        "\ud800\udd01",
+        "PA\u2083-E",
+        "\ud800\udd01",
+        "JA-DI-KI-TE-TE-*307-PU\u2082-RE",
+        "\ud800\udd01",
+        "TU-ME-I",
+        "\\n",
+        "JA-SA-U-NA-KA-NA-SI",
+        "\\n",
+        "I-PI"
+      ],
+      "diki_tokens_found": [
+        "JA-DI-KI-TE-TE-*307-PU\u2082-RE"
+      ]
+    },
+    {
+      "id": "ZA27",
+      "site": "Zakros",
+      "support": "Stone vessel",
+      "is_ritual": true,
+      "tokens": [
+        "\ud801\udf6b",
+        "\\n",
+        "\ud801\udf6b",
+        "\\n",
+        "DI-KI",
+        "2",
+        "\\n",
+        "O-MI"
+      ],
+      "diki_tokens_found": [
+        "DI-KI"
+      ]
+    }
+  ]
+}

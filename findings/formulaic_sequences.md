@@ -236,11 +236,67 @@ The divine name root **JA-SA-SA-RA** is confirmed by the attestion of three infl
 - `A-NA-TI-*301-WA-JA` — N instead of T in slot 2
 - `A-TA-I-*301-WA-E` — -E instead of -JA at end
 - `JA-TA-I-*301-U-JA` — JA- prefix; -U- in *301 slot
-- `TA-NA-I-*301-U-TI-NU` — extended coda variant
+- `TA-NA-I-*301-U-TI-NU` — **header variant** (inscription-initial in IOZa6; NOT a coda variant as originally believed)
 
 **Note on *301 duality:** Sign *301 has TWO distinct uses:
 1. In `A-TA-I-*301-WA-JA` (ritual formula): *301 is part of a phonetic/logographic ritual header
 2. As standalone `*301` on HT nodules: 230/238 occurrences at Haghia Triada, administrative nodules only — likely an administrative classifier or heading sign unrelated to the ritual use
+
+---
+
+## DI-KI Element — Ritual Slot 1 Component (Added 2026-03-18, Attempt #5)
+
+The DI-KI syllable pair (contiguous elements "DI" followed by "KI" within a token) appears in **9 corpus occurrences** across 8 token types and 4 sites.
+
+**Ritual distribution: 6/9 = 67% (vs. 9% baseline; 7.4x ritual enrichment)**
+
+| Token | Inscription | Site | Support | Ritual |
+|-------|-------------|------|---------|--------|
+| JA-DI-KI-TU | IOZa2 | Iouktas | Stone vessel | Yes |
+| A-DI-KI-TE | PKZa12 | Palaikastro | Stone vessel | Yes |
+| A-DI-KI-TE-TE | PKZa11 | Palaikastro | Stone vessel | Yes |
+| JA-DI-KI-TE-TE-DU-PU₂-RE | PKZa15 | Palaikastro | Stone vessel | Yes |
+| JA-DI-KI-TE-TE-*307-PU₂-RE | PKZa8 | Palaikastro | Stone vessel | Yes |
+| DI-KI | ZA27 | Zakros | Stone vessel | Yes |
+| DI-KI-SE | HT117b, HT87 | Haghia Triada | Tablet | No (personal name) |
+| RA-O-DI-KI | PH2 | Phaistos | Tablet | No (personal name?) |
+
+**Critical structural finding:** The DI-KI element occupies **the same structural slot** in the liturgical sequence at both Iouktas and Palaikastro — immediately after the ritual header and before the divine name JA-SA-SA-RA-ME:
+
+```
+[HEADER]  A-TA-I-*301-WA-JA  (or variant)
+[SLOT 1]  JA-DI-KI-TU         ← Iouktas form
+          A-DI-KI-TE-TE       ← Palaikastro form
+[DIV NAME] JA-SA-SA-RA-ME    (or SA-SA-RA-ME)
+[COMPANION] U-NA-KA-NA-SI    (or variant)
+[ELEMENT 3] I-PI-NA-MA
+[CLOSING]   SI-RU-TE
+[CODA]      TA-NA-RA-TE-U-TI-NU   ← Iouktas only
+```
+
+**Interpretation (Low-Medium confidence, Tier 4):** DI-KI is consistent with a sacred toponym corresponding to Mt. Dikte/Dikti (Δίκτη), the sacred Minoan mountain in eastern Crete. The -TU (Iouktas) vs -TE (Palaikastro) suffix contrast may be dialectal or a grammatical case distinction. In administrative contexts, DI-KI-SE appears in personal name lists at HT — DI-KI may be a recognized place name from which personal names were derived.
+
+**Cross-site attestation:** Iouktas, Palaikastro, Zakros (3 sites, ritual use confirmed). Haghia Triada, Phaistos (2 sites, administrative use only).
+
+**Evidence tier:** Tier 4 (Lexical) | Confidence: Low-Medium | First documented: 2026-03-18 (Attempt #5)
+
+---
+
+## -U-TI-NU Terminal and TA-NA- Formula Family (Added 2026-03-18, Attempt #5)
+
+The -U-TI-NU terminal element appears in **3 token types, all at Iouktas** (stone vessels):
+
+| Token | Inscription | Position | Function |
+|-------|-------------|----------|----------|
+| TA-NA-RA-TE-U-TI-NU | IOZa2 | word 6/6 (final) | Coda of liturgical inscription |
+| TA-NA-I-*301-U-TI-NU | IOZa6 | word 0/2 (initial) | Header variant |
+| U-TI-NU | IOZa11 | word 2/3 (near-final) | Standalone near-coda element |
+
+**Key finding:** TA-NA-I-*301-U-TI-NU is a **header variant** of A-TA-I-*301-WA-JA (both inscription-initial, both containing *301), not a coda as previously hypothesized. TA-NA-RA-TE-U-TI-NU in IOZa2 is the only true coda in this family.
+
+**-U-TI-NU is Iouktas-specific** (3 occurrences, all Iouktas stone vessels). This may be a sanctuary-specific identifier for the Iouktas peak sanctuary.
+
+**Evidence tier:** Tier 3 (Formulaic) | Confidence: Low | First documented: 2026-03-18 (Attempt #5)
 
 ---
 
@@ -251,9 +307,11 @@ The divine name root **JA-SA-SA-RA** is confirmed by the attestion of three infl
 - [x] Do any formulaic sequences appear exclusively on libation tables? → Yes: 10 tokens confirmed as 100% ritual-exclusive (see above)
 - [x] Can the suffix paradigm be grouped semantically? → Updated: -RE (accounting participle), -JA (absolutive/non-transactional), -TI (person-associated), -TE (directive/widespread), -ME (grammatical suffix on divine names)
 - [x] Can the four-unit liturgical sequence `JA-SA-SA-RA-ME U-NA-KA-NA-SI I-PI-NA-MA SI-RU-TE` be confirmed in a single inscription? → **YES — IOZa2 (Iouktas)**
+- [x] What is `JA-DI-KI-TU`? → **PARTIALLY RESOLVED (2026-03-18):** DI-KI element confirmed as integral "slot 1" component of liturgical sequence at both Iouktas and Palaikastro; see DI-KI section below
+- [x] What is `TA-NA-RA-TE-U-TI-NU`? → **PARTIALLY RESOLVED (2026-03-18):** True coda (position 6/6 in IOZa2); -U-TI-NU terminal is Iouktas-site-specific; see TA-NA- / U-TI-NU section below
 - [ ] What is sign `*23M`? Requires paleographic identification before semantic claims
 - [ ] What is sign `*301` in ritual context? Distinct from standalone administrative use
-- [ ] What is `JA-DI-KI-TU`? Appears in IOZa2 slot 1 between header and JA-SA-SA-RA-ME
-- [ ] What is `TA-NA-RA-TE-U-TI-NU`? Appears as coda in IOZa2; compare to `TA-NA-I-*301-U-TI-NU`
 - [ ] Does -NA serve dual roles (locative AND accounting terminal), or is the locative hypothesis incorrect?
-- [ ] What is the specific grammatical function of -ME? (vocative? divine case? comitative?)
+- [ ] What is the specific grammatical function of -ME? (ritual enrichment 5.13x confirmed; positional vocative hypothesis failed — function unknown)
+- [ ] What is `U-NA-KA-NA-SI`? Consistently follows JA-SA-SA-RA-ME — 4/4 co-occurrences in fixed order; function unknown (divine epithet? companion deity? ritual response?)
+- [ ] What does the -TU (Iouktas) vs -TE (Palaikastro) suffix contrast on DI-KI indicate? (dialectal variation or grammatical case distinction?)
