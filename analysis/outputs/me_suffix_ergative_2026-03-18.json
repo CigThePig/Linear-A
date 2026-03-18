@@ -1,0 +1,1075 @@
+{
+  "me_suffix_analysis": {
+    "total_occurrences": 26,
+    "token_types": {
+      "JA-SA-SA-RA-ME": 7,
+      "DA-ME": 4,
+      "MA-RU-ME": 3,
+      "SA-SA-RA-ME": 2,
+      "TU-RU-NU-SE-ME": 1,
+      "SA-SA-ME": 1,
+      "A-RA-TU-ME": 1,
+      "SA-RA-ME": 1,
+      "A-SA-SA-RA-ME": 1,
+      "I-JA-PA-ME": 1,
+      "TO-ME": 1,
+      "RA-ME": 1,
+      "TU-ME": 1,
+      "A-SA-SA-*802-ME": 1
+    },
+    "ritual_count": 0,
+    "admin_count": 26,
+    "ritual_ratio": 0.0,
+    "position_distribution": {
+      "medial": 17,
+      "initial": 6,
+      "final": 3
+    },
+    "kuro_cooccurrence": 0,
+    "kiro_cooccurrence": 0,
+    "kuro_rate": 0.0,
+    "kiro_rate": 0.0,
+    "most_common_following_tokens": [
+      [
+        "\\n",
+        14
+      ],
+      [
+        "\ud800\udd01",
+        14
+      ],
+      [
+        "10",
+        4
+      ],
+      [
+        "U-NA-KA-NA-SI",
+        3
+      ],
+      [
+        "MI-NU-TE",
+        2
+      ],
+      [
+        "GRA+K+L",
+        1
+      ],
+      [
+        "74",
+        1
+      ],
+      [
+        "GRA",
+        1
+      ],
+      [
+        "\u00b9\u2044\u2081\u2086",
+        1
+      ],
+      [
+        "SI+ME",
+        1
+      ],
+      [
+        "9",
+        1
+      ],
+      [
+        "6",
+        1
+      ],
+      [
+        "PA-SA-RI-JA",
+        1
+      ],
+      [
+        "RU-I-KO",
+        1
+      ],
+      [
+        "*560",
+        1
+      ]
+    ],
+    "most_common_preceding_tokens": [
+      [
+        "\\n",
+        20
+      ],
+      [
+        "\ud800\udd01",
+        17
+      ],
+      [
+        "\u00b9\u2044\u2082",
+        3
+      ],
+      [
+        "DA-QE-RA",
+        1
+      ],
+      [
+        "PA-RA",
+        1
+      ],
+      [
+        "*21F-RI-TU-QA",
+        1
+      ],
+      [
+        "\u00b9\u2044\u2081\u2086",
+        1
+      ],
+      [
+        "6",
+        1
+      ],
+      [
+        "9",
+        1
+      ],
+      [
+        "PA-SA-RI-JA",
+        1
+      ],
+      [
+        "A-DU",
+        1
+      ],
+      [
+        "GRA",
+        1
+      ],
+      [
+        "\ud801\udf6b",
+        1
+      ],
+      [
+        "JA-SA",
+        1
+      ],
+      [
+        "JA-DI-KI-TU",
+        1
+      ]
+    ],
+    "site_distribution": {
+      "Haghia Triada": 10,
+      "Iouktas": 5,
+      "Palaikastro": 4,
+      "Khania": 1,
+      "Knossos": 1,
+      "Petras": 1,
+      "Platanos": 1,
+      "Prassa": 1,
+      "Psykhro": 1,
+      "Troullos": 1
+    },
+    "two_part_count": 7,
+    "longer_count": 19,
+    "jasasara_variants": {
+      "JA-SA-SA-RA": 1,
+      "JA-SA-SA-RA-ME": 7,
+      "JA-SA-SA-RA-MA": 1
+    },
+    "all_me_occurrences": [
+      {
+        "token": "DA-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "DA-QE-RA",
+          "\ud800\udd01",
+          "\\n"
+        ],
+        "next_3": [
+          "GRA+K+L",
+          "74",
+          "\\n"
+        ],
+        "syl_position": 2,
+        "syl_total": 17,
+        "position_type": "medial",
+        "record_id": "HT120"
+      },
+      {
+        "token": "TU-RU-NU-SE-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\\n",
+          "PA-RA",
+          "\\n"
+        ],
+        "next_3": [
+          "GRA",
+          "10",
+          "\\n"
+        ],
+        "syl_position": 3,
+        "syl_total": 19,
+        "position_type": "medial",
+        "record_id": "HT128a"
+      },
+      {
+        "token": "SA-SA-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "*21F-RI-TU-QA",
+          "\u00b9\u2044\u2081\u2086",
+          "\\n"
+        ],
+        "next_3": [
+          "\u00b9\u2044\u2081\u2086",
+          "\\n",
+          "SI+ME"
+        ],
+        "syl_position": 20,
+        "syl_total": 25,
+        "position_type": "medial",
+        "record_id": "HT23a"
+      },
+      {
+        "token": "MA-RU-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\\n",
+          "6",
+          "\\n"
+        ],
+        "next_3": [
+          "10",
+          "\\n",
+          "9"
+        ],
+        "syl_position": 4,
+        "syl_total": 13,
+        "position_type": "medial",
+        "record_id": "HT24a"
+      },
+      {
+        "token": "MA-RU-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "9",
+          "\u00b9\u2044\u2082",
+          "\\n"
+        ],
+        "next_3": [
+          "6",
+          "\\n",
+          "PA-SA-RI-JA"
+        ],
+        "syl_position": 4,
+        "syl_total": 13,
+        "position_type": "medial",
+        "record_id": "HT24a"
+      },
+      {
+        "token": "MA-RU-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\\n",
+          "PA-SA-RI-JA",
+          "\\n"
+        ],
+        "next_3": [
+          "RU-I-KO",
+          "*560"
+        ],
+        "syl_position": 4,
+        "syl_total": 13,
+        "position_type": "medial",
+        "record_id": "HT24a"
+      },
+      {
+        "token": "DA-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "A-DU",
+          "\ud800\udd01",
+          "\\n"
+        ],
+        "next_3": [
+          "GRA+B",
+          "20",
+          "\\n"
+        ],
+        "syl_position": 14,
+        "syl_total": 18,
+        "position_type": "medial",
+        "record_id": "HT86a"
+      },
+      {
+        "token": "DA-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "GRA",
+          "\\n"
+        ],
+        "next_3": [
+          "10",
+          "\\n",
+          "MI-NU-TE"
+        ],
+        "syl_position": 2,
+        "syl_total": 13,
+        "position_type": "medial",
+        "record_id": "HT95a"
+      },
+      {
+        "token": "DA-ME",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "\ud801\udf6b",
+          "\\n"
+        ],
+        "next_3": [
+          "10",
+          "\\n",
+          "MI-NU-TE"
+        ],
+        "syl_position": 5,
+        "syl_total": 14,
+        "position_type": "medial",
+        "record_id": "HT95b"
+      },
+      {
+        "token": "A-RA-TU-ME",
+        "site": "Haghia Triada",
+        "support": "Roundel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [],
+        "next_3": [
+          "\\n",
+          "*22F"
+        ],
+        "syl_position": 0,
+        "syl_total": 3,
+        "position_type": "initial",
+        "record_id": "HTWc3024"
+      },
+      {
+        "token": "SA-RA-ME",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "JA-SA",
+          "\\n"
+        ],
+        "next_3": [
+          "\ud800\udd01",
+          "I-TI"
+        ],
+        "syl_position": 2,
+        "syl_total": 4,
+        "position_type": "medial",
+        "record_id": "IOZa12"
+      },
+      {
+        "token": "JA-SA-SA-RA-ME",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "JA-DI-KI-TU",
+          "\ud800\udd01"
+        ],
+        "next_3": [
+          "\ud800\udd01",
+          "U-NA-KA-NA-SI",
+          "\ud800\udd01"
+        ],
+        "syl_position": 2,
+        "syl_total": 9,
+        "position_type": "medial",
+        "record_id": "IOZa2"
+      },
+      {
+        "token": "JA-SA-SA-RA-ME",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "I-NA-TA-I-ZU-DI-SI-KA",
+          "\ud800\udd01"
+        ],
+        "next_3": [
+          "\ud800\udd01"
+        ],
+        "syl_position": 2,
+        "syl_total": 3,
+        "position_type": "final",
+        "record_id": "IOZa6"
+      },
+      {
+        "token": "JA-SA-SA-RA-ME",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [],
+        "next_3": [
+          "\\n",
+          "\ud800\udd01",
+          "U-NA-KA-NA-SI"
+        ],
+        "syl_position": 0,
+        "syl_total": 3,
+        "position_type": "initial",
+        "record_id": "IOZa9"
+      },
+      {
+        "token": "A-SA-SA-RA-ME",
+        "site": "Iouktas",
+        "support": "Clay vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [],
+        "next_3": [],
+        "syl_position": 0,
+        "syl_total": 1,
+        "position_type": "initial",
+        "record_id": "IOZb10"
+      },
+      {
+        "token": "I-JA-PA-ME",
+        "site": "Khania",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "CYP+D",
+          "\u00b9\u2044\u2082",
+          "\\n"
+        ],
+        "next_3": [
+          "\ud800\udd01",
+          "TA-TA",
+          "\ud800\udd01"
+        ],
+        "syl_position": 13,
+        "syl_total": 32,
+        "position_type": "medial",
+        "record_id": "KH7a"
+      },
+      {
+        "token": "SA-SA-RA-ME",
+        "site": "Knossos",
+        "support": "Inked inscription",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [],
+        "next_3": [],
+        "syl_position": 0,
+        "syl_total": 1,
+        "position_type": "initial",
+        "record_id": "KHZc106"
+      },
+      {
+        "token": "TO-ME",
+        "site": "Petras",
+        "support": "Tablet",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "QA-QA-DA",
+          "\u00b9\u2044\u2082",
+          "\\n"
+        ],
+        "next_3": [
+          "\u00b9\u2044\u2083",
+          "\\n",
+          "TO-*49-RE"
+        ],
+        "syl_position": 10,
+        "syl_total": 14,
+        "position_type": "medial",
+        "record_id": "PE2"
+      },
+      {
+        "token": "SA-SA-RA-ME",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "A",
+          "\\n"
+        ],
+        "next_3": [
+          "\ud800\udd01",
+          "U-NA-RU-KA-NA-TI",
+          "\ud800\udd01"
+        ],
+        "syl_position": 8,
+        "syl_total": 14,
+        "position_type": "medial",
+        "record_id": "PKZa11"
+      },
+      {
+        "token": "RA-ME",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "\ud800\udd01",
+          "\\n"
+        ],
+        "next_3": [
+          "A-NE",
+          "U-NA-RU-KA-JA-SI",
+          "A-PA-DU-PA"
+        ],
+        "syl_position": 6,
+        "syl_total": 12,
+        "position_type": "medial",
+        "record_id": "PKZa12"
+      },
+      {
+        "token": "TU-ME",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [],
+        "next_3": [
+          "\\n",
+          "I",
+          "\ud800\udd01"
+        ],
+        "syl_position": 0,
+        "syl_total": 4,
+        "position_type": "initial",
+        "record_id": "PKZa14"
+      },
+      {
+        "token": "JA-SA-SA-RA-ME",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [],
+        "next_3": [
+          "\\n",
+          "U-NA-KA-NA-SI"
+        ],
+        "syl_position": 0,
+        "syl_total": 3,
+        "position_type": "initial",
+        "record_id": "PKZa27"
+      },
+      {
+        "token": "JA-SA-SA-RA-ME",
+        "site": "Platanos",
+        "support": "Metal object",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "U-QE-TI",
+          "\ud800\udd01"
+        ],
+        "next_3": [
+          "\ud800\udd01",
+          "TA-NU-NI-KI-NA",
+          "\ud800\udd01"
+        ],
+        "syl_position": 3,
+        "syl_total": 7,
+        "position_type": "medial",
+        "record_id": "PLZf1"
+      },
+      {
+        "token": "A-SA-SA-*802-ME",
+        "site": "Prassa",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\\n",
+          "SE-TO-I-JA",
+          "\\n"
+        ],
+        "next_3": [],
+        "syl_position": 4,
+        "syl_total": 5,
+        "position_type": "final",
+        "record_id": "PRZa1"
+      },
+      {
+        "token": "JA-SA-SA-RA-ME",
+        "site": "Psykhro",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "\ud800\udd01",
+          "\ud800\udd0c-JA-TI",
+          "\ud800\udd01"
+        ],
+        "next_3": [
+          "\ud800\udd01"
+        ],
+        "syl_position": 4,
+        "syl_total": 5,
+        "position_type": "final",
+        "record_id": "PSZa2"
+      },
+      {
+        "token": "JA-SA-SA-RA-ME",
+        "site": "Troullos",
+        "support": "Stone vessel",
+        "is_ritual": false,
+        "has_kuro": false,
+        "has_kiro": false,
+        "prev_3": [
+          "O-SU-QA-RE",
+          "\ud800\udd01",
+          "\\n"
+        ],
+        "next_3": [
+          "\ud800\udd01",
+          "\\n",
+          "U-NA-KA-NA"
+        ],
+        "syl_position": 3,
+        "syl_total": 8,
+        "position_type": "medial",
+        "record_id": "TLZa1"
+      }
+    ]
+  },
+  "ergative_search": {
+    "method": "Inverse absolutive profile: high KI-RO, word-final, low ritual",
+    "absolutive_reference": "-JA",
+    "suffix_scores": {
+      "-DA": {
+        "total": 23,
+        "kiro_rate": 0.043478260869565216,
+        "kuro_rate": 0.2608695652173913,
+        "final_rate": 0.08695652173913043,
+        "initial_rate": 0.34782608695652173,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.391304347826087,
+        "site_count": 12
+      },
+      "-DI": {
+        "total": 27,
+        "kiro_rate": 0.037037037037037035,
+        "kuro_rate": 0.2222222222222222,
+        "final_rate": 0.2222222222222222,
+        "initial_rate": 0.3333333333333333,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.6111111111111112,
+        "site_count": 5
+      },
+      "-JA": {
+        "total": 65,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.03076923076923077,
+        "final_rate": 0.1076923076923077,
+        "initial_rate": 0.5230769230769231,
+        "ritual_rate": 0.0,
+        "ergative_score": 0.9846153846153847,
+        "site_count": 17
+      },
+      "-KA": {
+        "total": 35,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.05714285714285714,
+        "final_rate": 0.02857142857142857,
+        "initial_rate": 0.6571428571428571,
+        "ritual_rate": 0.0,
+        "ergative_score": 0.7857142857142858,
+        "site_count": 10
+      },
+      "-KE": {
+        "total": 7,
+        "kiro_rate": 0.14285714285714285,
+        "kuro_rate": 0.14285714285714285,
+        "final_rate": 0.0,
+        "initial_rate": 0.42857142857142855,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.3571428571428572,
+        "site_count": 5
+      },
+      "-MA": {
+        "total": 32,
+        "kiro_rate": 0.0625,
+        "kuro_rate": 0.09375,
+        "final_rate": 0.03125,
+        "initial_rate": 0.375,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.15625,
+        "site_count": 12
+      },
+      "-ME": {
+        "total": 26,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.0,
+        "final_rate": 0.11538461538461539,
+        "initial_rate": 0.23076923076923078,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.1153846153846154,
+        "site_count": 10
+      },
+      "-MI": {
+        "total": 33,
+        "kiro_rate": 0.030303030303030304,
+        "kuro_rate": 0.09090909090909091,
+        "final_rate": 0.12121212121212122,
+        "initial_rate": 0.3939393939393939,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.2272727272727273,
+        "site_count": 11
+      },
+      "-MU": {
+        "total": 6,
+        "kiro_rate": 0.16666666666666666,
+        "kuro_rate": 0.16666666666666666,
+        "final_rate": 0.0,
+        "initial_rate": 0.16666666666666666,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.5833333333333333,
+        "site_count": 4
+      },
+      "-NA": {
+        "total": 54,
+        "kiro_rate": 0.05555555555555555,
+        "kuro_rate": 0.1111111111111111,
+        "final_rate": 0.07407407407407407,
+        "initial_rate": 0.2962962962962963,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.2777777777777777,
+        "site_count": 12
+      },
+      "-NE": {
+        "total": 35,
+        "kiro_rate": 0.02857142857142857,
+        "kuro_rate": 0.05714285714285714,
+        "final_rate": 0.08571428571428572,
+        "initial_rate": 0.2571428571428571,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.1857142857142857,
+        "site_count": 11
+      },
+      "-PA": {
+        "total": 25,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.16,
+        "final_rate": 0.04,
+        "initial_rate": 0.36,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.06,
+        "site_count": 8
+      },
+      "-PI": {
+        "total": 13,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.07692307692307693,
+        "final_rate": 0.3076923076923077,
+        "initial_rate": 0.3076923076923077,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.5384615384615383,
+        "site_count": 8
+      },
+      "-QA": {
+        "total": 5,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.0,
+        "final_rate": 0.4,
+        "initial_rate": 0.2,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.7000000000000002,
+        "site_count": 3
+      },
+      "-RA": {
+        "total": 48,
+        "kiro_rate": 0.041666666666666664,
+        "kuro_rate": 0.14583333333333334,
+        "final_rate": 0.0625,
+        "initial_rate": 0.2708333333333333,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.2604166666666667,
+        "site_count": 10
+      },
+      "-RE": {
+        "total": 58,
+        "kiro_rate": 0.13793103448275862,
+        "kuro_rate": 0.1896551724137931,
+        "final_rate": 0.08620689655172414,
+        "initial_rate": 0.1724137931034483,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.6896551724137931,
+        "site_count": 11
+      },
+      "-RO": {
+        "total": 25,
+        "kiro_rate": 0.08,
+        "kuro_rate": 0.2,
+        "final_rate": 0.2,
+        "initial_rate": 0.36,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.6600000000000001,
+        "site_count": 7
+      },
+      "-SE": {
+        "total": 31,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.0,
+        "final_rate": 0.12903225806451613,
+        "initial_rate": 0.2903225806451613,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.1129032258064515,
+        "site_count": 7
+      },
+      "-SI": {
+        "total": 36,
+        "kiro_rate": 0.05555555555555555,
+        "kuro_rate": 0.1111111111111111,
+        "final_rate": 0.16666666666666666,
+        "initial_rate": 0.3333333333333333,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.4444444444444446,
+        "site_count": 16
+      },
+      "-TA": {
+        "total": 37,
+        "kiro_rate": 0.05405405405405406,
+        "kuro_rate": 0.13513513513513514,
+        "final_rate": 0.13513513513513514,
+        "initial_rate": 0.2702702702702703,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.4324324324324325,
+        "site_count": 9
+      },
+      "-TE": {
+        "total": 56,
+        "kiro_rate": 0.05357142857142857,
+        "kuro_rate": 0.03571428571428571,
+        "final_rate": 0.21428571428571427,
+        "initial_rate": 0.3392857142857143,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.4553571428571428,
+        "site_count": 20
+      },
+      "-TI": {
+        "total": 49,
+        "kiro_rate": 0.04081632653061224,
+        "kuro_rate": 0.14285714285714285,
+        "final_rate": 0.08163265306122448,
+        "initial_rate": 0.30612244897959184,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.2755102040816326,
+        "site_count": 13
+      },
+      "-ZA": {
+        "total": 22,
+        "kiro_rate": 0.045454545454545456,
+        "kuro_rate": 0.22727272727272727,
+        "final_rate": 0.045454545454545456,
+        "initial_rate": 0.13636363636363635,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.3863636363636365,
+        "site_count": 8
+      }
+    },
+    "ranked_candidates": [
+      {
+        "suffix": "-QA",
+        "total": 5,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.0,
+        "final_rate": 0.4,
+        "initial_rate": 0.2,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.7000000000000002,
+        "site_count": 3
+      },
+      {
+        "suffix": "-RE",
+        "total": 58,
+        "kiro_rate": 0.13793103448275862,
+        "kuro_rate": 0.1896551724137931,
+        "final_rate": 0.08620689655172414,
+        "initial_rate": 0.1724137931034483,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.6896551724137931,
+        "site_count": 11
+      },
+      {
+        "suffix": "-RO",
+        "total": 25,
+        "kiro_rate": 0.08,
+        "kuro_rate": 0.2,
+        "final_rate": 0.2,
+        "initial_rate": 0.36,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.6600000000000001,
+        "site_count": 7
+      },
+      {
+        "suffix": "-DI",
+        "total": 27,
+        "kiro_rate": 0.037037037037037035,
+        "kuro_rate": 0.2222222222222222,
+        "final_rate": 0.2222222222222222,
+        "initial_rate": 0.3333333333333333,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.6111111111111112,
+        "site_count": 5
+      },
+      {
+        "suffix": "-MU",
+        "total": 6,
+        "kiro_rate": 0.16666666666666666,
+        "kuro_rate": 0.16666666666666666,
+        "final_rate": 0.0,
+        "initial_rate": 0.16666666666666666,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.5833333333333333,
+        "site_count": 4
+      },
+      {
+        "suffix": "-PI",
+        "total": 13,
+        "kiro_rate": 0.0,
+        "kuro_rate": 0.07692307692307693,
+        "final_rate": 0.3076923076923077,
+        "initial_rate": 0.3076923076923077,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.5384615384615383,
+        "site_count": 8
+      },
+      {
+        "suffix": "-TE",
+        "total": 56,
+        "kiro_rate": 0.05357142857142857,
+        "kuro_rate": 0.03571428571428571,
+        "final_rate": 0.21428571428571427,
+        "initial_rate": 0.3392857142857143,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.4553571428571428,
+        "site_count": 20
+      },
+      {
+        "suffix": "-SI",
+        "total": 36,
+        "kiro_rate": 0.05555555555555555,
+        "kuro_rate": 0.1111111111111111,
+        "final_rate": 0.16666666666666666,
+        "initial_rate": 0.3333333333333333,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.4444444444444446,
+        "site_count": 16
+      },
+      {
+        "suffix": "-TA",
+        "total": 37,
+        "kiro_rate": 0.05405405405405406,
+        "kuro_rate": 0.13513513513513514,
+        "final_rate": 0.13513513513513514,
+        "initial_rate": 0.2702702702702703,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.4324324324324325,
+        "site_count": 9
+      },
+      {
+        "suffix": "-DA",
+        "total": 23,
+        "kiro_rate": 0.043478260869565216,
+        "kuro_rate": 0.2608695652173913,
+        "final_rate": 0.08695652173913043,
+        "initial_rate": 0.34782608695652173,
+        "ritual_rate": 0.0,
+        "ergative_score": 1.391304347826087,
+        "site_count": 12
+      }
+    ],
+    "top_candidate": "-QA",
+    "absolutive_ja_stats": {
+      "total": 65,
+      "kiro_rate": 0.0,
+      "kuro_rate": 0.03076923076923077,
+      "final_rate": 0.1076923076923077,
+      "initial_rate": 0.5230769230769231,
+      "ritual_rate": 0.0,
+      "ergative_score": 0.9846153846153847,
+      "site_count": 17
+    },
+    "top_ergative_stats": {
+      "total": 5,
+      "kiro_rate": 0.0,
+      "kuro_rate": 0.0,
+      "final_rate": 0.4,
+      "initial_rate": 0.2,
+      "ritual_rate": 0.0,
+      "ergative_score": 1.7000000000000002,
+      "site_count": 3
+    }
+  }
+}

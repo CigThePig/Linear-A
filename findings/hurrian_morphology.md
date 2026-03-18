@@ -119,10 +119,48 @@ For reference in future comparisons:
 
 ---
 
-## Open Questions
+## Hurrian vs. Luwian Comparison (Added 2026-03-18, Attempt #4)
 
-- [ ] Does Linear A show any evidence of Hurrian ergative/absolutive split? (VIR words in ergative position vs. absolutive position?)
+Control test applying the same 5-point rubric to Luwian (Anatolian Indo-European) case morphology.
+
+**Results summary:**
+- Luwian high-confidence alignments (≥4.0): **0**
+- Luwian medium-confidence (3.0–3.9): **10**
+- Hurrian high-confidence (≥4.0): **14** (from Attempt #3)
+- Hurrian medium-confidence: **42**
+
+**Direct comparison by suffix:**
+
+| Suffix | Hurrian Best | Luwian Best | Winner |
+|--------|-------------|------------|--------|
+| -TE | 5.0 | 3.0 | Hurrian |
+| -NA | 5.0 | 3.5 | Hurrian |
+| -TI | 5.0 | 3.5 | Hurrian |
+| -NE | 4.5 | 3.0 | Hurrian |
+| -JA | 4.0 | 3.0 | Hurrian |
+| -RE | 4.0 | 2.8 | Hurrian |
+| -TA | 4.0 | 0.0 | Hurrian |
+| -RA | 4.0 | 2.8 | Hurrian |
+| -DA | 0.0 | 2.5 | Luwian |
+| -MA | 0.0 | 3.0 | Luwian |
+| -ME | 0.0 | 2.0 | Luwian |
+| -MU | 0.0 | 2.0 | Luwian |
+| -RO | 0.0 | 2.0 | Luwian |
+| -SE | 0.0 | 2.0 | Luwian |
+| -SI | 0.0 | 2.0 | Luwian |
+
+**Overall: Hurrian wins 8, Luwian wins 7** — marginal Hurrian preference sustained.
+
+**Interpretation:** The 14 vs. 0 high-confidence count is the most meaningful metric. Hurrian morphology produces stronger correspondences for the most studied Linear A suffixes (-TE, -NA, -TI, -NE, -JA, -RE, -TA, -RA). Luwian "wins" for suffixes that were not previously analyzed in depth (-DA, -MA, -ME, -MU, -RO, -SE, -SI), suggesting these may be better explained by Luwian derivational morphology — OR that neither language is correct for these suffixes.
+
+**N-gram fingerprinting caveat (Attempt #4):** An independent n-gram phonotactic analysis ranked Proto-Semitic > Luwian > Etruscan > Hurrian — OPPOSITE to the morphological ranking. This inconsistency has not been resolved. The n-gram analysis suffered from methodological limitations (newline tokens, unknown sign categories) that reduced its discriminative power.
+
+## Open Questions (Updated 2026-03-18)
+
+- [ ] Does Linear A show any evidence of Hurrian ergative/absolutive split? → Ergative search (Attempt #4) found NO suffix with a clean ergative profile; may be word-order marked
+- [x] How do Linear A suffix frequencies compare to Luwian morpheme frequencies? → Tested in Attempt #4: Hurrian wins 8, Luwian wins 7 (marginal Hurrian preference)
 - [ ] Is -RA the Hurrian comitative -ra (exact match) or coincidental? -RA words need contextual analysis similar to -NA and -JA.
-- [ ] How do Linear A suffix frequencies compare to Luwian morpheme frequencies? Need a parallel test to evaluate Hurrian vs. Luwian as the better match.
 - [ ] The plural -na/-ne mapping to both -NA and -NE in Linear A creates ambiguity — is there morphological evidence that distinguishes singular from plural -NA words?
-- [ ] Strategy 9 (N-gram fingerprinting) should be run next to provide an independent language family score that doesn't depend on the suffix alignment assumptions made here.
+- [x] Strategy 9 (N-gram fingerprinting) ran but inconclusive — method needs refinement; Proto-Semitic ranked highest (unexpected; inconsistent with morphological results)
+- [ ] Can the n-gram analysis be rerun with clean tokens (no newlines/special chars) and at sign level rather than consonant-class level?
+- [ ] What is the grammatical function of -ME? Luwian verbal noun -amma- scored 3.0; Hurrian has no obvious parallel → this is a gap in the Hurrian hypothesis.
