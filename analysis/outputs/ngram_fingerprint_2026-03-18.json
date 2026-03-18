@@ -1,0 +1,504 @@
+{
+  "total_bigrams": 3533,
+  "total_unigrams": 4805,
+  "unique_bigrams": 1717,
+  "unique_signs": 1089,
+  "top_30_bigrams": [
+    {
+      "bigram": "\\n-\\n",
+      "count": 666
+    },
+    {
+      "bigram": "VIR+[?]-\\n",
+      "count": 27
+    },
+    {
+      "bigram": "TE-\\n",
+      "count": 23
+    },
+    {
+      "bigram": "OLE+KI-\\n",
+      "count": 21
+    },
+    {
+      "bigram": "OLE+U-\\n",
+      "count": 20
+    },
+    {
+      "bigram": "\\n-SI",
+      "count": 19
+    },
+    {
+      "bigram": "SI-\\n",
+      "count": 19
+    },
+    {
+      "bigram": "OLE+MI-\\n",
+      "count": 19
+    },
+    {
+      "bigram": "\\n-SA-RA\u2082",
+      "count": 18
+    },
+    {
+      "bigram": "\\n-OLE+U",
+      "count": 18
+    },
+    {
+      "bigram": "\\n-OLE+MI",
+      "count": 17
+    },
+    {
+      "bigram": "A-\\n",
+      "count": 16
+    },
+    {
+      "bigram": "\\n-KU",
+      "count": 16
+    },
+    {
+      "bigram": "SA-RA\u2082-\\n",
+      "count": 16
+    },
+    {
+      "bigram": "\\n-PA",
+      "count": 16
+    },
+    {
+      "bigram": "CYP+D-\\n",
+      "count": 16
+    },
+    {
+      "bigram": "\\n-KI",
+      "count": 15
+    },
+    {
+      "bigram": "KI-\\n",
+      "count": 15
+    },
+    {
+      "bigram": "\\n-RE",
+      "count": 14
+    },
+    {
+      "bigram": "KU-\\n",
+      "count": 14
+    },
+    {
+      "bigram": "GRA+PA-\\n",
+      "count": 14
+    },
+    {
+      "bigram": "PA-\\n",
+      "count": 14
+    },
+    {
+      "bigram": "\\n-DI",
+      "count": 14
+    },
+    {
+      "bigram": "DI-\\n",
+      "count": 14
+    },
+    {
+      "bigram": "\\n-A",
+      "count": 13
+    },
+    {
+      "bigram": "\\n-KA",
+      "count": 13
+    },
+    {
+      "bigram": "KA-\\n",
+      "count": 13
+    },
+    {
+      "bigram": "\\n-VIR+[?]",
+      "count": 13
+    },
+    {
+      "bigram": "\\n-TA",
+      "count": 12
+    },
+    {
+      "bigram": "RE-\\n",
+      "count": 12
+    }
+  ],
+  "class_bigram_probs": {
+    "OTHER->OTHER": 0.2966317577129918,
+    "STOP->OTHER": 0.14237192187942257,
+    "OTHER->STOP": 0.13501273705066516,
+    "V->OTHER": 0.08802717237475234,
+    "OTHER->V": 0.07330880271723747,
+    "SON->OTHER": 0.050665157090291534,
+    "FRIC->OTHER": 0.050665157090291534,
+    "OTHER->SON": 0.05038211151995471,
+    "OTHER->FRIC": 0.049249929238607416,
+    "STOP->STOP": 0.009623549391452024,
+    "V->V": 0.00735918482875743,
+    "STOP->V": 0.007076139258420606,
+    "V->FRIC": 0.005660911406736484,
+    "FRIC->STOP": 0.005660911406736484,
+    "SON->STOP": 0.00537786583639966,
+    "V->STOP": 0.003962637984715539,
+    "FRIC->V": 0.003962637984715539,
+    "STOP->SON": 0.0031135012737050667,
+    "FRIC->FRIC": 0.002830455703368242,
+    "SON->V": 0.0022643645626945937,
+    "STOP->FRIC": 0.0022643645626945937,
+    "FRIC->SON": 0.001415227851684121,
+    "SON->SON": 0.001415227851684121,
+    "SON->FRIC": 0.0011321822813472968,
+    "V->SON": 0.0005660911406736484
+  },
+  "language_similarity_scores": {
+    "Hurrian": {
+      "cosine": 0.08600935275832282,
+      "kl": 12.265775951364692
+    },
+    "Luwian": {
+      "cosine": 0.1130761996653211,
+      "kl": 12.150576520444936
+    },
+    "Proto-Semitic": {
+      "cosine": 0.14671622225244296,
+      "kl": 10.62535252847962
+    },
+    "Etruscan": {
+      "cosine": 0.09713427961508245,
+      "kl": 12.183311749168407
+    }
+  },
+  "ranking_cosine": [
+    "Proto-Semitic",
+    "Luwian",
+    "Etruscan",
+    "Hurrian"
+  ],
+  "ranking_kl": [
+    "Proto-Semitic",
+    "Luwian",
+    "Etruscan",
+    "Hurrian"
+  ],
+  "vv_hiatus_rate": 0.00735918482875743,
+  "word_initial_class_distribution": {
+    "STOP": 0.3805031446540881,
+    "FRIC": 0.13522012578616352,
+    "SON": 0.12735849056603774,
+    "OTHER": 0.2209119496855346,
+    "V": 0.1360062893081761
+  },
+  "word_final_class_distribution": {
+    "STOP": 0.3671383647798742,
+    "FRIC": 0.12578616352201258,
+    "OTHER": 0.2869496855345912,
+    "SON": 0.11635220125786164,
+    "V": 0.10377358490566038
+  },
+  "top_20_pmi_bigrams": [
+    {
+      "bigram": "I-PI-NA-MA-SI-RU-TE",
+      "count": 3,
+      "pmi": 8.228818690495881
+    },
+    {
+      "bigram": "VIN+WA-SA",
+      "count": 2,
+      "pmi": 7.643856189774724
+    },
+    {
+      "bigram": "QA2+[?]+RE+PU-\ud801\udf49",
+      "count": 2,
+      "pmi": 7.643856189774724
+    },
+    {
+      "bigram": "KU-NI-SU-GRA+K+L",
+      "count": 2,
+      "pmi": 7.643856189774724
+    },
+    {
+      "bigram": "TA-NI-KA-SE",
+      "count": 2,
+      "pmi": 7.643856189774724
+    },
+    {
+      "bigram": "KU-PA-GRA+PA",
+      "count": 2,
+      "pmi": 7.426035883987987
+    },
+    {
+      "bigram": "JE-DI-OLE+KI",
+      "count": 2,
+      "pmi": 7.281645974652813
+    },
+    {
+      "bigram": "SA-RA-TE",
+      "count": 2,
+      "pmi": 6.815982402304001
+    },
+    {
+      "bigram": "NA-SI-I-PI-NA-MA",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "I-PI-NA-MA-I-KU-PA\u2083-NA-TU-NA-TE",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "PI-MI-NA-TE-I-NA-JA-RE-TA",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "I-NA-JA-RE-TA-QA",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "WA-VIN-MI",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "JA-KI-SI-KI-NU-MI-DA-MA-RA\u2082",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "A-MA-WA-SI-KA-NI-JA-MI",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "KA-NI-JA-MI-I-JA",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "I-JA-QA-KI-SE-NU-TI",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "QA-KI-SE-NU-TI-A-TA-DE",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "RE-SE-SI",
+      "count": 1,
+      "pmi": 6.643856189774724
+    },
+    {
+      "bigram": "ZU-*22F-DI-GRA+QE",
+      "count": 1,
+      "pmi": 6.643856189774724
+    }
+  ],
+  "top_50_signs": [
+    {
+      "sign": "\\n",
+      "count": 2194
+    },
+    {
+      "sign": "KU",
+      "count": 170
+    },
+    {
+      "sign": "KA",
+      "count": 169
+    },
+    {
+      "sign": "SI",
+      "count": 118
+    },
+    {
+      "sign": "RO",
+      "count": 95
+    },
+    {
+      "sign": "TE",
+      "count": 58
+    },
+    {
+      "sign": "I",
+      "count": 39
+    },
+    {
+      "sign": "VIR+[?]",
+      "count": 31
+    },
+    {
+      "sign": "TA",
+      "count": 29
+    },
+    {
+      "sign": "A",
+      "count": 25
+    },
+    {
+      "sign": "OLE+U",
+      "count": 22
+    },
+    {
+      "sign": "OLE+KI",
+      "count": 21
+    },
+    {
+      "sign": "SA-RA\u2082",
+      "count": 20
+    },
+    {
+      "sign": "KI",
+      "count": 19
+    },
+    {
+      "sign": "OLE+MI",
+      "count": 19
+    },
+    {
+      "sign": "GRA+PA",
+      "count": 19
+    },
+    {
+      "sign": "CYP+D",
+      "count": 19
+    },
+    {
+      "sign": "O",
+      "count": 17
+    },
+    {
+      "sign": "RE",
+      "count": 16
+    },
+    {
+      "sign": "PA",
+      "count": 16
+    },
+    {
+      "sign": "DI",
+      "count": 16
+    },
+    {
+      "sign": "NA",
+      "count": 13
+    },
+    {
+      "sign": "CYP+E",
+      "count": 13
+    },
+    {
+      "sign": "OLE+DI",
+      "count": 12
+    },
+    {
+      "sign": "TI",
+      "count": 12
+    },
+    {
+      "sign": "JA",
+      "count": 11
+    },
+    {
+      "sign": "MA",
+      "count": 11
+    },
+    {
+      "sign": "TU",
+      "count": 11
+    },
+    {
+      "sign": "A-TA-I-*301-WA-JA",
+      "count": 11
+    },
+    {
+      "sign": "E",
+      "count": 10
+    },
+    {
+      "sign": "A-DU",
+      "count": 10
+    },
+    {
+      "sign": "DA",
+      "count": 9
+    },
+    {
+      "sign": "RA",
+      "count": 9
+    },
+    {
+      "sign": "HIDE+[?]",
+      "count": 9
+    },
+    {
+      "sign": "NE",
+      "count": 8
+    },
+    {
+      "sign": "KU-PA\u2083-NU",
+      "count": 8
+    },
+    {
+      "sign": "VIR+KA",
+      "count": 8
+    },
+    {
+      "sign": "double mina",
+      "count": 8
+    },
+    {
+      "sign": "SU",
+      "count": 8
+    },
+    {
+      "sign": "RU",
+      "count": 8
+    },
+    {
+      "sign": "QA2+[?]+PU",
+      "count": 8
+    },
+    {
+      "sign": "MI+JA+RU",
+      "count": 8
+    },
+    {
+      "sign": "OLE+TA",
+      "count": 8
+    },
+    {
+      "sign": "I-RA\u2082",
+      "count": 8
+    },
+    {
+      "sign": "SE",
+      "count": 7
+    },
+    {
+      "sign": "DA-RE",
+      "count": 7
+    },
+    {
+      "sign": "GRA+KU",
+      "count": 7
+    },
+    {
+      "sign": "SI-RU-TE",
+      "count": 7
+    },
+    {
+      "sign": "JA-SA-SA-RA-ME",
+      "count": 7
+    },
+    {
+      "sign": "I-PI-NA-MA",
+      "count": 6
+    }
+  ]
+}

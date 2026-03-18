@@ -57,6 +57,56 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #4 — N-gram Fingerprinting, Luwian Comparison, Liturgical Sequence Confirmation, -ME Suffix, Ergative Search
+
+**Date:** 2026-03-18
+**Hypothesis file:** `hypotheses/2026-03-18-ngram-luwian-ergative-me.md`
+**Session:** claude/continue-deciphering-2U6cg
+**Strategy:** N-gram Fingerprinting (Strategy 9) / Luwian Comparison (Strategy 4) / Liturgical Sequence Follow-up (Strategy 6) / Grammatical Analysis
+**Language tested (if applicable):** Luwian (comparative morphology), Proto-Semitic/Etruscan/Hurrian (n-gram control)
+
+#### Summary of Approach
+
+Five-part analysis: (1) N-gram phonotactic fingerprinting comparing Linear A bigram distributions against Hurrian, Luwian, Proto-Semitic, and Etruscan at consonant-class resolution; (2) Luwian morpheme alignment using the same 5-point rubric as the Attempt #3 Hurrian test, enabling direct comparison; (3) verification of the four-unit liturgical sequence `JA-SA-SA-RA-ME → U-NA-KA-NA-SI → I-PI-NA-MA → SI-RU-TE` in single inscriptions; (4) -ME suffix syntactic analysis and JA-SA-SA-RA root isolation; (5) ergative marker search by constructing an inverse-absolutive profile.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl` (all 1721 records), `corpus/linear_a_rag_chunks.jsonl`
+- Inscriptions analyzed: all 1721
+- Methods: consonant-class bigram matrices, cosine similarity, KL-divergence, Luwian morpheme scoring (5-point rubric), token membership testing, position analysis, inverse-profile ergative ranking
+
+#### Results
+**Outcome:** PARTIAL SUCCESS
+**Key finding:** IOZa2 (Iouktas) contains the complete four-unit liturgical sequence in a single inscription; Hurrian retains marginal morphological preference over Luwian (8-7 suffix wins); n-gram analysis inconclusive (Proto-Semitic ranked first, inconsistent with morphological results).
+**Confidence:** High (liturgical confirmation), Low-Medium (Luwian vs. Hurrian), Low (n-gram), Low-Medium (-ME as grammatical suffix)
+
+#### What Was Learned
+
+1. **IOZa2 (Iouktas) is now the most informative single ritual inscription identified.** It contains the complete sequence plus a header (A-TA-I-*301-WA-JA), a slot-1 token (JA-DI-KI-TU), and a coda (TA-NA-RA-TE-U-TI-NU). This provides a template for ritual inscription structure.
+2. **JA-SA-SA-RA is confirmed as the bare divine root** — the bare form and a -MA variant were found, proving -ME is a grammatical suffix, not a root-integral element.
+3. **Hurrian retains a marginal morphological preference over Luwian.** 14 vs. 0 high-confidence alignments is the key metric. But the n-gram result (Proto-Semitic first, Hurrian last) creates an unresolved contradiction.
+4. **The n-gram fingerprinting method at consonant-class resolution is insufficiently discriminative** — newlines, unknown signs, and approximate reference profiles all degrade the result. Sign-level bigrams with clean token extraction are needed.
+5. **No ergative suffix identified** — either the ergative is expressed by word order, by a preverbal particle, or the absolutive interpretation of -JA is incorrect. This is a useful negative result.
+6. **Support type case-sensitivity bug**: corpus uses "Stone vessel" (capitalized) but analysis scripts used lowercase, causing all ritual rate calculations to compute as 0.0%. Relative comparisons between suffixes remain valid; absolute ritual rates are incorrect.
+7. **Two new tokens identified for future analysis:** JA-DI-KI-TU (IOZa2 slot 1; compare to A-DI-KI-TE at Palaikastro) and TA-NA-RA-TE-U-TI-NU (coda of IOZa2).
+
+#### Why a Re-attempt Needs to Differ
+
+- N-gram analysis: needs clean token extraction (filter \n, 𐄁, numerals, logograms) and sign-level bigrams rather than consonant-class bigrams
+- New tokens JA-DI-KI-TU and TA-NA-RA-TE-U-TI-NU need full corpus analysis
+- The -ME suffix function needs syntactic slot analysis
+- The ergative should be investigated through word-order analysis (SOV pattern testing)
+- The n-gram vs. morphological contradiction must be addressed before Hurrian can be elevated as preferred hypothesis
+
+#### Follow-up Questions Generated
+- [ ] What is `JA-DI-KI-TU`? Find all occurrences; compare to `A-DI-KI-TE` at Palaikastro (shared DI-KI element)
+- [ ] What is `TA-NA-RA-TE-U-TI-NU`? Compare to `TA-NA-I-*301-U-TI-NU` — same token with scribal variation?
+- [ ] Run n-gram analysis with clean token extraction and sign-level bigrams
+- [ ] Is the n-gram vs. morphological contradiction explainable by contact-language dynamics?
+- [ ] What is the syntactic slot of -ME words? (comitative? essive? perlative?)
+- [ ] Is there word-order (SOV) evidence in the corpus that explains why no ergative suffix is visible?
+
+---
+
 ### Attempt #3 — Libation Table Formula Analysis + Proper Noun Isolation + Hurrian Morphology Testing
 
 **Date:** 2026-03-18

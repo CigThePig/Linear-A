@@ -1,0 +1,429 @@
+{
+  "sequence_target": [
+    "JA-SA-SA-RA-ME",
+    "U-NA-KA-NA-SI",
+    "I-PI-NA-MA",
+    "SI-RU-TE"
+  ],
+  "inscriptions_with_2plus_elements": [
+    {
+      "id": "IOZa15",
+      "site": "Iouktas",
+      "support": "Stone vessel",
+      "elements_present": [
+        "I-PI-NA-MA",
+        "SI-RU-TE"
+      ],
+      "element_count": 2,
+      "is_ordered": true,
+      "positions": {
+        "I-PI-NA-MA": 0,
+        "SI-RU-TE": 2
+      }
+    },
+    {
+      "id": "IOZa2",
+      "site": "Iouktas",
+      "support": "Stone vessel",
+      "elements_present": [
+        "JA-SA-SA-RA-ME",
+        "U-NA-KA-NA-SI",
+        "I-PI-NA-MA",
+        "SI-RU-TE"
+      ],
+      "element_count": 4,
+      "is_ordered": true,
+      "positions": {
+        "JA-SA-SA-RA-ME": 4,
+        "U-NA-KA-NA-SI": 6,
+        "I-PI-NA-MA": 8,
+        "SI-RU-TE": 11
+      }
+    },
+    {
+      "id": "IOZa9",
+      "site": "Iouktas",
+      "support": "Stone vessel",
+      "elements_present": [
+        "JA-SA-SA-RA-ME",
+        "U-NA-KA-NA-SI"
+      ],
+      "element_count": 2,
+      "is_ordered": true,
+      "positions": {
+        "JA-SA-SA-RA-ME": 0,
+        "U-NA-KA-NA-SI": 3
+      }
+    },
+    {
+      "id": "KOZa1",
+      "site": "Kophinas",
+      "support": "Stone vessel",
+      "elements_present": [
+        "U-NA-KA-NA-SI",
+        "I-PI-NA-MA",
+        "SI-RU-TE"
+      ],
+      "element_count": 3,
+      "is_ordered": true,
+      "positions": {
+        "U-NA-KA-NA-SI": 9,
+        "I-PI-NA-MA": 12,
+        "SI-RU-TE": 14
+      }
+    },
+    {
+      "id": "PKZa27",
+      "site": "Palaikastro",
+      "support": "Stone vessel",
+      "elements_present": [
+        "JA-SA-SA-RA-ME",
+        "U-NA-KA-NA-SI"
+      ],
+      "element_count": 2,
+      "is_ordered": true,
+      "positions": {
+        "JA-SA-SA-RA-ME": 0,
+        "U-NA-KA-NA-SI": 2
+      }
+    },
+    {
+      "id": "TLZa1",
+      "site": "Troullos",
+      "support": "Stone vessel",
+      "elements_present": [
+        "JA-SA-SA-RA-ME",
+        "I-PI-NA-MA",
+        "SI-RU-TE"
+      ],
+      "element_count": 3,
+      "is_ordered": true,
+      "positions": {
+        "JA-SA-SA-RA-ME": 5,
+        "I-PI-NA-MA": 9,
+        "SI-RU-TE": 10
+      }
+    },
+    {
+      "id": "VRYZa1",
+      "site": "Vrysinas",
+      "support": "Stone vessel",
+      "elements_present": [
+        "I-PI-NA-MA",
+        "SI-RU-TE"
+      ],
+      "element_count": 2,
+      "is_ordered": true,
+      "positions": {
+        "I-PI-NA-MA": 0,
+        "SI-RU-TE": 2
+      }
+    }
+  ],
+  "pair_cooccurrence": {
+    "I-PI-NA-MA+SI-RU-TE": {
+      "count": 5,
+      "sites": [
+        "Iouktas",
+        "Kophinas",
+        "Troullos",
+        "Vrysinas"
+      ]
+    },
+    "JA-SA-SA-RA-ME+U-NA-KA-NA-SI": {
+      "count": 3,
+      "sites": [
+        "Iouktas",
+        "Palaikastro"
+      ]
+    },
+    "JA-SA-SA-RA-ME+I-PI-NA-MA": {
+      "count": 2,
+      "sites": [
+        "Iouktas",
+        "Troullos"
+      ]
+    },
+    "JA-SA-SA-RA-ME+SI-RU-TE": {
+      "count": 2,
+      "sites": [
+        "Iouktas",
+        "Troullos"
+      ]
+    },
+    "U-NA-KA-NA-SI+I-PI-NA-MA": {
+      "count": 2,
+      "sites": [
+        "Iouktas",
+        "Kophinas"
+      ]
+    },
+    "U-NA-KA-NA-SI+SI-RU-TE": {
+      "count": 2,
+      "sites": [
+        "Iouktas",
+        "Kophinas"
+      ]
+    }
+  },
+  "ata_formula_analysis": {
+    "total_occurrences": 11,
+    "support_distribution": {
+      "Stone vessel": 11
+    },
+    "site_distribution": {
+      "Iouktas": 3,
+      "Kophinas": 1,
+      "Palaikastro": 1,
+      "Syme": 5,
+      "Troullos": 1
+    },
+    "position_distribution": {
+      "initial": 10,
+      "medial": 1
+    },
+    "most_common_pre_tokens": [
+      [
+        "\ud800\udd01",
+        1
+      ]
+    ],
+    "most_common_post_tokens": [
+      [
+        "\ud800\udd01",
+        14
+      ],
+      [
+        "\\n",
+        2
+      ],
+      [
+        "JA-DI-KI-TU",
+        1
+      ],
+      [
+        "AU",
+        1
+      ],
+      [
+        "JA-TI-*321",
+        1
+      ],
+      [
+        "TU-RU-SA",
+        1
+      ],
+      [
+        "A-DI-KI-TE",
+        1
+      ],
+      [
+        "I-DA-MI",
+        1
+      ],
+      [
+        "JA-SU-MA-TU-OLIV",
+        1
+      ],
+      [
+        "1",
+        1
+      ]
+    ],
+    "all_occurrences": [
+      {
+        "id": "IOZa2",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 17,
+        "pre_window": [],
+        "post_window": [
+          "\ud800\udd01",
+          "JA-DI-KI-TU",
+          "\ud800\udd01"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "IOZa3",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "position_in_inscription": 1,
+        "inscription_length": 4,
+        "pre_window": [
+          "\ud800\udd01"
+        ],
+        "post_window": [
+          "\ud800\udd01",
+          "AU"
+        ],
+        "position_type": "medial"
+      },
+      {
+        "id": "IOZa7",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 3,
+        "pre_window": [],
+        "post_window": [
+          "\ud800\udd01",
+          "JA-TI-*321"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "KOZa1",
+        "site": "Kophinas",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 15,
+        "pre_window": [],
+        "post_window": [
+          "\\n",
+          "TU-RU-SA",
+          "\ud800\udd01"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "PKZa12",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 15,
+        "pre_window": [],
+        "post_window": [
+          "\ud800\udd01",
+          "A-DI-KI-TE",
+          "\\n"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "SYZa1",
+        "site": "Syme",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 5,
+        "pre_window": [],
+        "post_window": [
+          "\ud800\udd01",
+          "I-DA-MI",
+          "\ud800\udd01"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "SYZa2",
+        "site": "Syme",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 8,
+        "pre_window": [],
+        "post_window": [
+          "\ud800\udd01",
+          "JA-SU-MA-TU-OLIV",
+          "1"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "SYZa3",
+        "site": "Syme",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 3,
+        "pre_window": [],
+        "post_window": [
+          "SE-KA-NA-SI",
+          "SI-RU-TE"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "SYZa4",
+        "site": "Syme",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 5,
+        "pre_window": [],
+        "post_window": [
+          "\ud800\udd01",
+          "JA-I-NWA-ZA",
+          "\ud800\udd01"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "SYZa8",
+        "site": "Syme",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 3,
+        "pre_window": [],
+        "post_window": [
+          "\ud800\udd01",
+          "JA-JA"
+        ],
+        "position_type": "initial"
+      },
+      {
+        "id": "TLZa1",
+        "site": "Troullos",
+        "support": "Stone vessel",
+        "position_in_inscription": 0,
+        "inscription_length": 11,
+        "pre_window": [],
+        "post_window": [
+          "\ud800\udd01",
+          "O-SU-QA-RE",
+          "\ud800\udd01"
+        ],
+        "position_type": "initial"
+      }
+    ]
+  },
+  "sign_301_analysis": {
+    "records_with_301": 288,
+    "tokens_with_301": {
+      "JA-TA-I-*301-U-JA": 1,
+      "ZU-*301-SE-DE-*21F-*118": 1,
+      "*301+*311": 10,
+      "DA-DU-*301": 1,
+      "*301": 238,
+      "*301-U-RA": 1,
+      "TE-*301": 2,
+      "I+*301": 2,
+      "*905-*301": 1,
+      "E-*301": 1,
+      "*301-*301": 2,
+      "A-TA-I-*301-WA-JA": 11,
+      "*301-WA": 1,
+      "TA-NA-I-*301-U-TI-NU": 1,
+      "A-NA-TI-*301-WA-JA": 1,
+      "DA+*301": 1,
+      "*307+*301[": 1,
+      "*301-NA": 1,
+      "A-*301": 1,
+      "MI+*301": 2,
+      "A-RE-NE-SI-DI-*301-PI-KE-PA-JA-TA-RI-SE-TE-RI-MU-A-JA-KU": 1,
+      "A-TA-I-*301-WA-E": 1,
+      "TA-NA-I-*301-TI": 1,
+      "NA-TU-*301-NE": 1,
+      "*301-SI": 1,
+      "A-*301-KI-TA-A": 1,
+      "SA-*301-RI": 1,
+      "A-TA-I-*301-DE-KA": 1
+    },
+    "standalone_records": 238,
+    "position_initial": 268,
+    "position_non_initial": 20
+  },
+  "jasasara_variants": {
+    "JA-SA-SA-RA": 1,
+    "JA-SA-SA-RA-ME": 7,
+    "JA-SA-SA-RA-MA": 1
+  }
+}
