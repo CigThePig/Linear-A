@@ -57,6 +57,49 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #2 — Administrative Formula Bootstrapping + Suffix Paradigm Reconstruction
+
+**Date:** 2026-03-18
+**Hypothesis file:** `hypotheses/2026-03-18-admin-formula-bootstrapping.md`
+**Session:** claude/text-deciphering-plan-BBC6j
+**Strategy:** Administrative Bootstrapping / Suffix Analysis
+**Language tested (if applicable):** N/A (structural analysis; secondary Hurrian morphology comparison)
+
+#### Summary of Approach
+
+First corpus-scale computational analysis of all 1721 inscriptions. Used KU-RO ("total") as a positional anchor to find other tokens appearing in the closing-formula slot (immediately before a terminal number). Separately computed a suffix × logogram co-occurrence matrix to test whether word-final syllables cluster around specific administrative contexts, providing preliminary evidence for grammatical case suffixes.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl` (all 1721 records)
+- Inscriptions analyzed: all 1721
+- Methods: positional frequency analysis, terminal-slot extraction, bigram frequency, suffix co-occurrence matrix
+
+#### Results
+**Outcome:** PARTIAL SUCCESS
+**Key finding:** One new closing-formula candidate (*23M, 3 sites), two stable cross-site ritual bigrams discovered, and suffix differentiation confirms -RE strongly correlates with accounting contexts while -JA shows zero KI-RO co-occurrence.
+**Confidence:** Medium
+
+#### What Was Learned
+
+1. KI-RO is almost exclusively a Haghia Triada token (16/16 occurrences at HT) — cannot be used as a multi-site anchor without caution.
+2. Unknown sign `*23M` appears in KU-RO-equivalent structural position at 3 sites — warrants paleographic investigation.
+3. Ritual formula `I-PI-NA-MA SI-RU-TE` is stable across 4 cult sites; `JA-SA-SA-RA-ME U-NA-KA-NA-SI` confirmed as fixed bigram at 2 sites.
+4. Suffix -RE correlates most strongly with accounting vocabulary (KU-RO/KI-RO); -JA shows zero deficit-context co-occurrence at 17 sites — suggests distinct grammatical roles.
+5. -TI strongly co-occurs with VIR (person logogram) — possible personal name or occupational suffix.
+
+#### Why a Re-attempt Needs to Differ
+
+This attempt used record-level co-occurrence. A follow-up should use line-level positional analysis to get finer-grained grammatical information. The `*23M` finding requires paleographic identification before any semantic claim. The ritual register bigrams should be analyzed separately using the `corpus/linear_a_rag_chunks.jsonl` for full inscription context.
+
+#### Follow-up Questions Generated
+- [ ] What is sign `*23M`? Paleographic comparison with Linear B needed.
+- [ ] Can line-level positional analysis strengthen suffix role assignment?
+- [ ] Why is KI-RO restricted to Haghia Triada? Scribal convention or palace-specific accounting practice?
+- [ ] What is `U-NA-KA-NA-SI` — divine title, personal name, or ritual action?
+- [ ] Do -TI words at HT cluster around specific scribes (personal name suffix hypothesis)?
+
+---
+
 ### Attempt #1 — Prior Scholarship Survey (Pre-Computational Era)
 
 **Date:** 2026-03-18

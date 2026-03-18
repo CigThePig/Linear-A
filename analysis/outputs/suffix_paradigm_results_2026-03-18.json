@@ -1,0 +1,3608 @@
+{
+  "corpus_size": 1721,
+  "total_suffixes_found": 55,
+  "suffix_stats": {
+    "JA": {
+      "record_count": 58,
+      "token_occurrence_count": 64,
+      "site_count": 17,
+      "sites": [
+        "Apodoulou",
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Malia",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Prassa",
+        "Pyrgos",
+        "Syme",
+        "Traostalos",
+        "Troullos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "A-TA-I-*301-WA-JA",
+        "PA-SE-JA",
+        "A-JA",
+        "I-JA",
+        "RE-JA",
+        "JA-JA",
+        "JA-TA-I-*301-U-JA",
+        "*47-NU-RA-JA",
+        "A-SE-JA",
+        "TI-NU-JA"
+      ],
+      "support_distribution": {
+        "Stone vessel": 23,
+        "Metal object": 1,
+        "Tablet": 29,
+        "Roundel": 3,
+        "Clay vessel": 3,
+        "Graffito": 1,
+        "Architecture": 1,
+        "Stone object": 1,
+        "Inked inscription": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 8
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 2
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 0,
+      "hurrian_parallel": "possibly Minoan-specific or morphological gender marker"
+    },
+    "TE": {
+      "record_count": 52,
+      "token_occurrence_count": 56,
+      "site_count": 20,
+      "sites": [
+        "Apodoulou",
+        "Arkhalkhori",
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Kythera",
+        "Malia",
+        "Miletos",
+        "Palaikastro",
+        "Phaistos",
+        "Pyrgos",
+        "Syme",
+        "Tel Haror",
+        "Thera",
+        "Troullos",
+        "Vrysinas",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "SI-RU-TE",
+        "MI-NU-TE",
+        "I-DA-MA-TE",
+        "MA-KA-RI-TE",
+        "SI-TE",
+        "I-KU-PA₃-NA-TU-NA-TE",
+        "PI-MI-NA-TE",
+        "SI-DA-TE",
+        "*47-TE",
+        "A-RO-TE"
+      ],
+      "support_distribution": {
+        "Stone vessel": 21,
+        "Tablet": 23,
+        "Metal object": 2,
+        "Stone object": 1,
+        "Architecture": 3,
+        "Clay vessel": 5,
+        "clay vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 3,
+      "hurrian_parallel": "unknown case (Hurrian -te/di attested)"
+    },
+    "RE": {
+      "record_count": 51,
+      "token_occurrence_count": 58,
+      "site_count": 11,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Thera",
+        "Troullos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "DA-RE",
+        "PA-JA-RE",
+        "*28B-NU-MA-RE",
+        "SI-DA-RE",
+        "KU-RE",
+        "AU-SI-RE",
+        "JA-RE",
+        "A-RA-NA-RE",
+        "MI-RU-TA-RA-RE",
+        "TE-JA-RE"
+      ],
+      "support_distribution": {
+        "Tablet": 38,
+        "Roundel": 1,
+        "Clay vessel": 2,
+        "Inked inscription": 1,
+        "Metal object": 1,
+        "Stone vessel": 13,
+        "Lames (short thin tablet)": 1,
+        "4-sided bar": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 11
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 8
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 11,
+      "records_with_kiro": 8,
+      "hurrian_parallel": "possibly related to Hurrian -r(i) genitive"
+    },
+    "NA": {
+      "record_count": 50,
+      "token_occurrence_count": 54,
+      "site_count": 12,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Malia",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Platanos",
+        "Thera",
+        "Troullos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "KI-RE-TA-NA",
+        "PA₃-NI-NA",
+        "DI-RI-NA",
+        "KA-NA",
+        "DI-NA",
+        "I-PI-NA-MI-NA",
+        "A-DU-NI-TA-NA",
+        "DA-KU-NA",
+        "TA-RI-NA",
+        "NA-*21F-NE-MI-NA"
+      ],
+      "support_distribution": {
+        "Tablet": 38,
+        "Nodule": 1,
+        "Stone vessel": 10,
+        "3-sided bar": 1,
+        "Stone object": 1,
+        "Lames (short thin tablet)": 1,
+        "Metal object": 1,
+        "Clay vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 11
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 8
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 3
+        }
+      ],
+      "records_with_kuro": 6,
+      "records_with_kiro": 3,
+      "hurrian_parallel": "locative / genitive (Hurrian -na)"
+    },
+    "RA": {
+      "record_count": 46,
+      "token_occurrence_count": 48,
+      "site_count": 10,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Malia",
+        "Palaikastro",
+        "Phaistos",
+        "Samothrace",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "A-RA",
+        "DA-QE-RA",
+        "*324-DI-RA",
+        "KU-RA",
+        "KI-RA",
+        "PA-RA",
+        "SA-RA",
+        "ZU-DI-RA",
+        "*301-U-RA",
+        "KU-KU-DA-RA"
+      ],
+      "support_distribution": {
+        "Tablet": 33,
+        "Roundel": 4,
+        "Stone vessel": 5,
+        "Inked inscription": 1,
+        "Metal object": 2,
+        "3-sided bar": 1,
+        "Clay vessel": 1,
+        "Nodule": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "NI",
+          "cooccurrences": 10
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 2
+        }
+      ],
+      "records_with_kuro": 7,
+      "records_with_kiro": 2,
+      "hurrian_parallel": "locative (Hurrian -ra)"
+    },
+    "TI": {
+      "record_count": 40,
+      "token_occurrence_count": 49,
+      "site_count": 13,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Malia",
+        "Milos",
+        "Palaikastro",
+        "Phaistos",
+        "Platanos",
+        "Psykhro",
+        "Skoteino Cave",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "TA-NA-TI",
+        "I-TI",
+        "TA-TI",
+        "NU-TI",
+        "RE-TI",
+        "QA-KI-SE-NU-TI",
+        "DA-KU-SE-NE-TI",
+        "I-DU-TI",
+        "PA-DA-SU-TI",
+        "RA₂-TI"
+      ],
+      "support_distribution": {
+        "Metal object": 3,
+        "Tablet": 32,
+        "Graffito": 1,
+        "Stone vessel": 6,
+        "Roundel": 1,
+        "Clay vessel": 2,
+        "Inked inscription": 2,
+        "3-sided bar": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "VIR",
+          "cooccurrences": 10
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 7,
+      "records_with_kiro": 2,
+      "hurrian_parallel": "possibly related to Hurrian -di absolutive"
+    },
+    "SI": {
+      "record_count": 35,
+      "token_occurrence_count": 36,
+      "site_count": 16,
+      "sites": [
+        "Apodoulou",
+        "Crete",
+        "Gournia",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Pyrgos",
+        "Syme",
+        "Tiryns",
+        "Tylissos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "U-NA-KA-NA-SI",
+        "U-*34-SI",
+        "U-MI-NA-SI",
+        "I-SI",
+        "JA-SI",
+        "NA-SI",
+        "A-MA-WA-SI",
+        "SE-SI",
+        "RI-MI-SI",
+        "DA-NA-SI"
+      ],
+      "support_distribution": {
+        "Stone vessel": 10,
+        "Metal object": 1,
+        "Tablet": 19,
+        "Nodule": 1,
+        "Clay vessel": 2,
+        "Inked inscription": 1,
+        "Roundel": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 2
+        }
+      ],
+      "records_with_kuro": 4,
+      "records_with_kiro": 2,
+      "hurrian_parallel": null
+    },
+    "TA": {
+      "record_count": 35,
+      "token_occurrence_count": 37,
+      "site_count": 9,
+      "sites": [
+        "Apodoulou",
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Phaistos",
+        "Poros Herakleiou",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "A-RI-NI-TA",
+        "RU-MA-TA",
+        "MA-KA-I-TA",
+        "DA-I-PI-TA",
+        "I-NA-JA-RE-TA",
+        "NI-TA",
+        "*312-TA",
+        "KU-TA",
+        "SA-TA",
+        "TI-DA-TA"
+      ],
+      "support_distribution": {
+        "Stone vessel": 6,
+        "Tablet": 27,
+        "Lames (short thin tablet)": 1,
+        "Nodule": 1,
+        "Clay vessel": 1,
+        "Metal object": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "NI",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 2
+        }
+      ],
+      "records_with_kuro": 5,
+      "records_with_kiro": 2,
+      "hurrian_parallel": null
+    },
+    "KA": {
+      "record_count": 35,
+      "token_occurrence_count": 35,
+      "site_count": 10,
+      "sites": [
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Malia",
+        "Milos",
+        "Palaikastro",
+        "Petras",
+        "Tylissos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "SI-KA",
+        "DA-KA",
+        "I-KA",
+        "QE-KA",
+        "A-SI-JA-KA",
+        "TA-NI-KA",
+        "*86-KA",
+        "MI-KA",
+        "*86-SI-*118-KA",
+        "*333-DI-SU-KA"
+      ],
+      "support_distribution": {
+        "Tablet": 14,
+        "Nodule": 11,
+        "Roundel": 7,
+        "Stone vessel": 3
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "NE": {
+      "record_count": 34,
+      "token_occurrence_count": 35,
+      "site_count": 11,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Phaistos",
+        "Skhinia",
+        "Skoteino Cave",
+        "Thera",
+        "Trypiti",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "*21F-TU-NE",
+        "PA-TA-NE",
+        "DA-KU-SE-NE",
+        "PA-RA-NE",
+        "A-PA-RA-NE",
+        "A-NE",
+        "MI-KI-SA-NE",
+        "KA-NE",
+        "SI-KI-NE",
+        "QE-TU-NE"
+      ],
+      "support_distribution": {
+        "Tablet": 25,
+        "Nodule": 1,
+        "Inked inscription": 2,
+        "Metal object": 1,
+        "Stone vessel": 3,
+        "Clay vessel": 3
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "NI",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 1,
+      "hurrian_parallel": "nominative plural"
+    },
+    "MI": {
+      "record_count": 32,
+      "token_occurrence_count": 33,
+      "site_count": 11,
+      "sites": [
+        "Arkhalkhori",
+        "Crete",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Syme",
+        "Trypiti",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "WA-DU-NI-MI",
+        "A-MI",
+        "*805-MI",
+        "A-TI-KA-A-DU-KO-MI",
+        "VIN-MI",
+        "RU-MI",
+        "DE-MI",
+        "KA-NI-JA-MI",
+        "SI-DU-*34-KU-MI",
+        "U-DI-MI"
+      ],
+      "support_distribution": {
+        "Stone object": 1,
+        "Tablet": 16,
+        "Metal object": 1,
+        "Roundel": 5,
+        "Lames (short thin tablet)": 2,
+        "Stone vessel": 7,
+        "Clay vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 3,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "MA": {
+      "record_count": 31,
+      "token_occurrence_count": 32,
+      "site_count": 12,
+      "sites": [
+        "Apodoulou",
+        "Haghia Triada",
+        "Haghios Stehanos",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Malia",
+        "Phaistos",
+        "Troullos",
+        "Vrysinas",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "I-PI-NA-MA",
+        "SA-MA",
+        "A-MA",
+        "RI-SU-MA",
+        "QA-NU-MA",
+        "KU-RU-MA",
+        "TU-JU-MA",
+        "RI-RU-MA",
+        "SA-JA-MA",
+        "RU-MA"
+      ],
+      "support_distribution": {
+        "Stone vessel": 11,
+        "Stone object": 1,
+        "Tablet": 14,
+        "Metal object": 1,
+        "Clay vessel": 2,
+        "3-sided bar": 1,
+        "Roundel": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 3,
+      "records_with_kiro": 2,
+      "hurrian_parallel": null
+    },
+    "RU": {
+      "record_count": 30,
+      "token_occurrence_count": 36,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Milos",
+        "Palaikastro",
+        "Tylissos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "SA-RU",
+        "QA-QA-RU",
+        "A-KA-RU",
+        "DI-DE-RU",
+        "MU-RU",
+        "A-RU",
+        "SI-RU",
+        "KA-RU",
+        "*305-RU",
+        "KA-SA-RU"
+      ],
+      "support_distribution": {
+        "Tablet": 31,
+        "Clay vessel": 1,
+        "Stone vessel": 3,
+        "Label": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 9
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 8
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 8,
+      "records_with_kiro": 5,
+      "hurrian_parallel": null
+    },
+    "VS": {
+      "record_count": 30,
+      "token_occurrence_count": 30,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Malia",
+        "Zominthos"
+      ],
+      "top_tokens": [
+        "*411-VS",
+        "*409-VS",
+        "*408-VS",
+        "*417-VS",
+        "*410-VS",
+        "*403-VS",
+        "*406-VS",
+        "*404-VS"
+      ],
+      "support_distribution": {
+        "Tablet": 4,
+        "Roundel": 25,
+        "4-sided bar": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "SE": {
+      "record_count": 27,
+      "token_occurrence_count": 31,
+      "site_count": 7,
+      "sites": [
+        "Gournia",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Psykhro",
+        "Syme",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "A-SE",
+        "DU-RE-ZA-SE",
+        "DI-KI-SE",
+        "PA-SE",
+        "I-SE",
+        "A-SA-SU-MA-I-SE",
+        "PI-TA-KA-SE",
+        "RA-TI-SE",
+        "RE-DI-SE",
+        "A-NA-NU-SI-JA-SE"
+      ],
+      "support_distribution": {
+        "Roundel": 1,
+        "Tablet": 11,
+        "Clay vessel": 2,
+        "Sealing": 1,
+        "Stone vessel": 16
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "DI": {
+      "record_count": 27,
+      "token_occurrence_count": 27,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Iouktas",
+        "Palaikastro",
+        "Phaistos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "MA-DI",
+        "JE-DI",
+        "RU-DI",
+        "KA-DI",
+        "ZU-*22F-DI",
+        "SA-DI",
+        "DU-ME-DI",
+        "SA-RA-DI",
+        "TA-PI-SI-DI",
+        "DE-DI"
+      ],
+      "support_distribution": {
+        "Tablet": 17,
+        "Roundel": 2,
+        "Stone vessel": 6,
+        "Clay vessel": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 6,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "RO": {
+      "record_count": 25,
+      "token_occurrence_count": 25,
+      "site_count": 7,
+      "sites": [
+        "Arkhalkhori",
+        "Gournia",
+        "Haghia Triada",
+        "Kamilari",
+        "Khania",
+        "Zakros",
+        "unknown"
+      ],
+      "top_tokens": [
+        "SA-RO",
+        "*86-RO",
+        "KI-DA-RO",
+        "PO-TO-KU-RO",
+        "NU-RO",
+        "A-KI-RO",
+        "A-DA-RO",
+        "SI-DA-RO",
+        "DI-NA-RO",
+        "U-TA-RO"
+      ],
+      "support_distribution": {
+        "Tablet": 16,
+        "Roundel": 2,
+        "Clay vessel": 2,
+        "Nodule": 4,
+        "Stone vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 2
+        }
+      ],
+      "records_with_kuro": 5,
+      "records_with_kiro": 2,
+      "hurrian_parallel": "possibly Minoan-specific (KI-RO: deficit; KU-RO: total)"
+    },
+    "DU": {
+      "record_count": 25,
+      "token_occurrence_count": 26,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Tylissos"
+      ],
+      "top_tokens": [
+        "A-DU",
+        "*188-DU",
+        "ZU-DU",
+        "SI-DU",
+        "A-PU₂-NA-DU",
+        "SU-DU",
+        "MA-SI-DU",
+        "RA₂-DU",
+        "WI-DU",
+        "QE-TI-RA-DU"
+      ],
+      "support_distribution": {
+        "Tablet": 23,
+        "Nodule": 1,
+        "Roundel": 1,
+        "Clay vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 3
+        }
+      ],
+      "records_with_kuro": 4,
+      "records_with_kiro": 3,
+      "hurrian_parallel": null
+    },
+    "PA": {
+      "record_count": 24,
+      "token_occurrence_count": 24,
+      "site_count": 8,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Petras",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "KA-PA",
+        "KU-PA",
+        "KA-KU-PA",
+        "A-PA",
+        "TA-PA",
+        "TU-PA",
+        "DA-RO-PA",
+        "I-JA-PA",
+        "A-RI-PA",
+        "A-PA-DU-PA"
+      ],
+      "support_distribution": {
+        "Tablet": 15,
+        "Roundel": 2,
+        "Stone vessel": 7
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 4,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "ME": {
+      "record_count": 24,
+      "token_occurrence_count": 26,
+      "site_count": 10,
+      "sites": [
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Petras",
+        "Platanos",
+        "Prassa",
+        "Psykhro",
+        "Troullos"
+      ],
+      "top_tokens": [
+        "JA-SA-SA-RA-ME",
+        "DA-ME",
+        "MA-RU-ME",
+        "SA-SA-RA-ME",
+        "TU-RU-NU-SE-ME",
+        "SA-SA-ME",
+        "A-RA-TU-ME",
+        "SA-RA-ME",
+        "A-SA-SA-RA-ME",
+        "I-JA-PA-ME"
+      ],
+      "support_distribution": {
+        "Tablet": 11,
+        "Roundel": 1,
+        "Stone vessel": 11,
+        "Clay vessel": 1,
+        "Inked inscription": 1,
+        "Metal object": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "KI": {
+      "record_count": 23,
+      "token_occurrence_count": 24,
+      "site_count": 6,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Phaistos",
+        "Tylissos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "SI-PI-KI",
+        "TE-KI",
+        "KA-KI",
+        "SU-KI",
+        "I-KI",
+        "DI-KA-KI",
+        "U-KI",
+        "PA-I-KI",
+        "DA-KI",
+        "TU-SE-SU-KI"
+      ],
+      "support_distribution": {
+        "Tablet": 16,
+        "Clay vessel": 2,
+        "Sealing": 1,
+        "Stone vessel": 5
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "VIR",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 2,
+      "hurrian_parallel": null
+    },
+    "TU": {
+      "record_count": 22,
+      "token_occurrence_count": 24,
+      "site_count": 5,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "*306-TU",
+        "TE-TU",
+        "MI-TU",
+        "KU-PA₃-NA-TU",
+        "SI-TU",
+        "DA-NA-TU",
+        "SE-KU-TU",
+        "DA-TU",
+        "QE-TU",
+        "RE-TU"
+      ],
+      "support_distribution": {
+        "Tablet": 19,
+        "Nodule": 1,
+        "Stone vessel": 4
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 9
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 9,
+      "records_with_kiro": 3,
+      "hurrian_parallel": null
+    },
+    "DA": {
+      "record_count": 21,
+      "token_occurrence_count": 23,
+      "site_count": 12,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Nerokurou",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Thera",
+        "Tylissos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "I-DA",
+        "DA-RI-DA",
+        "I-DA-DA",
+        "KU-DA",
+        "TU-PA-DI-DA",
+        "KI-DA",
+        "MI-DA",
+        "DA-DA",
+        "I-NA-I-DA",
+        "A-RA-U-DA"
+      ],
+      "support_distribution": {
+        "Stone object": 1,
+        "Tablet": 12,
+        "Stone vessel": 8,
+        "Architecture": 1,
+        "Loom weight": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 6,
+      "records_with_kiro": 1,
+      "hurrian_parallel": "dative/directive (Hurrian -da)"
+    },
+    "NU": {
+      "record_count": 20,
+      "token_occurrence_count": 22,
+      "site_count": 9,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Iouktas",
+        "Kardamoutsa",
+        "Khania",
+        "Knossos",
+        "Malia",
+        "Petras",
+        "Phaistos"
+      ],
+      "top_tokens": [
+        "KU-PA₃-NU",
+        "QE-DE-MI-NU",
+        "KI-NU",
+        "JA-KI-SI-KI-NU",
+        "DA-MI-NU",
+        "DE-NU",
+        "TU-QE-NU",
+        "U-TI-NU",
+        "TA-NA-RA-TE-U-TI-NU",
+        "TA-NA-I-*301-U-TI-NU"
+      ],
+      "support_distribution": {
+        "Tablet": 13,
+        "Metal object": 2,
+        "Stone vessel": 3,
+        "Inked inscription": 1,
+        "3-sided bar": 2,
+        "Clay vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 7,
+      "records_with_kiro": 4,
+      "hurrian_parallel": null
+    },
+    "I": {
+      "record_count": 19,
+      "token_occurrence_count": 20,
+      "site_count": 7,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Thera"
+      ],
+      "top_tokens": [
+        "QA-*310-I",
+        "DA-I",
+        "A-SI-DA-TO-I",
+        "A-I",
+        "KI-TA-I",
+        "DI-JA-I",
+        "A-RE-DA-I",
+        "PA-*342-I",
+        "MA-RI-RE-I",
+        "KA-RI-*310-I"
+      ],
+      "support_distribution": {
+        "Tablet": 17,
+        "Stone vessel": 2,
+        "Metal object": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "NI": {
+      "record_count": 19,
+      "token_occurrence_count": 22,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Phaistos",
+        "Platanos",
+        "Thera"
+      ],
+      "top_tokens": [
+        "PA₃-NI",
+        "KU-ZU-NI",
+        "WA-DI-NI",
+        "DU-SU-NI",
+        "*86-SI-NI",
+        "RU-NI",
+        "RO-NI",
+        "KA-U-ZU-NI",
+        "MI-DA-NI",
+        "TI-DU-NI"
+      ],
+      "support_distribution": {
+        "Tablet": 17,
+        "Roundel": 2,
+        "Lames (short thin tablet)": 1,
+        "Metal object": 1,
+        "Clay vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "VIR",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 4,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "ZA": {
+      "record_count": 19,
+      "token_occurrence_count": 21,
+      "site_count": 8,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Palaikastro",
+        "Petras",
+        "Syme",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "U-*325-ZA",
+        "RE-ZA",
+        "ME-ZA",
+        "U-DE-ZA",
+        "A-RA-JU-U-DE-ZA",
+        "A-SE-RE-ZA",
+        "DU-RE-ZA",
+        "I-ZA",
+        "TA-SA-ZA",
+        "A-RA-KO-KU-ZU-WA-SA-TO-MA-RO-AU-TA-DE-PO-NI-ZA"
+      ],
+      "support_distribution": {
+        "Tablet": 15,
+        "Metal object": 2,
+        "Stone vessel": 4
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 5,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "SA": {
+      "record_count": 19,
+      "token_occurrence_count": 19,
+      "site_count": 12,
+      "sites": [
+        "Haghia Triada",
+        "Iouktas",
+        "Kea",
+        "Khania",
+        "Kophinas",
+        "Malia",
+        "Palaikastro",
+        "Phaistos",
+        "Samothrace",
+        "Thera",
+        "Vrysinas",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "JA-SA",
+        "PI-SA",
+        "QA-SA",
+        "WI-SA",
+        "TI-SA",
+        "QA-*118-SA",
+        "RU-SA",
+        "A-JE-SA",
+        "KA-SA",
+        "TU-RU-SA"
+      ],
+      "support_distribution": {
+        "Tablet": 8,
+        "Stone vessel": 6,
+        "Clay vessel": 2,
+        "Lames (short thin tablet)": 1,
+        "Nodule": 1,
+        "clay vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "NI",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 1,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "SU": {
+      "record_count": 15,
+      "token_occurrence_count": 16,
+      "site_count": 6,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "KU-NI-SU",
+        "DE-SU",
+        "ZU-SU",
+        "U-SU",
+        "A-RI-SU",
+        "PA-RO-SU",
+        "RE-SU",
+        "JA-DA-SU",
+        "JA-SU",
+        "RA-NA-TU-SU"
+      ],
+      "support_distribution": {
+        "Tablet": 15,
+        "Stone vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 3,
+      "hurrian_parallel": null
+    },
+    "RI": {
+      "record_count": 15,
+      "token_occurrence_count": 19,
+      "site_count": 7,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "TE-RI",
+        "A-RI",
+        "*322-RI",
+        "SA-QE-RI",
+        "RA-RI",
+        "MA-RI",
+        "TU-PA-RI",
+        "A-DA-*21F-RI",
+        "KU-PA-RI",
+        "DU-RI"
+      ],
+      "support_distribution": {
+        "Tablet": 15,
+        "Stone vessel": 4
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 3,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "PI": {
+      "record_count": 13,
+      "token_occurrence_count": 13,
+      "site_count": 8,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Petras",
+        "Tylissos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "TA-PI",
+        "JA-PI",
+        "WA-JA-PI",
+        "I-KU-PI",
+        "NI-PI",
+        "WI-PI",
+        "A-PI",
+        "A-WA-PI",
+        "JA-WA-PI",
+        "I-PI"
+      ],
+      "support_distribution": {
+        "Tablet": 5,
+        "Roundel": 1,
+        "Inked inscription": 1,
+        "Architecture": 1,
+        "Metal object": 1,
+        "Clay vessel": 1,
+        "Stone vessel": 3
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 1,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "JU": {
+      "record_count": 13,
+      "token_occurrence_count": 17,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos",
+        "Tylissos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "KU-RE-JU",
+        "A-RA-JU",
+        "*327-JU",
+        "KU-MA-JU",
+        "SA-RE-JU",
+        "KA-JU",
+        "A-JU",
+        "PI-RU-E-JU",
+        "*309-RI-JU",
+        "*309C-DA-JU"
+      ],
+      "support_distribution": {
+        "Tablet": 12,
+        "Graffito": 1,
+        "Stone vessel": 4
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "VIR",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 4,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "KU": {
+      "record_count": 13,
+      "token_occurrence_count": 13,
+      "site_count": 7,
+      "sites": [
+        "Haghia Triada",
+        "Knossos",
+        "Larani",
+        "Malia",
+        "Selakanos",
+        "Syme",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "TI-TI-KU",
+        "PU-MA-KU",
+        "KA-KU",
+        "KU-RU-KU",
+        "DE-JU-KU",
+        "*34-TI-RI-A-DI-DA-KI-TI-PA-KU",
+        "A-RE-NE-SI-DI-*301-PI-KE-PA-JA-TA-RI-SE-TE-RI-MU-A-JA-KU",
+        "JA-TI-TU-KU",
+        "JA-KU",
+        "DA-KU"
+      ],
+      "support_distribution": {
+        "Tablet": 5,
+        "Inked inscription": 1,
+        "Metal object": 2,
+        "Clay vessel": 1,
+        "3-sided bar": 1,
+        "Stone vessel": 3
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "OLE",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "DE": {
+      "record_count": 12,
+      "token_occurrence_count": 12,
+      "site_count": 5,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Khania",
+        "Phaistos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "PA-DE",
+        "A-TA-DE",
+        "RA-RI-DE",
+        "DI-DE",
+        "PU-DE",
+        "PA-RI-DE",
+        "MA-RE-RI-MI-DE",
+        "A-DE",
+        "I-DE",
+        "SE-WA-AU-DE"
+      ],
+      "support_distribution": {
+        "Metal object": 1,
+        "Tablet": 8,
+        "Stone vessel": 2,
+        "Label": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 3,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "U": {
+      "record_count": 11,
+      "token_occurrence_count": 12,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Larani",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "DI-NA-U",
+        "QE-RA₂-U",
+        "TA-U",
+        "RI-DA-U",
+        "A-MI-DA-U"
+      ],
+      "support_distribution": {
+        "Tablet": 9,
+        "Clay vessel": 1,
+        "Stone vessel": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "VIN",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "E": {
+      "record_count": 10,
+      "token_occurrence_count": 11,
+      "site_count": 6,
+      "sites": [
+        "Kea",
+        "Khania",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "QE-SI-ZU-E",
+        "SA-MI-DA-E",
+        "JA-SI-E",
+        "KO-E",
+        "GRA-TI-E",
+        "RO-E",
+        "*328-E",
+        "A-TA-I-*301-WA-E",
+        "PA₃-E"
+      ],
+      "support_distribution": {
+        "Clay vessel": 1,
+        "Tablet": 3,
+        "Roundel": 1,
+        "Stone vessel": 6
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "WA": {
+      "record_count": 9,
+      "token_occurrence_count": 9,
+      "site_count": 7,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Iouktas",
+        "Knossos",
+        "Malia",
+        "Phaistos",
+        "Tylissos"
+      ],
+      "top_tokens": [
+        "A-SU-PU-WA",
+        "DU-ZU-WA",
+        "QA-RA₂-WA",
+        "*301-WA",
+        "DA-WA",
+        "JA-WA",
+        "DU-PI-TE-WA",
+        "I-NA-WA",
+        "KO-A-DU-WA"
+      ],
+      "support_distribution": {
+        "Tablet": 5,
+        "Stone vessel": 3,
+        "4-sided bar": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "QE": {
+      "record_count": 9,
+      "token_occurrence_count": 9,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Knossos",
+        "Phaistos",
+        "Thera",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "KU-MI-NA-QE",
+        "*815-PA-TA-QE",
+        "SA-RO-QE",
+        "KA-PA-QE",
+        "JA-QE",
+        "E-TA₂-QE",
+        "I-KI-RU-QE",
+        "PA-NU-QE"
+      ],
+      "support_distribution": {
+        "Tablet": 5,
+        "Roundel": 1,
+        "Stone vessel": 2,
+        "Triton": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "A": {
+      "record_count": 8,
+      "token_occurrence_count": 8,
+      "site_count": 7,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Tylissos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "PI-TI-NE-A",
+        "DU-AROM-A",
+        "A-SI-SU-PO-A",
+        "U-NA-A",
+        "I-DA-A",
+        "A-*301-KI-TA-A",
+        "MA-RU-A",
+        "PI-*310-A"
+      ],
+      "support_distribution": {
+        "Tablet": 3,
+        "Clay vessel": 2,
+        "Stone vessel": 2,
+        "Stone object": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "JE": {
+      "record_count": 8,
+      "token_occurrence_count": 8,
+      "site_count": 7,
+      "sites": [
+        "Arkhalkhori",
+        "Fourni",
+        "Khania",
+        "Knossos",
+        "Larani",
+        "Petras",
+        "Thera"
+      ],
+      "top_tokens": [
+        "*306-TA-JE",
+        "RI-TA-JE",
+        "KA-JE",
+        "SE-JE",
+        "TA-NA-MA-JE",
+        "A-TA-NA-JE",
+        "A-JE"
+      ],
+      "support_distribution": {
+        "Inked inscription": 2,
+        "Tablet": 1,
+        "Lames (short thin tablet)": 1,
+        "Stone vessel": 1,
+        "Stone object": 1,
+        "Clay vessel": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "PU": {
+      "record_count": 8,
+      "token_occurrence_count": 9,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Tylissos"
+      ],
+      "top_tokens": [
+        "QE-PU",
+        "*415-VS-SU-PU",
+        "QE-SU-PU",
+        "SI-PU",
+        "QA-PU",
+        "SA-PU",
+        "*309B-KI-PU",
+        "*309-DA-PU"
+      ],
+      "support_distribution": {
+        "Tablet": 8,
+        "Clay vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 2,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "KE": {
+      "record_count": 7,
+      "token_occurrence_count": 7,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos",
+        "Prassa",
+        "Psykhro",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "DI-DI-ZA-KE",
+        "TE-KE",
+        "RO-KE",
+        "I-SA-RI-KE",
+        "TA-NA-SU-TE-KE",
+        "RE-I-KE",
+        "TA-KE"
+      ],
+      "support_distribution": {
+        "Tablet": 4,
+        "Stone vessel": 3
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 1,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "VIN": {
+      "record_count": 7,
+      "token_occurrence_count": 8,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Palaikastro",
+        "Phaistos",
+        "Pyrgos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "SA-VIN",
+        "PU-VIN",
+        "*412-VS-VIN",
+        "VIN-VIN",
+        "*806-VIN",
+        "ME-VIN"
+      ],
+      "support_distribution": {
+        "Tablet": 5,
+        "Stone object": 1,
+        "Stone vessel": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "OLIV",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 1,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "WI": {
+      "record_count": 7,
+      "token_occurrence_count": 8,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Knossos",
+        "Malia",
+        "Syme",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "RI-TA-MA-NU-WI",
+        "NU-WI",
+        "U-RE-WI",
+        "DU-RU-WI",
+        "JA-DI-WI",
+        "*903-I-DU-WI",
+        "PA₃-NI-WI",
+        "JA-WI"
+      ],
+      "support_distribution": {
+        "Tablet": 4,
+        "Clay vessel": 1,
+        "3-sided bar": 1,
+        "Stone vessel": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 2
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "ZU": {
+      "record_count": 6,
+      "token_occurrence_count": 6,
+      "site_count": 6,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Phaistos",
+        "Tylissos"
+      ],
+      "top_tokens": [
+        "ZA-SI-ZU",
+        "MA-ZU",
+        "KU-PA-ZU",
+        "JU-KU-NA-PA-KU-NU-U-I-ZU",
+        "TE-ZU",
+        "PI-KU-ZU"
+      ],
+      "support_distribution": {
+        "Tablet": 4,
+        "Inked inscription": 1,
+        "Lames (short thin tablet)": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 1,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "MU": {
+      "record_count": 6,
+      "token_occurrence_count": 6,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Mokhilos",
+        "Platanos",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "KU-RA-MU",
+        "*333-SA-MU",
+        "WI-TE-JA-MU",
+        "JA-SA-MU",
+        "PI-MU",
+        "KO-MU"
+      ],
+      "support_distribution": {
+        "Tablet": 1,
+        "Metal object": 2,
+        "Stone vessel": 3
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 1,
+      "records_with_kiro": 1,
+      "hurrian_parallel": null
+    },
+    "QA": {
+      "record_count": 5,
+      "token_occurrence_count": 5,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Palaikastro",
+        "Syme"
+      ],
+      "top_tokens": [
+        "*21F-RI-TU-QA",
+        "KA-QA",
+        "I-NA-JA-PA-QA",
+        "JA-PA-QA",
+        "RO-QA"
+      ],
+      "support_distribution": {
+        "Tablet": 2,
+        "Stone vessel": 3
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "CYP",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "AROM": {
+      "record_count": 5,
+      "token_occurrence_count": 5,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "TA-I-AROM",
+        "A-ME-AROM",
+        "TE-AROM"
+      ],
+      "support_distribution": {
+        "Tablet": 4,
+        "Stone vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 3,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "TO": {
+      "record_count": 4,
+      "token_occurrence_count": 4,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Knossos"
+      ],
+      "top_tokens": [
+        "PA-I-TO",
+        "QA-RE-TO",
+        "DU-WA-TO"
+      ],
+      "support_distribution": {
+        "Tablet": 3,
+        "Stone vessel": 1
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "CYP": {
+      "record_count": 4,
+      "token_occurrence_count": 5,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "top_tokens": [
+        "SI-CYP",
+        "*348-CYP",
+        "*304-CYP",
+        "TA₂-CYP"
+      ],
+      "support_distribution": {
+        "Tablet": 5
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "CYP",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "VIN",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 1,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "KO": {
+      "record_count": 2,
+      "token_occurrence_count": 2,
+      "site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "top_tokens": [
+        "RU-I-KO",
+        "PU-KO"
+      ],
+      "support_distribution": {
+        "Tablet": 2
+      },
+      "top_cooccurring_logograms": [],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "O": {
+      "record_count": 2,
+      "token_occurrence_count": 2,
+      "site_count": 1,
+      "sites": [
+        "Phaistos"
+      ],
+      "top_tokens": [
+        "A-MI-DA-O",
+        "PI-O"
+      ],
+      "support_distribution": {
+        "Tablet": 2
+      },
+      "top_cooccurring_logograms": [],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "OLIV": {
+      "record_count": 2,
+      "token_occurrence_count": 2,
+      "site_count": 2,
+      "sites": [
+        "Syme",
+        "Zakros"
+      ],
+      "top_tokens": [
+        "JA-SU-MA-TU-OLIV",
+        "I-OLIV"
+      ],
+      "support_distribution": {
+        "Stone vessel": 2
+      },
+      "top_cooccurring_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 1
+        }
+      ],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "PO": {
+      "record_count": 1,
+      "token_occurrence_count": 1,
+      "site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "top_tokens": [
+        "SA-PO"
+      ],
+      "support_distribution": {
+        "Tablet": 1
+      },
+      "top_cooccurring_logograms": [],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    },
+    "OLE": {
+      "record_count": 1,
+      "token_occurrence_count": 1,
+      "site_count": 1,
+      "sites": [
+        "Syme"
+      ],
+      "top_tokens": [
+        "U-NA-KA-NA-SI-OLE"
+      ],
+      "support_distribution": {
+        "Stone vessel": 1
+      },
+      "top_cooccurring_logograms": [],
+      "records_with_kuro": 0,
+      "records_with_kiro": 0,
+      "hurrian_parallel": null
+    }
+  },
+  "suffix_logogram_matrix": {
+    "JA": {
+      "KU-RO": 2,
+      "GRA": 8,
+      "VIR": 7,
+      "NI": 4,
+      "VIN": 2,
+      "OLE": 3,
+      "CYP": 2,
+      "KI-RO": 0,
+      "OLIV": 2
+    },
+    "TE": {
+      "KU-RO": 2,
+      "GRA": 6,
+      "VIR": 0,
+      "NI": 3,
+      "VIN": 1,
+      "OLE": 2,
+      "CYP": 3,
+      "KI-RO": 3,
+      "OLIV": 1
+    },
+    "RE": {
+      "KU-RO": 11,
+      "GRA": 3,
+      "VIR": 5,
+      "NI": 5,
+      "VIN": 1,
+      "OLE": 2,
+      "CYP": 3,
+      "KI-RO": 8,
+      "OLIV": 0
+    },
+    "NA": {
+      "KU-RO": 6,
+      "GRA": 11,
+      "VIR": 8,
+      "NI": 6,
+      "VIN": 3,
+      "OLE": 6,
+      "CYP": 3,
+      "KI-RO": 3,
+      "OLIV": 0
+    },
+    "RA": {
+      "KU-RO": 7,
+      "GRA": 6,
+      "VIR": 5,
+      "NI": 10,
+      "VIN": 6,
+      "OLE": 4,
+      "CYP": 5,
+      "KI-RO": 2,
+      "OLIV": 0
+    },
+    "TI": {
+      "KU-RO": 7,
+      "GRA": 3,
+      "VIR": 10,
+      "NI": 0,
+      "VIN": 3,
+      "OLE": 1,
+      "CYP": 0,
+      "KI-RO": 2,
+      "OLIV": 0
+    },
+    "SI": {
+      "KU-RO": 4,
+      "GRA": 3,
+      "VIR": 3,
+      "NI": 2,
+      "VIN": 4,
+      "OLE": 4,
+      "CYP": 4,
+      "KI-RO": 2,
+      "OLIV": 0
+    },
+    "TA": {
+      "KU-RO": 5,
+      "GRA": 5,
+      "VIR": 2,
+      "NI": 6,
+      "VIN": 4,
+      "OLE": 3,
+      "CYP": 4,
+      "KI-RO": 2,
+      "OLIV": 0
+    },
+    "KA": {
+      "KU-RO": 2,
+      "GRA": 6,
+      "VIR": 4,
+      "NI": 5,
+      "VIN": 4,
+      "OLE": 4,
+      "CYP": 1,
+      "KI-RO": 0,
+      "OLIV": 1
+    },
+    "NE": {
+      "KU-RO": 2,
+      "GRA": 6,
+      "VIR": 0,
+      "NI": 7,
+      "VIN": 1,
+      "OLE": 4,
+      "CYP": 3,
+      "KI-RO": 1,
+      "OLIV": 2
+    },
+    "MI": {
+      "KU-RO": 3,
+      "GRA": 2,
+      "VIR": 2,
+      "NI": 2,
+      "VIN": 1,
+      "OLE": 0,
+      "CYP": 2,
+      "KI-RO": 1,
+      "OLIV": 1
+    },
+    "MA": {
+      "KU-RO": 3,
+      "GRA": 4,
+      "VIR": 0,
+      "NI": 1,
+      "VIN": 1,
+      "OLE": 1,
+      "CYP": 0,
+      "KI-RO": 2,
+      "OLIV": 1
+    },
+    "RU": {
+      "KU-RO": 8,
+      "GRA": 9,
+      "VIR": 4,
+      "NI": 1,
+      "VIN": 3,
+      "OLE": 2,
+      "CYP": 0,
+      "KI-RO": 5,
+      "OLIV": 2
+    },
+    "VS": {
+      "KU-RO": 0,
+      "GRA": 0,
+      "VIR": 1,
+      "NI": 0,
+      "VIN": 0,
+      "OLE": 0,
+      "CYP": 0,
+      "KI-RO": 0,
+      "OLIV": 0
+    },
+    "SE": {
+      "KU-RO": 0,
+      "GRA": 5,
+      "VIR": 1,
+      "NI": 2,
+      "VIN": 3,
+      "OLE": 2,
+      "CYP": 1,
+      "KI-RO": 0,
+      "OLIV": 3
+    }
+  },
+  "hurrian_comparison": {
+    "NE": {
+      "la_suffix": "-NE",
+      "hurrian_meaning": "nominative plural",
+      "record_count": 34,
+      "site_count": 11,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro"
+      ],
+      "top_tokens": [
+        "*21F-TU-NE",
+        "PA-TA-NE",
+        "DA-KU-SE-NE",
+        "PA-RA-NE",
+        "A-PA-RA-NE"
+      ],
+      "kuro_cooccurrence_rate": 0.059,
+      "kiro_cooccurrence_rate": 0.029,
+      "top_logograms": [
+        {
+          "logogram": "NI",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "OLE",
+          "cooccurrences": 4
+        }
+      ]
+    },
+    "NA": {
+      "la_suffix": "-NA",
+      "hurrian_meaning": "locative / genitive (Hurrian -na)",
+      "record_count": 50,
+      "site_count": 12,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Malia"
+      ],
+      "top_tokens": [
+        "KI-RE-TA-NA",
+        "PA₃-NI-NA",
+        "DI-RI-NA",
+        "KA-NA",
+        "DI-NA"
+      ],
+      "kuro_cooccurrence_rate": 0.12,
+      "kiro_cooccurrence_rate": 0.06,
+      "top_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 11
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 8
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 6
+        }
+      ]
+    },
+    "RA": {
+      "la_suffix": "-RA",
+      "hurrian_meaning": "locative (Hurrian -ra)",
+      "record_count": 46,
+      "site_count": 10,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos"
+      ],
+      "top_tokens": [
+        "A-RA",
+        "DA-QE-RA",
+        "*324-DI-RA",
+        "KU-RA",
+        "KI-RA"
+      ],
+      "kuro_cooccurrence_rate": 0.152,
+      "kiro_cooccurrence_rate": 0.043,
+      "top_logograms": [
+        {
+          "logogram": "NI",
+          "cooccurrences": 10
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 6
+        }
+      ]
+    },
+    "DA": {
+      "la_suffix": "-DA",
+      "hurrian_meaning": "dative/directive (Hurrian -da)",
+      "record_count": 21,
+      "site_count": 12,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos"
+      ],
+      "top_tokens": [
+        "I-DA",
+        "DA-RI-DA",
+        "I-DA-DA",
+        "KU-DA",
+        "TU-PA-DI-DA"
+      ],
+      "kuro_cooccurrence_rate": 0.286,
+      "kiro_cooccurrence_rate": 0.048,
+      "top_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 2
+        }
+      ]
+    },
+    "TE": {
+      "la_suffix": "-TE",
+      "hurrian_meaning": "unknown case (Hurrian -te/di attested)",
+      "record_count": 52,
+      "site_count": 20,
+      "sites": [
+        "Apodoulou",
+        "Arkhalkhori",
+        "Crete",
+        "Haghia Triada",
+        "Iouktas"
+      ],
+      "top_tokens": [
+        "SI-RU-TE",
+        "MI-NU-TE",
+        "I-DA-MA-TE",
+        "MA-KA-RI-TE",
+        "SI-TE"
+      ],
+      "kuro_cooccurrence_rate": 0.038,
+      "kiro_cooccurrence_rate": 0.058,
+      "top_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 6
+        },
+        {
+          "logogram": "CYP",
+          "cooccurrences": 3
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 3
+        }
+      ]
+    },
+    "RE": {
+      "la_suffix": "-RE",
+      "hurrian_meaning": "possibly related to Hurrian -r(i) genitive",
+      "record_count": 51,
+      "site_count": 11,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Kophinas"
+      ],
+      "top_tokens": [
+        "DA-RE",
+        "PA-JA-RE",
+        "*28B-NU-MA-RE",
+        "SI-DA-RE",
+        "KU-RE"
+      ],
+      "kuro_cooccurrence_rate": 0.216,
+      "kiro_cooccurrence_rate": 0.157,
+      "top_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 11
+        },
+        {
+          "logogram": "KI-RO",
+          "cooccurrences": 8
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 5
+        }
+      ]
+    },
+    "TI": {
+      "la_suffix": "-TI",
+      "hurrian_meaning": "possibly related to Hurrian -di absolutive",
+      "record_count": 40,
+      "site_count": 13,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos"
+      ],
+      "top_tokens": [
+        "TA-NA-TI",
+        "I-TI",
+        "TA-TI",
+        "NU-TI",
+        "RE-TI"
+      ],
+      "kuro_cooccurrence_rate": 0.175,
+      "kiro_cooccurrence_rate": 0.05,
+      "top_logograms": [
+        {
+          "logogram": "VIR",
+          "cooccurrences": 10
+        },
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 3
+        }
+      ]
+    },
+    "RO": {
+      "la_suffix": "-RO",
+      "hurrian_meaning": "possibly Minoan-specific (KI-RO: deficit; KU-RO: total)",
+      "record_count": 25,
+      "site_count": 7,
+      "sites": [
+        "Arkhalkhori",
+        "Gournia",
+        "Haghia Triada",
+        "Kamilari",
+        "Khania"
+      ],
+      "top_tokens": [
+        "SA-RO",
+        "*86-RO",
+        "KI-DA-RO",
+        "PO-TO-KU-RO",
+        "NU-RO"
+      ],
+      "kuro_cooccurrence_rate": 0.2,
+      "kiro_cooccurrence_rate": 0.08,
+      "top_logograms": [
+        {
+          "logogram": "KU-RO",
+          "cooccurrences": 5
+        },
+        {
+          "logogram": "GRA",
+          "cooccurrences": 4
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 4
+        }
+      ]
+    },
+    "JA": {
+      "la_suffix": "-JA",
+      "hurrian_meaning": "possibly Minoan-specific or morphological gender marker",
+      "record_count": 58,
+      "site_count": 17,
+      "sites": [
+        "Apodoulou",
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania"
+      ],
+      "top_tokens": [
+        "A-TA-I-*301-WA-JA",
+        "PA-SE-JA",
+        "A-JA",
+        "I-JA",
+        "RE-JA"
+      ],
+      "kuro_cooccurrence_rate": 0.034,
+      "kiro_cooccurrence_rate": 0.0,
+      "top_logograms": [
+        {
+          "logogram": "GRA",
+          "cooccurrences": 8
+        },
+        {
+          "logogram": "VIR",
+          "cooccurrences": 7
+        },
+        {
+          "logogram": "NI",
+          "cooccurrences": 4
+        }
+      ]
+    }
+  },
+  "intra_record_suffix_pair_counts": {
+    "TI": 7,
+    "JA": 6,
+    "RE": 6,
+    "RU": 5,
+    "TE": 4,
+    "NA": 3,
+    "NI": 3,
+    "RI": 3,
+    "SE": 3,
+    "TU": 2,
+    "DA": 2,
+    "JU": 2,
+    "TA": 2,
+    "RA": 2,
+    "ZA": 1,
+    "NU": 1,
+    "DU": 1,
+    "WI": 1,
+    "I": 1,
+    "MA": 1
+  }
+}
