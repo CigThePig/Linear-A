@@ -1,0 +1,415 @@
+{
+  "metadata": {
+    "corpus_total": 1721,
+    "ritual_total": 155,
+    "baseline_ritual_rate": 0.09
+  },
+  "tana_token_summary": {
+    "TA-NA-TI": {
+      "token": "TA-NA-TI",
+      "occurrences": 4,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Tablet"
+      ],
+      "ritual_count": 0,
+      "ritual_rate": 0.0,
+      "mean_relative_word_position": 0.469,
+      "position_bins": {
+        "initial": 1,
+        "early": 1,
+        "mid": 0,
+        "late": 1,
+        "final": 1
+      },
+      "inscription_ids": [
+        "HT10b",
+        "HT49a",
+        "HT7a",
+        "HT98a"
+      ],
+      "details": [
+        {
+          "id": "HT10b",
+          "site": "Haghia Triada",
+          "support": "Tablet",
+          "word_pos": 6,
+          "total_words": 8,
+          "rel_pos": 0.857
+        },
+        {
+          "id": "HT49a",
+          "site": "Haghia Triada",
+          "support": "Tablet",
+          "word_pos": 2,
+          "total_words": 21,
+          "rel_pos": 0.1
+        },
+        {
+          "id": "HT7a",
+          "site": "Haghia Triada",
+          "support": "Tablet",
+          "word_pos": 4,
+          "total_words": 7,
+          "rel_pos": 0.667
+        },
+        {
+          "id": "HT98a",
+          "site": "Haghia Triada",
+          "support": "Tablet",
+          "word_pos": 3,
+          "total_words": 13,
+          "rel_pos": 0.25
+        }
+      ]
+    },
+    "TA-NA-RA-TE-U-TI-NU": {
+      "token": "TA-NA-RA-TE-U-TI-NU",
+      "occurrences": 1,
+      "sites": [
+        "Iouktas"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 1.0,
+      "position_bins": {
+        "initial": 0,
+        "early": 0,
+        "mid": 0,
+        "late": 0,
+        "final": 1
+      },
+      "inscription_ids": [
+        "IOZa2"
+      ],
+      "details": [
+        {
+          "id": "IOZa2",
+          "site": "Iouktas",
+          "support": "Stone vessel",
+          "word_pos": 6,
+          "total_words": 7,
+          "rel_pos": 1.0
+        }
+      ]
+    },
+    "TA-NA-I-*301-U-TI-NU": {
+      "token": "TA-NA-I-*301-U-TI-NU",
+      "occurrences": 1,
+      "sites": [
+        "Iouktas"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 0.0,
+      "position_bins": {
+        "initial": 1,
+        "early": 0,
+        "mid": 0,
+        "late": 0,
+        "final": 0
+      },
+      "inscription_ids": [
+        "IOZa6"
+      ],
+      "details": [
+        {
+          "id": "IOZa6",
+          "site": "Iouktas",
+          "support": "Stone vessel",
+          "word_pos": 0,
+          "total_words": 3,
+          "rel_pos": 0.0
+        }
+      ]
+    },
+    "TA-NA-MA-JE": {
+      "token": "TA-NA-MA-JE",
+      "occurrences": 1,
+      "sites": [
+        "Petras"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone object"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 0.75,
+      "position_bins": {
+        "initial": 0,
+        "early": 0,
+        "mid": 0,
+        "late": 1,
+        "final": 0
+      },
+      "inscription_ids": [
+        "PEZg6"
+      ],
+      "details": [
+        {
+          "id": "PEZg6",
+          "site": "Petras",
+          "support": "Stone object",
+          "word_pos": 3,
+          "total_words": 5,
+          "rel_pos": 0.75
+        }
+      ]
+    },
+    "TA-NA-SU-TE-KE": {
+      "token": "TA-NA-SU-TE-KE",
+      "occurrences": 1,
+      "sites": [
+        "Prassa"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 0.0,
+      "position_bins": {
+        "initial": 1,
+        "early": 0,
+        "mid": 0,
+        "late": 0,
+        "final": 0
+      },
+      "inscription_ids": [
+        "PRZa1"
+      ],
+      "details": [
+        {
+          "id": "PRZa1",
+          "site": "Prassa",
+          "support": "Stone vessel",
+          "word_pos": 0,
+          "total_words": 3,
+          "rel_pos": 0.0
+        }
+      ]
+    },
+    "TA-NA-I-*301-TI": {
+      "token": "TA-NA-I-*301-TI",
+      "occurrences": 1,
+      "sites": [
+        "Psykhro"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 0.333,
+      "position_bins": {
+        "initial": 0,
+        "early": 1,
+        "mid": 0,
+        "late": 0,
+        "final": 0
+      },
+      "inscription_ids": [
+        "PSZa2"
+      ],
+      "details": [
+        {
+          "id": "PSZa2",
+          "site": "Psykhro",
+          "support": "Stone vessel",
+          "word_pos": 1,
+          "total_words": 4,
+          "rel_pos": 0.333
+        }
+      ]
+    },
+    "TA-NA-TE": {
+      "token": "TA-NA-TE",
+      "occurrences": 1,
+      "sites": [
+        "Zakros"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 0.0,
+      "position_bins": {
+        "initial": 1,
+        "early": 0,
+        "mid": 0,
+        "late": 0,
+        "final": 0
+      },
+      "inscription_ids": [
+        "ZA10a"
+      ],
+      "details": [
+        {
+          "id": "ZA10a",
+          "site": "Zakros",
+          "support": "Stone vessel",
+          "word_pos": 0,
+          "total_words": 8,
+          "rel_pos": 0.0
+        }
+      ]
+    }
+  },
+  "utinu_token_summary": {
+    "U-TI-NU": {
+      "token": "U-TI-NU",
+      "occurrences": 1,
+      "sites": [
+        "Iouktas"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 0.667,
+      "position_bins": {
+        "initial": 0,
+        "early": 0,
+        "mid": 0,
+        "late": 1,
+        "final": 0
+      },
+      "inscription_ids": [
+        "IOZa11"
+      ],
+      "details": [
+        {
+          "id": "IOZa11",
+          "site": "Iouktas",
+          "support": "Stone vessel",
+          "word_pos": 2,
+          "total_words": 4,
+          "rel_pos": 0.667
+        }
+      ]
+    },
+    "TA-NA-RA-TE-U-TI-NU": {
+      "token": "TA-NA-RA-TE-U-TI-NU",
+      "occurrences": 1,
+      "sites": [
+        "Iouktas"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 1.0,
+      "position_bins": {
+        "initial": 0,
+        "early": 0,
+        "mid": 0,
+        "late": 0,
+        "final": 1
+      },
+      "inscription_ids": [
+        "IOZa2"
+      ],
+      "details": [
+        {
+          "id": "IOZa2",
+          "site": "Iouktas",
+          "support": "Stone vessel",
+          "word_pos": 6,
+          "total_words": 7,
+          "rel_pos": 1.0
+        }
+      ]
+    },
+    "TA-NA-I-*301-U-TI-NU": {
+      "token": "TA-NA-I-*301-U-TI-NU",
+      "occurrences": 1,
+      "sites": [
+        "Iouktas"
+      ],
+      "site_count": 1,
+      "supports": [
+        "Stone vessel"
+      ],
+      "ritual_count": 1,
+      "ritual_rate": 1.0,
+      "mean_relative_word_position": 0.0,
+      "position_bins": {
+        "initial": 1,
+        "early": 0,
+        "mid": 0,
+        "late": 0,
+        "final": 0
+      },
+      "inscription_ids": [
+        "IOZa6"
+      ],
+      "details": [
+        {
+          "id": "IOZa6",
+          "site": "Iouktas",
+          "support": "Stone vessel",
+          "word_pos": 0,
+          "total_words": 3,
+          "rel_pos": 0.0
+        }
+      ]
+    }
+  },
+  "ioza2_full_context": {
+    "id": "IOZa2",
+    "site": "Iouktas",
+    "support": "Stone vessel",
+    "tokens": [
+      "A-TA-I-*301-WA-JA",
+      "\ud800\udd01",
+      "JA-DI-KI-TU",
+      "\ud800\udd01",
+      "JA-SA-SA-RA-ME",
+      "\ud800\udd01",
+      "U-NA-KA-NA-SI",
+      "\ud800\udd01",
+      "I-PI-NA-MA",
+      "\ud800\udd01",
+      "\\n",
+      "SI-RU-TE",
+      "\ud800\udd01",
+      "TA-NA-RA-TE-U-TI-NU",
+      "\ud800\udd01",
+      "I",
+      "\ud800\udd01"
+    ]
+  },
+  "ioza6_full_context": {
+    "id": "IOZa6",
+    "site": "Iouktas",
+    "support": "Stone vessel",
+    "tokens": [
+      "TA-NA-I-*301-U-TI-NU",
+      "\ud800\udd01",
+      "I-NA-TA-I-ZU-DI-SI-KA",
+      "\ud800\udd01",
+      "JA-SA-SA-RA-ME",
+      "\ud800\udd01"
+    ]
+  }
+}

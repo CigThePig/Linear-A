@@ -57,6 +57,51 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #5 — DI-KI Element Analysis, IOZa2 Coda Identification, -ME Suffix Positional Analysis
+
+**Date:** 2026-03-18
+**Hypothesis file:** `hypotheses/2026-03-18-dikte-dikti-me-suffix.md`
+**Session:** claude/decipher-and-document-AKvKy
+**Strategy:** Libation Table Analysis (Strategy 6) / Proper Noun Isolation (Strategy 3) / Grammatical Analysis
+**Language tested (if applicable):** Minoan (internal structure), Hurrian (morphological comparison)
+
+#### Summary of Approach
+
+Three targeted corpus searches built on the confirmed IOZa2 liturgical sequence from Attempt #4: (1) searched all 1721 inscriptions for the DI-KI element to test whether JA-DI-KI-TU and A-DI-KI-TE are variants of a shared sacred toponym; (2) analyzed all TA-NA-* and *-U-TI-NU tokens to identify whether IOZa2's coda is a variant of IOZa6's header; (3) tested whether -ME tokens appear in early syntactic positions (vocative hypothesis).
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl` (all 1721 records)
+- Inscriptions analyzed: all 1721; DI-KI found in 9 inscriptions; TA-NA-* in 10; -ME in 26
+- Methods: substring token search, positional analysis (relative word position), ritual enrichment ratio, structural slot comparison
+
+#### Results
+**Outcome:** PARTIAL SUCCESS (H1 substantially supported; H2 refuted and reframed; H3 inconclusive)
+**Key finding:** DI-KI element is strongly ritual-enriched (7.4x, 67% vs 9% baseline), appears in fixed "slot 1" position after ritual header at BOTH Iouktas and Palaikastro — making it an integral component of the liturgical sequence template, not an incidental token.
+**Confidence:** Low-Medium (H1), Low (H2 revised), Low (H3)
+
+#### What Was Learned
+1. **DI-KI is a slot-1 liturgical element**: confirmed at 2 sites (Iouktas: JA-DI-KI-TU; Palaikastro: A-DI-KI-TE/A-DI-KI-TE-TE). The liturgical sequence template now has 7 positions: [HEADER] → [DI-KI] → [JA-SA-SA-RA-ME] → [U-NA-KA-NA-SI] → [I-PI-NA-MA] → [SI-RU-TE] → [CODA]
+2. **TA-NA-I-*301-U-TI-NU is a header, not a coda**: appears inscription-initial in IOZa6; is a variant of A-TA-I-*301-WA-JA (both contain *301, both initial)
+3. **-U-TI-NU is Iouktas-site-specific**: 3 occurrences, all Iouktas stone vessels; possibly a sanctuary identifier
+4. **-ME positional vocative hypothesis FAILED**: -ME tokens show no early-position clustering; mean position (0.471) not different from non-ME ritual tokens (0.448)
+5. **-ME ritual enrichment is 5.13x** (corrected from earlier 3.01x — previous analysis had support-type case-sensitivity bug)
+6. **JA-SA-SA-RA-ME → U-NA-KA-NA-SI ordering is structurally locked**: 4/4 co-occurrences in this fixed order across 3 sites
+7. Administrative DI-KI uses (DI-KI-SE at HT) appear in personal name lists — DI-KI may have been used as a toponym giving rise to personal names
+
+#### Why a Re-attempt Needs to Differ
+- **H1 (DI-KI toponym)**: Next step requires checking whether DI-KI or its phonological equivalent appears in Aegean place names, Linear B Knossos tablets, or Greek mythology references to Dikte/Dikti. Additional evidence needed to raise from Low-Medium to Medium confidence.
+- **H2 (coda)**: TA-NA-RA-TE-U-TI-NU remains unexplained as a coda. Its structure (7 syllables, -U-TI-NU terminal) may indicate a dedicant name or site-specific ritual coda. Future analysis should compare it to known Minoan personal name structures.
+- **H3 (-ME function)**: Positional analysis failed. Next approach: check whether -ME appears specifically with divine names (vs. non-divine names), and whether there is a semantic distinction between JA-SA-SA-RA (bare) vs JA-SA-SA-RA-ME (with -ME) contexts.
+
+#### Follow-up Questions Generated
+- [ ] Does DI-KI appear in Linear B Knossos tablets as a toponym or logogram?
+- [ ] What is the grammatical function of the -TU vs -TE suffix contrast on DI-KI (Iouktas vs Palaikastro)?
+- [ ] What is U-NA-KA-NA-SI? — consistently follows JA-SA-SA-RA-ME; divine epithet, companion deity, or ritual formula?
+- [ ] Is -U-TI-NU a sanctuary identifier for Iouktas peak sanctuary?
+- [ ] What is the function of -ME when attached to divine names? (5.13x ritual enrichment but positional analysis inconclusive)
+
+---
+
 ### Attempt #4 — N-gram Fingerprinting, Luwian Comparison, Liturgical Sequence Confirmation, -ME Suffix, Ergative Search
 
 **Date:** 2026-03-18
