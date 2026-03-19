@@ -1,0 +1,753 @@
+{
+  "metadata": {
+    "date": "2026-03-19",
+    "analysis": "Word-order analysis for ergative hypothesis (H4)",
+    "corpus_records": 1721,
+    "admin_records": 1506,
+    "logogram_contexts_found": 207,
+    "evidence_tier": "Tier 5 (Grammatical) — Low-Medium confidence at best"
+  },
+  "key_suffix_position_analysis": [
+    {
+      "suffix": "-JA",
+      "pre_logogram": 2,
+      "post_logogram": 0,
+      "total": 2,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "note": "Pre-dominant: consistent with AGENT/TOPIC before logogram (SOV ergative)"
+    },
+    {
+      "suffix": "-RE",
+      "pre_logogram": 2,
+      "post_logogram": 0,
+      "total": 2,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "note": "Pre-dominant: consistent with AGENT/TOPIC before logogram (SOV ergative)"
+    },
+    {
+      "suffix": "-NA",
+      "pre_logogram": 2,
+      "post_logogram": 0,
+      "total": 2,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "note": "Pre-dominant: consistent with AGENT/TOPIC before logogram (SOV ergative)"
+    },
+    {
+      "suffix": "-TE",
+      "pre_logogram": 3,
+      "post_logogram": 0,
+      "total": 3,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "note": "Pre-dominant: consistent with AGENT/TOPIC before logogram (SOV ergative)"
+    },
+    {
+      "suffix": "-RO",
+      "pre_logogram": 4,
+      "post_logogram": 0,
+      "total": 4,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "note": "Pre-dominant: consistent with AGENT/TOPIC before logogram (SOV ergative)"
+    },
+    {
+      "suffix": "-ME",
+      "pre_logogram": 1,
+      "post_logogram": 0,
+      "total": 1,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "note": "Pre-dominant: consistent with AGENT/TOPIC before logogram (SOV ergative)"
+    },
+    {
+      "suffix": "-TI",
+      "pre_logogram": 1,
+      "post_logogram": 0,
+      "total": 1,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "note": "Pre-dominant: consistent with AGENT/TOPIC before logogram (SOV ergative)"
+    }
+  ],
+  "h4_verdict": "INSUFFICIENT DATA — too few logogram-neighbor occurrences",
+  "kiro_kuro_position": {
+    "KI-RO": {
+      "total": 8,
+      "pre_logogram": 5,
+      "post_logogram": 3,
+      "pre_rate": 0.625,
+      "interpretation": "KI-RO predominantly PRE-logogram — unexpected, possible relational word"
+    },
+    "KU-RO": {
+      "total": 12,
+      "pre_logogram": 6,
+      "post_logogram": 6,
+      "pre_rate": 0.5
+    }
+  },
+  "full_suffix_position_matrix": [
+    {
+      "suffix": "RA₂",
+      "pre_logogram_count": 14,
+      "post_logogram_count": 0,
+      "total": 14,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "position_bias": "pre_dominant"
+    },
+    {
+      "suffix": "TA",
+      "pre_logogram_count": 6,
+      "post_logogram_count": 0,
+      "total": 6,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "position_bias": "pre_dominant"
+    },
+    {
+      "suffix": "RO",
+      "pre_logogram_count": 4,
+      "post_logogram_count": 0,
+      "total": 4,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "position_bias": "pre_dominant"
+    },
+    {
+      "suffix": "TE",
+      "pre_logogram_count": 3,
+      "post_logogram_count": 0,
+      "total": 3,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "position_bias": "pre_dominant"
+    },
+    {
+      "suffix": "TA₂",
+      "pre_logogram_count": 3,
+      "post_logogram_count": 0,
+      "total": 3,
+      "pre_rate": 1.0,
+      "post_rate": 0.0,
+      "position_bias": "pre_dominant"
+    }
+  ],
+  "pre_logogram_suffix_frequencies": {
+    "RA₂": 14,
+    "TA": 6,
+    "RO": 4,
+    "TE": 3,
+    "TA₂": 3,
+    "NE": 2,
+    "WI": 2,
+    "JA": 2,
+    "RE": 2,
+    "NA": 2,
+    "*118": 2,
+    "DU": 2,
+    "RA": 2,
+    "NU": 1,
+    "PI": 1,
+    "*314": 1,
+    "NI": 1,
+    "MA": 1,
+    "I": 1,
+    "VIN": 1
+  },
+  "post_logogram_suffix_frequencies": {},
+  "sample_logogram_contexts": [
+    {
+      "record_id": "ARKH3a",
+      "site": "Arkhalkhori",
+      "logogram": "GRA",
+      "pre_token": "KA-NE",
+      "pre_suffix": "NE",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "ARKH3a",
+      "site": "Arkhalkhori",
+      "logogram": "OLIV",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "¹⁄₅",
+      "post_suffix": null
+    },
+    {
+      "record_id": "ARKH3a",
+      "site": "Arkhalkhori",
+      "logogram": "GRA",
+      "pre_token": "KI-NU",
+      "pre_suffix": "NU",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "ARKH3b",
+      "site": "Arkhalkhori",
+      "logogram": "GRA",
+      "pre_token": "JA-PI",
+      "pre_suffix": "PI",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "ARKH3b",
+      "site": "Arkhalkhori",
+      "logogram": "GRA",
+      "pre_token": "PI-*314",
+      "pre_suffix": "*314",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "ARKH3b",
+      "site": "Arkhalkhori",
+      "logogram": "OLE",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "ARKH3b",
+      "site": "Arkhalkhori",
+      "logogram": "OLE",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "ARKH3b",
+      "site": "Arkhalkhori",
+      "logogram": "VIN",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "𐝫",
+      "post_suffix": null
+    },
+    {
+      "record_id": "ARKH5",
+      "site": "Arkhalkhori",
+      "logogram": "GRA",
+      "pre_token": "A-DA-RO",
+      "pre_suffix": "RO",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT100",
+      "site": "Haghia Triada",
+      "logogram": "CYP",
+      "pre_token": "SA-RA₂",
+      "pre_suffix": "RA₂",
+      "post_token": "¹⁄₄",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT100",
+      "site": "Haghia Triada",
+      "logogram": "VIN",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "¹⁄₂",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT101",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": "SA-RA₂",
+      "pre_suffix": "RA₂",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT101",
+      "site": "Haghia Triada",
+      "logogram": "OLE",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT101",
+      "site": "Haghia Triada",
+      "logogram": "OLIV",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "¹⁄₄",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT102",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": "SA-RA₂",
+      "pre_suffix": "RA₂",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT102",
+      "site": "Haghia Triada",
+      "logogram": "GRA+PA",
+      "pre_token": "PA₃-NI",
+      "pre_suffix": "NI",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT102",
+      "site": "Haghia Triada",
+      "logogram": "GRA+PA",
+      "pre_token": "VIR+[?]",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT106",
+      "site": "Haghia Triada",
+      "logogram": "CYP",
+      "pre_token": "MI-NU-TE",
+      "pre_suffix": "TE",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT110b",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": null,
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT112b",
+      "site": "Haghia Triada",
+      "logogram": "CYP",
+      "pre_token": null,
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT114a",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": "SA-RA₂",
+      "pre_suffix": "RA₂",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT114a",
+      "site": "Haghia Triada",
+      "logogram": "OLE",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT114a",
+      "site": "Haghia Triada",
+      "logogram": "VIN",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT115b",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": "NU-WI",
+      "pre_suffix": "WI",
+      "post_token": "¹⁄₂",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT116a",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": "KU-PA-JA",
+      "pre_suffix": "JA",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT116a",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": "PU-RA₂",
+      "pre_suffix": "RA₂",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT116a",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": "SI+SE",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT116a",
+      "site": "Haghia Triada",
+      "logogram": "OLIV",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT116a",
+      "site": "Haghia Triada",
+      "logogram": "GRA",
+      "pre_token": "PI-*34-TE",
+      "pre_suffix": "TE",
+      "post_token": "\\n",
+      "post_suffix": null
+    },
+    {
+      "record_id": "HT116a",
+      "site": "Haghia Triada",
+      "logogram": "OLE",
+      "pre_token": "\\n",
+      "pre_suffix": null,
+      "post_token": "\\n",
+      "post_suffix": null
+    }
+  ],
+  "kiro_occurrences": [
+    {
+      "record_id": "HT123+124a",
+      "site": "Haghia Triada",
+      "token": "KI-RO",
+      "position_in_inscription": 8,
+      "nearest_pre_logogram": 1,
+      "nearest_post_logogram": 13,
+      "relative_position": "pre_logogram",
+      "context": [
+        "¹⁄₄",
+        "\\n",
+        "KI-RO",
+        "1",
+        ".3"
+      ]
+    },
+    {
+      "record_id": "HT123+124a",
+      "site": "Haghia Triada",
+      "token": "KI-RO",
+      "position_in_inscription": 21,
+      "nearest_pre_logogram": 13,
+      "nearest_post_logogram": 25,
+      "relative_position": "pre_logogram",
+      "context": [
+        "³⁄₄",
+        "\\n",
+        "KI-RO",
+        ".3",
+        "\\n"
+      ]
+    },
+    {
+      "record_id": "HT123+124a",
+      "site": "Haghia Triada",
+      "token": "KI-RO",
+      "position_in_inscription": 32,
+      "nearest_pre_logogram": 25,
+      "nearest_post_logogram": 36,
+      "relative_position": "pre_logogram",
+      "context": [
+        "≈ ¹⁄₆",
+        "\\n",
+        "KI-RO",
+        "³⁄₄",
+        "\\n"
+      ]
+    },
+    {
+      "record_id": "HT123+124a",
+      "site": "Haghia Triada",
+      "token": "KI-RO",
+      "position_in_inscription": 43,
+      "nearest_pre_logogram": 36,
+      "nearest_post_logogram": 47,
+      "relative_position": "pre_logogram",
+      "context": [
+        "¹⁄₄",
+        "\\n",
+        "KI-RO",
+        "³⁄₄",
+        "\\n"
+      ]
+    },
+    {
+      "record_id": "HT123+124a",
+      "site": "Haghia Triada",
+      "token": "KI-RO",
+      "position_in_inscription": 57,
+      "nearest_pre_logogram": 47,
+      "nearest_post_logogram": null,
+      "relative_position": "post_logogram",
+      "context": [
+        "≈ ¹⁄₆",
+        "\\n",
+        "KI-RO",
+        "6"
+      ]
+    },
+    {
+      "record_id": "HT15",
+      "site": "Haghia Triada",
+      "token": "KI-RO",
+      "position_in_inscription": 10,
+      "nearest_pre_logogram": 1,
+      "nearest_post_logogram": null,
+      "relative_position": "post_logogram",
+      "context": [
+        "\\n",
+        "*188",
+        "KI-RO",
+        "400",
+        "\\n"
+      ]
+    },
+    {
+      "record_id": "HT30",
+      "site": "Haghia Triada",
+      "token": "KI-RO",
+      "position_in_inscription": 29,
+      "nearest_pre_logogram": 13,
+      "nearest_post_logogram": 30,
+      "relative_position": "pre_logogram",
+      "context": [
+        "1",
+        "\\n",
+        "KI-RO",
+        "CYP",
+        "8"
+      ]
+    },
+    {
+      "record_id": "HT34",
+      "site": "Haghia Triada",
+      "token": "KI-RO",
+      "position_in_inscription": 33,
+      "nearest_pre_logogram": 11,
+      "nearest_post_logogram": null,
+      "relative_position": "post_logogram",
+      "context": [
+        "70",
+        "\\n",
+        "KI-RO",
+        "37",
+        "\\n"
+      ]
+    }
+  ],
+  "kuro_occurrences": [
+    {
+      "record_id": "HT100",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 18,
+      "nearest_pre_logogram": null,
+      "nearest_post_logogram": 22,
+      "relative_position": "pre_logogram",
+      "context": [
+        "16",
+        "\\n",
+        "KU-RO",
+        "97",
+        "\\n"
+      ]
+    },
+    {
+      "record_id": "HT102",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 26,
+      "nearest_pre_logogram": 11,
+      "nearest_post_logogram": null,
+      "relative_position": "post_logogram",
+      "context": [
+        "5",
+        "\\n",
+        "KU-RO",
+        "1060"
+      ]
+    },
+    {
+      "record_id": "HT116b",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 0,
+      "nearest_pre_logogram": null,
+      "nearest_post_logogram": 1,
+      "relative_position": "pre_logogram",
+      "context": [
+        "KU-RO",
+        "GRA",
+        "100"
+      ]
+    },
+    {
+      "record_id": "HT123+124a",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 46,
+      "nearest_pre_logogram": 36,
+      "nearest_post_logogram": 47,
+      "relative_position": "pre_logogram",
+      "context": [
+        "³⁄₄",
+        "\\n",
+        "KU-RO",
+        "OLIV",
+        "93"
+      ]
+    },
+    {
+      "record_id": "HT123+124a",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 53,
+      "nearest_pre_logogram": 47,
+      "nearest_post_logogram": null,
+      "relative_position": "post_logogram",
+      "context": [
+        "*308",
+        "\\n",
+        "KU-RO",
+        "25",
+        "≈ ¹⁄₆"
+      ]
+    },
+    {
+      "record_id": "HT13",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 24,
+      "nearest_pre_logogram": 1,
+      "nearest_post_logogram": null,
+      "relative_position": "post_logogram",
+      "context": [
+        "5",
+        "\\n",
+        "KU-RO",
+        "130",
+        "¹⁄₂"
+      ]
+    },
+    {
+      "record_id": "HT130",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 12,
+      "nearest_pre_logogram": 6,
+      "nearest_post_logogram": 22,
+      "relative_position": "post_logogram",
+      "context": [
+        "RA₂",
+        "\\n",
+        "KU-RO",
+        "\\n",
+        "—"
+      ]
+    },
+    {
+      "record_id": "HT27a",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 31,
+      "nearest_pre_logogram": null,
+      "nearest_post_logogram": 34,
+      "relative_position": "pre_logogram",
+      "context": [
+        "42",
+        "\\n",
+        "KU-RO",
+        "335",
+        "\\n"
+      ]
+    },
+    {
+      "record_id": "HT40",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 9,
+      "nearest_pre_logogram": 6,
+      "nearest_post_logogram": null,
+      "relative_position": "post_logogram",
+      "context": [
+        "134",
+        "\\n",
+        "KU-RO",
+        "\\n",
+        "KU"
+      ]
+    },
+    {
+      "record_id": "HT89",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 17,
+      "nearest_pre_logogram": null,
+      "nearest_post_logogram": 20,
+      "relative_position": "pre_logogram",
+      "context": [
+        "5",
+        "\\n",
+        "KU-RO",
+        "87",
+        "\\n"
+      ]
+    },
+    {
+      "record_id": "HT94a",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 16,
+      "nearest_pre_logogram": null,
+      "nearest_post_logogram": 20,
+      "relative_position": "pre_logogram",
+      "context": [
+        "4",
+        "\\n",
+        "KU-RO",
+        "110",
+        "\\n"
+      ]
+    },
+    {
+      "record_id": "HT9a",
+      "site": "Haghia Triada",
+      "token": "KU-RO",
+      "position_in_inscription": 29,
+      "nearest_pre_logogram": 2,
+      "nearest_post_logogram": null,
+      "relative_position": "post_logogram",
+      "context": [
+        "¹⁄₄",
+        "\\n",
+        "KU-RO",
+        "31",
+        "³⁄₄"
+      ]
+    }
+  ]
+}

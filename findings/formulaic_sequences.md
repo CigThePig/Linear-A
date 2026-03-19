@@ -300,6 +300,38 @@ The -U-TI-NU terminal element appears in **3 token types, all at Iouktas** (ston
 
 ---
 
+---
+
+## U-NA-KA-NA-SI — Ritual Formula Element (Updated 2026-03-19)
+
+| Property | Value |
+|----------|-------|
+| Token | U-NA-KA-NA-SI |
+| Total exact occurrences | 6 |
+| Ritual support (stone vessel) | **6/6 = 100%** |
+| Sites | Iouktas (2), Palaikastro (2), Kophinas (1), Syme (1) |
+| Co-occurrence with JA-SA-SA-RA-ME | 3/6 = 50% |
+| Compound variants | JA-SA-U-NA-KA-NA-SI (PKZa8), U-NA-KA-NA-SI-OLE (SYZa2) |
+| Evidence tier | Tier 3 (Formulaic) |
+| Confidence | Medium |
+| First independently analyzed | 2026-03-19 (Attempt #6) |
+
+**Sub-sequence ritual exclusivity:**
+| Sub-sequence | Count | Ritual Rate | Sites |
+|---|---|---|---|
+| U-NA-KA | 8 | 8/8 = **100%** | Palaikastro, Iouktas, Kophinas |
+| NA-KA-NA | 7 | 7/7 = **100%** | Iouktas, Palaikastro, Kophinas |
+| KA-NA-SI | 8 | 8/8 = **100%** | Iouktas, Palaikastro, Syme |
+
+**Key finding (Attempt #6 correction of Attempt #5 claim):**
+The prior claim of "4/4 fixed-order co-occurrence with JA-SA-SA-RA-ME" was based on a small sample. Full corpus analysis shows 3/6 co-occurrences and 3/6 independent appearances. U-NA-KA-NA-SI is a **ritual formula element in its own right**, not exclusively an epithet of JA-SA-SA-RA-ME. It may be invoked standalone in shorter liturgical inscriptions.
+
+**Phonological skeleton:** N-K-N-S (consonants: NA=N, KA=K, NA=N, SI=S; U is onset-less vowel)
+
+**Interpretation:** Consistent with a companion deity invocation, a divine epithet, or a ritual response formula. The 100% ritual rate across 4 sites provides medium-confidence evidence for a ritual function. Specific identity unresolved.
+
+---
+
 ## Open Questions About Formulaic Sequences
 
 - [x] What tokens appear in the same structural slot as KU-RO across all 1721 tablets? → Analyzed 2026-03-18; `*23M` is the only new multi-site candidate (3 sites, 5 occurrences)
@@ -309,9 +341,11 @@ The -U-TI-NU terminal element appears in **3 token types, all at Iouktas** (ston
 - [x] Can the four-unit liturgical sequence `JA-SA-SA-RA-ME U-NA-KA-NA-SI I-PI-NA-MA SI-RU-TE` be confirmed in a single inscription? → **YES — IOZa2 (Iouktas)**
 - [x] What is `JA-DI-KI-TU`? → **PARTIALLY RESOLVED (2026-03-18):** DI-KI element confirmed as integral "slot 1" component of liturgical sequence at both Iouktas and Palaikastro; see DI-KI section below
 - [x] What is `TA-NA-RA-TE-U-TI-NU`? → **PARTIALLY RESOLVED (2026-03-18):** True coda (position 6/6 in IOZa2); -U-TI-NU terminal is Iouktas-site-specific; see TA-NA- / U-TI-NU section below
+- [x] What is `U-NA-KA-NA-SI`? → **PARTIALLY RESOLVED (2026-03-19):** 100% ritual formula element, 6 occurrences across 4 sites; appears independently (not only after JA-SA-SA-RA-ME); core sub-sequences NA-KA-NA, KA-NA-SI, U-NA-KA all 100% ritual; identity (divine epithet vs. companion deity vs. ritual response) still unresolved
 - [ ] What is sign `*23M`? Requires paleographic identification before semantic claims
 - [ ] What is sign `*301` in ritual context? Distinct from standalone administrative use
 - [ ] Does -NA serve dual roles (locative AND accounting terminal), or is the locative hypothesis incorrect?
-- [ ] What is the specific grammatical function of -ME? (ritual enrichment 5.13x confirmed; positional vocative hypothesis failed — function unknown)
-- [ ] What is `U-NA-KA-NA-SI`? Consistently follows JA-SA-SA-RA-ME — 4/4 co-occurrences in fixed order; function unknown (divine epithet? companion deity? ritual response?)
+- [ ] What is the specific grammatical function of -ME? (ritual enrichment 5.13x confirmed; positional vocative hypothesis failed; comitative test inconclusive — function unknown)
 - [ ] What does the -TU (Iouktas) vs -TE (Palaikastro) suffix contrast on DI-KI indicate? (dialectal variation or grammatical case distinction?)
+- [ ] What is "JA-SA-U-NA-KA-NA-SI" in PKZa8? Scribal fusion of two ritual elements or a distinct lexical item?
+- [ ] What is "U-NA-KA-NA-SI-OLE" in SYZa2? Does this specify the votive offering as olive oil?

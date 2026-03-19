@@ -1,0 +1,1883 @@
+{
+  "metadata": {
+    "date": "2026-03-19",
+    "strategy": "Strategy 7 — Computational Sign Clustering",
+    "corpus_records": 1721,
+    "sequences_analyzed": 1696,
+    "total_syllabic_tokens": 6582,
+    "distinct_signs": 1305,
+    "signs_clustered": 102,
+    "min_frequency_threshold": 5,
+    "n_clusters": 10,
+    "evidence_tier": "Tier 1 (Structural/Distributional)",
+    "note": "No phonetic values claimed as proven; cluster membership is distributional inference only"
+  },
+  "unknown_signs_analysis": [
+    {
+      "sign": "*301",
+      "frequency": 238,
+      "cluster_id": 6,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.308,
+      "top_pmi_neighbors": [
+        {
+          "sign": "MA-RE",
+          "pmi": 2.2871,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "A-TA-*350",
+          "pmi": 2.2871,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "U-*325-ZA",
+          "pmi": 1.8817,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "KI+MU",
+          "pmi": 1.8817,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "SI-RU",
+          "pmi": 1.594,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*304",
+      "frequency": 25,
+      "cluster_id": 0,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 1.0,
+      "top_pmi_neighbors": [
+        {
+          "sign": "SI-KI-NE",
+          "pmi": 4.5405,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "QA-NU-MA",
+          "pmi": 4.5405,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "QE-TU-NE",
+          "pmi": 4.5405,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "A-RU-DA-RA",
+          "pmi": 4.5405,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "MI-DA-NI",
+          "pmi": 4.5405,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Medium",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*411-VS",
+      "frequency": 15,
+      "cluster_id": 6,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.308,
+      "top_pmi_neighbors": [],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*22F",
+      "frequency": 14,
+      "cluster_id": 2,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 0.25,
+      "top_pmi_neighbors": [
+        {
+          "sign": "WI-RA-RE-MI-TE",
+          "pmi": 5.8135,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "QA-RE-TO",
+          "pmi": 5.1204,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "A-RA-TU-ME",
+          "pmi": 5.1204,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*310",
+          "pmi": 5.1204,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "NE-*22M",
+          "pmi": 5.1204,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*164",
+      "frequency": 13,
+      "cluster_id": 6,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.308,
+      "top_pmi_neighbors": [],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*305",
+      "frequency": 12,
+      "cluster_id": 2,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 0.25,
+      "top_pmi_neighbors": [
+        {
+          "sign": "*341+PI",
+          "pmi": 5.2745,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "QE-TU",
+          "pmi": 5.2745,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*318",
+          "pmi": 5.2745,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "A-SA-RA₂",
+          "pmi": 5.2745,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "JU+*317+QE",
+          "pmi": 5.2745,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*308",
+      "frequency": 12,
+      "cluster_id": 0,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 1.0,
+      "top_pmi_neighbors": [
+        {
+          "sign": "KI-TA-I",
+          "pmi": 5.2745,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "DA-TU",
+          "pmi": 5.2745,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "SA-RU",
+          "pmi": 3.4828,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "¹⁄₃",
+          "pmi": 3.1951,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*401+RU",
+          "pmi": 3.0773,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Medium",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*301+*311",
+      "frequency": 10,
+      "cluster_id": 6,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.308,
+      "top_pmi_neighbors": [],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*188",
+      "frequency": 9,
+      "cluster_id": 2,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 0.25,
+      "top_pmi_neighbors": [
+        {
+          "sign": "DA-KU-NA",
+          "pmi": 5.5622,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "GRA+L4+L4",
+          "pmi": 5.5622,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*333-DI-SU-KA",
+          "pmi": 5.5622,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "PI-SA",
+          "pmi": 4.869,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*188-DU",
+          "pmi": 4.4636,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*401+RU",
+      "frequency": 9,
+      "cluster_id": 1,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 1.0,
+      "top_pmi_neighbors": [
+        {
+          "sign": "*652",
+          "pmi": 6.2553,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*653",
+          "pmi": 6.2553,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "𐝍𐝫",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*418+L2",
+          "pmi": 4.4636,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "𐝉𐝫",
+          "pmi": 3.9528,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Medium",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*516",
+      "frequency": 9,
+      "cluster_id": 3,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.333,
+      "top_pmi_neighbors": [
+        {
+          "sign": "QA-*118-RA-RE",
+          "pmi": 5.5622,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "DI-DI-KO-RA-ME-TA₂",
+          "pmi": 5.5622,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "E-TO-RI",
+          "pmi": 5.5622,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "SA-*301-RI",
+          "pmi": 5.5622,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "KI-RE-ZA",
+          "pmi": 5.5622,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*21M",
+      "frequency": 8,
+      "cluster_id": 8,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.5,
+      "top_pmi_neighbors": [
+        {
+          "sign": "RI-RU-MA-TI",
+          "pmi": 5.68,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "CAPm+KU",
+          "pmi": 4.9868,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "AU-SI-RE",
+          "pmi": 4.9868,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "TE-RI",
+          "pmi": 4.5814,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*21F",
+          "pmi": 4.2937,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low-Medium",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*86+*188",
+      "frequency": 8,
+      "cluster_id": 6,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.308,
+      "top_pmi_neighbors": [],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*23M",
+      "frequency": 7,
+      "cluster_id": 2,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 0.25,
+      "top_pmi_neighbors": [
+        {
+          "sign": "KI-RO",
+          "pmi": 3.0409,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "¹⁄₅",
+          "pmi": 2.7225,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "¹⁄₂",
+          "pmi": 2.1246,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "\\n",
+          "pmi": 0.3173,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*306",
+      "frequency": 7,
+      "cluster_id": 3,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.333,
+      "top_pmi_neighbors": [
+        {
+          "sign": "A-DU-RE",
+          "pmi": 5.8135,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "AU-RE-TE",
+          "pmi": 5.8135,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "SI-CYP",
+          "pmi": 5.1204,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "𐝫𐝉",
+          "pmi": 4.4272,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "RA",
+          "pmi": 3.6163,
+          "phonetic_class": "liquid"
+        }
+      ],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*131C",
+      "frequency": 6,
+      "cluster_id": 2,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 0.25,
+      "top_pmi_neighbors": [
+        {
+          "sign": "I-KU-PI",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "DA+*301",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "RO+RO[",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "RA-KI-TA-NA-SI",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "PU-RA",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*307",
+      "frequency": 6,
+      "cluster_id": 2,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 0.25,
+      "top_pmi_neighbors": [
+        {
+          "sign": "TI-NI-TA",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "MA-SI",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "A-SA-RA₂",
+          "pmi": 5.9677,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*305",
+          "pmi": 3.4828,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "SA-RA₂",
+          "pmi": 2.9719,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*409-VS",
+      "frequency": 5,
+      "cluster_id": 6,
+      "cluster_dominant_class": "stop",
+      "cluster_class_purity": 0.308,
+      "top_pmi_neighbors": [],
+      "inferred_phonetic_class": "stop",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    },
+    {
+      "sign": "*904",
+      "frequency": 5,
+      "cluster_id": 2,
+      "cluster_dominant_class": "nasal",
+      "cluster_class_purity": 0.25,
+      "top_pmi_neighbors": [
+        {
+          "sign": "QA-RE-TO",
+          "pmi": 6.15,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "WI-JA-SU-MA-TI-TI",
+          "pmi": 6.15,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "*904",
+          "pmi": 5.2337,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "A-SE",
+          "pmi": 4.7637,
+          "phonetic_class": "?"
+        },
+        {
+          "sign": "³⁄₈",
+          "pmi": 4.5405,
+          "phonetic_class": "?"
+        }
+      ],
+      "inferred_phonetic_class": "nasal",
+      "confidence": "Low",
+      "note": "Tier 1 evidence only — phonetic value not claimed as proven"
+    }
+  ],
+  "star301_special_analysis": {
+    "frequency": 238,
+    "top_pmi_neighbors": [
+      {
+        "sign": "MA-RE",
+        "pmi": 2.2871,
+        "frequency": 1,
+        "phonetic_class": "unknown"
+      },
+      {
+        "sign": "A-TA-*350",
+        "pmi": 2.2871,
+        "frequency": 1,
+        "phonetic_class": "unknown"
+      },
+      {
+        "sign": "U-*325-ZA",
+        "pmi": 1.8817,
+        "frequency": 3,
+        "phonetic_class": "unknown"
+      },
+      {
+        "sign": "KI+MU",
+        "pmi": 1.8817,
+        "frequency": 3,
+        "phonetic_class": "unknown"
+      },
+      {
+        "sign": "SI-RU",
+        "pmi": 1.594,
+        "frequency": 2,
+        "phonetic_class": "unknown"
+      },
+      {
+        "sign": "*306",
+        "pmi": 1.0344,
+        "frequency": 7,
+        "phonetic_class": "unknown"
+      },
+      {
+        "sign": "\\n",
+        "pmi": 0,
+        "frequency": 2194,
+        "phonetic_class": "unknown"
+      },
+      {
+        "sign": "MA",
+        "pmi": 0,
+        "frequency": 11,
+        "phonetic_class": "nasal"
+      },
+      {
+        "sign": "³⁄₄",
+        "pmi": 0,
+        "frequency": 27,
+        "phonetic_class": "unknown"
+      },
+      {
+        "sign": "¹⁄₂",
+        "pmi": 0,
+        "frequency": 120,
+        "phonetic_class": "unknown"
+      }
+    ],
+    "note": "*301 appears both as an HT administrative classifier (230/238 occ) and embedded in ritual formula A-TA-I-*301-WA-JA. The PMI neighbors reflect combined usage; context-split analysis needed."
+  },
+  "cluster_details": {
+    "0": {
+      "cluster_id": 0,
+      "size": 7,
+      "dominant_phonetic_class": "nasal",
+      "class_purity": 1.0,
+      "class_distribution": {
+        "nasal": 1
+      },
+      "known_signs": [
+        [
+          "NI",
+          "nasal",
+          76
+        ],
+        [
+          "OLE+U",
+          "?",
+          22
+        ],
+        [
+          "OLE+KI",
+          "?",
+          21
+        ],
+        [
+          "KI-RO",
+          "?",
+          16
+        ],
+        [
+          "OLE+NE",
+          "?",
+          5
+        ]
+      ],
+      "unknown_signs": [
+        [
+          "*304",
+          25
+        ],
+        [
+          "*308",
+          12
+        ]
+      ]
+    },
+    "1": {
+      "cluster_id": 1,
+      "size": 5,
+      "dominant_phonetic_class": "stop",
+      "class_purity": 1.0,
+      "class_distribution": {
+        "stop": 1
+      },
+      "known_signs": [
+        [
+          "PA",
+          "stop",
+          16
+        ],
+        [
+          "MI+JA+RU",
+          "?",
+          8
+        ],
+        [
+          "OLE+TA",
+          "?",
+          8
+        ],
+        [
+          "QA2+[?]+PU",
+          "?",
+          8
+        ]
+      ],
+      "unknown_signs": [
+        [
+          "*401+RU",
+          9
+        ]
+      ]
+    },
+    "2": {
+      "cluster_id": 2,
+      "size": 16,
+      "dominant_phonetic_class": "nasal",
+      "class_purity": 0.25,
+      "class_distribution": {
+        "nasal": 1,
+        "liquid": 1,
+        "sibilant": 1,
+        "stop": 1
+      },
+      "known_signs": [
+        [
+          "TA",
+          "stop",
+          29
+        ],
+        [
+          "CYP+D",
+          "?",
+          19
+        ],
+        [
+          "MA",
+          "nasal",
+          11
+        ],
+        [
+          "RA",
+          "liquid",
+          9
+        ],
+        [
+          "double mina",
+          "?",
+          8
+        ],
+        [
+          "KU-NI-SU",
+          "?",
+          5
+        ],
+        [
+          "SA",
+          "sibilant",
+          5
+        ],
+        [
+          "ZU",
+          "?",
+          5
+        ],
+        [
+          "³⁄₈",
+          "?",
+          5
+        ]
+      ],
+      "unknown_signs": [
+        [
+          "*22F",
+          14
+        ],
+        [
+          "*305",
+          12
+        ],
+        [
+          "*188",
+          9
+        ],
+        [
+          "*23M",
+          7
+        ],
+        [
+          "*131C",
+          6
+        ],
+        [
+          "*307",
+          6
+        ],
+        [
+          "*904",
+          5
+        ]
+      ]
+    },
+    "3": {
+      "cluster_id": 3,
+      "size": 9,
+      "dominant_phonetic_class": "stop",
+      "class_purity": 0.333,
+      "class_distribution": {
+        "vowel": 1,
+        "nasal": 1,
+        "sibilant": 1,
+        "stop": 2,
+        "glide": 1
+      },
+      "known_signs": [
+        [
+          "A",
+          "vowel",
+          25
+        ],
+        [
+          "CYP+E",
+          "?",
+          13
+        ],
+        [
+          "NA",
+          "nasal",
+          13
+        ],
+        [
+          "TI",
+          "stop",
+          12
+        ],
+        [
+          "TU",
+          "stop",
+          11
+        ],
+        [
+          "SU",
+          "sibilant",
+          8
+        ],
+        [
+          "WA",
+          "glide",
+          6
+        ]
+      ],
+      "unknown_signs": [
+        [
+          "*516",
+          9
+        ],
+        [
+          "*306",
+          7
+        ]
+      ]
+    },
+    "4": {
+      "cluster_id": 4,
+      "size": 5,
+      "dominant_phonetic_class": "mixed",
+      "class_purity": 0.0,
+      "class_distribution": {},
+      "known_signs": [
+        [
+          "¹⁄₂",
+          "?",
+          120
+        ],
+        [
+          "¹⁄₄",
+          "?",
+          56
+        ],
+        [
+          "≈ ¹⁄₆",
+          "?",
+          28
+        ],
+        [
+          "³⁄₄",
+          "?",
+          27
+        ],
+        [
+          "SA-RU",
+          "?",
+          6
+        ]
+      ],
+      "unknown_signs": []
+    },
+    "5": {
+      "cluster_id": 5,
+      "size": 3,
+      "dominant_phonetic_class": "stop",
+      "class_purity": 0.5,
+      "class_distribution": {
+        "stop": 1,
+        "liquid": 1
+      },
+      "known_signs": [
+        [
+          "DI",
+          "stop",
+          16
+        ],
+        [
+          "RE",
+          "liquid",
+          16
+        ],
+        [
+          "MA-DI",
+          "?",
+          6
+        ]
+      ],
+      "unknown_signs": []
+    },
+    "6": {
+      "cluster_id": 6,
+      "size": 33,
+      "dominant_phonetic_class": "stop",
+      "class_purity": 0.308,
+      "class_distribution": {
+        "vowel": 2,
+        "glide": 1,
+        "stop": 4,
+        "nasal": 1,
+        "liquid": 2,
+        "sibilant": 3
+      },
+      "known_signs": [
+        [
+          "𐝫",
+          "?",
+          552
+        ],
+        [
+          "KU",
+          "stop",
+          170
+        ],
+        [
+          "KA",
+          "stop",
+          169
+        ],
+        [
+          "SI",
+          "sibilant",
+          118
+        ],
+        [
+          "RO",
+          "liquid",
+          95
+        ],
+        [
+          "TE",
+          "stop",
+          58
+        ],
+        [
+          "ZE",
+          "sibilant",
+          47
+        ],
+        [
+          "I",
+          "vowel",
+          39
+        ],
+        [
+          "O",
+          "vowel",
+          17
+        ],
+        [
+          "A-TA-I-*301-WA-JA",
+          "?",
+          11
+        ],
+        [
+          "JA",
+          "glide",
+          11
+        ],
+        [
+          "HIDE+[?]",
+          "?",
+          9
+        ],
+        [
+          "I-RA₂",
+          "?",
+          8
+        ],
+        [
+          "QE",
+          "stop",
+          8
+        ],
+        [
+          "RU",
+          "liquid",
+          8
+        ],
+        [
+          "VIR+KA",
+          "?",
+          8
+        ],
+        [
+          "≈",
+          "?",
+          8
+        ],
+        [
+          "JA-SA-SA-RA-ME",
+          "?",
+          7
+        ],
+        [
+          "SE",
+          "sibilant",
+          7
+        ],
+        [
+          "SI-RU-TE",
+          "?",
+          7
+        ],
+        [
+          "DI-NA-U",
+          "?",
+          6
+        ],
+        [
+          "I-PI-NA-MA",
+          "?",
+          6
+        ],
+        [
+          "MI",
+          "nasal",
+          6
+        ],
+        [
+          "SI-KA",
+          "?",
+          6
+        ],
+        [
+          "DA-KA",
+          "?",
+          5
+        ],
+        [
+          "I-DA",
+          "?",
+          5
+        ],
+        [
+          "PA₃",
+          "?",
+          5
+        ]
+      ],
+      "unknown_signs": [
+        [
+          "*301",
+          238
+        ],
+        [
+          "*411-VS",
+          15
+        ],
+        [
+          "*164",
+          13
+        ],
+        [
+          "*301+*311",
+          10
+        ],
+        [
+          "*86+*188",
+          8
+        ],
+        [
+          "*409-VS",
+          5
+        ]
+      ]
+    },
+    "7": {
+      "cluster_id": 7,
+      "size": 7,
+      "dominant_phonetic_class": "vowel",
+      "class_purity": 1.0,
+      "class_distribution": {
+        "vowel": 1
+      },
+      "known_signs": [
+        [
+          "¹⁄₁₆",
+          "?",
+          26
+        ],
+        [
+          "¹⁄₃",
+          "?",
+          24
+        ],
+        [
+          "¹⁄₅",
+          "?",
+          22
+        ],
+        [
+          "E",
+          "vowel",
+          10
+        ],
+        [
+          "QA2+[?]+RE",
+          "?",
+          6
+        ],
+        [
+          "𐝓",
+          "?",
+          6
+        ],
+        [
+          "𐝉𐝫",
+          "?",
+          5
+        ]
+      ],
+      "unknown_signs": []
+    },
+    "8": {
+      "cluster_id": 8,
+      "size": 8,
+      "dominant_phonetic_class": "stop",
+      "class_purity": 0.5,
+      "class_distribution": {
+        "stop": 2,
+        "glide": 1,
+        "nasal": 1
+      },
+      "known_signs": [
+        [
+          "KI",
+          "stop",
+          19
+        ],
+        [
+          "¹⁄₈",
+          "?",
+          11
+        ],
+        [
+          "DA",
+          "stop",
+          9
+        ],
+        [
+          "KU-PA₃-NU",
+          "?",
+          8
+        ],
+        [
+          "NE",
+          "nasal",
+          8
+        ],
+        [
+          "DA-RE",
+          "?",
+          7
+        ],
+        [
+          "JU",
+          "glide",
+          6
+        ]
+      ],
+      "unknown_signs": [
+        [
+          "*21M",
+          8
+        ]
+      ]
+    },
+    "9": {
+      "cluster_id": 9,
+      "size": 9,
+      "dominant_phonetic_class": "mixed",
+      "class_purity": 0.0,
+      "class_distribution": {},
+      "known_signs": [
+        [
+          "\\n",
+          "?",
+          2194
+        ],
+        [
+          "—",
+          "?",
+          56
+        ],
+        [
+          "KU-RO",
+          "?",
+          37
+        ],
+        [
+          "VIR+[?]",
+          "?",
+          31
+        ],
+        [
+          "SA-RA₂",
+          "?",
+          20
+        ],
+        [
+          "OLE+MI",
+          "?",
+          19
+        ],
+        [
+          "OLE+DI",
+          "?",
+          12
+        ],
+        [
+          "A-DU",
+          "?",
+          10
+        ],
+        [
+          "KA-PA",
+          "?",
+          6
+        ]
+      ],
+      "unknown_signs": []
+    }
+  },
+  "sign_frequency_top100": [
+    {
+      "sign": "\\n",
+      "frequency": 2194,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "𐝫",
+      "frequency": 552,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*301",
+      "frequency": 238,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "KU",
+      "frequency": 170,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "KA",
+      "frequency": 169,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "¹⁄₂",
+      "frequency": 120,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "SI",
+      "frequency": 118,
+      "is_unknown": false,
+      "known_phonetic_class": "sibilant"
+    },
+    {
+      "sign": "RO",
+      "frequency": 95,
+      "is_unknown": false,
+      "known_phonetic_class": "liquid"
+    },
+    {
+      "sign": "NI",
+      "frequency": 76,
+      "is_unknown": false,
+      "known_phonetic_class": "nasal"
+    },
+    {
+      "sign": "TE",
+      "frequency": 58,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "—",
+      "frequency": 56,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "¹⁄₄",
+      "frequency": 56,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "ZE",
+      "frequency": 47,
+      "is_unknown": false,
+      "known_phonetic_class": "sibilant"
+    },
+    {
+      "sign": "I",
+      "frequency": 39,
+      "is_unknown": false,
+      "known_phonetic_class": "vowel"
+    },
+    {
+      "sign": "KU-RO",
+      "frequency": 37,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "VIR+[?]",
+      "frequency": 31,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "TA",
+      "frequency": 29,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "≈ ¹⁄₆",
+      "frequency": 28,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "³⁄₄",
+      "frequency": 27,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "¹⁄₁₆",
+      "frequency": 26,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "A",
+      "frequency": 25,
+      "is_unknown": false,
+      "known_phonetic_class": "vowel"
+    },
+    {
+      "sign": "*304",
+      "frequency": 25,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "¹⁄₃",
+      "frequency": 24,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "¹⁄₅",
+      "frequency": 22,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "OLE+U",
+      "frequency": 22,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "OLE+KI",
+      "frequency": 21,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "SA-RA₂",
+      "frequency": 20,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "KI",
+      "frequency": 19,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "OLE+MI",
+      "frequency": 19,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "CYP+D",
+      "frequency": 19,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "O",
+      "frequency": 17,
+      "is_unknown": false,
+      "known_phonetic_class": "vowel"
+    },
+    {
+      "sign": "RE",
+      "frequency": 16,
+      "is_unknown": false,
+      "known_phonetic_class": "liquid"
+    },
+    {
+      "sign": "KI-RO",
+      "frequency": 16,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "PA",
+      "frequency": 16,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "DI",
+      "frequency": 16,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "*411-VS",
+      "frequency": 15,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*22F",
+      "frequency": 14,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "NA",
+      "frequency": 13,
+      "is_unknown": false,
+      "known_phonetic_class": "nasal"
+    },
+    {
+      "sign": "CYP+E",
+      "frequency": 13,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*164",
+      "frequency": 13,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*308",
+      "frequency": 12,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*305",
+      "frequency": 12,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "OLE+DI",
+      "frequency": 12,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "TI",
+      "frequency": 12,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "JA",
+      "frequency": 11,
+      "is_unknown": false,
+      "known_phonetic_class": "glide"
+    },
+    {
+      "sign": "¹⁄₈",
+      "frequency": 11,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "MA",
+      "frequency": 11,
+      "is_unknown": false,
+      "known_phonetic_class": "nasal"
+    },
+    {
+      "sign": "TU",
+      "frequency": 11,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "A-TA-I-*301-WA-JA",
+      "frequency": 11,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*301+*311",
+      "frequency": 10,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "E",
+      "frequency": 10,
+      "is_unknown": false,
+      "known_phonetic_class": "vowel"
+    },
+    {
+      "sign": "A-DU",
+      "frequency": 10,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "DA",
+      "frequency": 9,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "*188",
+      "frequency": 9,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*516",
+      "frequency": 9,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "RA",
+      "frequency": 9,
+      "is_unknown": false,
+      "known_phonetic_class": "liquid"
+    },
+    {
+      "sign": "*401+RU",
+      "frequency": 9,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "HIDE+[?]",
+      "frequency": 9,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "≈",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "NE",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": "nasal"
+    },
+    {
+      "sign": "KU-PA₃-NU",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "VIR+KA",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "double mina",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "QE",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": "stop"
+    },
+    {
+      "sign": "SU",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": "sibilant"
+    },
+    {
+      "sign": "RU",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": "liquid"
+    },
+    {
+      "sign": "QA2+[?]+PU",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*21M",
+      "frequency": 8,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "MI+JA+RU",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "OLE+TA",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "I-RA₂",
+      "frequency": 8,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*86+*188",
+      "frequency": 8,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "SE",
+      "frequency": 7,
+      "is_unknown": false,
+      "known_phonetic_class": "sibilant"
+    },
+    {
+      "sign": "*23M",
+      "frequency": 7,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "DA-RE",
+      "frequency": 7,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "SI-RU-TE",
+      "frequency": 7,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "JA-SA-SA-RA-ME",
+      "frequency": 7,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*306",
+      "frequency": 7,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "I-PI-NA-MA",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "WA",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": "glide"
+    },
+    {
+      "sign": "JU",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": "glide"
+    },
+    {
+      "sign": "KA-PA",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "MI",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": "nasal"
+    },
+    {
+      "sign": "MA-DI",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "SA-RU",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*307",
+      "frequency": 6,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "DI-NA-U",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "QA2+[?]+RE",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "𐝓",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "SI-KA",
+      "frequency": 6,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*131C",
+      "frequency": 6,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "PA₃",
+      "frequency": 5,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "OLE+NE",
+      "frequency": 5,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "KU-NI-SU",
+      "frequency": 5,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "³⁄₈",
+      "frequency": 5,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "*904",
+      "frequency": 5,
+      "is_unknown": true,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "SA",
+      "frequency": 5,
+      "is_unknown": false,
+      "known_phonetic_class": "sibilant"
+    },
+    {
+      "sign": "𐝉𐝫",
+      "frequency": 5,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "ZU",
+      "frequency": 5,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    },
+    {
+      "sign": "DA-KA",
+      "frequency": 5,
+      "is_unknown": false,
+      "known_phonetic_class": null
+    }
+  ]
+}

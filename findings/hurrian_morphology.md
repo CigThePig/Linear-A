@@ -153,14 +153,33 @@ Control test applying the same 5-point rubric to Luwian (Anatolian Indo-European
 
 **Interpretation:** The 14 vs. 0 high-confidence count is the most meaningful metric. Hurrian morphology produces stronger correspondences for the most studied Linear A suffixes (-TE, -NA, -TI, -NE, -JA, -RE, -TA, -RA). Luwian "wins" for suffixes that were not previously analyzed in depth (-DA, -MA, -ME, -MU, -RO, -SE, -SI), suggesting these may be better explained by Luwian derivational morphology — OR that neither language is correct for these suffixes.
 
-**N-gram fingerprinting caveat (Attempt #4):** An independent n-gram phonotactic analysis ranked Proto-Semitic > Luwian > Etruscan > Hurrian — OPPOSITE to the morphological ranking. This inconsistency has not been resolved. The n-gram analysis suffered from methodological limitations (newline tokens, unknown sign categories) that reduced its discriminative power.
+**N-gram fingerprinting — CORRECTED (Attempt #6, 2026-03-19):**
 
-## Open Questions (Updated 2026-03-18)
+The Attempt #4 n-gram ranking (Proto-Semitic #1, Hurrian #4) was a METHODOLOGICAL ARTIFACT caused by:
+1. Treating multi-sign tokens like "U-NA-KA-NA-SI" as single opaque units instead of splitting into individual CV signs
+2. Including structural tokens (𐄁, \n) in bigram computation
+3. Using consonant-class-level (6-dimensional) comparison instead of sign-level (210-dimensional)
 
-- [ ] Does Linear A show any evidence of Hurrian ergative/absolutive split? → Ergative search (Attempt #4) found NO suffix with a clean ergative profile; may be word-order marked
+After fixing these issues (Attempt #6, script `ngram_clean_2026-03-19.py`), the CORRECTED ranking is:
+- **Hurrian: #1** (cosine 0.027, overlap 25/36)
+- Luwian: #2 (cosine 0.017, overlap 18/29)
+- Proto-Semitic: #3 (cosine 0.014, overlap 20/35)
+- Etruscan: #4 (cosine 0.010, overlap 14/30)
+
+**This resolves the contradiction.** Three independent lines of evidence now converge on Hurrian:
+1. N-gram phonotactics (corrected): Hurrian #1
+2. Morphological alignment: 14 high-confidence alignments vs. Luwian's 0
+3. Suffix comparison: Hurrian wins 8/15, Luwian wins 7/15
+
+**Overall Hurrian compatibility assessment: Medium-High** (elevated from Medium — three convergent lines of evidence)
+
+## Open Questions (Updated 2026-03-19)
+
+- [ ] Does Linear A show any evidence of Hurrian ergative/absolutive split? → Ergative search (Attempt #4) found NO suffix with a clean ergative profile; word-order analysis (Attempt #6) was inconclusive (accounting formula too simple); clause-internal analysis needed
 - [x] How do Linear A suffix frequencies compare to Luwian morpheme frequencies? → Tested in Attempt #4: Hurrian wins 8, Luwian wins 7 (marginal Hurrian preference)
 - [ ] Is -RA the Hurrian comitative -ra (exact match) or coincidental? -RA words need contextual analysis similar to -NA and -JA.
 - [ ] The plural -na/-ne mapping to both -NA and -NE in Linear A creates ambiguity — is there morphological evidence that distinguishes singular from plural -NA words?
-- [x] Strategy 9 (N-gram fingerprinting) ran but inconclusive — method needs refinement; Proto-Semitic ranked highest (unexpected; inconsistent with morphological results)
-- [ ] Can the n-gram analysis be rerun with clean tokens (no newlines/special chars) and at sign level rather than consonant-class level?
-- [ ] What is the grammatical function of -ME? Luwian verbal noun -amma- scored 3.0; Hurrian has no obvious parallel → this is a gap in the Hurrian hypothesis.
+- [x] Strategy 9 (N-gram fingerprinting) re-run with clean tokens at sign level — RESOLVED: Hurrian now #1; Proto-Semitic demoted to #3
+- [x] Can the n-gram analysis be rerun with clean tokens (no newlines/special chars) and at sign level rather than consonant-class level? → Done in Attempt #6
+- [ ] What is the grammatical function of -ME? Luwian verbal noun -amma- scored 3.0; Hurrian has no obvious parallel → this is a gap in the Hurrian hypothesis. Comitative test (Attempt #6) was inconclusive.
+- [ ] Build Hurrian n-gram reference from full attested Hurrian word sequences (not just morpheme templates) for more robust phonotactic validation.
