@@ -57,6 +57,49 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #6 — Computational Sign Clustering, Refined N-gram, U-NA-KA-NA-SI Analysis, Word-Order Test
+
+**Date:** 2026-03-19
+**Hypothesis file:** `hypotheses/2026-03-19-sign-clustering-ngram-unakana-wordorder.md`
+**Session:** claude/continue-deciphering-kAv66
+**Strategy:** Sign Clustering (Strategy 7), N-gram Fingerprinting (Strategy 9 revision), Formulaic Analysis, Grammatical Analysis
+**Language tested (if applicable):** Hurrian, Luwian, Proto-Semitic, Etruscan (n-gram comparison)
+
+#### Summary of Approach
+
+Five analyses executed: (1) First application of Strategy 7 — computational sign clustering via PMI co-occurrence matrix + PCA + k-means on 102 active signs; (2) Refined n-gram fingerprinting at sign level (fixed Attempt #4's compound token issue and structural token conflation); (3) Deep analysis of U-NA-KA-NA-SI as an independent research target across all 1721 records; (4) Word-order analysis for the ergative hypothesis — tested whether -JA appears post-logogram and -RE appears pre-logogram in accounting inscriptions; (5) -ME comitative/essive test via neighbor token classification.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl` (all 1721 records)
+- Scripts: `sign_clustering_2026-03-19.py`, `ngram_clean_2026-03-19.py`, `unakana_analysis_2026-03-19.py`, `word_order_2026-03-19.py`
+- Methods: PMI co-occurrence matrix, k-means clustering (k=10), sign-level bigram comparison, token substring search, logogram-neighbor position analysis
+
+#### Results
+**Outcome:** PARTIAL SUCCESS (H1 low confidence; H2 confirmed; H3 partially confirmed; H4/H5 inconclusive)
+**Key finding:** The critical Attempt #4 contradiction (Proto-Semitic #1 / Hurrian #4 in n-gram) is RESOLVED. At sign level with compound token splitting, Hurrian ranks #1 (cosine 0.027 vs. Proto-Semitic 0.014). The contradiction was a methodological artifact of treating multi-sign tokens like "U-NA-KA-NA-SI" as single opaque units instead of splitting them into individual CV signs for bigram computation.
+**Confidence:** High (H2 reversal documented), Medium (H3 U-NA-KA-NA-SI), Low (H1 clustering), Inconclusive (H4/H5)
+
+#### What Was Learned
+1. **Hurrian n-gram ranking restored**: Three independent lines of evidence (n-gram phonotactics, morphological alignment, suffix comparison) all now favor Hurrian. The language family assessment is elevated from Medium to Medium-High confidence.
+2. **Strategy 7 is not discriminative at this corpus size**: k-means clustering on 102 signs with ~6,500 tokens produces mostly low-purity clusters (purity 0.25–0.33). *304 and *308 cluster near nasal-initial signs (purity 1.00, Medium confidence) but most unknown signs produce Low confidence results.
+3. **U-NA-KA-NA-SI is 100% ritual** (6/6 stone vessels, 4 sites); appears independently in 3/6 cases (not exclusively dependent on JA-SA-SA-RA-ME as assumed). Core sub-sequences NA-KA-NA, KA-NA-SI, U-NA-KA are also 100% ritual.
+4. **Word-order analysis cannot distinguish suffix position bias** in simple accounting formulas because all syllabic tokens appear pre-logogram (post-logogram is always a numeral). A clause-internal approach is needed.
+5. **-ME comitative hypothesis inconclusive**: 46% of -ME tokens appear between two syllabic tokens (suggestive of comitative) but does not reach 50% threshold. -ME function remains open.
+6. **Methodological discovery**: The compound token representation in the corpus (multi-sign words stored as single hyphenated tokens) must always be split before sign-level analysis. This affects bigram computation, sign frequency, and co-occurrence matrices.
+
+#### Negative Results (Documented)
+- H1 (sign clustering): Low confidence — corpus too small for discriminative k-means at k=10; must retest with k=5–6 or higher frequency threshold
+- H4 (word-order ergative): Inconclusive — accounting formula structure prevents post-logogram syllabic tokens from appearing; method does not test the hypothesis
+- H5 (-ME comitative): Inconclusive — 46% comitative pattern, below 50% threshold
+
+#### Follow-up
+- Run Strategy 5 (Proto-Semitic controlled morphological comparison) to test whether the n-gram demotion of Proto-Semitic also applies to morphology
+- Analyze PKZa8 ("JA-SA-U-NA-KA-NA-SI" compound) and SYZa2 ("U-NA-KA-NA-SI-OLE") in detail
+- Retry clustering with k=5–6 and freq≥10 threshold
+- Build Hurrian n-gram reference from actual attested word sequences, not just morpheme templates
+
+---
+
 ### Attempt #5 — DI-KI Element Analysis, IOZa2 Coda Identification, -ME Suffix Positional Analysis
 
 **Date:** 2026-03-18

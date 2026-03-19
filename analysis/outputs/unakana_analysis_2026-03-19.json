@@ -1,0 +1,1014 @@
+{
+  "metadata": {
+    "date": "2026-03-19",
+    "analyses": [
+      "U-NA-KA-NA-SI occurrence analysis (H3)",
+      "Sub-sequence independence test (H3)",
+      "Phonological skeleton comparison vs Hurrian/place names (H3)",
+      "-ME comitative/essive neighbor test (H5)"
+    ],
+    "corpus_records": 1721
+  },
+  "unakana_analysis": {
+    "target": "U-NA-KA-NA-SI",
+    "total_occurrences": 6,
+    "ritual_count": 6,
+    "ritual_rate": 1.0,
+    "sites": {
+      "Iouktas": 2,
+      "Palaikastro": 2,
+      "Kophinas": 1,
+      "Syme": 1
+    },
+    "support_types": {
+      "Stone vessel": 6
+    },
+    "co_occurrence_with_JA-SA-SA-RA-ME": {
+      "count": 3,
+      "total": 6,
+      "rate": 0.5,
+      "records": [
+        "IOZa2",
+        "IOZa9",
+        "PKZa27"
+      ]
+    },
+    "co_occurrence_with_A-TA-I-*301-WA-JA": {
+      "count": 2,
+      "total": 6,
+      "rate": 0.333
+    },
+    "individual_occurrences": [
+      {
+        "record_id": "IOZa2",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "scribe": null,
+        "is_ritual": true,
+        "is_admin": false,
+        "match_type": "exact",
+        "position_in_inscription": 3,
+        "inscription_length": 9,
+        "relative_position": 0.33,
+        "preceding_token": "JA-SA-SA-RA-ME",
+        "following_token": "I-PI-NA-MA"
+      },
+      {
+        "record_id": "IOZa9",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "scribe": null,
+        "is_ritual": true,
+        "is_admin": false,
+        "match_type": "exact",
+        "position_in_inscription": 2,
+        "inscription_length": 3,
+        "relative_position": 0.67,
+        "preceding_token": "\\n",
+        "following_token": null
+      },
+      {
+        "record_id": "KOZa1",
+        "site": "Kophinas",
+        "support": "Stone vessel",
+        "scribe": null,
+        "is_ritual": true,
+        "is_admin": false,
+        "match_type": "exact",
+        "position_in_inscription": 6,
+        "inscription_length": 10,
+        "relative_position": 0.6,
+        "preceding_token": "\\n",
+        "following_token": "\\n"
+      },
+      {
+        "record_id": "PKZa27",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "scribe": null,
+        "is_ritual": true,
+        "is_admin": false,
+        "match_type": "exact",
+        "position_in_inscription": 2,
+        "inscription_length": 3,
+        "relative_position": 0.67,
+        "preceding_token": "\\n",
+        "following_token": null
+      },
+      {
+        "record_id": "PKZa8",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "scribe": null,
+        "is_ritual": true,
+        "is_admin": false,
+        "match_type": "substring_in_JA-SA-U-NA-KA-NA-SI",
+        "matched_token": "JA-SA-U-NA-KA-NA-SI",
+        "position_in_inscription": 5,
+        "inscription_length": 8,
+        "relative_position": 0.62,
+        "preceding_token": "\\n",
+        "following_token": "\\n"
+      },
+      {
+        "record_id": "SYZa2",
+        "site": "Syme",
+        "support": "Stone vessel",
+        "scribe": null,
+        "is_ritual": true,
+        "is_admin": false,
+        "match_type": "substring_in_U-NA-KA-NA-SI-OLE",
+        "matched_token": "U-NA-KA-NA-SI-OLE",
+        "position_in_inscription": 4,
+        "inscription_length": 7,
+        "relative_position": 0.57,
+        "preceding_token": "\\n",
+        "following_token": "\\n"
+      }
+    ],
+    "phonological_skeleton": "NKNS",
+    "hurrian_divine_name_comparisons": [
+      {
+        "name": "Sauska",
+        "skeleton": "S-K-S",
+        "overlap_chars": 2,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=S-K-S"
+      },
+      {
+        "name": "Kusuh",
+        "skeleton": "K-S-H",
+        "overlap_chars": 2,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=K-S-H"
+      },
+      {
+        "name": "Nubadig",
+        "skeleton": "N-B-D",
+        "overlap_chars": 2,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=N-B-D"
+      },
+      {
+        "name": "Nabarbi",
+        "skeleton": "N-B-R",
+        "overlap_chars": 2,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=N-B-R"
+      },
+      {
+        "name": "Tessub",
+        "skeleton": "T-S-B",
+        "overlap_chars": 1,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=T-S-B"
+      },
+      {
+        "name": "Kumarbi",
+        "skeleton": "K-M-R-B",
+        "overlap_chars": 1,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=K-M-R-B"
+      },
+      {
+        "name": "Simigi",
+        "skeleton": "S-M-G",
+        "overlap_chars": 1,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=S-M-G"
+      },
+      {
+        "name": "Ashtapi",
+        "skeleton": "S-T-P",
+        "overlap_chars": 1,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=S-T-P"
+      },
+      {
+        "name": "Hebat",
+        "skeleton": "H-B-T",
+        "overlap_chars": 0,
+        "note": "LA skeleton=NKNS, Hurrian skeleton=H-B-T"
+      }
+    ],
+    "minoan_place_name_comparisons": [
+      {
+        "name": "Knossos",
+        "skeleton": "K-N-S",
+        "overlap_chars": 4,
+        "note": "LA skeleton=NKNS, Place name skeleton=K-N-S"
+      },
+      {
+        "name": "Amnisos",
+        "skeleton": "M-N-S",
+        "overlap_chars": 3,
+        "note": "LA skeleton=NKNS, Place name skeleton=M-N-S"
+      },
+      {
+        "name": "Arkhanes",
+        "skeleton": "R-K-N",
+        "overlap_chars": 3,
+        "note": "LA skeleton=NKNS, Place name skeleton=R-K-N"
+      },
+      {
+        "name": "Psykhro",
+        "skeleton": "P-S-K-R",
+        "overlap_chars": 2,
+        "note": "LA skeleton=NKNS, Place name skeleton=P-S-K-R"
+      },
+      {
+        "name": "Phaistos",
+        "skeleton": "P-S-T",
+        "overlap_chars": 1,
+        "note": "LA skeleton=NKNS, Place name skeleton=P-S-T"
+      },
+      {
+        "name": "Tylissos",
+        "skeleton": "T-L-S",
+        "overlap_chars": 1,
+        "note": "LA skeleton=NKNS, Place name skeleton=T-L-S"
+      },
+      {
+        "name": "Dikte",
+        "skeleton": "D-K-T",
+        "overlap_chars": 1,
+        "note": "LA skeleton=NKNS, Place name skeleton=D-K-T"
+      },
+      {
+        "name": "Zakros",
+        "skeleton": "Z-K-R",
+        "overlap_chars": 1,
+        "note": "LA skeleton=NKNS, Place name skeleton=Z-K-R"
+      },
+      {
+        "name": "Ida",
+        "skeleton": "I-D",
+        "overlap_chars": 0,
+        "note": "LA skeleton=NKNS, Place name skeleton=I-D"
+      }
+    ],
+    "h3_verdict": "INDEPENDENT OCCURRENCES FOUND — not exclusively dependent on JA-SA-SA-RA-ME"
+  },
+  "sub_sequence_analysis": {
+    "U-NA-KA": {
+      "count": 8,
+      "ritual_count": 8,
+      "ritual_rate": 1.0,
+      "sites": {
+        "Palaikastro": 3,
+        "Iouktas": 2,
+        "Kophinas": 1,
+        "Syme": 1,
+        "Troullos": 1
+      }
+    },
+    "NA-KA-NA": {
+      "count": 7,
+      "ritual_count": 7,
+      "ritual_rate": 1.0,
+      "sites": {
+        "Iouktas": 2,
+        "Palaikastro": 2,
+        "Kophinas": 1,
+        "Syme": 1,
+        "Troullos": 1
+      }
+    },
+    "KA-NA-SI": {
+      "count": 8,
+      "ritual_count": 8,
+      "ritual_rate": 1.0,
+      "sites": {
+        "Iouktas": 3,
+        "Palaikastro": 2,
+        "Syme": 2,
+        "Kophinas": 1
+      }
+    },
+    "NA-SI": {
+      "count": 15,
+      "ritual_count": 9,
+      "ritual_rate": 0.6,
+      "sites": {
+        "Haghia Triada": 3,
+        "Iouktas": 3,
+        "Khania": 2,
+        "Palaikastro": 2,
+        "Syme": 2,
+        "Apodoulou": 1,
+        "Kophinas": 1,
+        "Petras": 1
+      }
+    },
+    "U-NA": {
+      "count": 20,
+      "ritual_count": 13,
+      "ritual_rate": 0.65,
+      "sites": {
+        "Palaikastro": 5,
+        "Haghia Triada": 3,
+        "Iouktas": 3,
+        "Knossos": 3,
+        "Apodoulou": 1,
+        "Kophinas": 1,
+        "Malia": 1,
+        "Syme": 1,
+        "Troullos": 1,
+        "Zakros": 1
+      }
+    }
+  },
+  "me_suffix_analysis": {
+    "summary": {
+      "total_occurrences": 26,
+      "token_types": {
+        "JA-SA-SA-RA-ME": 7,
+        "DA-ME": 4,
+        "MA-RU-ME": 3,
+        "SA-SA-RA-ME": 2,
+        "TU-RU-NU-SE-ME": 1,
+        "SA-SA-ME": 1,
+        "A-RA-TU-ME": 1,
+        "SA-RA-ME": 1,
+        "A-SA-SA-RA-ME": 1,
+        "I-JA-PA-ME": 1,
+        "TO-ME": 1,
+        "RA-ME": 1,
+        "TU-ME": 1,
+        "A-SA-SA-*802-ME": 1
+      },
+      "ritual_count": 12,
+      "ritual_rate": 0.462,
+      "comitative_pattern_count": 12,
+      "comitative_pattern_rate": 0.462,
+      "essive_pattern_count": 5,
+      "essive_pattern_rate": 0.192,
+      "near_kiro_count": 0,
+      "near_kuro_count": 0,
+      "preceding_token_class_distribution": {
+        "syllabic": 20,
+        "boundary": 6
+      },
+      "following_token_class_distribution": {
+        "syllabic": 16,
+        "logogram": 1,
+        "numeral": 4,
+        "boundary": 5
+      },
+      "h5_verdict": "INCONCLUSIVE — no dominant pattern"
+    },
+    "individual_occurrences": [
+      {
+        "record_id": "HT120",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "DA-ME",
+        "position": 2,
+        "inscription_length": 24,
+        "relative_position": 0.08,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "GRA+K+L",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "DA-QE-RA",
+          "\\n",
+          "DA-ME",
+          "GRA+K+L",
+          "74",
+          "\\n"
+        ]
+      },
+      {
+        "record_id": "HT128a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "TU-RU-NU-SE-ME",
+        "position": 4,
+        "inscription_length": 27,
+        "relative_position": 0.15,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "GRA",
+        "following_class": "logogram",
+        "comitative_pattern": false,
+        "essive_pattern": true,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "\\n",
+          "PA-RA",
+          "\\n",
+          "TU-RU-NU-SE-ME",
+          "GRA",
+          "10",
+          "\\n"
+        ]
+      },
+      {
+        "record_id": "HT23a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "SA-SA-ME",
+        "position": 34,
+        "inscription_length": 42,
+        "relative_position": 0.81,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "¹⁄₁₆",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "*21F-RI-TU-QA",
+          "¹⁄₁₆",
+          "\\n",
+          "SA-SA-ME",
+          "¹⁄₁₆",
+          "\\n",
+          "SI+ME"
+        ]
+      },
+      {
+        "record_id": "HT24a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "MA-RU-ME",
+        "position": 5,
+        "inscription_length": 19,
+        "relative_position": 0.26,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "10",
+        "following_class": "numeral",
+        "comitative_pattern": false,
+        "essive_pattern": true,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "\\n",
+          "6",
+          "\\n",
+          "MA-RU-ME",
+          "10",
+          "\\n",
+          "9"
+        ]
+      },
+      {
+        "record_id": "HT24a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "MA-RU-ME",
+        "position": 11,
+        "inscription_length": 19,
+        "relative_position": 0.58,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "6",
+        "following_class": "numeral",
+        "comitative_pattern": false,
+        "essive_pattern": true,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "9",
+          "¹⁄₂",
+          "\\n",
+          "MA-RU-ME",
+          "6",
+          "\\n",
+          "PA-SA-RI-JA"
+        ]
+      },
+      {
+        "record_id": "HT24a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "MA-RU-ME",
+        "position": 16,
+        "inscription_length": 19,
+        "relative_position": 0.84,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "RU-I-KO",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "\\n",
+          "PA-SA-RI-JA",
+          "\\n",
+          "MA-RU-ME",
+          "RU-I-KO",
+          "*560"
+        ]
+      },
+      {
+        "record_id": "HT86a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "DA-ME",
+        "position": 19,
+        "inscription_length": 25,
+        "relative_position": 0.76,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "GRA+B",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "\\n",
+          "A-DU",
+          "\\n",
+          "DA-ME",
+          "GRA+B",
+          "20",
+          "\\n"
+        ]
+      },
+      {
+        "record_id": "HT95a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "DA-ME",
+        "position": 3,
+        "inscription_length": 20,
+        "relative_position": 0.15,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "10",
+        "following_class": "numeral",
+        "comitative_pattern": false,
+        "essive_pattern": true,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "DA-DU-MA-TA",
+          "GRA",
+          "\\n",
+          "DA-ME",
+          "10",
+          "\\n",
+          "MI-NU-TE"
+        ]
+      },
+      {
+        "record_id": "HT95b",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "DA-ME",
+        "position": 8,
+        "inscription_length": 22,
+        "relative_position": 0.36,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "10",
+        "following_class": "numeral",
+        "comitative_pattern": false,
+        "essive_pattern": true,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "𐝫",
+          "𐝫",
+          "\\n",
+          "DA-ME",
+          "10",
+          "\\n",
+          "MI-NU-TE"
+        ]
+      },
+      {
+        "record_id": "HTWc3024",
+        "site": "Haghia Triada",
+        "support": "Roundel",
+        "is_ritual": false,
+        "token": "A-RA-TU-ME",
+        "position": 0,
+        "inscription_length": 3,
+        "relative_position": 0.0,
+        "preceding_token": null,
+        "preceding_class": "boundary",
+        "following_token": "\\n",
+        "following_class": "syllabic",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "A-RA-TU-ME",
+          "\\n",
+          "*22F"
+        ]
+      },
+      {
+        "record_id": "IOZa12",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "SA-RA-ME",
+        "position": 2,
+        "inscription_length": 4,
+        "relative_position": 0.5,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "I-TI",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "JA-SA",
+          "\\n",
+          "SA-RA-ME",
+          "I-TI"
+        ]
+      },
+      {
+        "record_id": "IOZa2",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "JA-SA-SA-RA-ME",
+        "position": 2,
+        "inscription_length": 9,
+        "relative_position": 0.22,
+        "preceding_token": "JA-DI-KI-TU",
+        "preceding_class": "syllabic",
+        "following_token": "U-NA-KA-NA-SI",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "A-TA-I-*301-WA-JA",
+          "JA-DI-KI-TU",
+          "JA-SA-SA-RA-ME",
+          "U-NA-KA-NA-SI",
+          "I-PI-NA-MA",
+          "\\n"
+        ]
+      },
+      {
+        "record_id": "IOZa6",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "JA-SA-SA-RA-ME",
+        "position": 2,
+        "inscription_length": 3,
+        "relative_position": 0.67,
+        "preceding_token": "I-NA-TA-I-ZU-DI-SI-KA",
+        "preceding_class": "syllabic",
+        "following_token": null,
+        "following_class": "boundary",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "TA-NA-I-*301-U-TI-NU",
+          "I-NA-TA-I-ZU-DI-SI-KA",
+          "JA-SA-SA-RA-ME"
+        ]
+      },
+      {
+        "record_id": "IOZa9",
+        "site": "Iouktas",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "JA-SA-SA-RA-ME",
+        "position": 0,
+        "inscription_length": 3,
+        "relative_position": 0.0,
+        "preceding_token": null,
+        "preceding_class": "boundary",
+        "following_token": "\\n",
+        "following_class": "syllabic",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "JA-SA-SA-RA-ME",
+          "\\n",
+          "U-NA-KA-NA-SI"
+        ]
+      },
+      {
+        "record_id": "IOZb10",
+        "site": "Iouktas",
+        "support": "Clay vessel",
+        "is_ritual": false,
+        "token": "A-SA-SA-RA-ME",
+        "position": 0,
+        "inscription_length": 1,
+        "relative_position": 0.0,
+        "preceding_token": null,
+        "preceding_class": "boundary",
+        "following_token": null,
+        "following_class": "boundary",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "A-SA-SA-RA-ME"
+        ]
+      },
+      {
+        "record_id": "KH7a",
+        "site": "Khania",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "I-JA-PA-ME",
+        "position": 19,
+        "inscription_length": 43,
+        "relative_position": 0.44,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "TA-TA",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "CYP+D",
+          "¹⁄₂",
+          "\\n",
+          "I-JA-PA-ME",
+          "TA-TA",
+          "\\n",
+          "QA-TI-KI"
+        ]
+      },
+      {
+        "record_id": "KHZc106",
+        "site": "Knossos",
+        "support": "Inked inscription",
+        "is_ritual": false,
+        "token": "SA-SA-RA-ME",
+        "position": 0,
+        "inscription_length": 1,
+        "relative_position": 0.0,
+        "preceding_token": null,
+        "preceding_class": "boundary",
+        "following_token": null,
+        "following_class": "boundary",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "SA-SA-RA-ME"
+        ]
+      },
+      {
+        "record_id": "PE2",
+        "site": "Petras",
+        "support": "Tablet",
+        "is_ritual": false,
+        "token": "TO-ME",
+        "position": 18,
+        "inscription_length": 25,
+        "relative_position": 0.72,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "¹⁄₃",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "QA-QA-DA",
+          "¹⁄₂",
+          "\\n",
+          "TO-ME",
+          "¹⁄₃",
+          "\\n",
+          "TO-*49-RE"
+        ]
+      },
+      {
+        "record_id": "PKZa11",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "SA-SA-RA-ME",
+        "position": 8,
+        "inscription_length": 15,
+        "relative_position": 0.53,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "U-NA-RU-KA-NA-TI",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "A-KO-A-NE",
+          "A",
+          "\\n",
+          "SA-SA-RA-ME",
+          "U-NA-RU-KA-NA-TI",
+          "\\n",
+          "I-PI-NA-MI-NA"
+        ]
+      },
+      {
+        "record_id": "PKZa12",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "RA-ME",
+        "position": 6,
+        "inscription_length": 12,
+        "relative_position": 0.5,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "A-NE",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "SI",
+          "\\n",
+          "\\n",
+          "RA-ME",
+          "A-NE",
+          "U-NA-RU-KA-JA-SI",
+          "A-PA-DU-PA"
+        ]
+      },
+      {
+        "record_id": "PKZa14",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "TU-ME",
+        "position": 0,
+        "inscription_length": 4,
+        "relative_position": 0.0,
+        "preceding_token": null,
+        "preceding_class": "boundary",
+        "following_token": "\\n",
+        "following_class": "syllabic",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "TU-ME",
+          "\\n",
+          "I",
+          "JA-SA-SA"
+        ]
+      },
+      {
+        "record_id": "PKZa27",
+        "site": "Palaikastro",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "JA-SA-SA-RA-ME",
+        "position": 0,
+        "inscription_length": 3,
+        "relative_position": 0.0,
+        "preceding_token": null,
+        "preceding_class": "boundary",
+        "following_token": "\\n",
+        "following_class": "syllabic",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "JA-SA-SA-RA-ME",
+          "\\n",
+          "U-NA-KA-NA-SI"
+        ]
+      },
+      {
+        "record_id": "PLZf1",
+        "site": "Platanos",
+        "support": "Metal object",
+        "is_ritual": true,
+        "token": "JA-SA-SA-RA-ME",
+        "position": 3,
+        "inscription_length": 8,
+        "relative_position": 0.38,
+        "preceding_token": "U-QE-TI",
+        "preceding_class": "syllabic",
+        "following_token": "TA-NU-NI-KI-NA",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "TA",
+          "WI-TE-JA-MU",
+          "U-QE-TI",
+          "JA-SA-SA-RA-ME",
+          "TA-NU-NI-KI-NA",
+          "NI-NU-NI",
+          "𐝫"
+        ]
+      },
+      {
+        "record_id": "PRZa1",
+        "site": "Prassa",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "A-SA-SA-*802-ME",
+        "position": 4,
+        "inscription_length": 5,
+        "relative_position": 0.8,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": null,
+        "following_class": "boundary",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "\\n",
+          "SE-TO-I-JA",
+          "\\n",
+          "A-SA-SA-*802-ME"
+        ]
+      },
+      {
+        "record_id": "PSZa2",
+        "site": "Psykhro",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "JA-SA-SA-RA-ME",
+        "position": 4,
+        "inscription_length": 5,
+        "relative_position": 0.8,
+        "preceding_token": "𐄌-JA-TI",
+        "preceding_class": "syllabic",
+        "following_token": null,
+        "following_class": "boundary",
+        "comitative_pattern": false,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "\\n",
+          "TA-NA-I-*301-TI",
+          "𐄌-JA-TI",
+          "JA-SA-SA-RA-ME"
+        ]
+      },
+      {
+        "record_id": "TLZa1",
+        "site": "Troullos",
+        "support": "Stone vessel",
+        "is_ritual": true,
+        "token": "JA-SA-SA-RA-ME",
+        "position": 3,
+        "inscription_length": 8,
+        "relative_position": 0.38,
+        "preceding_token": "\\n",
+        "preceding_class": "syllabic",
+        "following_token": "\\n",
+        "following_class": "syllabic",
+        "comitative_pattern": true,
+        "essive_pattern": false,
+        "near_kiro": false,
+        "near_kuro": false,
+        "window_context": [
+          "A-TA-I-*301-WA-JA",
+          "O-SU-QA-RE",
+          "\\n",
+          "JA-SA-SA-RA-ME",
+          "\\n",
+          "U-NA-KA-NA",
+          "I-PI-NA-MA"
+        ]
+      }
+    ]
+  }
+}

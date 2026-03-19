@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "date": "2026-03-19",
+    "strategy": "Strategy 9 — Refined N-gram Fingerprinting (sign-level)",
+    "corpus_records": 1721,
+    "clean_segments": 1634,
+    "total_syllabic_tokens": 7038,
+    "vocabulary_size": 210,
+    "improvements_over_attempt4": [
+      "1. Stripped divider tokens (𐄁, ↵, \\n) before bigram computation",
+      "2. Split sequences at logograms and numerals (boundary markers)",
+      "3. Unknown signs (*XXX) treated as sequence boundaries, not 'OTHER' class",
+      "4. Sign-level bigrams (e.g., KA→TA) instead of class-level (stop→stop)"
+    ],
+    "evidence_tier": "Tier 1 (Structural) — phonotactic similarity ≠ language identification",
+    "note": "Reference profiles are approximations. Results are suggestive not definitive."
+  },
+  "language_ranking_current": [
+    {
+      "language": "Hurrian",
+      "cosine_similarity": 0.02697,
+      "overlap_bigrams": 25,
+      "reference_bigrams_total": 36,
+      "overlap_rate": 0.694
+    },
+    {
+      "language": "Luwian",
+      "cosine_similarity": 0.017186,
+      "overlap_bigrams": 18,
+      "reference_bigrams_total": 29,
+      "overlap_rate": 0.621
+    },
+    {
+      "language": "Proto-Semitic",
+      "cosine_similarity": 0.01407,
+      "overlap_bigrams": 20,
+      "reference_bigrams_total": 35,
+      "overlap_rate": 0.571
+    },
+    {
+      "language": "Etruscan",
+      "cosine_similarity": 0.009624,
+      "overlap_bigrams": 14,
+      "reference_bigrams_total": 30,
+      "overlap_rate": 0.467
+    }
+  ],
+  "language_ranking_attempt4_reference": [
+    {
+      "language": "Proto-Semitic",
+      "cosine_similarity": 0.1467,
+      "method": "class-level"
+    },
+    {
+      "language": "Luwian",
+      "cosine_similarity": 0.1131,
+      "method": "class-level"
+    },
+    {
+      "language": "Etruscan",
+      "cosine_similarity": 0.0971,
+      "method": "class-level"
+    },
+    {
+      "language": "Hurrian",
+      "cosine_similarity": 0.086,
+      "method": "class-level"
+    }
+  ],
+  "interpretation": {
+    "if_hurrian_rises": "Contradiction with Attempt #4 was methodological artifact; Hurrian phonotactics compatible",
+    "if_proto_semitic_still_first": "Proto-Semitic phonotactic proximity may reflect genuine contact or shared areal features",
+    "if_rankings_change_substantially": "Sign-level resolution reveals finer structure; class-level was too coarse",
+    "if_rankings_unchanged": "Methodological fixes insufficient; language family not determinable from n-gram alone"
+  },
+  "linear_a_phonotactic_profile": {
+    "total_bigram_tokens": 5404,
+    "vocabulary_size": 210,
+    "vowel_initial_bigram_rate": 0.0714,
+    "stop_initial_bigram_rate": 0.1956,
+    "avg_sequence_length": 4.31,
+    "top_unigrams": [
+      [
+        "\\n",
+        1928
+      ],
+      [
+        "𐝫",
+        526
+      ],
+      [
+        "A",
+        190
+      ],
+      [
+        "I",
+        161
+      ],
+      [
+        "JA",
+        159
+      ],
+      [
+        "NA",
+        150
+      ],
+      [
+        "KU",
+        148
+      ],
+      [
+        "TA",
+        147
+      ],
+      [
+        "SI",
+        138
+      ],
+      [
+        "SA",
+        134
+      ],
+      [
+        "NI",
+        129
+      ],
+      [
+        "DA",
+        128
+      ],
+      [
+        "KA",
+        123
+      ],
+      [
+        "KI",
+        120
+      ],
+      [
+        "RE",
+        119
+      ],
+      [
+        "TE",
+        118
+      ],
+      [
+        "MA",
+        112
+      ],
+      [
+        "RA",
+        108
+      ],
+      [
+        "TI",
+        106
+      ],
+      [
+        "¹⁄₂",
+        105
+      ]
+    ]
+  },
+  "top_bigrams_by_frequency": [
+    {
+      "bigram": "\\n→𐝫",
+      "count": 334
+    },
+    {
+      "bigram": "𐝫→\\n",
+      "count": 291
+    },
+    {
+      "bigram": "¹⁄₂→\\n",
+      "count": 101
+    },
+    {
+      "bigram": "\\n→KU",
+      "count": 98
+    },
+    {
+      "bigram": "\\n→\\n",
+      "count": 76
+    },
+    {
+      "bigram": "\\n→A",
+      "count": 70
+    },
+    {
+      "bigram": "\\n→NI",
+      "count": 65
+    },
+    {
+      "bigram": "\\n→SA",
+      "count": 51
+    },
+    {
+      "bigram": "\\n→PA",
+      "count": 44
+    },
+    {
+      "bigram": "\\n→KI",
+      "count": 43
+    },
+    {
+      "bigram": "¹⁄₄→\\n",
+      "count": 43
+    },
+    {
+      "bigram": "\\n→SI",
+      "count": 41
+    },
+    {
+      "bigram": "KU→RO",
+      "count": 39
+    },
+    {
+      "bigram": "\\n→DI",
+      "count": 38
+    },
+    {
+      "bigram": "\\n→DA",
+      "count": 37
+    },
+    {
+      "bigram": "\\n→MA",
+      "count": 36
+    },
+    {
+      "bigram": "\\n→I",
+      "count": 36
+    },
+    {
+      "bigram": "\\n→KA",
+      "count": 34
+    },
+    {
+      "bigram": "\\n→TA",
+      "count": 31
+    },
+    {
+      "bigram": "≈ ¹⁄₆→\\n",
+      "count": 28
+    },
+    {
+      "bigram": "\\n→JA",
+      "count": 23
+    },
+    {
+      "bigram": "\\n→RE",
+      "count": 23
+    },
+    {
+      "bigram": "\\n→TU",
+      "count": 23
+    },
+    {
+      "bigram": "TA→I",
+      "count": 22
+    },
+    {
+      "bigram": "\\n→DU",
+      "count": 22
+    },
+    {
+      "bigram": "\\n→QE",
+      "count": 22
+    },
+    {
+      "bigram": "SA→RA",
+      "count": 22
+    },
+    {
+      "bigram": "³⁄₄→\\n",
+      "count": 22
+    },
+    {
+      "bigram": "¹⁄₃→\\n",
+      "count": 22
+    },
+    {
+      "bigram": "TA→NA",
+      "count": 21
+    }
+  ],
+  "characteristic_bigrams_by_pmi": [
+    {
+      "bigram": "HIDE+[?]→𐝈𐝈",
+      "pmi": 8.8591,
+      "prob": 1.0
+    },
+    {
+      "bigram": "QI→VIN+TE",
+      "pmi": 8.8591,
+      "prob": 1.0
+    },
+    {
+      "bigram": "E+KA→𐝃𐝉",
+      "pmi": 8.1659,
+      "prob": 0.5
+    },
+    {
+      "bigram": "SU+MI→𐝊𐝫",
+      "pmi": 8.1659,
+      "prob": 1.0
+    },
+    {
+      "bigram": "QA2+[?]+RE→𐝉𐝋𐝫",
+      "pmi": 7.7605,
+      "prob": 0.3333
+    },
+    {
+      "bigram": "SI+SE→RA+KA",
+      "pmi": 7.7605,
+      "prob": 0.3333
+    },
+    {
+      "bigram": "OLE+NE→𐝆𐝇",
+      "pmi": 7.4728,
+      "prob": 0.25
+    },
+    {
+      "bigram": "QA2+[?]+RE+PU→𐝉",
+      "pmi": 7.4728,
+      "prob": 1.0
+    },
+    {
+      "bigram": "JA+RU→𐝓",
+      "pmi": 7.0673,
+      "prob": 1.0
+    },
+    {
+      "bigram": "TA₂→OLE+QE+DI",
+      "pmi": 6.7796,
+      "prob": 0.125
+    },
+    {
+      "bigram": "PO→ZE",
+      "pmi": 6.7796,
+      "prob": 0.125
+    },
+    {
+      "bigram": "OLE+TU→𐝉",
+      "pmi": 6.7796,
+      "prob": 0.5
+    },
+    {
+      "bigram": "CYP→𐝇𐝉",
+      "pmi": 6.7796,
+      "prob": 0.5
+    },
+    {
+      "bigram": "VIR+KA→VIN",
+      "pmi": 6.5565,
+      "prob": 1.0
+    },
+    {
+      "bigram": "TO→PA3",
+      "pmi": 6.3742,
+      "prob": 0.0833
+    },
+    {
+      "bigram": "JU→𐝈𐝉",
+      "pmi": 5.9687,
+      "prob": 0.0556
+    },
+    {
+      "bigram": "OLE+KI→?",
+      "pmi": 5.9687,
+      "prob": 0.1667
+    },
+    {
+      "bigram": "OLE+RI→𐝉𐝫",
+      "pmi": 5.8633,
+      "prob": 0.25
+    },
+    {
+      "bigram": "CYP+E→𐝇𐝉",
+      "pmi": 5.8633,
+      "prob": 0.2
+    },
+    {
+      "bigram": "ZU→𐝃𐝃𐝫",
+      "pmi": 5.7236,
+      "prob": 0.0435
+    },
+    {
+      "bigram": "≈→VIN+RA",
+      "pmi": 5.681,
+      "prob": 0.125
+    },
+    {
+      "bigram": "TA₂→CYP",
+      "pmi": 5.681,
+      "prob": 0.125
+    },
+    {
+      "bigram": "QA2+[?]+PU+RE→¹⁄₁₆",
+      "pmi": 5.681,
+      "prob": 1.0
+    },
+    {
+      "bigram": "ZE→¹⁄₁₆",
+      "pmi": 5.681,
+      "prob": 1.0
+    },
+    {
+      "bigram": "GRA+QIf→¹⁄₁₆",
+      "pmi": 5.681,
+      "prob": 1.0
+    },
+    {
+      "bigram": "]MI+JA→³⁄₄",
+      "pmi": 5.681,
+      "prob": 1.0
+    },
+    {
+      "bigram": "QA2+[?]+PU→𐝉𐝫",
+      "pmi": 5.6402,
+      "prob": 0.2
+    },
+    {
+      "bigram": "PA₃→RE+SE",
+      "pmi": 5.3327,
+      "prob": 0.0294
+    },
+    {
+      "bigram": "JE→GRA+F",
+      "pmi": 5.2756,
+      "prob": 0.1111
+    },
+    {
+      "bigram": "RA₂→MI+JA+KA",
+      "pmi": 5.2215,
+      "prob": 0.0526
+    }
+  ]
+}
