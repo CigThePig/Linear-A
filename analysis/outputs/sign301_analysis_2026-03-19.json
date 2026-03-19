@@ -1,0 +1,208 @@
+{
+  "analysis": "H3: Sign *301 Context Separation (Admin vs. Ritual)",
+  "date": "2026-03-19",
+  "target_sign": "*301",
+  "corpus_size": 1721,
+  "hypothesis_result": "INCONCLUSIVE — insufficient data in one register",
+  "success_threshold": "Overlap < 30%",
+  "overlap_fraction": 0.0,
+  "register_counts": {
+    "admin_records_with_301": 246,
+    "ritual_records_with_301": 0,
+    "other_records_with_301": 2,
+    "admin_301_appearances": 246,
+    "ritual_301_appearances": 0,
+    "total_301_corpus_count": 238
+  },
+  "admin_site_distribution": {
+    "Haghia Triada": 230,
+    "Khania": 14,
+    "Knossos": 1,
+    "Zakros": 1
+  },
+  "ritual_site_distribution": {},
+  "admin_positional_stats": {
+    "count": 246,
+    "mean_relative_position": 0.015,
+    "first_position_rate": 0.976,
+    "last_position_rate": 0.004,
+    "median_relative_position": 0.0
+  },
+  "ritual_positional_stats": {},
+  "secondary_checks": {
+    "admin_immediately_before_numeral_rate": 0.02,
+    "admin_immediately_before_logogram_rate": 0.0,
+    "ritual_immediately_before_numeral_rate": 0.0,
+    "logographic_indicator": "NO — low pre-numeral rate"
+  },
+  "admin_pmi_top20": {
+    "MA-RE": 4.032,
+    "A-TA-*350": 4.032,
+    "U-*325-ZA": 3.447,
+    "KI+MU": 3.447,
+    "SI-RU": 3.032,
+    "*306": 2.225,
+    "*401+RU": 0.862,
+    "MA": 0.573,
+    "³⁄₄": -0.723,
+    "CYP": -1.668,
+    "VIN": -1.696,
+    "¹⁄₂": -1.875
+  },
+  "ritual_pmi_top20": {},
+  "admin_ritual_shared_partners": [],
+  "admin_unique_partners": [
+    "*401+RU",
+    "VIN",
+    "*306",
+    "³⁄₄",
+    "CYP",
+    "KI+MU",
+    "MA",
+    "U-*325-ZA",
+    "MA-RE",
+    "SI-RU",
+    "A-TA-*350",
+    "¹⁄₂"
+  ],
+  "ritual_unique_partners": [],
+  "ritual_record_details": [],
+  "admin_context_examples": [
+    {
+      "record_id": "HT10a",
+      "site": "Haghia Triada",
+      "tokens": [
+        "KU-NI-SU",
+        "𐄁",
+        "SA-MA",
+        "4",
+        "𐄁",
+        "PA",
+        "𐄁",
+        "DA-RE",
+        "16",
+        "¹⁄₂",
+        "U-*325-ZA",
+        "4",
+        "*301",
+        "6",
+        "U-*325-ZA",
+        "14",
+        "*305-RU",
+        "2",
+        "¹⁄₂",
+        "DA-RI-DA"
+      ]
+    },
+    {
+      "record_id": "HT110b",
+      "site": "Haghia Triada",
+      "tokens": [
+        "GRA",
+        "RO",
+        "20",
+        "*648",
+        "3",
+        "1",
+        "MA",
+        "5",
+        "¹⁄₂",
+        "2",
+        "NI",
+        "1",
+        "¹⁄₂",
+        "1",
+        "MA",
+        "2",
+        "*301",
+        "³⁄₄"
+      ]
+    },
+    {
+      "record_id": "HT127b",
+      "site": "Haghia Triada",
+      "tokens": [
+        "𐝫",
+        "𐝫",
+        "NE",
+        "13",
+        "KU-RO",
+        "*307",
+        "156",
+        "KU",
+        "72",
+        "VIR+*313c",
+        "24",
+        "KI+MU",
+        "15",
+        "*301",
+        "11",
+        "KI+MU",
+        "14",
+        "KU-RO",
+        "291"
+      ]
+    },
+    {
+      "record_id": "HT55a",
+      "site": "Haghia Triada",
+      "tokens": [
+        "KI-RO",
+        "𐄁",
+        "MA-RE",
+        "1",
+        "*301",
+        "1",
+        "SI-RU",
+        "1",
+        "NE",
+        "TU",
+        "1",
+        "𐝫",
+        "𐝫"
+      ]
+    },
+    {
+      "record_id": "HTWa1623",
+      "site": "Haghia Triada",
+      "tokens": [
+        "*301"
+      ]
+    },
+    {
+      "record_id": "HTWa1624",
+      "site": "Haghia Triada",
+      "tokens": [
+        "*301"
+      ]
+    },
+    {
+      "record_id": "HTWa1625",
+      "site": "Haghia Triada",
+      "tokens": [
+        "*301"
+      ]
+    },
+    {
+      "record_id": "HTWa1626",
+      "site": "Haghia Triada",
+      "tokens": [
+        "*301"
+      ]
+    },
+    {
+      "record_id": "HTWa1627",
+      "site": "Haghia Triada",
+      "tokens": [
+        "*301"
+      ]
+    },
+    {
+      "record_id": "HTWa1628",
+      "site": "Haghia Triada",
+      "tokens": [
+        "*301"
+      ]
+    }
+  ]
+}
