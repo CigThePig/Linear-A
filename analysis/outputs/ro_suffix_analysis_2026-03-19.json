@@ -1,0 +1,592 @@
+{
+  "analysis": "H1: -RO Suffix Positional Analysis",
+  "date": "2026-03-19",
+  "corpus_size": 1721,
+  "total_ro_occurrences": 25,
+  "total_baseline_occurrences": 1273,
+  "hypothesis_result": "FAILED — terminal rate below 45%",
+  "success_threshold": 0.6,
+  "positional_stats": {
+    "KU-RO": {
+      "count": 0
+    },
+    "KI-RO": {
+      "count": 0
+    },
+    "other_ro_tokens": {
+      "count": 25,
+      "terminal_rate": 0.4,
+      "final_token_rate": 0.4,
+      "followed_by_numeral_rate": 0.4,
+      "mean_relative_position": 0.45,
+      "median_relative_position": 0.5
+    },
+    "baseline_non_ro": {
+      "count": 1273,
+      "terminal_rate": 0.225,
+      "final_token_rate": 0.253,
+      "followed_by_numeral_rate": 0.339,
+      "mean_relative_position": 0.382,
+      "median_relative_position": 0.333
+    },
+    "admin_ro_tokens": {
+      "count": 0
+    },
+    "ritual_ro_tokens": {
+      "count": 0
+    }
+  },
+  "other_ro_sites": [
+    "Arkhalkhori",
+    "Gournia",
+    "Haghia Triada",
+    "Kamilari",
+    "Khania",
+    "Zakros",
+    "unknown"
+  ],
+  "other_ro_site_count": 7,
+  "token_breakdown": [
+    {
+      "token": "SA-RO",
+      "count": 4,
+      "terminal_rate": 0.25,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 0.5,
+      "mean_relative_position": 0.396,
+      "median_relative_position": 0.5,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 4
+      }
+    },
+    {
+      "token": "*86-RO",
+      "count": 4,
+      "terminal_rate": 0.0,
+      "final_token_rate": 1.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 0.0,
+      "median_relative_position": 0.0,
+      "sites": [
+        "Khania"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Nodule": 4
+      }
+    },
+    {
+      "token": "KI-DA-RO",
+      "count": 2,
+      "terminal_rate": 1.0,
+      "final_token_rate": 0.5,
+      "followed_by_numeral_rate": 1.0,
+      "mean_relative_position": 0.928,
+      "median_relative_position": 1.0,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 2
+      }
+    },
+    {
+      "token": "PO-TO-KU-RO",
+      "count": 2,
+      "terminal_rate": 1.0,
+      "final_token_rate": 0.5,
+      "followed_by_numeral_rate": 1.0,
+      "mean_relative_position": 0.875,
+      "median_relative_position": 1.0,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 2
+      }
+    },
+    {
+      "token": "NU-RO",
+      "count": 2,
+      "terminal_rate": 0.0,
+      "final_token_rate": 1.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 0.0,
+      "median_relative_position": 0.0,
+      "sites": [
+        "Kamilari",
+        "unknown"
+      ],
+      "site_count": 2,
+      "support_distribution": {
+        "Clay vessel": 2
+      }
+    },
+    {
+      "token": "A-KI-RO",
+      "count": 1,
+      "terminal_rate": 1.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 1.0,
+      "mean_relative_position": 0.8,
+      "median_relative_position": 0.8,
+      "sites": [
+        "Arkhalkhori"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 1
+      }
+    },
+    {
+      "token": "A-DA-RO",
+      "count": 1,
+      "terminal_rate": 0.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 0.25,
+      "median_relative_position": 0.25,
+      "sites": [
+        "Arkhalkhori"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 1
+      }
+    },
+    {
+      "token": "SI-DA-RO",
+      "count": 1,
+      "terminal_rate": 0.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 0.714,
+      "median_relative_position": 0.714,
+      "sites": [
+        "Gournia"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 1
+      }
+    },
+    {
+      "token": "DI-NA-RO",
+      "count": 1,
+      "terminal_rate": 0.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 1.0,
+      "mean_relative_position": 0.5,
+      "median_relative_position": 0.5,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 1
+      }
+    },
+    {
+      "token": "U-TA-RO",
+      "count": 1,
+      "terminal_rate": 0.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 0.0,
+      "median_relative_position": 0.0,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 1
+      }
+    },
+    {
+      "token": "WI-TE-RO",
+      "count": 1,
+      "terminal_rate": 0.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 0.2,
+      "median_relative_position": 0.2,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 1
+      }
+    },
+    {
+      "token": "SA-MA-RO",
+      "count": 1,
+      "terminal_rate": 1.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 1.0,
+      "mean_relative_position": 0.833,
+      "median_relative_position": 0.833,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 1
+      }
+    },
+    {
+      "token": "KU-MA-RO",
+      "count": 1,
+      "terminal_rate": 1.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 0.818,
+      "median_relative_position": 0.818,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Tablet": 1
+      }
+    },
+    {
+      "token": "KA-RE-RO",
+      "count": 1,
+      "terminal_rate": 0.0,
+      "final_token_rate": 1.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 0.0,
+      "median_relative_position": 0.0,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Roundel": 1
+      }
+    },
+    {
+      "token": "RE-RO",
+      "count": 1,
+      "terminal_rate": 1.0,
+      "final_token_rate": 1.0,
+      "followed_by_numeral_rate": 0.0,
+      "mean_relative_position": 1.0,
+      "median_relative_position": 1.0,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Roundel": 1
+      }
+    },
+    {
+      "token": "KA-I-RO",
+      "count": 1,
+      "terminal_rate": 1.0,
+      "final_token_rate": 0.0,
+      "followed_by_numeral_rate": 1.0,
+      "mean_relative_position": 0.933,
+      "median_relative_position": 0.933,
+      "sites": [
+        "Zakros"
+      ],
+      "site_count": 1,
+      "support_distribution": {
+        "Stone vessel": 1
+      }
+    }
+  ],
+  "token_contexts": {
+    "A-KI-RO": [
+      {
+        "left": [
+          "I-*47",
+          "9"
+        ],
+        "right": [
+          "3",
+          "ZA-SI-ZU"
+        ],
+        "record_id": "ARKH4b",
+        "site": "Arkhalkhori"
+      }
+    ],
+    "A-DA-RO": [
+      {
+        "left": [
+          "41",
+          "7"
+        ],
+        "right": [
+          "GRA",
+          "40"
+        ],
+        "record_id": "ARKH5",
+        "site": "Arkhalkhori"
+      }
+    ],
+    "SI-DA-RO": [
+      {
+        "left": [
+          "2",
+          "DA"
+        ],
+        "right": [
+          "¹⁄₄",
+          "SE"
+        ],
+        "record_id": "GO2r",
+        "site": "Gournia"
+      }
+    ],
+    "DI-NA-RO": [
+      {
+        "left": [
+          "70",
+          "—"
+        ],
+        "right": [
+          "2",
+          "DU-SU-NI"
+        ],
+        "record_id": "HT108",
+        "site": "Haghia Triada"
+      }
+    ],
+    "U-TA-RO": [
+      {
+        "left": [],
+        "right": [
+          "𐄁",
+          "TE"
+        ],
+        "record_id": "HT116a",
+        "site": "Haghia Triada"
+      }
+    ],
+    "KI-DA-RO": [
+      {
+        "left": [
+          "DA-NE-KU-TI",
+          "1"
+        ],
+        "right": [
+          "1"
+        ],
+        "record_id": "HT117a",
+        "site": "Haghia Triada"
+      },
+      {
+        "left": [
+          "PI",
+          "10"
+        ],
+        "right": [
+          "5",
+          "MI-NU-MI"
+        ],
+        "record_id": "HT47a",
+        "site": "Haghia Triada"
+      }
+    ],
+    "PO-TO-KU-RO": [
+      {
+        "left": [
+          "KU-RO",
+          "65"
+        ],
+        "right": [
+          "97"
+        ],
+        "record_id": "HT122b",
+        "site": "Haghia Triada"
+      },
+      {
+        "left": [
+          "VIN+SA",
+          "—"
+        ],
+        "right": [
+          "451",
+          "¹⁄₂"
+        ],
+        "record_id": "HT131b",
+        "site": "Haghia Triada"
+      }
+    ],
+    "SA-RO": [
+      {
+        "left": [
+          "VIN",
+          "37"
+        ],
+        "right": [
+          "10",
+          "SI-DA-RE"
+        ],
+        "record_id": "HT17",
+        "site": "Haghia Triada"
+      },
+      {
+        "left": [
+          "VIN",
+          "30"
+        ],
+        "right": [
+          "5",
+          "¹⁄₂"
+        ],
+        "record_id": "HT19",
+        "site": "Haghia Triada"
+      },
+      {
+        "left": [
+          "OLE+U",
+          "7"
+        ],
+        "right": [
+          "OLE+KI",
+          "8"
+        ],
+        "record_id": "HT42+59",
+        "site": "Haghia Triada"
+      },
+      {
+        "left": [],
+        "right": [
+          "𐄁",
+          "TE"
+        ],
+        "record_id": "HT9a",
+        "site": "Haghia Triada"
+      }
+    ],
+    "WI-TE-RO": [
+      {
+        "left": [
+          "KU-RO",
+          "16"
+        ],
+        "right": [
+          "𐄁",
+          "I-TI"
+        ],
+        "record_id": "HT25b",
+        "site": "Haghia Triada"
+      }
+    ],
+    "SA-MA-RO": [
+      {
+        "left": [
+          "PA-JA-RE",
+          "1"
+        ],
+        "right": [
+          "1",
+          "DA-TA-RE"
+        ],
+        "record_id": "HT88",
+        "site": "Haghia Triada"
+      }
+    ],
+    "KU-MA-RO": [
+      {
+        "left": [
+          "1",
+          "—"
+        ],
+        "right": [
+          "𐄁",
+          "𐄁"
+        ],
+        "record_id": "HT96a",
+        "site": "Haghia Triada"
+      }
+    ],
+    "KA-RE-RO": [
+      {
+        "left": [],
+        "right": [],
+        "record_id": "HTWc3003",
+        "site": "Haghia Triada"
+      }
+    ],
+    "RE-RO": [
+      {
+        "left": [
+          "ZU-DI-RA"
+        ],
+        "right": [],
+        "record_id": "HTWc3012",
+        "site": "Haghia Triada"
+      }
+    ],
+    "NU-RO": [
+      {
+        "left": [],
+        "right": [],
+        "record_id": "INZb1",
+        "site": "unknown"
+      },
+      {
+        "left": [],
+        "right": [
+          "𐄁",
+          "𐄁"
+        ],
+        "record_id": "KAMZb1",
+        "site": "Kamilari"
+      }
+    ],
+    "*86-RO": [
+      {
+        "left": [],
+        "right": [],
+        "record_id": "KHWa1013",
+        "site": "Khania"
+      },
+      {
+        "left": [],
+        "right": [],
+        "record_id": "KHWa1014",
+        "site": "Khania"
+      },
+      {
+        "left": [],
+        "right": [],
+        "record_id": "KHWa1015",
+        "site": "Khania"
+      },
+      {
+        "left": [],
+        "right": [],
+        "record_id": "KHWa1016",
+        "site": "Khania"
+      }
+    ],
+    "KA-I-RO": [
+      {
+        "left": [
+          "2",
+          "¹⁄₂"
+        ],
+        "right": [
+          "4",
+          "?"
+        ],
+        "record_id": "ZA8",
+        "site": "Zakros"
+      }
+    ]
+  },
+  "known_formula_data": {}
+}

@@ -1,0 +1,581 @@
+{
+  "analysis": "H2: Lexical Expansion via Pre-Logogram Token Mining",
+  "date": "2026-03-19",
+  "corpus_size": 1721,
+  "admin_records_analyzed": 1509,
+  "hypothesis_result": "PARTIAL — only 4 qualifying candidates (threshold: 5)",
+  "success_threshold": "≥5 tokens with ≥3 occurrences, ≥2 sites, not known formulas",
+  "qualifying_candidate_count": 4,
+  "candidates": [
+    {
+      "token": "≈ ¹⁄₆",
+      "total_occurrences": 16,
+      "immediate_pre_logogram_count": 13,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "record_count": 8,
+      "logogram_distribution": {
+        "OLE": 7,
+        "NI": 3,
+        "VIN": 2,
+        "CYP": 2,
+        "OLIV": 1
+      },
+      "top_logogram": "OLE",
+      "logogram_specificity": 0.438,
+      "consonant_skeleton": "",
+      "hurrian_vocabulary_matches": [],
+      "semantic_role_hypothesis": "general_pre_logogram"
+    },
+    {
+      "token": "*304",
+      "total_occurrences": 14,
+      "immediate_pre_logogram_count": 8,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "record_count": 13,
+      "logogram_distribution": {
+        "OLE": 4,
+        "OLIV": 4,
+        "GRA": 2,
+        "NI": 2,
+        "CYP": 2
+      },
+      "top_logogram": "OLE",
+      "logogram_specificity": 0.286,
+      "consonant_skeleton": "",
+      "hurrian_vocabulary_matches": [],
+      "semantic_role_hypothesis": "general_pre_logogram"
+    },
+    {
+      "token": "A-DU",
+      "total_occurrences": 9,
+      "immediate_pre_logogram_count": 4,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Tylissos"
+      ],
+      "record_count": 9,
+      "logogram_distribution": {
+        "GRA": 3,
+        "CYP": 3,
+        "VIR": 2,
+        "OLE": 1
+      },
+      "top_logogram": "GRA",
+      "logogram_specificity": 0.333,
+      "consonant_skeleton": "D",
+      "hurrian_vocabulary_matches": [],
+      "semantic_role_hypothesis": "general_pre_logogram"
+    },
+    {
+      "token": "¹⁄₁₆",
+      "total_occurrences": 7,
+      "immediate_pre_logogram_count": 5,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "record_count": 7,
+      "logogram_distribution": {
+        "NI": 3,
+        "VIN": 2,
+        "CYP": 1,
+        "VIR": 1
+      },
+      "top_logogram": "NI",
+      "logogram_specificity": 0.429,
+      "consonant_skeleton": "",
+      "hurrian_vocabulary_matches": [],
+      "semantic_role_hypothesis": "general_pre_logogram"
+    }
+  ],
+  "top_pre_logogram_combos": [
+    {
+      "pre_token": "¹⁄₂",
+      "logogram": "NI",
+      "distance": 1,
+      "count": 9,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₂",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 8,
+      "sites": [
+        "Haghia Triada",
+        "Tylissos"
+      ]
+    },
+    {
+      "pre_token": "SA-RA₂",
+      "logogram": "GRA",
+      "distance": 1,
+      "count": 8,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "≈ ¹⁄₆",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 7,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "SA-RA₂",
+      "logogram": "CYP",
+      "distance": 1,
+      "count": 5,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₅",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Tylissos"
+      ]
+    },
+    {
+      "pre_token": "TE",
+      "logogram": "GRA",
+      "distance": 1,
+      "count": 4,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "TE",
+      "logogram": "VIN",
+      "distance": 1,
+      "count": 4,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₃",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₂",
+      "logogram": "CYP",
+      "distance": 2,
+      "count": 4,
+      "sites": [
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "*304",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 3,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₂",
+      "logogram": "GRA",
+      "distance": 1,
+      "count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "KA",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 3,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "*308",
+      "logogram": "OLE",
+      "distance": 2,
+      "count": 3,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₄",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Tylissos"
+      ]
+    },
+    {
+      "pre_token": "*306",
+      "logogram": "CYP",
+      "distance": 1,
+      "count": 3,
+      "sites": [
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₁₆",
+      "logogram": "NI",
+      "distance": 1,
+      "count": 3,
+      "sites": [
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "SI",
+      "logogram": "CYP",
+      "distance": 1,
+      "count": 3,
+      "sites": [
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "KU-RO",
+      "logogram": "CYP",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "KA-PA",
+      "logogram": "VIR",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "KU-RO",
+      "logogram": "NI",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "I",
+      "logogram": "GRA",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "TE",
+      "logogram": "GRA",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "*304",
+      "logogram": "GRA",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "DA-ME",
+      "logogram": "GRA",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": ".3",
+      "logogram": "OLIV",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "³⁄₄",
+      "logogram": "OLIV",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "*304",
+      "logogram": "NI",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "SI",
+      "logogram": "CYP",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "I-QA-*118",
+      "logogram": "GRA",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "A-DU",
+      "logogram": "GRA",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "*304",
+      "logogram": "OLIV",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "JE-DI",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "MA",
+      "logogram": "OLE",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "*304",
+      "logogram": "OLIV",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "≈ ¹⁄₆",
+      "logogram": "VIN",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "KU-RO",
+      "logogram": "CYP",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "RE",
+      "logogram": "VIN",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "SA",
+      "logogram": "VIN",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₁₆",
+      "logogram": "VIN",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "³⁄₄",
+      "logogram": "OLE",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₂",
+      "logogram": "OLIV",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Tylissos"
+      ]
+    },
+    {
+      "pre_token": "³⁄₄",
+      "logogram": "NI",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "*307+*387",
+      "logogram": "VIR",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "KU-NI-SU",
+      "logogram": "GRA",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "A-KA-RU",
+      "logogram": "GRA",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada"
+      ]
+    },
+    {
+      "pre_token": "¹⁄₄",
+      "logogram": "VIN",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "≈ ¹⁄₆",
+      "logogram": "NI",
+      "distance": 1,
+      "count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "≈ ¹⁄₆",
+      "logogram": "CYP",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ]
+    },
+    {
+      "pre_token": "A-DU",
+      "logogram": "CYP",
+      "distance": 2,
+      "count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ]
+    }
+  ],
+  "site_logogram_contribution": {
+    "Haghia Triada": 311,
+    "Khania": 134,
+    "Tylissos": 19,
+    "Arkhalkhori": 9,
+    "Knossos": 9,
+    "Phaistos": 8,
+    "Petras": 4,
+    "Thera": 2,
+    "Kea": 1,
+    "Malia": 1,
+    "Palaikastro": 1,
+    "Tel Haror": 1
+  }
+}

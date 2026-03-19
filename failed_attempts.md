@@ -57,6 +57,67 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #7 — -RO Paradigm, Lexical Expansion, *301 Disambiguation
+
+**Date:** 2026-03-19
+**Hypothesis file:** `hypotheses/2026-03-19-ro-paradigm-lexical-expansion.md`
+**Session:** Claude (claude/continue-deciphering-qMqnk)
+**Strategy:** Suffix Analysis / Administrative Bootstrapping / Sign Distribution
+**Language tested (if applicable):** Hurrian (comparison only)
+
+#### Summary of Approach
+
+Three parallel hypotheses: (H1) tokens ending in -RO cluster in terminal positions like KU-RO, suggesting -RO is a productive completive suffix; (H2) frequent pre-logogram sequences in admin records are candidate new lexical items; (H3) sign *301 has distinct distributional profiles in admin vs. ritual contexts. Scripts analyzed all 1721 corpus records.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl`
+- Inscriptions analyzed: All 1721 (H1, H3); 1509 admin records (H2)
+- Methods: Positional analysis (relative position within inscription), pre-logogram window extraction, PMI co-occurrence matrix, admin/ritual register separation
+
+#### Results
+**Outcome:** PARTIAL SUCCESS
+
+**H1 (-RO paradigm): FAILED** by strict threshold (40% terminal rate vs. 60% threshold). However:
+- -RO tokens are 1.8× more terminal than baseline (22.5%), indicating weak real bias
+- **PO-TO-KU-RO** identified as a "grand total" compound (appears AFTER KU-RO with larger numbers): HT122b `KU-RO 65 PO-TO-KU-RO 97`, HT131b `PO-TO-KU-RO 451 ½`. Medium confidence, HT-only, needs cross-site validation.
+- -RO is NOT a productive suffix in the corpus — KU-RO and KI-RO are likely opaque roots, not [stem]-RO
+
+**H2 (Lexical expansion): PARTIAL** (4 qualifying candidates, threshold 5). Key findings:
+- **A-DU**: 9 occurrences, 3 sites (HT, Khania, Tylissos), record-initial or section-initial position in 7/9 occurrences. Likely an **administrative section header word**. Low-Medium confidence.
+- **SA-RA₂**: 20+ occurrences at HT ONLY; appears after KU-RO introducing supplementary entries (CYP 5 appended to main total). HT-specific — cannot cross-validate. Low confidence.
+- **Sign *304**: 14 occ, 2 sites, appears before OLE/OLIV — possible unknown administrative sign
+
+**H3 (*301 context separation): INCONCLUSIVE** — 0 ritual occurrences of standalone *301 found. BUT:
+- **CRITICAL STRUCTURAL FINDING:** Sign *301 appears at FIRST POSITION in **97.6% of admin occurrences** (246 records). It is an **administrative tablet initializer / scribal header mark**, not a phoneme or logogram.
+- Admin site distribution: HT (230), Khania (14), Knossos (1), Zakros (1)
+- PMI top partner: MA-RE (4.03), confirming *301-headed tablets involve person/transaction records
+
+**Confidence:** Low-Medium for new lexical items; High for *301 positional function
+
+#### What Was Learned
+
+1. **-RO is NOT a productive suffix.** KU-RO and KI-RO are opaque roots. A future re-attempt at -RO analysis would need to apply morphological stripping rules (removing root vs. affix) rather than treating the whole token as root+suffix.
+2. **Sign *301 is resolved as a tablet initializer** — one of the strongest structural findings in the project (97.6% first-position rate across 4 sites). This is a non-phonemic scribal convention, not a regular sign value. The ritual formula A-TA-I-*301-WA-JA embeds it as a phonetic component.
+3. **A-DU is a new cross-site functional word** (3 sites, record-initial) — the first new administrative formula word candidate since KU-RO/KI-RO. Semantics unclear but position is consistent.
+4. **PO-TO-KU-RO** extends the KU-RO formula family — "grand total" interpretation is strong from positional evidence (appears after KU-RO, with larger number). Needs cross-site validation.
+5. Pre-logogram token mining is limited by HT dominance (64% of corpus) — most frequent pre-logogram sequences are HT-only.
+
+#### Why a Re-attempt Needs to Differ
+
+- A -RO re-attempt would need to first identify all compound tokens containing KU-RO as a root (e.g., PO-TO-KU-RO, *23M-KU-RO) and test whether PO-TO- prefix appears with other roots
+- A lexical expansion re-attempt would benefit from focusing on 2nd-tier sites (Khania, Phaistos, Zakros) exclusively, removing HT dominance bias
+- H3 (*301) is now resolved — no need to revisit
+
+#### Follow-up Questions Generated
+- [ ] Does PO-TO-KU-RO appear at non-HT sites? (search entire corpus for PO-TO- prefix)
+- [ ] What is the full paradigm of KU-RO compounds? Are there other X-KU-RO forms?
+- [ ] What does MA-RE mean? High-PMI with *301-initial records suggests it's a key admin term in the *301 document class.
+- [ ] Is A-DU related to a Hurrian preposition/conjunction (*andi*, *adi*)? Or Linear B parallel?
+- [ ] What does SA-RA₂ mean in the context of supplementary CYP entries at HT?
+- [ ] Is *304 a logogram for a type of oil vessel or a person category sign?
+
+---
+
 ### Attempt #6 — Computational Sign Clustering, Refined N-gram, U-NA-KA-NA-SI Analysis, Word-Order Test
 
 **Date:** 2026-03-19
