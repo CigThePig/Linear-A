@@ -350,8 +350,9 @@ The prior claim of "4/4 fixed-order co-occurrence with JA-SA-SA-RA-ME" was based
 - [ ] What is "JA-SA-U-NA-KA-NA-SI" in PKZa8? Scribal fusion of two ritual elements or a distinct lexical item?
 - [ ] What is "U-NA-KA-NA-SI-OLE" in SYZa2? Does this specify the votive offering as olive oil?
 - [ ] What is SA-RA₂? Appears 20+ times at HT before GRA and CYP; appears post-KU-RO in supplementary entry position. Could be grain variety, unit, or conjunction. Needs cross-site evidence.
-- [ ] Does PO-TO-KU-RO appear at non-HT sites? Grand total interpretation requires cross-validation.
-- [ ] What is A-DU? Record-initial administrative marker at HT, Khania, Tylissos. Possibly a section header word.
+- [x] Does PO-TO-KU-RO appear at non-HT sites? → **NO (2026-03-20, Attempt #8): 0 non-HT occurrences. Confidence downgraded to Low.**
+- [ ] What is A-DU? Record-initial 70% (marginal threshold), cross-site (HT, Khania, Tylissos). Logogram enrichment borderline (1.49×, below 2× threshold). Possible cyperus-specific section marker — CYP appears 3× in post-A-DU window.
+- [x] Is there an ergative marker complementary to absolutive -JA? → **YES: -RU is the strongest candidate (2026-03-20, Attempt #8).** Inverse-JA score 4.448; 5 sites; 83.3% complementarity with -JA; KI-RO co-occurrence 13.3%; word-terminal rate 72.2%. See `findings/hurrian_morphology.md` for full -RU analysis. Caveat: VIR co-occurrence = 0%; Hurrian -š prediction not supported.
 
 ---
 
@@ -377,7 +378,7 @@ In HT122b, PO-TO-KU-RO appears immediately AFTER KU-RO (65) with a larger number
 
 **Interpretation:** PO-TO-KU-RO = **"grand total"**, a compound of PO-TO (modifier: "overall", "cumulative", or "all") + KU-RO ("total"). The PO-TO- prefix may also modify other accounting terms — examine whether PO-TO- occurs elsewhere in the corpus.
 
-**Status:** Pending cross-site validation. Both occurrences are HT tablets. Cannot elevate above Medium confidence until confirmed elsewhere.
+**Status (updated 2026-03-20, Attempt #8):** Cross-site sweep performed across all 1721 records — **0 non-HT occurrences found.** PO-TO-KU-RO is confirmed HT-only. **Confidence downgraded from Medium to Low.** The "grand total" interpretation remains plausible structurally but lacks cross-site validation. Do not elevate unless further occurrences discovered at other sites.
 
 ---
 

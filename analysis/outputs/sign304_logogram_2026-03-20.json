@@ -1,0 +1,430 @@
+{
+  "target_sign": "*304",
+  "records_containing_304": 22,
+  "total_occurrences": 25,
+  "site_distribution": {
+    "Haghia Triada": 16,
+    "Khania": 2,
+    "Phaistos": 2,
+    "Pyrgos": 1,
+    "Zakros": 1
+  },
+  "support_type_distribution": {
+    "Tablet": 20,
+    "Lames (short thin tablet)": 1,
+    "Stone vessel": 1
+  },
+  "post_token_class_distribution": {
+    "numeral": 21,
+    "syllabic": 3,
+    "logogram": 1
+  },
+  "pre_token_class_distribution": {
+    "numeral": 14,
+    "syllabic": 8,
+    "punct": 2,
+    "start": 1
+  },
+  "top_post_tokens": {
+    "10": 4,
+    "3": 3,
+    "12": 3,
+    "6": 2,
+    "2": 2,
+    "1": 2,
+    "15": 1,
+    "5": 1,
+    "9": 1,
+    "7": 1
+  },
+  "top_pre_tokens": {
+    "¹⁄₂": 4,
+    "20": 2,
+    "5": 2,
+    "2": 2,
+    "𐄁": 2,
+    "12": 1,
+    "100": 1,
+    "𐝆𐝁": 1,
+    "3": 1,
+    "4": 1
+  },
+  "numeral_after_rate": 0.84,
+  "formula_cooccurrence_rate": 0.045,
+  "kuro_cooccurrence": 1,
+  "kiro_cooccurrence": 0,
+  "pmi_with_logograms": {
+    "OLE": 3.968,
+    "OLIV": 4.328,
+    "GRA": 3.958,
+    "VIN": 1.377,
+    "VIR": 0.0
+  },
+  "control_logogram_stats": {
+    "GRA": {
+      "total_occurrences": 62,
+      "numeral_after_rate": 0.7258064516129032,
+      "post_class_distribution": {
+        "syllabic": 8,
+        "numeral": 45,
+        "logogram": 2,
+        "punct": 5,
+        "end": 2
+      }
+    },
+    "VIN": {
+      "total_occurrences": 53,
+      "numeral_after_rate": 0.4716981132075472,
+      "post_class_distribution": {
+        "numeral": 25,
+        "punct": 9,
+        "syllabic": 9,
+        "logogram": 2,
+        "end": 8
+      }
+    },
+    "OLE": {
+      "total_occurrences": 22,
+      "numeral_after_rate": 0.5909090909090909,
+      "post_class_distribution": {
+        "punct": 4,
+        "numeral": 13,
+        "syllabic": 3,
+        "end": 2
+      }
+    }
+  },
+  "hypothesis_assessment": {
+    "threshold_numeral_after_rate_70pct": true,
+    "threshold_formula_cooccurrence_le_20pct": true,
+    "threshold_site_count_ge_2": true,
+    "hypothesis_supported": true
+  },
+  "all_occurrences": [
+    {
+      "id": "HT101",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 21,
+      "token_count": 31,
+      "pre_token": "20",
+      "post_token": "3",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT116a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 34,
+      "token_count": 41,
+      "pre_token": "12",
+      "post_token": "12",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT116a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 39,
+      "token_count": 41,
+      "pre_token": "20",
+      "post_token": "3",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT116b",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 3,
+      "token_count": 7,
+      "pre_token": "100",
+      "post_token": "15",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": true,
+      "has_kiro": false
+    },
+    {
+      "id": "HT12",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 4,
+      "token_count": 24,
+      "pre_token": "5",
+      "post_token": "5",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT125b",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 9,
+      "token_count": 13,
+      "pre_token": "¹⁄₂",
+      "post_token": "10",
+      "pre_class": "syllabic",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT129",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 4,
+      "token_count": 18,
+      "pre_token": "𐝆𐝁",
+      "post_token": "10",
+      "pre_class": "syllabic",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT131a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 11,
+      "token_count": 14,
+      "pre_token": "¹⁄₂",
+      "post_token": "12",
+      "pre_class": "syllabic",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT14",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 10,
+      "token_count": 25,
+      "pre_token": "3",
+      "post_token": "9",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT14",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 21,
+      "token_count": 25,
+      "pre_token": "4",
+      "post_token": "6",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT18",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 5,
+      "token_count": 12,
+      "pre_token": "2",
+      "post_token": "3",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT21",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 11,
+      "token_count": 17,
+      "pre_token": "³⁄₄",
+      "post_token": "7",
+      "pre_class": "syllabic",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT28a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 26,
+      "token_count": 33,
+      "pre_token": "5",
+      "post_token": "2",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT41a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 6,
+      "token_count": 17,
+      "pre_token": "𐄁",
+      "post_token": "10",
+      "pre_class": "punct",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT41a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 10,
+      "token_count": 17,
+      "pre_token": "𐄁",
+      "post_token": "10",
+      "pre_class": "punct",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT50a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 10,
+      "token_count": 17,
+      "pre_token": "¹⁄₂",
+      "post_token": "1",
+      "pre_class": "syllabic",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT90",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 15,
+      "token_count": 17,
+      "pre_token": "1",
+      "post_token": "1",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT91",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 6,
+      "token_count": 30,
+      "pre_token": ".3",
+      "post_token": "≈ ¹⁄₆",
+      "pre_class": "syllabic",
+      "post_class": "syllabic",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "HT92",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "position": 6,
+      "token_count": 8,
+      "pre_token": "680",
+      "post_token": "12",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "KH8",
+      "site": "Khania",
+      "support": "Tablet",
+      "position": 10,
+      "token_count": 21,
+      "pre_token": "¹⁄₂",
+      "post_token": "¹⁄₄",
+      "pre_class": "syllabic",
+      "post_class": "syllabic",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "KH85",
+      "site": "Khania",
+      "support": "Tablet",
+      "position": 7,
+      "token_count": 11,
+      "pre_token": "*131C",
+      "post_token": "CYP",
+      "pre_class": "syllabic",
+      "post_class": "logogram",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "PH28b",
+      "site": "Phaistos",
+      "support": "Tablet",
+      "position": 3,
+      "token_count": 7,
+      "pre_token": "2",
+      "post_token": "6",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "PH8a",
+      "site": "Phaistos",
+      "support": "Tablet",
+      "position": 6,
+      "token_count": 14,
+      "pre_token": "11",
+      "post_token": "2",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "PYR2",
+      "site": "Pyrgos",
+      "support": "Lames (short thin tablet)",
+      "position": 0,
+      "token_count": 2,
+      "pre_token": null,
+      "post_token": "¹⁄₂",
+      "pre_class": "start",
+      "post_class": "syllabic",
+      "has_kuro": false,
+      "has_kiro": false
+    },
+    {
+      "id": "ZA6a",
+      "site": "Zakros",
+      "support": "Stone vessel",
+      "position": 18,
+      "token_count": 21,
+      "pre_token": "25",
+      "post_token": "20",
+      "pre_class": "numeral",
+      "post_class": "numeral",
+      "has_kuro": false,
+      "has_kiro": false
+    }
+  ]
+}
