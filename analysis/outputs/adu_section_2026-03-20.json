@@ -1,0 +1,297 @@
+{
+  "h8b_adu": {
+    "target_token": "A-DU",
+    "records_containing_adu": 10,
+    "total_occurrences": 10,
+    "site_distribution": {
+      "Haghia Triada": 7,
+      "Khania": 2,
+      "Tylissos": 1
+    },
+    "non_ht_sites": {
+      "Khania": 2,
+      "Tylissos": 1
+    },
+    "support_type_distribution": {
+      "Tablet": 10
+    },
+    "record_initial_count": 7,
+    "record_initial_rate": 0.7,
+    "post_window_class_distribution": {
+      "punct": 14,
+      "logogram": 15,
+      "numeral": 9,
+      "syllabic": 8
+    },
+    "post_window_top_tokens": {
+      "𐄁": 11,
+      "𐝫": 3,
+      "CYP": 3,
+      "20": 2,
+      "NI": 2,
+      "TE": 1,
+      "GRA+DA": 1,
+      "55": 1,
+      "*307+*387": 1,
+      "VIR+[?]": 1,
+      "DA-ME": 1,
+      "GRA+B": 1,
+      "MI-NU-TE": 1,
+      "VIR+KA": 1,
+      "RE-ZA": 1
+    },
+    "top_logograms_following": {
+      "CYP": 3,
+      "NI": 2,
+      "TE": 1,
+      "GRA+DA": 1,
+      "VIR+[?]": 1,
+      "GRA+B": 1,
+      "VIR+KA": 1,
+      "GRA": 1,
+      "ZA": 1,
+      "SU": 1
+    },
+    "kuro_cooccurrence": 2,
+    "kiro_cooccurrence": 1,
+    "enrichment_ratios_vs_baseline": {
+      "logogram": 1.49,
+      "numeral": 0.97,
+      "formula": 0.0,
+      "syllabic": 0.43,
+      "punct": 1.8
+    },
+    "baseline_class_rates": {
+      "logogram": 0.219,
+      "syllabic": 0.401,
+      "punct": 0.169,
+      "numeral": 0.203,
+      "formula": 0.009
+    },
+    "hypothesis_assessment": {
+      "threshold_record_initial_ge_70pct": true,
+      "threshold_logogram_numeral_enrichment_gt_2x": false,
+      "threshold_non_ht_sites_ge_1": true,
+      "hypothesis_supported": false
+    },
+    "all_occurrences": [
+      {
+        "id": "HT133",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "position": 0,
+        "is_record_initial": true,
+        "pre_token": null,
+        "pre_class": "start",
+        "post_window": [
+          "𐄁",
+          "TE",
+          "GRA+DA",
+          "55"
+        ],
+        "has_kuro": false,
+        "has_kiro": false
+      },
+      {
+        "id": "HT85a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "position": 0,
+        "is_record_initial": true,
+        "pre_token": null,
+        "pre_class": "start",
+        "post_window": [
+          "𐄁",
+          "*307+*387",
+          "𐄁",
+          "VIR+[?]",
+          "𐄁"
+        ],
+        "has_kuro": true,
+        "has_kiro": false
+      },
+      {
+        "id": "HT86a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "position": 12,
+        "is_record_initial": false,
+        "pre_token": "—",
+        "pre_class": "punct",
+        "post_window": [
+          "𐄁",
+          "DA-ME",
+          "GRA+B",
+          "20",
+          "MI-NU-TE"
+        ],
+        "has_kuro": false,
+        "has_kiro": false
+      },
+      {
+        "id": "HT88",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "position": 0,
+        "is_record_initial": true,
+        "pre_token": null,
+        "pre_class": "start",
+        "post_window": [
+          "VIR+KA",
+          "20",
+          "RE-ZA",
+          "6",
+          "NI"
+        ],
+        "has_kuro": true,
+        "has_kiro": true
+      },
+      {
+        "id": "HT92",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "position": 2,
+        "is_record_initial": false,
+        "pre_token": "𐄁",
+        "pre_class": "punct",
+        "post_window": [
+          "𐄁",
+          "GRA",
+          "680",
+          "*304",
+          "12"
+        ],
+        "has_kuro": false,
+        "has_kiro": false
+      },
+      {
+        "id": "HT95b",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "position": 0,
+        "is_record_initial": true,
+        "pre_token": null,
+        "pre_class": "start",
+        "post_window": [
+          "𐄁",
+          "SA-RU",
+          "10",
+          "𐝫",
+          "𐄁"
+        ],
+        "has_kuro": false,
+        "has_kiro": false
+      },
+      {
+        "id": "HT99a",
+        "site": "Haghia Triada",
+        "support": "Tablet",
+        "position": 0,
+        "is_record_initial": true,
+        "pre_token": null,
+        "pre_class": "start",
+        "post_window": [
+          "𐄁",
+          "SA-RA₂",
+          "CYP",
+          "4",
+          "NI"
+        ],
+        "has_kuro": false,
+        "has_kiro": false
+      },
+      {
+        "id": "KH11",
+        "site": "Khania",
+        "support": "Tablet",
+        "position": 0,
+        "is_record_initial": true,
+        "pre_token": null,
+        "pre_class": "start",
+        "post_window": [
+          "𐄁",
+          "ZA",
+          "CYP",
+          "¹⁄₁₆",
+          "SU"
+        ],
+        "has_kuro": false,
+        "has_kiro": false
+      },
+      {
+        "id": "KH23",
+        "site": "Khania",
+        "support": "Tablet",
+        "position": 0,
+        "is_record_initial": true,
+        "pre_token": null,
+        "pre_class": "start",
+        "post_window": [
+          "CYP",
+          "𐝫"
+        ],
+        "has_kuro": false,
+        "has_kiro": false
+      },
+      {
+        "id": "TY3a",
+        "site": "Tylissos",
+        "support": "Tablet",
+        "position": 16,
+        "is_record_initial": false,
+        "pre_token": "—",
+        "pre_class": "punct",
+        "post_window": [
+          "𐄁",
+          "𐝫",
+          "OLE+KI",
+          "51",
+          "OLE+KI+U"
+        ],
+        "has_kuro": false,
+        "has_kiro": false
+      }
+    ]
+  },
+  "h8d_poto": {
+    "all_poto_tokens": {
+      "PO-TO-KU-RO": {
+        "total_occurrences": 2,
+        "site_distribution": {
+          "Haghia Triada": 2
+        },
+        "non_ht_occurrences": 0,
+        "non_ht_sites": {},
+        "support_types": {
+          "Tablet": 2
+        },
+        "all_occurrences": [
+          {
+            "id": "HT122b",
+            "site": "Haghia Triada",
+            "support": "Tablet",
+            "position": 17,
+            "token_count": 19,
+            "pre": "65",
+            "post": "97"
+          },
+          {
+            "id": "HT131b",
+            "site": "Haghia Triada",
+            "support": "Tablet",
+            "position": 7,
+            "token_count": 10,
+            "pre": "—",
+            "post": "451"
+          }
+        ]
+      }
+    },
+    "h8d_assessment": {
+      "poto_kuro_found": true,
+      "poto_kuro_non_ht_occurrences": 0,
+      "poto_kuro_non_ht_sites": {},
+      "hypothesis_supported": false
+    }
+  }
+}

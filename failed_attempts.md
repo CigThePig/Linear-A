@@ -57,6 +57,73 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #8 — *304 Logogram, A-DU Section Marker, Ergative Search, PO-TO Sweep
+
+**Date:** 2026-03-20
+**Hypothesis file:** `hypotheses/2026-03-20-logogram-section-ergative.md`
+**Session:** Claude (claude/continue-deciphering-EmGSB)
+**Strategy:** Logogram Identification / Administrative Bootstrapping / Suffix Analysis
+**Language tested (if applicable):** Hurrian (ergative prediction tested)
+
+#### Summary of Approach
+
+Tested four sub-hypotheses identified from Attempt #7's unresolved questions: (1) sign *304 as an olive-related logogram, (2) A-DU as an administrative section header, (3) -RU as ergative case marker (inverse to absolutive -JA), and (4) cross-site presence of PO-TO-KU-RO. Used positional analysis for the logogram test, enrichment ratios for A-DU, and an "inverse-JA score" metric for the ergative search.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl`
+- Inscriptions analyzed: All 1721 records
+- Methods: Positional analysis (numeral-after rate), PMI computation, suffix co-occurrence profiling, inverse-JA scoring, complementarity testing
+
+#### Results
+
+**H8a (*304 logogram) — SUCCESS:**
+- *304 numeral-after rate: 84.0% (above GRA control at 72.6%)
+- PMI with OLIV: 4.328, with OLE: 3.968 — olive-product commodity confirmed
+- 5 sites: HT, Khania, Phaistos, Pyrgos, Zakros
+- **14th confirmed lexical item. High confidence, Tier 2.**
+
+**H8b (A-DU section marker) — INCONCLUSIVE:**
+- Record-initial: 70.0% (marginal threshold)
+- Logogram enrichment: 1.49× (below 2× threshold)
+- 3 sites (HT, Khania, Tylissos); CYP dominant in post-window
+- Status: Retain at Low-Medium confidence; may be CYP-specific rather than general section header
+
+**H8c (-RU ergative marker) — SUCCESS (with caveats):**
+- Inverse-JA score: 4.448; 5 sites; 83.3% complementarity with -JA
+- KI-RO co-occurrence 13.3% vs. -JA 0.0%; word-terminal 72.2% vs. -JA word-initial 67.2%
+- CAVEAT: VIR co-occurrence = 0.0%; Hurrian ergative -š prediction (-SI) ranks 17th
+- **-RU is best ergative/oblique candidate. Medium confidence, Tier 5.**
+
+**H8d (PO-TO-KU-RO cross-site) — FAILED:**
+- 0 non-HT occurrences in full corpus sweep
+- **PO-TO-KU-RO downgraded from Medium to Low confidence.**
+**Outcome:** PARTIAL SUCCESS
+**Key finding:** *304 confirmed as olive-related logogram (14th item); -RU identified as ergative/oblique candidate with clear inverse profile to -JA
+**Confidence:** High (H8a), Medium (H8c), Low-Medium (H8b), Low (H8d)
+
+#### What Was Learned
+
+- Sign *304 demonstrates that positional analysis can identify "unknown" logograms even without Linear B parallels. The high numeral-after rate (84%) combined with olive PMI is sufficient for High confidence identification.
+- The ergative-absolutive split IS detectable: -RU and -JA have 83.3% non-overlapping records at 5 sites each. This is the strongest case system finding to date.
+- The Hurrian ergative prediction (-SI/-SA from -š) failed. This is a significant challenge to the Hurrian morphological hypothesis that requires explanation.
+- The inverse-JA scoring method is a new reusable tool for identifying grammatical case markers in corpus data.
+
+#### Why a Re-attempt Needs to Differ
+
+- **A-DU:** To confirm, need a higher-power test: specifically analyze the commodity type in each A-DU record, not just the 5-token window. Also need to check A-DU occurrences at Khania and Tylissos individually.
+- **Hurrian ergative:** Needs phonological explanation for why -RU doesn't map to Hurrian -š, or needs comparison against Hurrian instrumental -ae to see if -RU fits better as instrumental.
+- **PO-TO-KU-RO:** Requires physical discovery of new inscriptions at non-HT sites.
+
+#### Follow-up Questions Generated
+
+- [ ] What is *304 specifically? (olive paste, container, quality grade, by-product?)
+- [ ] Is -TU allomorphic with -RU or a distinct case marker?
+- [ ] Is -RU instrumental rather than ergative? (Would explain 0% VIR co-occurrence)
+- [ ] Why does Hurrian -š not correspond to -RU? Phonological bridge needed.
+- [ ] Is A-DU specifically a CYP-section marker rather than a general section header?
+
+---
+
 ### Attempt #7 — -RO Paradigm, Lexical Expansion, *301 Disambiguation
 
 **Date:** 2026-03-19
