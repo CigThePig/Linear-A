@@ -1,0 +1,1698 @@
+{
+  "analysis": "divine_name_match",
+  "date": "2026-03-21",
+  "method": "Consonant skeleton LCS matching",
+  "consonant_mapping": "Linear B phonetic values applied to Linear A transliterations",
+  "threshold_applied": "LCS >= 2 or score >= 0.3",
+  "results_by_token": {
+    "JA-SA-SA-RA": {
+      "token": "JA-SA-SA-RA",
+      "token_consonants": [
+        "y",
+        "s",
+        "s",
+        "r"
+      ],
+      "occurrences": 7,
+      "sites": 5,
+      "context": "100% ritual; divine name root (bare form of JA-SA-SA-RA-ME)",
+      "top_matches": [
+        {
+          "language": "Luwian",
+          "name": "Iyarri",
+          "description": "Plague god",
+          "name_consonants": [
+            "y",
+            "r"
+          ],
+          "token_consonants": [
+            "y",
+            "s",
+            "s",
+            "r"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Proto-Semitic",
+          "name": "Astarte",
+          "description": "Phoenician goddess; love and war",
+          "name_consonants": [
+            "s",
+            "t",
+            "r",
+            "t"
+          ],
+          "token_consonants": [
+            "y",
+            "s",
+            "s",
+            "r"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Hurrian",
+          "name": "Sertapsuruhi",
+          "description": "Minor Hurrian deity",
+          "name_consonants": [
+            "š",
+            "r",
+            "t",
+            "p",
+            "s",
+            "r",
+            "h"
+          ],
+          "token_consonants": [
+            "y",
+            "s",
+            "s",
+            "r"
+          ],
+          "lcs_count": 2,
+          "score": 0.2857,
+          "token_coverage": 0.5
+        }
+      ]
+    },
+    "U-NA-KA-NA-SI": {
+      "token": "U-NA-KA-NA-SI",
+      "token_consonants": [
+        "n",
+        "k",
+        "n",
+        "s"
+      ],
+      "occurrences": 6,
+      "sites": 4,
+      "context": "100% ritual; appears independently in 50% of cases",
+      "top_matches": [
+        {
+          "language": "Minoan-Greek",
+          "name": "Velchanos",
+          "description": "Young male deity; bull god",
+          "name_consonants": [
+            "w",
+            "l",
+            "k",
+            "n",
+            "s"
+          ],
+          "token_consonants": [
+            "n",
+            "k",
+            "n",
+            "s"
+          ],
+          "lcs_count": 3,
+          "score": 0.6,
+          "token_coverage": 0.75
+        },
+        {
+          "language": "Hurrian",
+          "name": "Pinikir",
+          "description": "Great goddess of Elam; possible contact term",
+          "name_consonants": [
+            "p",
+            "n",
+            "k",
+            "r"
+          ],
+          "token_consonants": [
+            "n",
+            "k",
+            "n",
+            "s"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Diktynna",
+          "description": "Minoan goddess of Mt. Dikte; hunting nets",
+          "name_consonants": [
+            "d",
+            "k",
+            "t",
+            "n"
+          ],
+          "token_consonants": [
+            "n",
+            "k",
+            "n",
+            "s"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Curetes",
+          "description": "Minoan armed young men; protect infant Zeus",
+          "name_consonants": [
+            "k",
+            "r",
+            "t",
+            "s"
+          ],
+          "token_consonants": [
+            "n",
+            "k",
+            "n",
+            "s"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Hurrian",
+          "name": "Pirinkir",
+          "description": "Elamite great goddess variant",
+          "name_consonants": [
+            "p",
+            "r",
+            "n",
+            "k",
+            "r"
+          ],
+          "token_consonants": [
+            "n",
+            "k",
+            "n",
+            "s"
+          ],
+          "lcs_count": 2,
+          "score": 0.4,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Luwian",
+          "name": "Kamrusepa",
+          "description": "Healing and magic goddess",
+          "name_consonants": [
+            "k",
+            "m",
+            "r",
+            "s",
+            "p"
+          ],
+          "token_consonants": [
+            "n",
+            "k",
+            "n",
+            "s"
+          ],
+          "lcs_count": 2,
+          "score": 0.4,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Luwian",
+          "name": "Tarhunts",
+          "description": "Storm god; Luwian equivalent of Hittite Teshub",
+          "name_consonants": [
+            "t",
+            "r",
+            "h",
+            "n",
+            "t",
+            "s"
+          ],
+          "token_consonants": [
+            "n",
+            "k",
+            "n",
+            "s"
+          ],
+          "lcs_count": 2,
+          "score": 0.3333,
+          "token_coverage": 0.5
+        }
+      ]
+    },
+    "I-PI-NA-MA": {
+      "token": "I-PI-NA-MA",
+      "token_consonants": [
+        "p",
+        "n",
+        "m"
+      ],
+      "occurrences": 5,
+      "sites": 4,
+      "context": "Ritual bigram partner; sequence element 3 in liturgical order",
+      "top_matches": [
+        {
+          "language": "Minoan-Greek",
+          "name": "Potnia",
+          "description": "Mistress/Lady; Linear B title for Minoan goddess",
+          "name_consonants": [
+            "p",
+            "t",
+            "n"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 2,
+          "score": 0.6667,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Pinikir",
+          "description": "Great goddess of Elam; possible contact term",
+          "name_consonants": [
+            "p",
+            "n",
+            "k",
+            "r"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Pirinkir",
+          "description": "Elamite great goddess variant",
+          "name_consonants": [
+            "p",
+            "r",
+            "n",
+            "k",
+            "r"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 2,
+          "score": 0.4,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Shimige",
+          "description": "Sun deity",
+          "name_consonants": [
+            "š",
+            "m",
+            "g"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Allani",
+          "description": "Queen of the underworld",
+          "name_consonants": [
+            "l",
+            "n"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Adamma",
+          "description": "Hurrian earth goddess",
+          "name_consonants": [
+            "d",
+            "m"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Hutena",
+          "description": "Fate goddesses (pair)",
+          "name_consonants": [
+            "h",
+            "t",
+            "n"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Amaltheia",
+          "description": "Goat goddess; nurturer",
+          "name_consonants": [
+            "m",
+            "l",
+            "t"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Ariadne",
+          "description": "Minoan princess/deity; 'most holy'",
+          "name_consonants": [
+            "r",
+            "d",
+            "n"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Pasiphae",
+          "description": "Minoan moon goddess; 'all-shining'",
+          "name_consonants": [
+            "p",
+            "s",
+            "p"
+          ],
+          "token_consonants": [
+            "p",
+            "n",
+            "m"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        }
+      ]
+    },
+    "SI-RU-TE": {
+      "token": "SI-RU-TE",
+      "token_consonants": [
+        "s",
+        "r",
+        "t"
+      ],
+      "occurrences": 4,
+      "sites": 3,
+      "context": "Ritual sequence coda",
+      "top_matches": [
+        {
+          "language": "Proto-Semitic",
+          "name": "Astarte",
+          "description": "Phoenician goddess; love and war",
+          "name_consonants": [
+            "s",
+            "t",
+            "r",
+            "t"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 3,
+          "score": 0.75,
+          "token_coverage": 1.0
+        },
+        {
+          "language": "Luwian",
+          "name": "Runtiya",
+          "description": "Stag god; hunting",
+          "name_consonants": [
+            "r",
+            "n",
+            "t"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 2,
+          "score": 0.6667,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Luwian",
+          "name": "Santa",
+          "description": "Warrior deity",
+          "name_consonants": [
+            "s",
+            "n",
+            "t"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 2,
+          "score": 0.6667,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Curetes",
+          "description": "Minoan armed young men; protect infant Zeus",
+          "name_consonants": [
+            "k",
+            "r",
+            "t",
+            "s"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Luwian",
+          "name": "Tarhunts",
+          "description": "Storm god; Luwian equivalent of Hittite Teshub",
+          "name_consonants": [
+            "t",
+            "r",
+            "h",
+            "n",
+            "t",
+            "s"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 2,
+          "score": 0.3333,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Sertapsuruhi",
+          "description": "Minor Hurrian deity",
+          "name_consonants": [
+            "š",
+            "r",
+            "t",
+            "p",
+            "s",
+            "r",
+            "h"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 2,
+          "score": 0.2857,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Britomartis",
+          "description": "Minoan goddess 'sweet virgin'; hunting/mountain",
+          "name_consonants": [
+            "b",
+            "r",
+            "t",
+            "m",
+            "r",
+            "t",
+            "s"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 2,
+          "score": 0.2857,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Tessub",
+          "description": "Storm god, chief deity of Hurrian pantheon",
+          "name_consonants": [
+            "t",
+            "š",
+            "b"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Hebat",
+          "description": "Queen of the gods, consort of Tessub",
+          "name_consonants": [
+            "h",
+            "b",
+            "t"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Tilla",
+          "description": "Bull god, attendant of Tessub",
+          "name_consonants": [
+            "t",
+            "l"
+          ],
+          "token_consonants": [
+            "s",
+            "r",
+            "t"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        }
+      ]
+    },
+    "DI-KI": {
+      "token": "DI-KI",
+      "token_consonants": [
+        "d",
+        "k"
+      ],
+      "occurrences": 9,
+      "sites": 2,
+      "context": "67% ritual; slot-1 liturgical element; possible toponym (Mt. Dikte)",
+      "top_matches": [
+        {
+          "language": "Minoan-Greek",
+          "name": "Dictaean Zeus",
+          "description": "Zeus of Dikte/Dikte mountain cave cult",
+          "name_consonants": [
+            "d",
+            "k",
+            "t"
+          ],
+          "token_consonants": [
+            "d",
+            "k"
+          ],
+          "lcs_count": 2,
+          "score": 0.6667,
+          "token_coverage": 1.0
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Diktynna",
+          "description": "Minoan goddess of Mt. Dikte; hunting nets",
+          "name_consonants": [
+            "d",
+            "k",
+            "t",
+            "n"
+          ],
+          "token_consonants": [
+            "d",
+            "k"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 1.0
+        },
+        {
+          "language": "Hurrian",
+          "name": "Adamma",
+          "description": "Hurrian earth goddess",
+          "name_consonants": [
+            "d",
+            "m"
+          ],
+          "token_consonants": [
+            "d",
+            "k"
+          ],
+          "lcs_count": 1,
+          "score": 0.5,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Hurrian",
+          "name": "Shaushka",
+          "description": "Variant spelling of Sauska",
+          "name_consonants": [
+            "š",
+            "š",
+            "k"
+          ],
+          "token_consonants": [
+            "d",
+            "k"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Ariadne",
+          "description": "Minoan princess/deity; 'most holy'",
+          "name_consonants": [
+            "r",
+            "d",
+            "n"
+          ],
+          "token_consonants": [
+            "d",
+            "k"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Luwian",
+          "name": "Kubaba",
+          "description": "Queen of Carchemish; Great Goddess",
+          "name_consonants": [
+            "k",
+            "b",
+            "b"
+          ],
+          "token_consonants": [
+            "d",
+            "k"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Luwian",
+          "name": "Tiwad",
+          "description": "Sun deity",
+          "name_consonants": [
+            "t",
+            "w",
+            "d"
+          ],
+          "token_consonants": [
+            "d",
+            "k"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.5
+        },
+        {
+          "language": "Proto-Semitic",
+          "name": "Dagan",
+          "description": "Grain/underworld deity",
+          "name_consonants": [
+            "d",
+            "g",
+            "n"
+          ],
+          "token_consonants": [
+            "d",
+            "k"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.5
+        }
+      ]
+    },
+    "JA-DI-KI-TU": {
+      "token": "JA-DI-KI-TU",
+      "token_consonants": [
+        "y",
+        "d",
+        "k",
+        "t"
+      ],
+      "occurrences": 2,
+      "sites": 2,
+      "context": "Liturgical sequence slot-2; contains DI-KI root with JA- prefix and -TU suffix",
+      "top_matches": [
+        {
+          "language": "Minoan-Greek",
+          "name": "Diktynna",
+          "description": "Minoan goddess of Mt. Dikte; hunting nets",
+          "name_consonants": [
+            "d",
+            "k",
+            "t",
+            "n"
+          ],
+          "token_consonants": [
+            "y",
+            "d",
+            "k",
+            "t"
+          ],
+          "lcs_count": 3,
+          "score": 0.75,
+          "token_coverage": 0.75
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Dictaean Zeus",
+          "description": "Zeus of Dikte/Dikte mountain cave cult",
+          "name_consonants": [
+            "d",
+            "k",
+            "t"
+          ],
+          "token_consonants": [
+            "y",
+            "d",
+            "k",
+            "t"
+          ],
+          "lcs_count": 3,
+          "score": 0.75,
+          "token_coverage": 0.75
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Curetes",
+          "description": "Minoan armed young men; protect infant Zeus",
+          "name_consonants": [
+            "k",
+            "r",
+            "t",
+            "s"
+          ],
+          "token_consonants": [
+            "y",
+            "d",
+            "k",
+            "t"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.5
+        }
+      ]
+    },
+    "A-TA-I-*301-WA-JA": {
+      "token": "A-TA-I-*301-WA-JA",
+      "token_consonants": [
+        "t",
+        "w",
+        "y"
+      ],
+      "occurrences": 3,
+      "sites": 3,
+      "context": "Ritual header formula",
+      "top_matches": [
+        {
+          "language": "Minoan-Greek",
+          "name": "Eileithyia",
+          "description": "Birth goddess; Minoan origin; Amnisos cave",
+          "name_consonants": [
+            "l",
+            "t",
+            "y"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 2,
+          "score": 0.6667,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Luwian",
+          "name": "Tiwad",
+          "description": "Sun deity",
+          "name_consonants": [
+            "t",
+            "w",
+            "d"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 2,
+          "score": 0.6667,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Tessub",
+          "description": "Storm god, chief deity of Hurrian pantheon",
+          "name_consonants": [
+            "t",
+            "š",
+            "b"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Hebat",
+          "description": "Queen of the gods, consort of Tessub",
+          "name_consonants": [
+            "h",
+            "b",
+            "t"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Tilla",
+          "description": "Bull god, attendant of Tessub",
+          "name_consonants": [
+            "t",
+            "l"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Ashtabi",
+          "description": "War god",
+          "name_consonants": [
+            "š",
+            "t",
+            "b"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Hurrian",
+          "name": "Hutena",
+          "description": "Fate goddesses (pair)",
+          "name_consonants": [
+            "h",
+            "t",
+            "n"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Amaltheia",
+          "description": "Goat goddess; nurturer",
+          "name_consonants": [
+            "m",
+            "l",
+            "t"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Potnia",
+          "description": "Mistress/Lady; Linear B title for Minoan goddess",
+          "name_consonants": [
+            "p",
+            "t",
+            "n"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Dictaean Zeus",
+          "description": "Zeus of Dikte/Dikte mountain cave cult",
+          "name_consonants": [
+            "d",
+            "k",
+            "t"
+          ],
+          "token_consonants": [
+            "t",
+            "w",
+            "y"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        }
+      ]
+    },
+    "PA-JA-RE": {
+      "token": "PA-JA-RE",
+      "token_consonants": [
+        "p",
+        "y",
+        "r"
+      ],
+      "occurrences": null,
+      "sites": null,
+      "context": "Administrative term candidate",
+      "top_matches": [
+        {
+          "language": "Luwian",
+          "name": "Iyarri",
+          "description": "Plague god",
+          "name_consonants": [
+            "y",
+            "r"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 2,
+          "score": 0.6667,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Luwian",
+          "name": "Pirwa",
+          "description": "Horse deity",
+          "name_consonants": [
+            "p",
+            "r",
+            "w"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 2,
+          "score": 0.6667,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Pinikir",
+          "description": "Great goddess of Elam; possible contact term",
+          "name_consonants": [
+            "p",
+            "n",
+            "k",
+            "r"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 2,
+          "score": 0.5,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Pirinkir",
+          "description": "Elamite great goddess variant",
+          "name_consonants": [
+            "p",
+            "r",
+            "n",
+            "k",
+            "r"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 2,
+          "score": 0.4,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Sertapsuruhi",
+          "description": "Minor Hurrian deity",
+          "name_consonants": [
+            "š",
+            "r",
+            "t",
+            "p",
+            "s",
+            "r",
+            "h"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 2,
+          "score": 0.2857,
+          "token_coverage": 0.6667
+        },
+        {
+          "language": "Hurrian",
+          "name": "Ishhara",
+          "description": "Oath goddess; love goddess cognate",
+          "name_consonants": [
+            "š",
+            "h",
+            "r"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Eileithyia",
+          "description": "Birth goddess; Minoan origin; Amnisos cave",
+          "name_consonants": [
+            "l",
+            "t",
+            "y"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Ariadne",
+          "description": "Minoan princess/deity; 'most holy'",
+          "name_consonants": [
+            "r",
+            "d",
+            "n"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Pasiphae",
+          "description": "Minoan moon goddess; 'all-shining'",
+          "name_consonants": [
+            "p",
+            "s",
+            "p"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        },
+        {
+          "language": "Minoan-Greek",
+          "name": "Potnia",
+          "description": "Mistress/Lady; Linear B title for Minoan goddess",
+          "name_consonants": [
+            "p",
+            "t",
+            "n"
+          ],
+          "token_consonants": [
+            "p",
+            "y",
+            "r"
+          ],
+          "lcs_count": 1,
+          "score": 0.3333,
+          "token_coverage": 0.3333
+        }
+      ]
+    }
+  },
+  "top_matches_summary": [
+    {
+      "token": "SI-RU-TE",
+      "language": "Proto-Semitic",
+      "name": "Astarte",
+      "description": "Phoenician goddess; love and war",
+      "name_consonants": [
+        "s",
+        "t",
+        "r",
+        "t"
+      ],
+      "token_consonants": [
+        "s",
+        "r",
+        "t"
+      ],
+      "lcs_count": 3,
+      "score": 0.75,
+      "token_coverage": 1.0
+    },
+    {
+      "token": "JA-DI-KI-TU",
+      "language": "Minoan-Greek",
+      "name": "Diktynna",
+      "description": "Minoan goddess of Mt. Dikte; hunting nets",
+      "name_consonants": [
+        "d",
+        "k",
+        "t",
+        "n"
+      ],
+      "token_consonants": [
+        "y",
+        "d",
+        "k",
+        "t"
+      ],
+      "lcs_count": 3,
+      "score": 0.75,
+      "token_coverage": 0.75
+    },
+    {
+      "token": "JA-DI-KI-TU",
+      "language": "Minoan-Greek",
+      "name": "Dictaean Zeus",
+      "description": "Zeus of Dikte/Dikte mountain cave cult",
+      "name_consonants": [
+        "d",
+        "k",
+        "t"
+      ],
+      "token_consonants": [
+        "y",
+        "d",
+        "k",
+        "t"
+      ],
+      "lcs_count": 3,
+      "score": 0.75,
+      "token_coverage": 0.75
+    },
+    {
+      "token": "U-NA-KA-NA-SI",
+      "language": "Minoan-Greek",
+      "name": "Velchanos",
+      "description": "Young male deity; bull god",
+      "name_consonants": [
+        "w",
+        "l",
+        "k",
+        "n",
+        "s"
+      ],
+      "token_consonants": [
+        "n",
+        "k",
+        "n",
+        "s"
+      ],
+      "lcs_count": 3,
+      "score": 0.6,
+      "token_coverage": 0.75
+    },
+    {
+      "token": "I-PI-NA-MA",
+      "language": "Minoan-Greek",
+      "name": "Potnia",
+      "description": "Mistress/Lady; Linear B title for Minoan goddess",
+      "name_consonants": [
+        "p",
+        "t",
+        "n"
+      ],
+      "token_consonants": [
+        "p",
+        "n",
+        "m"
+      ],
+      "lcs_count": 2,
+      "score": 0.6667,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "SI-RU-TE",
+      "language": "Luwian",
+      "name": "Runtiya",
+      "description": "Stag god; hunting",
+      "name_consonants": [
+        "r",
+        "n",
+        "t"
+      ],
+      "token_consonants": [
+        "s",
+        "r",
+        "t"
+      ],
+      "lcs_count": 2,
+      "score": 0.6667,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "SI-RU-TE",
+      "language": "Luwian",
+      "name": "Santa",
+      "description": "Warrior deity",
+      "name_consonants": [
+        "s",
+        "n",
+        "t"
+      ],
+      "token_consonants": [
+        "s",
+        "r",
+        "t"
+      ],
+      "lcs_count": 2,
+      "score": 0.6667,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "DI-KI",
+      "language": "Minoan-Greek",
+      "name": "Dictaean Zeus",
+      "description": "Zeus of Dikte/Dikte mountain cave cult",
+      "name_consonants": [
+        "d",
+        "k",
+        "t"
+      ],
+      "token_consonants": [
+        "d",
+        "k"
+      ],
+      "lcs_count": 2,
+      "score": 0.6667,
+      "token_coverage": 1.0
+    },
+    {
+      "token": "A-TA-I-*301-WA-JA",
+      "language": "Minoan-Greek",
+      "name": "Eileithyia",
+      "description": "Birth goddess; Minoan origin; Amnisos cave",
+      "name_consonants": [
+        "l",
+        "t",
+        "y"
+      ],
+      "token_consonants": [
+        "t",
+        "w",
+        "y"
+      ],
+      "lcs_count": 2,
+      "score": 0.6667,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "A-TA-I-*301-WA-JA",
+      "language": "Luwian",
+      "name": "Tiwad",
+      "description": "Sun deity",
+      "name_consonants": [
+        "t",
+        "w",
+        "d"
+      ],
+      "token_consonants": [
+        "t",
+        "w",
+        "y"
+      ],
+      "lcs_count": 2,
+      "score": 0.6667,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "PA-JA-RE",
+      "language": "Luwian",
+      "name": "Iyarri",
+      "description": "Plague god",
+      "name_consonants": [
+        "y",
+        "r"
+      ],
+      "token_consonants": [
+        "p",
+        "y",
+        "r"
+      ],
+      "lcs_count": 2,
+      "score": 0.6667,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "PA-JA-RE",
+      "language": "Luwian",
+      "name": "Pirwa",
+      "description": "Horse deity",
+      "name_consonants": [
+        "p",
+        "r",
+        "w"
+      ],
+      "token_consonants": [
+        "p",
+        "y",
+        "r"
+      ],
+      "lcs_count": 2,
+      "score": 0.6667,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "JA-SA-SA-RA",
+      "language": "Luwian",
+      "name": "Iyarri",
+      "description": "Plague god",
+      "name_consonants": [
+        "y",
+        "r"
+      ],
+      "token_consonants": [
+        "y",
+        "s",
+        "s",
+        "r"
+      ],
+      "lcs_count": 2,
+      "score": 0.5,
+      "token_coverage": 0.5
+    },
+    {
+      "token": "JA-SA-SA-RA",
+      "language": "Proto-Semitic",
+      "name": "Astarte",
+      "description": "Phoenician goddess; love and war",
+      "name_consonants": [
+        "s",
+        "t",
+        "r",
+        "t"
+      ],
+      "token_consonants": [
+        "y",
+        "s",
+        "s",
+        "r"
+      ],
+      "lcs_count": 2,
+      "score": 0.5,
+      "token_coverage": 0.5
+    },
+    {
+      "token": "U-NA-KA-NA-SI",
+      "language": "Hurrian",
+      "name": "Pinikir",
+      "description": "Great goddess of Elam; possible contact term",
+      "name_consonants": [
+        "p",
+        "n",
+        "k",
+        "r"
+      ],
+      "token_consonants": [
+        "n",
+        "k",
+        "n",
+        "s"
+      ],
+      "lcs_count": 2,
+      "score": 0.5,
+      "token_coverage": 0.5
+    },
+    {
+      "token": "U-NA-KA-NA-SI",
+      "language": "Minoan-Greek",
+      "name": "Diktynna",
+      "description": "Minoan goddess of Mt. Dikte; hunting nets",
+      "name_consonants": [
+        "d",
+        "k",
+        "t",
+        "n"
+      ],
+      "token_consonants": [
+        "n",
+        "k",
+        "n",
+        "s"
+      ],
+      "lcs_count": 2,
+      "score": 0.5,
+      "token_coverage": 0.5
+    },
+    {
+      "token": "U-NA-KA-NA-SI",
+      "language": "Minoan-Greek",
+      "name": "Curetes",
+      "description": "Minoan armed young men; protect infant Zeus",
+      "name_consonants": [
+        "k",
+        "r",
+        "t",
+        "s"
+      ],
+      "token_consonants": [
+        "n",
+        "k",
+        "n",
+        "s"
+      ],
+      "lcs_count": 2,
+      "score": 0.5,
+      "token_coverage": 0.5
+    },
+    {
+      "token": "I-PI-NA-MA",
+      "language": "Hurrian",
+      "name": "Pinikir",
+      "description": "Great goddess of Elam; possible contact term",
+      "name_consonants": [
+        "p",
+        "n",
+        "k",
+        "r"
+      ],
+      "token_consonants": [
+        "p",
+        "n",
+        "m"
+      ],
+      "lcs_count": 2,
+      "score": 0.5,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "SI-RU-TE",
+      "language": "Minoan-Greek",
+      "name": "Curetes",
+      "description": "Minoan armed young men; protect infant Zeus",
+      "name_consonants": [
+        "k",
+        "r",
+        "t",
+        "s"
+      ],
+      "token_consonants": [
+        "s",
+        "r",
+        "t"
+      ],
+      "lcs_count": 2,
+      "score": 0.5,
+      "token_coverage": 0.6667
+    },
+    {
+      "token": "DI-KI",
+      "language": "Minoan-Greek",
+      "name": "Diktynna",
+      "description": "Minoan goddess of Mt. Dikte; hunting nets",
+      "name_consonants": [
+        "d",
+        "k",
+        "t",
+        "n"
+      ],
+      "token_consonants": [
+        "d",
+        "k"
+      ],
+      "lcs_count": 2,
+      "score": 0.5,
+      "token_coverage": 1.0
+    }
+  ],
+  "jasassara_analysis": {
+    "token": "JA-SA-SA-RA",
+    "token_consonants": [
+      "y",
+      "s",
+      "s",
+      "r"
+    ],
+    "best_candidates": [
+      {
+        "name": "Ishhara",
+        "language": "Hurrian/Semitic",
+        "consonants": [
+          "š",
+          "r"
+        ],
+        "rationale": "Oath-and-love goddess at Alalakh and Ugarit; consonant root š-r matches SA-RA portion if SA-SA is reduplication or intensifier",
+        "strength": "Low-Medium",
+        "note": "Requires s=š correspondence and treating JA-SA as prefix"
+      },
+      {
+        "name": "Sauska",
+        "language": "Hurrian",
+        "consonants": [
+          "š",
+          "w",
+          "š",
+          "k"
+        ],
+        "rationale": "Chief Hurrian goddess; consonants s-w-s-k vs JA-SA-SA-RA y-s-s-r; LCS=2 (s,s); score=0.50",
+        "strength": "Low",
+        "note": "Final -r vs -k mismatch; -w- absent in LA token"
+      },
+      {
+        "name": "Asherah",
+        "language": "Proto-Semitic",
+        "consonants": [
+          "š",
+          "r",
+          "h"
+        ],
+        "rationale": "Sea/mother goddess; consonants š-r-h vs SA-RA = s-r; LCS=2; if JA=prefix, core = SA-SA-RA",
+        "strength": "Low",
+        "note": "Proto-Semitic, not Hurrian; but Asherah was widely venerated in Levant and could have reached Aegean"
+      }
+    ]
+  }
+}

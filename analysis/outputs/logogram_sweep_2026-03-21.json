@@ -1,0 +1,4367 @@
+{
+  "analysis": "logogram_sweep",
+  "date": "2026-03-21",
+  "total_records_analyzed": 1721,
+  "baseline_ritual_rate": 0.0866,
+  "new_logogram_candidates_strong": [
+    {
+      "token": "*312",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 3,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 1.0,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH3a",
+          "site": "Arkhalkhori",
+          "context": [
+            "*317",
+            "2",
+            "*312",
+            "2",
+            "KU",
+            "3"
+          ]
+        },
+        {
+          "record": "HT123+124b",
+          "site": "Haghia Triada",
+          "context": [
+            "*188-*308",
+            "11",
+            "*312",
+            "1",
+            "³⁄₄",
+            "TI-DA-TA"
+          ]
+        },
+        {
+          "record": "HT49a",
+          "site": "Haghia Triada",
+          "context": [
+            "*370",
+            "1",
+            "*312",
+            "1",
+            "KU-PA₃-NU",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*23M",
+      "total_occurrences": 7,
+      "record_count": 6,
+      "site_count": 3,
+      "sites": [
+        "Gournia",
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.8571,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "GOWc1b",
+          "site": "Gournia",
+          "context": [
+            "*23M",
+            "5"
+          ]
+        },
+        {
+          "record": "HT114a",
+          "site": "Haghia Triada",
+          "context": [
+            "VIN",
+            "1",
+            "*23M",
+            "3"
+          ]
+        },
+        {
+          "record": "HT121",
+          "site": "Haghia Triada",
+          "context": [
+            "VIN",
+            "3",
+            "*23M",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "DA-RE",
+      "total_occurrences": 7,
+      "record_count": 7,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Palaikastro"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.8571,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT10a",
+          "site": "Haghia Triada",
+          "context": [
+            "PA",
+            "𐄁",
+            "DA-RE",
+            "16",
+            "¹⁄₂",
+            "U-*325-ZA"
+          ]
+        },
+        {
+          "record": "HT10b",
+          "site": "Haghia Triada",
+          "context": [
+            "U-TI",
+            "1",
+            "DA-RE",
+            "2",
+            "TA-RI-NA",
+            "15"
+          ]
+        },
+        {
+          "record": "HT122b",
+          "site": "Haghia Triada",
+          "context": [
+            "DI",
+            "2",
+            "DA-RE",
+            "2",
+            "KU-RO",
+            "65"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "E",
+      "total_occurrences": 10,
+      "record_count": 9,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Knossos",
+        "Zakros"
+      ],
+      "numeral_after_count": 8,
+      "numeral_after_rate": 0.8,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 1,
+      "ritual_enrichment": 1.283,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT12",
+          "site": "Haghia Triada",
+          "context": [
+            "QA2+[?]+PU",
+            "1",
+            "E",
+            "30",
+            "*560",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT23a",
+          "site": "Haghia Triada",
+          "context": [
+            "QA2+[?]+RE+PU",
+            "10",
+            "E",
+            "17",
+            "*21F-RI-TU-QA",
+            "¹⁄₁₆"
+          ]
+        },
+        {
+          "record": "HT23b",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "𐝫",
+            "E",
+            "7",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*22F",
+      "total_occurrences": 14,
+      "record_count": 10,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Knossos",
+        "Phaistos",
+        "Zakros"
+      ],
+      "numeral_after_count": 11,
+      "numeral_after_rate": 0.7857,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 7,
+      "ritual_enrichment": 8.085,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT132",
+          "site": "Haghia Triada",
+          "context": [
+            "QA-RE-TO",
+            "𐄁",
+            "*22F",
+            "27",
+            "PA₃",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT136a",
+          "site": "Haghia Triada",
+          "context": [
+            "*22F",
+            "30",
+            "23",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HTWc3024",
+          "site": "Haghia Triada",
+          "context": [
+            "A-RA-TU-ME",
+            "*22F"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "SU",
+      "total_occurrences": 8,
+      "record_count": 8,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Mycenae",
+        "Zakros"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 2,
+      "ritual_enrichment": 2.888,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT115a",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "RI-SU-MA",
+            "SU",
+            "2",
+            "¹⁄₅",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT37",
+          "site": "Haghia Triada",
+          "context": [
+            "𐄁",
+            "𐄁",
+            "SU",
+            "RE-SU",
+            "𐝫",
+            "6"
+          ]
+        },
+        {
+          "record": "KH11",
+          "site": "Khania",
+          "context": [
+            "CYP",
+            "¹⁄₁₆",
+            "SU",
+            "3",
+            "CYP+E",
+            "𐝇𐝉"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*21M",
+      "total_occurrences": 8,
+      "record_count": 6,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Phaistos"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.125,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT20",
+          "site": "Haghia Triada",
+          "context": [
+            "DI",
+            "¹⁄₂",
+            "*21M",
+            "¹⁄₈",
+            "SA-RE-JU",
+            "¹⁄₈"
+          ]
+        },
+        {
+          "record": "HT64",
+          "site": "Haghia Triada",
+          "context": [
+            "RU-MA",
+            "3",
+            "*21M",
+            "6",
+            "𐝫",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "KH6",
+          "site": "Khania",
+          "context": [
+            "RI-TA-JE",
+            "CYP+D",
+            "*21M",
+            "1",
+            "CYP+D",
+            "¹⁄₂"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*308",
+      "total_occurrences": 12,
+      "record_count": 8,
+      "site_count": 3,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 9,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 5,
+      "fraction_rate": 0.4167,
+      "ritual_count": 1,
+      "ritual_enrichment": 1.444,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH7",
+          "site": "Arkhalkhori",
+          "context": [
+            "𐝫",
+            "—",
+            "*308",
+            "¹⁄₅",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT123+124a",
+          "site": "Haghia Triada",
+          "context": [
+            "OLIV",
+            "31",
+            "*308",
+            "8",
+            "¹⁄₄",
+            "KI-RO"
+          ]
+        },
+        {
+          "record": "HT123+124a",
+          "site": "Haghia Triada",
+          "context": [
+            "31",
+            "¹⁄₂",
+            "*308",
+            "8",
+            "³⁄₄",
+            "KI-RO"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "RE",
+      "total_occurrences": 16,
+      "record_count": 14,
+      "site_count": 5,
+      "sites": [
+        "Arkhalkhori",
+        "Gournia",
+        "Haghia Triada",
+        "Khania",
+        "Palaikastro"
+      ],
+      "numeral_after_count": 11,
+      "numeral_after_rate": 0.6875,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0625,
+      "ritual_count": 1,
+      "ritual_enrichment": 0.825,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH4a",
+          "site": "Arkhalkhori",
+          "context": [
+            "TA",
+            "𐄁",
+            "RE",
+            "5",
+            "A",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "ARKH4b",
+          "site": "Arkhalkhori",
+          "context": [
+            "𐝫",
+            "𐝫",
+            "RE",
+            "10",
+            "U",
+            "DE-MI"
+          ]
+        },
+        {
+          "record": "GO2v",
+          "site": "Gournia",
+          "context": [
+            "¹⁄₈",
+            "DA",
+            "RE",
+            "1",
+            "SE-SI",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "NI",
+      "total_occurrences": 76,
+      "record_count": 67,
+      "site_count": 7,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Phaistos",
+        "Tel Haror",
+        "Zakros"
+      ],
+      "numeral_after_count": 52,
+      "numeral_after_rate": 0.6842,
+      "fraction_after_count": 10,
+      "fraction_rate": 0.1316,
+      "ritual_count": 3,
+      "ritual_enrichment": 0.517,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "CRZg3",
+          "site": "Crete",
+          "context": [
+            "VIN",
+            "≈",
+            "NI",
+            "≈",
+            "VIN+RA"
+          ]
+        },
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "5",
+            "¹⁄₄",
+            "NI",
+            "2",
+            "double mina",
+            "VIN"
+          ]
+        },
+        {
+          "record": "HT103",
+          "site": "Haghia Triada",
+          "context": [
+            "U-TA₂",
+            "𐄁",
+            "NI",
+            "40",
+            "PA₃",
+            "DA-KU-SE-NE"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "WA",
+      "total_occurrences": 6,
+      "record_count": 6,
+      "site_count": 4,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Zakros"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 0.6667,
+      "fraction_after_count": 3,
+      "fraction_rate": 0.5,
+      "ritual_count": 2,
+      "ritual_enrichment": 3.85,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARGZg1",
+          "site": "Arkhalkhori",
+          "context": [
+            "WA",
+            "≈",
+            "VIN-MI"
+          ]
+        },
+        {
+          "record": "HT16",
+          "site": "Haghia Triada",
+          "context": [
+            "¹⁄₈",
+            "𐄁",
+            "WA",
+            "¹⁄₃",
+            "*188+KU",
+            "³⁄₈"
+          ]
+        },
+        {
+          "record": "HT20",
+          "site": "Haghia Triada",
+          "context": [
+            "SA-RE-JU",
+            "¹⁄₈",
+            "WA",
+            "¹⁄₄",
+            "*188+KU",
+            "¹⁄₂"
+          ]
+        }
+      ]
+    }
+  ],
+  "new_logogram_candidates_borderline": [
+    {
+      "token": "TU",
+      "total_occurrences": 11,
+      "record_count": 11,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Phaistos",
+        "Zakros"
+      ],
+      "numeral_after_count": 7,
+      "numeral_after_rate": 0.6364,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0909,
+      "ritual_count": 1,
+      "ritual_enrichment": 1.05,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT126b",
+          "site": "Haghia Triada",
+          "context": [
+            "𐝫",
+            "TWE",
+            "TU",
+            "6",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT49a",
+          "site": "Haghia Triada",
+          "context": [
+            "𐝫",
+            "5",
+            "TU",
+            "4",
+            "KI",
+            "1"
+          ]
+        },
+        {
+          "record": "HT55a",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "NE",
+            "TU",
+            "1",
+            "𐝫",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "QE",
+      "total_occurrences": 8,
+      "record_count": 8,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Palaikastro",
+        "Thera"
+      ],
+      "numeral_after_count": 5,
+      "numeral_after_rate": 0.625,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT111b",
+          "site": "Haghia Triada",
+          "context": [
+            "4",
+            "3",
+            "QE",
+            "NA",
+            "NI",
+            "1"
+          ]
+        },
+        {
+          "record": "HT146",
+          "site": "Haghia Triada",
+          "context": [
+            "𐝫",
+            "QE",
+            "30",
+            "RI-*305",
+            "30"
+          ]
+        },
+        {
+          "record": "HT27a",
+          "site": "Haghia Triada",
+          "context": [
+            "I-MI-SA-RA",
+            "43",
+            "QE",
+            "21",
+            "KI-DA",
+            "KI-*310"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "CAP",
+      "total_occurrences": 5,
+      "record_count": 4,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Thera"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.6,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT38",
+          "site": "Haghia Triada",
+          "context": [
+            "AU",
+            "1",
+            "CAP",
+            "3",
+            "*554-*118",
+            "3"
+          ]
+        },
+        {
+          "record": "HTWc3014",
+          "site": "Haghia Triada",
+          "context": [
+            "KU-MI-NA-QE",
+            "𐄁",
+            "CAP"
+          ]
+        },
+        {
+          "record": "KHWc2063",
+          "site": "Khania",
+          "context": [
+            "CAP"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "TI",
+      "total_occurrences": 12,
+      "record_count": 11,
+      "site_count": 6,
+      "sites": [
+        "Haghia Triada",
+        "Malia",
+        "Palaikastro",
+        "Phaistos",
+        "Pyrgos",
+        "Zakros"
+      ],
+      "numeral_after_count": 7,
+      "numeral_after_rate": 0.5833,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0833,
+      "ritual_count": 2,
+      "ritual_enrichment": 2.1,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT119",
+          "site": "Haghia Triada",
+          "context": [
+            "KU-PA₃-NA-TU",
+            "7",
+            "TI",
+            "7",
+            "JA-*345",
+            "10"
+          ]
+        },
+        {
+          "record": "HT154.",
+          "site": "Haghia Triada",
+          "context": [
+            "*516",
+            "𐄁",
+            "TI",
+            "100",
+            "7",
+            "40"
+          ]
+        },
+        {
+          "record": "MA1c",
+          "site": "Malia",
+          "context": [
+            "TI"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "PA",
+      "total_occurrences": 16,
+      "record_count": 16,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Phaistos",
+        "Zakros"
+      ],
+      "numeral_after_count": 9,
+      "numeral_after_rate": 0.5625,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 5,
+      "ritual_enrichment": 3.609,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT10a",
+          "site": "Haghia Triada",
+          "context": [
+            "4",
+            "𐄁",
+            "PA",
+            "𐄁",
+            "DA-RE",
+            "16"
+          ]
+        },
+        {
+          "record": "HT122a",
+          "site": "Haghia Triada",
+          "context": [
+            "DA-SI-*118",
+            "2",
+            "PA",
+            "𐄁",
+            "DI",
+            "1"
+          ]
+        },
+        {
+          "record": "HT25a",
+          "site": "Haghia Triada",
+          "context": [
+            "I-KI-RA",
+            "1",
+            "PA",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "MA",
+      "total_occurrences": 11,
+      "record_count": 10,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Thera",
+        "Zakros"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.5455,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0909,
+      "ritual_count": 3,
+      "ritual_enrichment": 3.465,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT110b",
+          "site": "Haghia Triada",
+          "context": [
+            "3",
+            "1",
+            "MA",
+            "5",
+            "¹⁄₂",
+            "2"
+          ]
+        },
+        {
+          "record": "HT110b",
+          "site": "Haghia Triada",
+          "context": [
+            "¹⁄₂",
+            "1",
+            "MA",
+            "2",
+            "*301",
+            "³⁄₄"
+          ]
+        },
+        {
+          "record": "HT140",
+          "site": "Haghia Triada",
+          "context": [
+            "3",
+            "KA",
+            "MA",
+            "KA",
+            "4",
+            "OLE+U"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "KI",
+      "total_occurrences": 19,
+      "record_count": 15,
+      "site_count": 8,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Kalo Chorafi",
+        "Kea",
+        "Khania",
+        "Thera",
+        "Tylissos",
+        "Zakros"
+      ],
+      "numeral_after_count": 10,
+      "numeral_after_rate": 0.5263,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 2,
+      "ritual_enrichment": 1.54,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH1a",
+          "site": "Arkhalkhori",
+          "context": [
+            "𐄁",
+            "QA",
+            "KI",
+            "𐝫",
+            "𐄁",
+            "A-RA"
+          ]
+        },
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "TI+A",
+            "12",
+            "KI",
+            "2",
+            "*305",
+            "5"
+          ]
+        },
+        {
+          "record": "HT118",
+          "site": "Haghia Triada",
+          "context": [
+            "MA-DI",
+            "15",
+            "KI",
+            "10",
+            "QA-QA-RU",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "MI",
+      "total_occurrences": 6,
+      "record_count": 6,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Larani",
+        "Zakros"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 2,
+      "ritual_enrichment": 3.85,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT113ter",
+          "site": "Haghia Triada",
+          "context": [
+            "MI",
+            "4",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT135a",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "NA-*21F-NE",
+            "MI",
+            "2"
+          ]
+        },
+        {
+          "record": "KH9",
+          "site": "Khania",
+          "context": [
+            "NI",
+            "𐝃𐝁",
+            "MI",
+            "I-SI",
+            "𐄁",
+            "CYP+D"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*131C",
+      "total_occurrences": 6,
+      "record_count": 5,
+      "site_count": 3,
+      "sites": [
+        "Khania",
+        "Knossos",
+        "Phaistos"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.1667,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "KH18",
+          "site": "Khania",
+          "context": [
+            "5",
+            "I-KU-PI",
+            "*131C",
+            "1",
+            "KU",
+            "22"
+          ]
+        },
+        {
+          "record": "KH18",
+          "site": "Khania",
+          "context": [
+            "SI",
+            "DA+*301",
+            "*131C",
+            "1",
+            "RO+RO["
+          ]
+        },
+        {
+          "record": "KH60",
+          "site": "Khania",
+          "context": [
+            "RA-KI-TA-NA-SI",
+            "*131C",
+            "𐝍",
+            "TA₂-CYP",
+            "¹⁄₅"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*307",
+      "total_occurrences": 6,
+      "record_count": 6,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Petras"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.1667,
+      "ritual_count": 1,
+      "ritual_enrichment": 1.925,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT127b",
+          "site": "Haghia Triada",
+          "context": [
+            "13",
+            "KU-RO",
+            "*307",
+            "156",
+            "KU",
+            "72"
+          ]
+        },
+        {
+          "record": "HT27a",
+          "site": "Haghia Triada",
+          "context": [
+            "TI-NI-TA",
+            "𐄁",
+            "*307",
+            "𐄁",
+            "VIR+[?]",
+            "90"
+          ]
+        },
+        {
+          "record": "HT32",
+          "site": "Haghia Triada",
+          "context": [
+            "*307",
+            "SA-RA₂",
+            "𐄁",
+            "*308"
+          ]
+        }
+      ]
+    }
+  ],
+  "confirmed_logogram_stats": [
+    {
+      "token": "*304",
+      "total_occurrences": 25,
+      "record_count": 22,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Phaistos",
+        "Pyrgos",
+        "Zakros"
+      ],
+      "numeral_after_count": 24,
+      "numeral_after_rate": 0.96,
+      "fraction_after_count": 3,
+      "fraction_rate": 0.12,
+      "ritual_count": 1,
+      "ritual_enrichment": 0.525,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT101",
+          "site": "Haghia Triada",
+          "context": [
+            "—",
+            "20",
+            "*304",
+            "3",
+            "OLE+KI",
+            "2"
+          ]
+        },
+        {
+          "record": "HT116a",
+          "site": "Haghia Triada",
+          "context": [
+            "GRA",
+            "12",
+            "*304",
+            "12",
+            "QA-NU-MA",
+            "GRA"
+          ]
+        },
+        {
+          "record": "HT116a",
+          "site": "Haghia Triada",
+          "context": [
+            "GRA",
+            "20",
+            "*304",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "GRA+PA",
+      "total_occurrences": 19,
+      "record_count": 13,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Petras",
+        "Zakros"
+      ],
+      "numeral_after_count": 18,
+      "numeral_after_rate": 0.9474,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0526,
+      "ritual_count": 9,
+      "ritual_enrichment": 7.996,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT102",
+          "site": "Haghia Triada",
+          "context": [
+            "976",
+            "PA₃-NI",
+            "GRA+PA",
+            "33",
+            "VIR+[?]",
+            "GRA+PA"
+          ]
+        },
+        {
+          "record": "HT102",
+          "site": "Haghia Triada",
+          "context": [
+            "33",
+            "VIR+[?]",
+            "GRA+PA",
+            "33",
+            "DI-RI-NA",
+            "10"
+          ]
+        },
+        {
+          "record": "HT120",
+          "site": "Haghia Triada",
+          "context": [
+            "GRA+K+L",
+            "74",
+            "GRA+PA",
+            "62",
+            "𐝆𐝀",
+            "DA-U-*49"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "OLIV",
+      "total_occurrences": 24,
+      "record_count": 17,
+      "site_count": 4,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Tylissos",
+        "Zakros"
+      ],
+      "numeral_after_count": 22,
+      "numeral_after_rate": 0.9167,
+      "fraction_after_count": 2,
+      "fraction_rate": 0.0833,
+      "ritual_count": 5,
+      "ritual_enrichment": 3.397,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "ARKH3a",
+          "site": "Arkhalkhori",
+          "context": [
+            "GRA",
+            "¹⁄₅",
+            "OLIV",
+            "3",
+            "¹⁄₅",
+            "*131B"
+          ]
+        },
+        {
+          "record": "HT101",
+          "site": "Haghia Triada",
+          "context": [
+            "2",
+            "3",
+            "OLIV",
+            "1",
+            "¹⁄₄",
+            "*OLIV+TU"
+          ]
+        },
+        {
+          "record": "HT116a",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE+MI",
+            "6",
+            "OLIV",
+            "3",
+            "PI-*34-TE",
+            "GRA"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "OLE+U",
+      "total_occurrences": 22,
+      "record_count": 13,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Tylissos"
+      ],
+      "numeral_after_count": 20,
+      "numeral_after_rate": 0.9091,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0455,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "2",
+            "¹⁄₂",
+            "OLE+U",
+            "2",
+            "≈ ¹⁄₆",
+            "OLE+MI"
+          ]
+        },
+        {
+          "record": "HT101",
+          "site": "Haghia Triada",
+          "context": [
+            "GRA+QE",
+            "40",
+            "OLE+U",
+            "8",
+            "OLE+MI",
+            "8"
+          ]
+        },
+        {
+          "record": "HT101",
+          "site": "Haghia Triada",
+          "context": [
+            "3",
+            "KU-PA₃",
+            "OLE+U",
+            "2",
+            "—",
+            "20"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "OLE+KI",
+      "total_occurrences": 21,
+      "record_count": 17,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Tylissos",
+        "Zakros"
+      ],
+      "numeral_after_count": 19,
+      "numeral_after_rate": 0.9048,
+      "fraction_after_count": 4,
+      "fraction_rate": 0.1905,
+      "ritual_count": 1,
+      "ritual_enrichment": 0.679,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT101",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE+MI",
+            "8",
+            "OLE+KI",
+            "2",
+            "SA-RA₂",
+            "GRA"
+          ]
+        },
+        {
+          "record": "HT101",
+          "site": "Haghia Triada",
+          "context": [
+            "*304",
+            "3",
+            "OLE+KI",
+            "2",
+            "3",
+            "OLIV"
+          ]
+        },
+        {
+          "record": "HT116a",
+          "site": "Haghia Triada",
+          "context": [
+            "GRA",
+            "16",
+            "OLE+KI",
+            "1",
+            "OLE+MI",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "OLE+MI",
+      "total_occurrences": 19,
+      "record_count": 14,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Tylissos"
+      ],
+      "numeral_after_count": 17,
+      "numeral_after_rate": 0.8947,
+      "fraction_after_count": 3,
+      "fraction_rate": 0.1579,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "2",
+            "≈ ¹⁄₆",
+            "OLE+MI",
+            "3",
+            "OLE+NE",
+            "³⁄₄"
+          ]
+        },
+        {
+          "record": "HT101",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE+U",
+            "8",
+            "OLE+MI",
+            "8",
+            "OLE+KI",
+            "2"
+          ]
+        },
+        {
+          "record": "HT116a",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE+KI",
+            "1",
+            "OLE+MI",
+            "6",
+            "OLIV",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "CYP+E",
+      "total_occurrences": 13,
+      "record_count": 10,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 11,
+      "numeral_after_rate": 0.8462,
+      "fraction_after_count": 3,
+      "fraction_rate": 0.2308,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT110a",
+          "site": "Haghia Triada",
+          "context": [
+            "SI-DU-*34-KU-MI",
+            "CYP+E",
+            "20",
+            "KU-PA",
+            "1"
+          ]
+        },
+        {
+          "record": "HT12",
+          "site": "Haghia Triada",
+          "context": [
+            "*118",
+            "5",
+            "CYP+E",
+            "3",
+            "NI",
+            "1"
+          ]
+        },
+        {
+          "record": "KH11",
+          "site": "Khania",
+          "context": [
+            "SU",
+            "3",
+            "CYP+E",
+            "𐝇𐝉",
+            "VIN",
+            "≈ ¹⁄₆"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "CYP+D",
+      "total_occurrences": 19,
+      "record_count": 10,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 16,
+      "numeral_after_rate": 0.8421,
+      "fraction_after_count": 13,
+      "fraction_rate": 0.6842,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HTWb229",
+          "site": "Haghia Triada",
+          "context": [
+            "*188",
+            "CYP+D"
+          ]
+        },
+        {
+          "record": "HTWc<3018>",
+          "site": "Haghia Triada",
+          "context": [
+            "KA",
+            "CYP+D"
+          ]
+        },
+        {
+          "record": "KH16",
+          "site": "Khania",
+          "context": [
+            "𐝇𐝉𐝫",
+            "U-TA-I-SI",
+            "CYP+D",
+            "¹⁄₂",
+            "TA",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "GRA",
+      "total_occurrences": 62,
+      "record_count": 48,
+      "site_count": 5,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Zakros"
+      ],
+      "numeral_after_count": 52,
+      "numeral_after_rate": 0.8387,
+      "fraction_after_count": 5,
+      "fraction_rate": 0.0806,
+      "ritual_count": 3,
+      "ritual_enrichment": 0.722,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "ARKH3a",
+          "site": "Arkhalkhori",
+          "context": [
+            "KA-NE",
+            "GRA",
+            "¹⁄₅",
+            "OLIV",
+            "3"
+          ]
+        },
+        {
+          "record": "ARKH3a",
+          "site": "Arkhalkhori",
+          "context": [
+            "𐝫",
+            "KI-NU",
+            "GRA",
+            "13",
+            "TE",
+            "2"
+          ]
+        },
+        {
+          "record": "ARKH3b",
+          "site": "Arkhalkhori",
+          "context": [
+            "JA-PI",
+            "GRA",
+            "6",
+            "PI-*314",
+            "GRA"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "KU-RO",
+      "total_occurrences": 37,
+      "record_count": 34,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos",
+        "Zakros"
+      ],
+      "numeral_after_count": 29,
+      "numeral_after_rate": 0.7838,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 1,
+      "ritual_enrichment": 0.34,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "VIR+*313a",
+            "16",
+            "KU-RO",
+            "97",
+            "SA-RA₂",
+            "CYP"
+          ]
+        },
+        {
+          "record": "HT102",
+          "site": "Haghia Triada",
+          "context": [
+            "I-KA",
+            "5",
+            "KU-RO",
+            "1060"
+          ]
+        },
+        {
+          "record": "HT104",
+          "site": "Haghia Triada",
+          "context": [
+            "PA-DA-SU-TI",
+            "29",
+            "KU-RO",
+            "95"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "OLE+RI",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 3,
+      "fraction_rate": 0.75,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT23a",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE+TU",
+            "≈ ¹⁄₆",
+            "OLE+RI",
+            "≈ ¹⁄₆",
+            "MI+JA+RU",
+            "≈ ¹⁄₆"
+          ]
+        },
+        {
+          "record": "HT35",
+          "site": "Haghia Triada",
+          "context": [
+            "MI+JA+RU",
+            "¹⁄₃",
+            "OLE+RI",
+            "¹⁄₃",
+            "*308",
+            "¹⁄₃"
+          ]
+        },
+        {
+          "record": "HT60",
+          "site": "Haghia Triada",
+          "context": [
+            "𐝫",
+            "OLE+RI",
+            "¹⁄₁₆",
+            "MI+JA+[ ]",
+            "¹⁄₁₆"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "CYP",
+      "total_occurrences": 52,
+      "record_count": 41,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Phaistos"
+      ],
+      "numeral_after_count": 38,
+      "numeral_after_rate": 0.7308,
+      "fraction_after_count": 20,
+      "fraction_rate": 0.3846,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "97",
+            "SA-RA₂",
+            "CYP",
+            "5",
+            "¹⁄₄",
+            "NI"
+          ]
+        },
+        {
+          "record": "HT106",
+          "site": "Haghia Triada",
+          "context": [
+            "MI-NU-TE",
+            "CYP",
+            "6",
+            "SI",
+            "5"
+          ]
+        },
+        {
+          "record": "HT112b",
+          "site": "Haghia Triada",
+          "context": [
+            "CYP",
+            "6",
+            "𐝫",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "OLE",
+      "total_occurrences": 22,
+      "record_count": 21,
+      "site_count": 7,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Petras",
+        "Thera",
+        "Tylissos"
+      ],
+      "numeral_after_count": 15,
+      "numeral_after_rate": 0.6818,
+      "fraction_after_count": 2,
+      "fraction_rate": 0.0909,
+      "ritual_count": 1,
+      "ritual_enrichment": 0.55,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "ARKH3b",
+          "site": "Arkhalkhori",
+          "context": [
+            "GRA",
+            "1",
+            "OLE",
+            "𐝫",
+            "2",
+            "OLE"
+          ]
+        },
+        {
+          "record": "ARKH3b",
+          "site": "Arkhalkhori",
+          "context": [
+            "𐝫",
+            "2",
+            "OLE",
+            "4",
+            "VIN",
+            "1"
+          ]
+        },
+        {
+          "record": "HT101",
+          "site": "Haghia Triada",
+          "context": [
+            "GRA",
+            "41",
+            "OLE",
+            "10",
+            "DI+QE",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "VIR+[?]",
+      "total_occurrences": 31,
+      "record_count": 26,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Petras",
+        "Phaistos",
+        "Tylissos"
+      ],
+      "numeral_after_count": 20,
+      "numeral_after_rate": 0.6452,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT102",
+          "site": "Haghia Triada",
+          "context": [
+            "GRA+PA",
+            "33",
+            "VIR+[?]",
+            "GRA+PA",
+            "33",
+            "DI-RI-NA"
+          ]
+        },
+        {
+          "record": "HT105",
+          "site": "Haghia Triada",
+          "context": [
+            "KA-PA",
+            "𐝫",
+            "VIR+[?]",
+            "234",
+            "SA-RA₂",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT105",
+          "site": "Haghia Triada",
+          "context": [
+            "SA-RA₂",
+            "𐄁",
+            "VIR+[?]",
+            "235"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "VIN",
+      "total_occurrences": 53,
+      "record_count": 45,
+      "site_count": 8,
+      "sites": [
+        "Arkhalkhori",
+        "Crete",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Phaistos",
+        "Zakros"
+      ],
+      "numeral_after_count": 33,
+      "numeral_after_rate": 0.6226,
+      "fraction_after_count": 8,
+      "fraction_rate": 0.1509,
+      "ritual_count": 7,
+      "ritual_enrichment": 1.797,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "ARKH3b",
+          "site": "Arkhalkhori",
+          "context": [
+            "OLE",
+            "4",
+            "VIN",
+            "1",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "CRZg3",
+          "site": "Crete",
+          "context": [
+            "VIN",
+            "≈",
+            "NI",
+            "≈"
+          ]
+        },
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "2",
+            "double mina",
+            "VIN",
+            "2",
+            "¹⁄₂",
+            "OLE+U"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "OLE+NE",
+      "total_occurrences": 5,
+      "record_count": 4,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Tylissos"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.6,
+      "fraction_after_count": 2,
+      "fraction_rate": 0.4,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE+MI",
+            "3",
+            "OLE+NE",
+            "³⁄₄"
+          ]
+        },
+        {
+          "record": "HT23a",
+          "site": "Haghia Triada",
+          "context": [
+            "*308",
+            "≈ ¹⁄₆",
+            "OLE+NE",
+            "≈ ¹⁄₆",
+            "OLE+TU",
+            "≈ ¹⁄₆"
+          ]
+        },
+        {
+          "record": "HT32",
+          "site": "Haghia Triada",
+          "context": [
+            "*308",
+            "¹⁄₂",
+            "OLE+NE",
+            "𐝆𐝇",
+            "QA2+[?]+PU",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "OLE+TA",
+      "total_occurrences": 8,
+      "record_count": 7,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 4,
+      "fraction_rate": 0.5,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT30",
+          "site": "Haghia Triada",
+          "context": [
+            "8",
+            "¹⁄₂",
+            "OLE+TA",
+            "𐝓",
+            "QA2+[?]+PU",
+            "¹⁄₅"
+          ]
+        },
+        {
+          "record": "HT30",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "¹⁄₅",
+            "OLE+TA",
+            "¹⁄₅",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT35",
+          "site": "Haghia Triada",
+          "context": [
+            "*308",
+            "¹⁄₃",
+            "OLE+TA",
+            "E",
+            "5",
+            "QA2+[?]+PU"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "VIR+KA",
+      "total_occurrences": 8,
+      "record_count": 8,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.375,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "VIR+KA",
+            "58",
+            "*304+PA",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT88",
+          "site": "Haghia Triada",
+          "context": [
+            "A-DU",
+            "VIR+KA",
+            "20",
+            "RE-ZA",
+            "6"
+          ]
+        },
+        {
+          "record": "HT97a",
+          "site": "Haghia Triada",
+          "context": [
+            "*307+*387",
+            "𐄁",
+            "VIR+KA",
+            "82",
+            "*327",
+            "33"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*301",
+      "total_occurrences": 238,
+      "record_count": 238,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Zakros"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.0252,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0042,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": true,
+      "sample_contexts": [
+        {
+          "record": "HT10a",
+          "site": "Haghia Triada",
+          "context": [
+            "U-*325-ZA",
+            "4",
+            "*301",
+            "6",
+            "U-*325-ZA",
+            "14"
+          ]
+        },
+        {
+          "record": "HT110b",
+          "site": "Haghia Triada",
+          "context": [
+            "MA",
+            "2",
+            "*301",
+            "³⁄₄"
+          ]
+        },
+        {
+          "record": "HT127b",
+          "site": "Haghia Triada",
+          "context": [
+            "KI+MU",
+            "15",
+            "*301",
+            "11",
+            "KI+MU",
+            "14"
+          ]
+        }
+      ]
+    }
+  ],
+  "all_new_candidates_above_40pct": [
+    {
+      "token": "*312",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 3,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 1.0,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH3a",
+          "site": "Arkhalkhori",
+          "context": [
+            "*317",
+            "2",
+            "*312",
+            "2",
+            "KU",
+            "3"
+          ]
+        },
+        {
+          "record": "HT123+124b",
+          "site": "Haghia Triada",
+          "context": [
+            "*188-*308",
+            "11",
+            "*312",
+            "1",
+            "³⁄₄",
+            "TI-DA-TA"
+          ]
+        },
+        {
+          "record": "HT49a",
+          "site": "Haghia Triada",
+          "context": [
+            "*370",
+            "1",
+            "*312",
+            "1",
+            "KU-PA₃-NU",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*131B",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 2,
+      "sites": [
+        "Arkhalkhori",
+        "Zakros"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 1.0,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 1,
+      "ritual_enrichment": 2.888,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH2",
+          "site": "Arkhalkhori",
+          "context": [
+            "SI-DA-TE",
+            "KU-RA",
+            "*131B",
+            "5",
+            "A-SI-DA-TO-I",
+            "12"
+          ]
+        },
+        {
+          "record": "ARKH3a",
+          "site": "Arkhalkhori",
+          "context": [
+            "3",
+            "¹⁄₅",
+            "*131B",
+            "2",
+            "2",
+            "*317"
+          ]
+        },
+        {
+          "record": "ARKH5",
+          "site": "Arkhalkhori",
+          "context": [
+            "GRA",
+            "40",
+            "*131B",
+            "6",
+            "A",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "DU",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Zakros"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 1.0,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 2,
+      "ritual_enrichment": 5.775,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT122a",
+          "site": "Haghia Triada",
+          "context": [
+            "*306-TU",
+            "1",
+            "DU",
+            "1",
+            "KU-PA₃-NU",
+            "1"
+          ]
+        },
+        {
+          "record": "HT47a",
+          "site": "Haghia Triada",
+          "context": [
+            "KU-PA₃-NA-TU",
+            "20",
+            "DU",
+            "20",
+            "U",
+            "PI"
+          ]
+        },
+        {
+          "record": "ZA10b",
+          "site": "Zakros",
+          "context": [
+            "TA",
+            "2",
+            "DU",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "PA-JA-RE",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Zakros"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 1.0,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 1,
+      "ritual_enrichment": 2.888,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT29",
+          "site": "Haghia Triada",
+          "context": [
+            "𐄁",
+            "1",
+            "PA-JA-RE",
+            "2",
+            "DI-JA-I",
+            "2"
+          ]
+        },
+        {
+          "record": "HT88",
+          "site": "Haghia Triada",
+          "context": [
+            "KU-PA₃-NU",
+            "1",
+            "PA-JA-RE",
+            "1",
+            "SA-MA-RO",
+            "1"
+          ]
+        },
+        {
+          "record": "HT8b",
+          "site": "Haghia Triada",
+          "context": [
+            "KA-PA",
+            "¹⁄₂",
+            "PA-JA-RE",
+            "1",
+            "¹⁄₈",
+            "*86+'*188'"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "VIR+*313b",
+      "total_occurrences": 4,
+      "record_count": 2,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 1.0,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT94a",
+          "site": "Haghia Triada",
+          "context": [
+            "TI+A",
+            "7",
+            "VIR+*313b",
+            "18",
+            "TA",
+            "4"
+          ]
+        },
+        {
+          "record": "KH7a",
+          "site": "Khania",
+          "context": [
+            "E-NA-SI",
+            "𐄁",
+            "VIR+*313b",
+            "10",
+            "CYP+D",
+            "¹⁄₂"
+          ]
+        },
+        {
+          "record": "KH7a",
+          "site": "Khania",
+          "context": [
+            "𐄁",
+            "QA-TI-KI",
+            "VIR+*313b",
+            "4",
+            "CYP+D",
+            "¹⁄₃"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "KU-PA₃-NU",
+      "total_occurrences": 8,
+      "record_count": 7,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos"
+      ],
+      "numeral_after_count": 7,
+      "numeral_after_rate": 0.875,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT1",
+          "site": "Haghia Triada",
+          "context": [
+            "DI-DI-ZA-KE",
+            "52",
+            "KU-PA₃-NU",
+            "109",
+            "A-RA-NA-RE",
+            "105"
+          ]
+        },
+        {
+          "record": "HT117a",
+          "site": "Haghia Triada",
+          "context": [
+            "MA-RU",
+            "1",
+            "KU-PA₃-NU",
+            "1",
+            "TU-JU-MA",
+            "1"
+          ]
+        },
+        {
+          "record": "HT122a",
+          "site": "Haghia Triada",
+          "context": [
+            "PA-DE",
+            "1",
+            "KU-PA₃-NU",
+            "1",
+            "PA-TA-NE",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "MI+JA+RU",
+      "total_occurrences": 8,
+      "record_count": 8,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 7,
+      "numeral_after_rate": 0.875,
+      "fraction_after_count": 5,
+      "fraction_rate": 0.625,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT23a",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE+RI",
+            "≈ ¹⁄₆",
+            "MI+JA+RU",
+            "≈ ¹⁄₆",
+            "VIN",
+            "10"
+          ]
+        },
+        {
+          "record": "HT23b",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE",
+            "¹⁄₃",
+            "MI+JA+RU",
+            "MU",
+            "QA2+[?]+PU",
+            "QA2+[?]+RE"
+          ]
+        },
+        {
+          "record": "HT32",
+          "site": "Haghia Triada",
+          "context": [
+            "QA2+[?]+RE",
+            "1",
+            "MI+JA+RU",
+            "1",
+            "SU-RE",
+            "𐄁"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*23M",
+      "total_occurrences": 7,
+      "record_count": 6,
+      "site_count": 3,
+      "sites": [
+        "Gournia",
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.8571,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "GOWc1b",
+          "site": "Gournia",
+          "context": [
+            "*23M",
+            "5"
+          ]
+        },
+        {
+          "record": "HT114a",
+          "site": "Haghia Triada",
+          "context": [
+            "VIN",
+            "1",
+            "*23M",
+            "3"
+          ]
+        },
+        {
+          "record": "HT121",
+          "site": "Haghia Triada",
+          "context": [
+            "VIN",
+            "3",
+            "*23M",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "DA-RE",
+      "total_occurrences": 7,
+      "record_count": 7,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Palaikastro"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.8571,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT10a",
+          "site": "Haghia Triada",
+          "context": [
+            "PA",
+            "𐄁",
+            "DA-RE",
+            "16",
+            "¹⁄₂",
+            "U-*325-ZA"
+          ]
+        },
+        {
+          "record": "HT10b",
+          "site": "Haghia Triada",
+          "context": [
+            "U-TI",
+            "1",
+            "DA-RE",
+            "2",
+            "TA-RI-NA",
+            "15"
+          ]
+        },
+        {
+          "record": "HT122b",
+          "site": "Haghia Triada",
+          "context": [
+            "DI",
+            "2",
+            "DA-RE",
+            "2",
+            "KU-RO",
+            "65"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "MA-DI",
+      "total_occurrences": 6,
+      "record_count": 6,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos"
+      ],
+      "numeral_after_count": 5,
+      "numeral_after_rate": 0.8333,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT118",
+          "site": "Haghia Triada",
+          "context": [
+            "*516",
+            "𐄁",
+            "MA-DI",
+            "15",
+            "KI",
+            "10"
+          ]
+        },
+        {
+          "record": "HT3",
+          "site": "Haghia Triada",
+          "context": [
+            "KU-PA₃-NU",
+            "3",
+            "MA-DI",
+            "2",
+            "DA"
+          ]
+        },
+        {
+          "record": "HT69",
+          "site": "Haghia Triada",
+          "context": [
+            "DI",
+            "8",
+            "MA-DI",
+            "4",
+            "DI",
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "DI",
+      "total_occurrences": 16,
+      "record_count": 13,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Palaikastro"
+      ],
+      "numeral_after_count": 13,
+      "numeral_after_rate": 0.8125,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0625,
+      "ritual_count": 1,
+      "ritual_enrichment": 0.888,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT111a",
+          "site": "Haghia Triada",
+          "context": [
+            "QA-RU",
+            "8",
+            "DI",
+            "14",
+            "NI",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT122a",
+          "site": "Haghia Triada",
+          "context": [
+            "PA",
+            "𐄁",
+            "DI",
+            "1",
+            "TE-KI",
+            "2"
+          ]
+        },
+        {
+          "record": "HT122b",
+          "site": "Haghia Triada",
+          "context": [
+            "QA-QA-RU",
+            "2",
+            "DI",
+            "2",
+            "DA-RE",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "E",
+      "total_occurrences": 10,
+      "record_count": 9,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Knossos",
+        "Zakros"
+      ],
+      "numeral_after_count": 8,
+      "numeral_after_rate": 0.8,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 1,
+      "ritual_enrichment": 1.283,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT12",
+          "site": "Haghia Triada",
+          "context": [
+            "QA2+[?]+PU",
+            "1",
+            "E",
+            "30",
+            "*560",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT23a",
+          "site": "Haghia Triada",
+          "context": [
+            "QA2+[?]+RE+PU",
+            "10",
+            "E",
+            "17",
+            "*21F-RI-TU-QA",
+            "¹⁄₁₆"
+          ]
+        },
+        {
+          "record": "HT23b",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "𐝫",
+            "E",
+            "7",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "ZU",
+      "total_occurrences": 5,
+      "record_count": 5,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 0.8,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.2,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT63",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "SU-PU₂",
+            "ZU",
+            "2",
+            "𐝫",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT66",
+          "site": "Haghia Triada",
+          "context": [
+            "ZU",
+            "𐄁",
+            "VIR+[?]",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT79+83",
+          "site": "Haghia Triada",
+          "context": [
+            "3",
+            "KU-NI",
+            "ZU",
+            "3",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*22F",
+      "total_occurrences": 14,
+      "record_count": 10,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Knossos",
+        "Phaistos",
+        "Zakros"
+      ],
+      "numeral_after_count": 11,
+      "numeral_after_rate": 0.7857,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 7,
+      "ritual_enrichment": 8.085,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT132",
+          "site": "Haghia Triada",
+          "context": [
+            "QA-RE-TO",
+            "𐄁",
+            "*22F",
+            "27",
+            "PA₃",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT136a",
+          "site": "Haghia Triada",
+          "context": [
+            "*22F",
+            "30",
+            "23",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HTWc3024",
+          "site": "Haghia Triada",
+          "context": [
+            "A-RA-TU-ME",
+            "*22F"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "SU",
+      "total_occurrences": 8,
+      "record_count": 8,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Mycenae",
+        "Zakros"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 2,
+      "ritual_enrichment": 2.888,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT115a",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "RI-SU-MA",
+            "SU",
+            "2",
+            "¹⁄₅",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT37",
+          "site": "Haghia Triada",
+          "context": [
+            "𐄁",
+            "𐄁",
+            "SU",
+            "RE-SU",
+            "𐝫",
+            "6"
+          ]
+        },
+        {
+          "record": "KH11",
+          "site": "Khania",
+          "context": [
+            "CYP",
+            "¹⁄₁₆",
+            "SU",
+            "3",
+            "CYP+E",
+            "𐝇𐝉"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*21M",
+      "total_occurrences": 8,
+      "record_count": 6,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Phaistos"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.125,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT20",
+          "site": "Haghia Triada",
+          "context": [
+            "DI",
+            "¹⁄₂",
+            "*21M",
+            "¹⁄₈",
+            "SA-RE-JU",
+            "¹⁄₈"
+          ]
+        },
+        {
+          "record": "HT64",
+          "site": "Haghia Triada",
+          "context": [
+            "RU-MA",
+            "3",
+            "*21M",
+            "6",
+            "𐝫",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "KH6",
+          "site": "Khania",
+          "context": [
+            "RI-TA-JE",
+            "CYP+D",
+            "*21M",
+            "1",
+            "CYP+D",
+            "¹⁄₂"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*308",
+      "total_occurrences": 12,
+      "record_count": 8,
+      "site_count": 3,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 9,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 5,
+      "fraction_rate": 0.4167,
+      "ritual_count": 1,
+      "ritual_enrichment": 1.444,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH7",
+          "site": "Arkhalkhori",
+          "context": [
+            "𐝫",
+            "—",
+            "*308",
+            "¹⁄₅",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT123+124a",
+          "site": "Haghia Triada",
+          "context": [
+            "OLIV",
+            "31",
+            "*308",
+            "8",
+            "¹⁄₄",
+            "KI-RO"
+          ]
+        },
+        {
+          "record": "HT123+124a",
+          "site": "Haghia Triada",
+          "context": [
+            "31",
+            "¹⁄₂",
+            "*308",
+            "8",
+            "³⁄₄",
+            "KI-RO"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "QA2+[?]+PU",
+      "total_occurrences": 8,
+      "record_count": 8,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 3,
+      "fraction_rate": 0.375,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT12",
+          "site": "Haghia Triada",
+          "context": [
+            "QE-TU-NE",
+            "𐄁",
+            "QA2+[?]+PU",
+            "1",
+            "E",
+            "30"
+          ]
+        },
+        {
+          "record": "HT23b",
+          "site": "Haghia Triada",
+          "context": [
+            "MI+JA+RU",
+            "MU",
+            "QA2+[?]+PU",
+            "QA2+[?]+RE",
+            "1",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT30",
+          "site": "Haghia Triada",
+          "context": [
+            "OLE+TA",
+            "𐝓",
+            "QA2+[?]+PU",
+            "¹⁄₅",
+            "SA-RA-RA",
+            "¹⁄₂"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "SA-MA",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Zakros"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 1,
+      "ritual_enrichment": 2.888,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT10a",
+          "site": "Haghia Triada",
+          "context": [
+            "KU-NI-SU",
+            "𐄁",
+            "SA-MA",
+            "4",
+            "𐄁",
+            "PA"
+          ]
+        },
+        {
+          "record": "HT52a",
+          "site": "Haghia Triada",
+          "context": [
+            "SA-MA",
+            "𐄁",
+            "TE",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT6b",
+          "site": "Haghia Triada",
+          "context": [
+            "3",
+            "¹⁄₄",
+            "SA-MA",
+            "35",
+            "PA₃-NI-NA",
+            "17"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*316",
+      "total_occurrences": 4,
+      "record_count": 3,
+      "site_count": 2,
+      "sites": [
+        "Khania",
+        "Phaistos"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.75,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "KH91",
+          "site": "Khania",
+          "context": [
+            "1",
+            "VIN",
+            "*316",
+            "1",
+            "13/20",
+            "ZU"
+          ]
+        },
+        {
+          "record": "PH1a",
+          "site": "Phaistos",
+          "context": [
+            "DI-RA-DI-NA",
+            "*316",
+            "𐄁",
+            "𐝉",
+            "JA"
+          ]
+        },
+        {
+          "record": "PH1a",
+          "site": "Phaistos",
+          "context": [
+            "JA",
+            "𐄁",
+            "*316",
+            "1",
+            "CYP",
+            "≈ ¹⁄₆"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "RE",
+      "total_occurrences": 16,
+      "record_count": 14,
+      "site_count": 5,
+      "sites": [
+        "Arkhalkhori",
+        "Gournia",
+        "Haghia Triada",
+        "Khania",
+        "Palaikastro"
+      ],
+      "numeral_after_count": 11,
+      "numeral_after_rate": 0.6875,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0625,
+      "ritual_count": 1,
+      "ritual_enrichment": 0.825,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH4a",
+          "site": "Arkhalkhori",
+          "context": [
+            "TA",
+            "𐄁",
+            "RE",
+            "5",
+            "A",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "ARKH4b",
+          "site": "Arkhalkhori",
+          "context": [
+            "𐝫",
+            "𐝫",
+            "RE",
+            "10",
+            "U",
+            "DE-MI"
+          ]
+        },
+        {
+          "record": "GO2v",
+          "site": "Gournia",
+          "context": [
+            "¹⁄₈",
+            "DA",
+            "RE",
+            "1",
+            "SE-SI",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "NI",
+      "total_occurrences": 76,
+      "record_count": 67,
+      "site_count": 7,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Phaistos",
+        "Tel Haror",
+        "Zakros"
+      ],
+      "numeral_after_count": 52,
+      "numeral_after_rate": 0.6842,
+      "fraction_after_count": 10,
+      "fraction_rate": 0.1316,
+      "ritual_count": 3,
+      "ritual_enrichment": 0.517,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "CRZg3",
+          "site": "Crete",
+          "context": [
+            "VIN",
+            "≈",
+            "NI",
+            "≈",
+            "VIN+RA"
+          ]
+        },
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "5",
+            "¹⁄₄",
+            "NI",
+            "2",
+            "double mina",
+            "VIN"
+          ]
+        },
+        {
+          "record": "HT103",
+          "site": "Haghia Triada",
+          "context": [
+            "U-TA₂",
+            "𐄁",
+            "NI",
+            "40",
+            "PA₃",
+            "DA-KU-SE-NE"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "WA",
+      "total_occurrences": 6,
+      "record_count": 6,
+      "site_count": 4,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Zakros"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 0.6667,
+      "fraction_after_count": 3,
+      "fraction_rate": 0.5,
+      "ritual_count": 2,
+      "ritual_enrichment": 3.85,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARGZg1",
+          "site": "Arkhalkhori",
+          "context": [
+            "WA",
+            "≈",
+            "VIN-MI"
+          ]
+        },
+        {
+          "record": "HT16",
+          "site": "Haghia Triada",
+          "context": [
+            "¹⁄₈",
+            "𐄁",
+            "WA",
+            "¹⁄₃",
+            "*188+KU",
+            "³⁄₈"
+          ]
+        },
+        {
+          "record": "HT20",
+          "site": "Haghia Triada",
+          "context": [
+            "SA-RE-JU",
+            "¹⁄₈",
+            "WA",
+            "¹⁄₄",
+            "*188+KU",
+            "¹⁄₂"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "HIDE+[?]",
+      "total_occurrences": 9,
+      "record_count": 8,
+      "site_count": 2,
+      "sites": [
+        "Malia",
+        "Phaistos"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.6667,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "MA4b",
+          "site": "Malia",
+          "context": [
+            "A-JA",
+            "HIDE+[?]",
+            "123",
+            "160"
+          ]
+        },
+        {
+          "record": "MA6a",
+          "site": "Malia",
+          "context": [
+            "HIDE+[?]",
+            "941",
+            "HIDE+B",
+            "35"
+          ]
+        },
+        {
+          "record": "MA6b",
+          "site": "Malia",
+          "context": [
+            "HIDE+[?]",
+            "620"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "DI-NA-U",
+      "total_occurrences": 6,
+      "record_count": 5,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Knossos"
+      ],
+      "numeral_after_count": 4,
+      "numeral_after_rate": 0.6667,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.1667,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT16",
+          "site": "Haghia Triada",
+          "context": [
+            "KA-KU-PA",
+            "𐄁",
+            "DI-NA-U",
+            "¹⁄₈",
+            "𐄁",
+            "WA"
+          ]
+        },
+        {
+          "record": "HT25a",
+          "site": "Haghia Triada",
+          "context": [
+            "𐝫",
+            "1",
+            "DI-NA-U",
+            "RU-NI",
+            "1",
+            "U-RE-WI"
+          ]
+        },
+        {
+          "record": "HT25a",
+          "site": "Haghia Triada",
+          "context": [
+            "U-RE-WI",
+            "1",
+            "DI-NA-U",
+            "1",
+            "A-RI-NI-TA",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "TU",
+      "total_occurrences": 11,
+      "record_count": 11,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Phaistos",
+        "Zakros"
+      ],
+      "numeral_after_count": 7,
+      "numeral_after_rate": 0.6364,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0909,
+      "ritual_count": 1,
+      "ritual_enrichment": 1.05,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT126b",
+          "site": "Haghia Triada",
+          "context": [
+            "𐝫",
+            "TWE",
+            "TU",
+            "6",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT49a",
+          "site": "Haghia Triada",
+          "context": [
+            "𐝫",
+            "5",
+            "TU",
+            "4",
+            "KI",
+            "1"
+          ]
+        },
+        {
+          "record": "HT55a",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "NE",
+            "TU",
+            "1",
+            "𐝫",
+            "𐝫"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "QE",
+      "total_occurrences": 8,
+      "record_count": 8,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Palaikastro",
+        "Thera"
+      ],
+      "numeral_after_count": 5,
+      "numeral_after_rate": 0.625,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT111b",
+          "site": "Haghia Triada",
+          "context": [
+            "4",
+            "3",
+            "QE",
+            "NA",
+            "NI",
+            "1"
+          ]
+        },
+        {
+          "record": "HT146",
+          "site": "Haghia Triada",
+          "context": [
+            "𐝫",
+            "QE",
+            "30",
+            "RI-*305",
+            "30"
+          ]
+        },
+        {
+          "record": "HT27a",
+          "site": "Haghia Triada",
+          "context": [
+            "I-MI-SA-RA",
+            "43",
+            "QE",
+            "21",
+            "KI-DA",
+            "KI-*310"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "CAP",
+      "total_occurrences": 5,
+      "record_count": 4,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Thera"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.6,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT38",
+          "site": "Haghia Triada",
+          "context": [
+            "AU",
+            "1",
+            "CAP",
+            "3",
+            "*554-*118",
+            "3"
+          ]
+        },
+        {
+          "record": "HTWc3014",
+          "site": "Haghia Triada",
+          "context": [
+            "KU-MI-NA-QE",
+            "𐄁",
+            "CAP"
+          ]
+        },
+        {
+          "record": "KHWc2063",
+          "site": "Khania",
+          "context": [
+            "CAP"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "TI",
+      "total_occurrences": 12,
+      "record_count": 11,
+      "site_count": 6,
+      "sites": [
+        "Haghia Triada",
+        "Malia",
+        "Palaikastro",
+        "Phaistos",
+        "Pyrgos",
+        "Zakros"
+      ],
+      "numeral_after_count": 7,
+      "numeral_after_rate": 0.5833,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0833,
+      "ritual_count": 2,
+      "ritual_enrichment": 2.1,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT119",
+          "site": "Haghia Triada",
+          "context": [
+            "KU-PA₃-NA-TU",
+            "7",
+            "TI",
+            "7",
+            "JA-*345",
+            "10"
+          ]
+        },
+        {
+          "record": "HT154.",
+          "site": "Haghia Triada",
+          "context": [
+            "*516",
+            "𐄁",
+            "TI",
+            "100",
+            "7",
+            "40"
+          ]
+        },
+        {
+          "record": "MA1c",
+          "site": "Malia",
+          "context": [
+            "TI"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "PA",
+      "total_occurrences": 16,
+      "record_count": 16,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Phaistos",
+        "Zakros"
+      ],
+      "numeral_after_count": 9,
+      "numeral_after_rate": 0.5625,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 5,
+      "ritual_enrichment": 3.609,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT10a",
+          "site": "Haghia Triada",
+          "context": [
+            "4",
+            "𐄁",
+            "PA",
+            "𐄁",
+            "DA-RE",
+            "16"
+          ]
+        },
+        {
+          "record": "HT122a",
+          "site": "Haghia Triada",
+          "context": [
+            "DA-SI-*118",
+            "2",
+            "PA",
+            "𐄁",
+            "DI",
+            "1"
+          ]
+        },
+        {
+          "record": "HT25a",
+          "site": "Haghia Triada",
+          "context": [
+            "I-KI-RA",
+            "1",
+            "PA",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "MA",
+      "total_occurrences": 11,
+      "record_count": 10,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Thera",
+        "Zakros"
+      ],
+      "numeral_after_count": 6,
+      "numeral_after_rate": 0.5455,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.0909,
+      "ritual_count": 3,
+      "ritual_enrichment": 3.465,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT110b",
+          "site": "Haghia Triada",
+          "context": [
+            "3",
+            "1",
+            "MA",
+            "5",
+            "¹⁄₂",
+            "2"
+          ]
+        },
+        {
+          "record": "HT110b",
+          "site": "Haghia Triada",
+          "context": [
+            "¹⁄₂",
+            "1",
+            "MA",
+            "2",
+            "*301",
+            "³⁄₄"
+          ]
+        },
+        {
+          "record": "HT140",
+          "site": "Haghia Triada",
+          "context": [
+            "3",
+            "KA",
+            "MA",
+            "KA",
+            "4",
+            "OLE+U"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "KI",
+      "total_occurrences": 19,
+      "record_count": 15,
+      "site_count": 8,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Kalo Chorafi",
+        "Kea",
+        "Khania",
+        "Thera",
+        "Tylissos",
+        "Zakros"
+      ],
+      "numeral_after_count": 10,
+      "numeral_after_rate": 0.5263,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 2,
+      "ritual_enrichment": 1.54,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "ARKH1a",
+          "site": "Arkhalkhori",
+          "context": [
+            "𐄁",
+            "QA",
+            "KI",
+            "𐝫",
+            "𐄁",
+            "A-RA"
+          ]
+        },
+        {
+          "record": "HT100",
+          "site": "Haghia Triada",
+          "context": [
+            "TI+A",
+            "12",
+            "KI",
+            "2",
+            "*305",
+            "5"
+          ]
+        },
+        {
+          "record": "HT118",
+          "site": "Haghia Triada",
+          "context": [
+            "MA-DI",
+            "15",
+            "KI",
+            "10",
+            "QA-QA-RU",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "MI",
+      "total_occurrences": 6,
+      "record_count": 6,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Larani",
+        "Zakros"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 2,
+      "ritual_enrichment": 3.85,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT113ter",
+          "site": "Haghia Triada",
+          "context": [
+            "MI",
+            "4",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT135a",
+          "site": "Haghia Triada",
+          "context": [
+            "1",
+            "NA-*21F-NE",
+            "MI",
+            "2"
+          ]
+        },
+        {
+          "record": "KH9",
+          "site": "Khania",
+          "context": [
+            "NI",
+            "𐝃𐝁",
+            "MI",
+            "I-SI",
+            "𐄁",
+            "CYP+D"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "PU",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Knossos",
+        "Milos",
+        "Thera"
+      ],
+      "numeral_after_count": 2,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.25,
+      "ritual_count": 1,
+      "ritual_enrichment": 2.888,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT34",
+          "site": "Haghia Triada",
+          "context": [
+            "E+KA",
+            "¹⁄₁₆",
+            "PU",
+            "¹⁄₈"
+          ]
+        },
+        {
+          "record": "KNZd46",
+          "site": "Knossos",
+          "context": [
+            "PU"
+          ]
+        },
+        {
+          "record": "MI2",
+          "site": "Milos",
+          "context": [
+            "PU",
+            "—",
+            "DU-KA",
+            "𐄁"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*131C",
+      "total_occurrences": 6,
+      "record_count": 5,
+      "site_count": 3,
+      "sites": [
+        "Khania",
+        "Knossos",
+        "Phaistos"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.1667,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "KH18",
+          "site": "Khania",
+          "context": [
+            "5",
+            "I-KU-PI",
+            "*131C",
+            "1",
+            "KU",
+            "22"
+          ]
+        },
+        {
+          "record": "KH18",
+          "site": "Khania",
+          "context": [
+            "SI",
+            "DA+*301",
+            "*131C",
+            "1",
+            "RO+RO["
+          ]
+        },
+        {
+          "record": "KH60",
+          "site": "Khania",
+          "context": [
+            "RA-KI-TA-NA-SI",
+            "*131C",
+            "𐝍",
+            "TA₂-CYP",
+            "¹⁄₅"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "VIN+RA",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 3,
+      "sites": [
+        "Crete",
+        "Kea",
+        "Zakros"
+      ],
+      "numeral_after_count": 2,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 3,
+      "ritual_enrichment": 8.663,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "CRZg3",
+          "site": "Crete",
+          "context": [
+            "NI",
+            "≈",
+            "VIN+RA"
+          ]
+        },
+        {
+          "record": "KEZb5",
+          "site": "Kea",
+          "context": [
+            "VIN+RA"
+          ]
+        },
+        {
+          "record": "ZA15b",
+          "site": "Zakros",
+          "context": [
+            "VIN",
+            "78",
+            "VIN+RA",
+            "17"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "KU-PA",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Zakros"
+      ],
+      "numeral_after_count": 2,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 2,
+      "ritual_enrichment": 5.775,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT110a",
+          "site": "Haghia Triada",
+          "context": [
+            "CYP+E",
+            "20",
+            "KU-PA",
+            "1",
+            "KU-RO",
+            "100"
+          ]
+        },
+        {
+          "record": "KH29",
+          "site": "Khania",
+          "context": [
+            "TA₂",
+            "1",
+            "KU-PA",
+            "2",
+            "CYP",
+            "¹⁄₂"
+          ]
+        },
+        {
+          "record": "ZA11a",
+          "site": "Zakros",
+          "context": [
+            "QE+GRA+PA",
+            "4",
+            "KU-PA",
+            "𐄁",
+            "GRA+PA",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "PI",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 3,
+      "sites": [
+        "Haghia Triada",
+        "Kea",
+        "Zakros"
+      ],
+      "numeral_after_count": 2,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 1,
+      "ritual_enrichment": 2.888,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT126a",
+          "site": "Haghia Triada",
+          "context": [
+            "U-*49",
+            "1",
+            "PI",
+            "62",
+            "2",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT47a",
+          "site": "Haghia Triada",
+          "context": [
+            "20",
+            "U",
+            "PI",
+            "10",
+            "KI-DA-RO",
+            "5"
+          ]
+        },
+        {
+          "record": "KEZb7",
+          "site": "Kea",
+          "context": [
+            "PI"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*307",
+      "total_occurrences": 6,
+      "record_count": 6,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Petras"
+      ],
+      "numeral_after_count": 3,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 1,
+      "fraction_rate": 0.1667,
+      "ritual_count": 1,
+      "ritual_enrichment": 1.925,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT127b",
+          "site": "Haghia Triada",
+          "context": [
+            "13",
+            "KU-RO",
+            "*307",
+            "156",
+            "KU",
+            "72"
+          ]
+        },
+        {
+          "record": "HT27a",
+          "site": "Haghia Triada",
+          "context": [
+            "TI-NI-TA",
+            "𐄁",
+            "*307",
+            "𐄁",
+            "VIR+[?]",
+            "90"
+          ]
+        },
+        {
+          "record": "HT32",
+          "site": "Haghia Triada",
+          "context": [
+            "*307",
+            "SA-RA₂",
+            "𐄁",
+            "*308"
+          ]
+        }
+      ]
+    },
+    {
+      "token": "*21F",
+      "total_occurrences": 4,
+      "record_count": 4,
+      "site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos"
+      ],
+      "numeral_after_count": 2,
+      "numeral_after_rate": 0.5,
+      "fraction_after_count": 0,
+      "fraction_rate": 0.0,
+      "ritual_count": 0,
+      "ritual_enrichment": 0.0,
+      "already_confirmed": false,
+      "sample_contexts": [
+        {
+          "record": "HT112a",
+          "site": "Haghia Triada",
+          "context": [
+            "*21F",
+            "TU-PA",
+            "𐝫",
+            "𐝫"
+          ]
+        },
+        {
+          "record": "HT126b",
+          "site": "Haghia Triada",
+          "context": [
+            "4",
+            "𐄁",
+            "*21F",
+            "𐝫",
+            "TWE",
+            "TU"
+          ]
+        },
+        {
+          "record": "PH(?)31a",
+          "site": "Phaistos",
+          "context": [
+            "*21M",
+            "5",
+            "*21F",
+            "3"
+          ]
+        }
+      ]
+    }
+  ]
+}
