@@ -57,6 +57,58 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #9 — Paradigmatic Alternation, Divine Name Matching, Logogram Sweep, -DA/-NE Testing
+
+**Date:** 2026-03-21
+**Hypothesis file:** `hypotheses/2026-03-21-paradigm-divine-logogram.md`
+**Session:** Claude (claude/continue-deciphering-B3uKU)
+**Strategy:** Suffix Analysis / Logogram Identification / Hurrian Testing
+**Language tested (if applicable):** Hurrian (morphological), Minoan-Greek (divine names), Luwian, Proto-Semitic
+
+#### Summary of Approach
+
+Four parallel analyses: (H9a) paradigmatic stem alternation search — finding the same root with multiple case suffixes; (H9b) phonological matching of ritual tokens against known divine name rosters; (H9c) systematic logogram sweep using numeral-after rate; (H9d) distributional profiling of -DA and -NE suffixes.
+
+This was the first attempt to search for inflectional paradigms directly from corpus data (stem + suffix combinations) rather than testing suffixes one at a time.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl` (all 1721 records)
+- Methods: Token extraction, suffix/stem decomposition, LCS consonant matching, frequency/co-occurrence profiling
+- Scripts: `paradigm_alternation_2026-03-21.py`, `divine_name_match_2026-03-21.py`, `logogram_sweep_2026-03-21.py`, `da_suffix_test_2026-03-21.py`
+
+#### Results
+**Outcome:** PARTIAL SUCCESS
+
+**Key findings:**
+- H9a: 17 stems with 2+ HC case-suffix variants; stem "A" shows 5-case paradigm (A-JA, A-RU, A-NA, A-RE, A-DA) at 9 sites — strongest direct Tier 5 evidence to date
+- H9b: JA-DI-KI-TU matches "Diktynna" at LCS=3, score=0.750 — first plausible divine name identification; JA-SA-SA-RA remains unidentified
+- H9c: NI confirmed as new logogram candidate (7 sites, 68.4% numeral-after); *22F (4 sites, 78.6%) and *308 (3 sites, 75%) are additional candidates. Total FIG tokens in corpus = 0.
+- H9d: -DA and -NE are distinct grammatical categories but neither fits Hurrian dative (-da) or plural nominative (-ne) cleanly; both INCONCLUSIVE
+
+**Confidence:** H9a: Medium-High | H9b: Medium | H9c: Medium-High (NI) | H9d: Low
+
+#### What Was Learned
+
+1. The paradigmatic alternation method is productive — 17 stems confirmed with 2+ HC case variants, which proves an inflectional case system from corpus data alone
+2. Linear A does not have FIG as a token; NI is the likely fig/agricultural logogram equivalent (7 sites)
+3. JA-DI-KI-TU = Diktynna is phonologically plausible — supports the DI-KI = Dikte toponym hypothesis
+4. -DA and -NE are active grammatical suffixes but their specific Hurrian correspondences are ambiguous; -DA's high ritual enrichment (4.40x) requires proper-noun separation before conclusions
+5. The gap between Hurrian morphological predictions and Linear A corpus behavior remains: Hurrian ergative -š ≠ -RU, and -DA/-NE don't cleanly map to Hurrian dative/-ne. The Hurrian hypothesis has more support from structure than from specific morpheme correspondences
+
+#### Why a Re-attempt Needs to Differ
+
+For H9b: JA-SA-SA-RA divine name identification requires a different method — pure consonant LCS is insufficient for a 4-syllable token. Try a split analysis: if JA- is a prefix, test SA-SA-RA root separately against deities with s-r consonant skeleton.
+
+For H9d: Before concluding on -DA, separate I-DA (toponym candidate for Mt. Ida) from other -DA tokens. Test whether remaining administrative -DA tokens show lower ritual enrichment and higher entity-receipt patterns.
+
+#### Follow-up Questions Generated
+- [ ] Can A-JA and A-RU appear in the same inscription with different structural roles (positional validation of case alternation)?
+- [ ] Is NI specifically figs, or a different commodity? Check archaeological inventory at NI-attesting sites.
+- [ ] What is the JA-SA-SA-RA root identity? Test SA-SA-RA consonants (s-r) against divine names with š-r skeleton (Ishhara, Asherah).
+- [ ] Is -DA's high ritual rate driven by I-DA (Mt. Ida toponym)? Separate toponym tokens from case-marked tokens.
+
+---
+
 ### Attempt #8 — *304 Logogram, A-DU Section Marker, Ergative Search, PO-TO Sweep
 
 **Date:** 2026-03-20

@@ -132,12 +132,67 @@ This file documents logograms in Linear A with high-confidence identifications. 
 
 ---
 
+---
+
+### NI — Unknown Commodity (Probable Agricultural Product)
+
+| Property | Value |
+|----------|-------|
+| Sign label | NI |
+| Commodity | Unknown agricultural commodity (possible figs or related plant product) |
+| Confidence | Medium-High |
+| Evidence tier | Tier 2 (Logographic) |
+| Basis | Positional analysis: 68.4% numeral-after rate (76 total occurrences); geographically dispersed (7 sites: Crete, Haghia Triada, Khania, Knossos, Phaistos, Tel Haror, Zakros); appears in commodity list position between VIN and OLE variants; large quantities attested (NI 42 ½ at Zakros, NI 40 at HT); on Crete stone object: "VIN ≈ NI ≈ VIN+RA" — flanked by wine variants |
+| Attested sites | Crete, Haghia Triada, Khania, Knossos, Phaistos, Tel Haror, Zakros (7 sites — broadest distribution of any new logogram candidate) |
+| First documented | 2026-03-21 (Attempt #9) |
+
+**Notes:**
+- NI is also a syllabic sign (value /ni/) in the Linear A/B system; corpus usage suggests dual role — syllabic in compound words, logographic in commodity contexts
+- Token FIG does not appear anywhere in the corpus (0 occurrences), suggesting NI may function as the Linear A equivalent of what Linear B calls the fig logogram (*NI/FIG)
+- At Tel Haror (Levant): "WA-TE ≈ NI" — possible cross-cultural export record
+- NOT to be confused with syllabic -NI used in compounds like I-PI-NA-MA
+
+---
+
+### *22F — Unknown Commodity
+
+| Property | Value |
+|----------|-------|
+| Sign label | *22F |
+| Commodity | Unknown (part of the *22-series: *22F, *22M, *21M, *21F) |
+| Confidence | Medium |
+| Evidence tier | Tier 2 (Logographic) |
+| Basis | Positional analysis: 78.6% numeral-after rate; 4 sites (Haghia Triada, Knossos, Phaistos, Zakros); appears before large quantities (27, 30, 100); part of a family of related signs (*22-series) that likely represent related commodity variants |
+| Attested sites | Haghia Triada (3), Knossos (1), Phaistos (3), Zakros (7) |
+| First documented | 2026-03-21 (Attempt #9) |
+
+---
+
+### *308 — Olive Oil Subtype
+
+| Property | Value |
+|----------|-------|
+| Sign label | *308 |
+| Commodity | Olive oil variant (specific grade, type, or container — see OLE compound family) |
+| Confidence | Medium |
+| Evidence tier | Tier 2 (Logographic) |
+| Basis | Positional analysis: 75.0% numeral-after rate; 3 sites (Arkhalkhori, Haghia Triada, Khania); consistently appears in lists alongside OLE+NE, OLE+TA, OLE+RI, OLE+KI — all confirmed OLE variants. Fraction quantities predominate (¹⁄₂, ¹⁄₃, ≈ ¹⁄₆), consistent with a liquid/semi-liquid. Appears at HT on metal object (HTZf167) — possible trade context |
+| Attested sites | Arkhalkhori (1), Haghia Triada (6), Khania (2) |
+| First documented | 2026-03-21 (Attempt #9) |
+
+**Notes:**
+- Context strongly places *308 in the OLE compound family — it appears in exactly the same accounting position as OLE+NE, OLE+TA, etc.
+- Comparable to CYP+D and CYP+E: just as CYP has multiple variant forms for different processing states, OLE may have *308 as an additional variant not expressed through a compound sign
+
+---
+
 ## Logograms Under Investigation
 
 The following have been proposed but not yet confirmed to High confidence:
 
 | Sign label | Proposed commodity | Basis | Status |
 |-----------|-------------------|-------|--------|
+| SU | Unknown — exported commodity | 75% numeral-after, 4 sites inc. Mycenae | Low-Medium confidence — geographic spread notable |
 | LANA | Wool / textile fiber | Linear B parallel | Medium confidence — confirm at corpus scale |
 | OVS | Sheep (ovis) | Linear B parallel | Medium confidence |
 | BOS | Cattle (bos) | Linear B parallel | Medium confidence |

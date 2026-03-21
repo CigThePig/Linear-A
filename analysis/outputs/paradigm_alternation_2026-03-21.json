@@ -1,0 +1,2711 @@
+{
+  "analysis": "paradigm_alternation",
+  "date": "2026-03-21",
+  "corpus_records": 1721,
+  "grammatical_suffixes_tested": [
+    "DA",
+    "JA",
+    "MA",
+    "ME",
+    "NA",
+    "NE",
+    "RE",
+    "RU",
+    "TE",
+    "TI"
+  ],
+  "high_confidence_suffixes": [
+    "DA",
+    "JA",
+    "NA",
+    "RE",
+    "RU",
+    "TE"
+  ],
+  "total_stems_with_2plus_variants": 31,
+  "stems_with_2plus_HC_variants": 17,
+  "top_paradigm_stems": [
+    {
+      "stem": "A",
+      "suffix_count": 7,
+      "hc_suffix_count": 5,
+      "suffixes": [
+        "DA",
+        "JA",
+        "MA",
+        "NA",
+        "NE",
+        "RE",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "JA",
+        "NA",
+        "RE",
+        "RU"
+      ],
+      "total_site_count": 9,
+      "sites": [
+        "Haghia Triada",
+        "Haghios Stehanos",
+        "Malia",
+        "Palaikastro",
+        "Petras",
+        "Syme",
+        "Thera",
+        "Tylissos",
+        "Zakros"
+      ],
+      "total_occurrences": 13,
+      "score": 50,
+      "tokens": [
+        "A-DA",
+        "A-JA",
+        "A-MA",
+        "A-NA",
+        "A-NE",
+        "A-RE",
+        "A-RU"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Tylissos"
+          ],
+          "record_ids": [
+            "TY3a"
+          ]
+        },
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 3,
+          "sites": [
+            "Malia",
+            "Petras",
+            "Syme"
+          ],
+          "record_ids": [
+            "MA4b",
+            "PEZc4",
+            "SYZa2"
+          ]
+        },
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 3,
+          "sites": [
+            "Haghios Stehanos",
+            "Malia",
+            "Zakros"
+          ],
+          "record_ids": [
+            "HSZg1",
+            "MA1b",
+            "ZA7b"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT126a"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 2,
+          "sites": [
+            "Palaikastro",
+            "Thera"
+          ],
+          "record_ids": [
+            "PKZa12",
+            "THEZb3"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Thera"
+          ],
+          "record_ids": [
+            "THEZb4"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT49a",
+            "HT9a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "I",
+      "suffix_count": 5,
+      "hc_suffix_count": 3,
+      "suffixes": [
+        "DA",
+        "JA",
+        "MA",
+        "NA",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "JA",
+        "NA"
+      ],
+      "total_site_count": 8,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Knossos",
+        "Nerokurou",
+        "Palaikastro",
+        "Petras",
+        "Zakros"
+      ],
+      "total_occurrences": 11,
+      "score": 40,
+      "tokens": [
+        "I-DA",
+        "I-JA",
+        "I-MA",
+        "I-NA",
+        "I-TI"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 5,
+          "sites": [
+            "Nerokurou",
+            "Palaikastro",
+            "Zakros"
+          ],
+          "record_ids": [
+            "NEZa1",
+            "PKZa17",
+            "PKZa18",
+            "ZA21b",
+            "ZA24a"
+          ]
+        },
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 2,
+          "sites": [
+            "Crete",
+            "Knossos"
+          ],
+          "record_ids": [
+            "CR(?)Zf1",
+            "KNZa10"
+          ]
+        },
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA6b"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Petras"
+          ],
+          "record_ids": [
+            "PEZg6"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada",
+            "Iouktas"
+          ],
+          "record_ids": [
+            "HT25b",
+            "IOZa12"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "MI",
+      "suffix_count": 6,
+      "hc_suffix_count": 4,
+      "suffixes": [
+        "DA",
+        "JA",
+        "NA",
+        "NE",
+        "RE",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "JA",
+        "NA",
+        "RE"
+      ],
+      "total_site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Syme",
+        "Trypiti",
+        "Zakros"
+      ],
+      "total_occurrences": 6,
+      "score": 34,
+      "tokens": [
+        "MI-DA",
+        "MI-JA",
+        "MI-NA",
+        "MI-NE",
+        "MI-RE",
+        "MI-TI"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT27b"
+          ]
+        },
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Syme"
+          ],
+          "record_ids": [
+            "SYZa5"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Khania"
+          ],
+          "record_ids": [
+            "KH79+89"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 1,
+          "sites": [
+            "Trypiti"
+          ],
+          "record_ids": [
+            "TRYZb1"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA23"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT61"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "SI",
+      "suffix_count": 4,
+      "hc_suffix_count": 3,
+      "suffixes": [
+        "MA",
+        "NA",
+        "RU",
+        "TE"
+      ],
+      "hc_suffixes": [
+        "NA",
+        "RU",
+        "TE"
+      ],
+      "total_site_count": 6,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Miletos",
+        "Palaikastro",
+        "Phaistos",
+        "Zakros"
+      ],
+      "total_occurrences": 6,
+      "score": 31,
+      "tokens": [
+        "SI-MA",
+        "SI-NA",
+        "SI-RU",
+        "SI-TE"
+      ],
+      "variants": {
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 1,
+          "sites": [
+            "Phaistos"
+          ],
+          "record_ids": [
+            "PHZb4"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Khania"
+          ],
+          "record_ids": [
+            "KH40"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada",
+            "Palaikastro"
+          ],
+          "record_ids": [
+            "HT55a",
+            "PKZa11"
+          ]
+        },
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 2,
+          "sites": [
+            "Miletos",
+            "Zakros"
+          ],
+          "record_ids": [
+            "MILZb3",
+            "ZA26a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "DA",
+      "suffix_count": 3,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "DA",
+        "ME",
+        "RE"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "RE"
+      ],
+      "total_site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Palaikastro"
+      ],
+      "total_occurrences": 12,
+      "score": 27,
+      "tokens": [
+        "DA-DA",
+        "DA-ME",
+        "DA-RE"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Iouktas"
+          ],
+          "record_ids": [
+            "IOZa11"
+          ]
+        },
+        "ME": {
+          "suffix": "ME",
+          "occurrences": 4,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT120",
+            "HT86a",
+            "HT95a",
+            "HT95b"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 7,
+          "sites": [
+            "Haghia Triada",
+            "Khania",
+            "Palaikastro"
+          ],
+          "record_ids": [
+            "HT10a",
+            "HT10b",
+            "HT122b",
+            "HT7a",
+            "HT85a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "JA-SA-SA-RA",
+      "suffix_count": 2,
+      "hc_suffix_count": 0,
+      "suffixes": [
+        "MA",
+        "ME"
+      ],
+      "hc_suffixes": [],
+      "total_site_count": 6,
+      "sites": [
+        "Iouktas",
+        "Knossos",
+        "Palaikastro",
+        "Platanos",
+        "Psykhro",
+        "Troullos"
+      ],
+      "total_occurrences": 8,
+      "score": 22,
+      "tokens": [
+        "JA-SA-SA-RA-MA",
+        "JA-SA-SA-RA-ME"
+      ],
+      "variants": {
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 1,
+          "sites": [
+            "Knossos"
+          ],
+          "record_ids": [
+            "KNZa10"
+          ]
+        },
+        "ME": {
+          "suffix": "ME",
+          "occurrences": 7,
+          "sites": [
+            "Iouktas",
+            "Palaikastro",
+            "Platanos",
+            "Psykhro",
+            "Troullos"
+          ],
+          "record_ids": [
+            "IOZa2",
+            "IOZa6",
+            "IOZa9",
+            "PKZa27",
+            "PLZf1"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "KA",
+      "suffix_count": 4,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "NA",
+        "NE",
+        "RU",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "NA",
+        "RU"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada"
+      ],
+      "total_occurrences": 6,
+      "score": 20,
+      "tokens": [
+        "KA-NA",
+        "KA-NE",
+        "KA-RU",
+        "KA-TI"
+      ],
+      "variants": {
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT123+124b",
+            "HT23a"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 1,
+          "sites": [
+            "Arkhalkhori"
+          ],
+          "record_ids": [
+            "ARKH3a"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT75",
+            "HT97a"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT63"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "SA",
+      "suffix_count": 3,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "MA",
+        "NE",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "RU"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Zakros"
+      ],
+      "total_occurrences": 11,
+      "score": 20,
+      "tokens": [
+        "SA-MA",
+        "SA-NE",
+        "SA-RU"
+      ],
+      "variants": {
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 4,
+          "sites": [
+            "Haghia Triada",
+            "Zakros"
+          ],
+          "record_ids": [
+            "HT10a",
+            "HT52a",
+            "HT6b",
+            "ZA10b"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT53a"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 6,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT123+124a",
+            "HT86a",
+            "HT86b",
+            "HT94b",
+            "HT95a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "JA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "RE"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "RE"
+      ],
+      "total_site_count": 3,
+      "sites": [
+        "Arkhalkhori",
+        "Palaikastro",
+        "Syme"
+      ],
+      "total_occurrences": 3,
+      "score": 17,
+      "tokens": [
+        "JA-JA",
+        "JA-RE"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 2,
+          "sites": [
+            "Palaikastro",
+            "Syme"
+          ],
+          "record_ids": [
+            "PKZa18",
+            "SYZa8"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Arkhalkhori"
+          ],
+          "record_ids": [
+            "ARKH1b"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "RE",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "JA",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "JA"
+      ],
+      "total_site_count": 4,
+      "sites": [
+        "Malia",
+        "Milos",
+        "Palaikastro",
+        "Traostalos"
+      ],
+      "total_occurrences": 4,
+      "score": 17,
+      "tokens": [
+        "RE-JA",
+        "RE-TI"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 2,
+          "sites": [
+            "Palaikastro",
+            "Traostalos"
+          ],
+          "record_ids": [
+            "PKZa16",
+            "TRAZb1"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 2,
+          "sites": [
+            "Malia",
+            "Milos"
+          ],
+          "record_ids": [
+            "MA2b",
+            "MIZb3"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "QA-QA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "DA",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "RU"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Petras"
+      ],
+      "total_occurrences": 4,
+      "score": 16,
+      "tokens": [
+        "QA-QA-DA",
+        "QA-QA-RU"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Petras"
+          ],
+          "record_ids": [
+            "PE2"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 3,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT118",
+            "HT122b",
+            "HT93a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "RU",
+      "suffix_count": 3,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "MA",
+        "NA"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "NA"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Knossos"
+      ],
+      "total_occurrences": 3,
+      "score": 16,
+      "tokens": [
+        "RU-JA",
+        "RU-MA",
+        "RU-NA"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Knossos"
+          ],
+          "record_ids": [
+            "KNWc26"
+          ]
+        },
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT64"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Knossos"
+          ],
+          "record_ids": [
+            "KN2"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "SI-DA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "RE",
+        "TE"
+      ],
+      "hc_suffixes": [
+        "RE",
+        "TE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada"
+      ],
+      "total_occurrences": 3,
+      "score": 15,
+      "tokens": [
+        "SI-DA-RE",
+        "SI-DA-TE"
+      ],
+      "variants": {
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT122a",
+            "HT17"
+          ]
+        },
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 1,
+          "sites": [
+            "Arkhalkhori"
+          ],
+          "record_ids": [
+            "ARKH2"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "TA-NA",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "TE",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "TE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Zakros"
+      ],
+      "total_occurrences": 5,
+      "score": 14,
+      "tokens": [
+        "TA-NA-TE",
+        "TA-NA-TI"
+      ],
+      "variants": {
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA10a"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 4,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT10b",
+            "HT49a",
+            "HT7a",
+            "HT98a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "KI",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "DA",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "RU"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Milos"
+      ],
+      "total_occurrences": 2,
+      "score": 14,
+      "tokens": [
+        "KI-DA",
+        "KI-RU"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT27a"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 1,
+          "sites": [
+            "Milos"
+          ],
+          "record_ids": [
+            "MIZb1"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "TE",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "TE"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "TE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Pyrgos",
+        "Zakros"
+      ],
+      "total_occurrences": 2,
+      "score": 14,
+      "tokens": [
+        "TE-JA",
+        "TE-TE"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Pyrgos"
+          ],
+          "record_ids": [
+            "PYRZb5"
+          ]
+        },
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA23"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "PA-TA",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "DA",
+        "NE"
+      ],
+      "hc_suffixes": [
+        "DA"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos"
+      ],
+      "total_occurrences": 4,
+      "score": 13,
+      "tokens": [
+        "PA-TA-DA",
+        "PA-TA-NE"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Phaistos"
+          ],
+          "record_ids": [
+            "PH(?)31a"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 3,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT122a",
+            "HT94b",
+            "HTWa1019"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "KU",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "DA",
+        "RE"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "RE"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "total_occurrences": 3,
+      "score": 13,
+      "tokens": [
+        "KU-DA",
+        "KU-RE"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT122a"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT39",
+            "HT53b"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "MA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "RE",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "RE",
+        "RU"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "total_occurrences": 2,
+      "score": 12,
+      "tokens": [
+        "MA-RE",
+        "MA-RU"
+      ],
+      "variants": {
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT55a"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT117a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "KO",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "RU"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "total_occurrences": 2,
+      "score": 12,
+      "tokens": [
+        "KO-JA",
+        "KO-RU"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT119"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT23a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "TA",
+      "suffix_count": 3,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "JA",
+        "NE",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "JA"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "total_occurrences": 4,
+      "score": 12,
+      "tokens": [
+        "TA-JA",
+        "TA-NE",
+        "TA-TI"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HTZd157+156"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT135b"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT26a",
+            "HT97a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "NU",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "TE",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "TE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Zakros"
+      ],
+      "total_occurrences": 3,
+      "score": 12,
+      "tokens": [
+        "NU-TE",
+        "NU-TI"
+      ],
+      "variants": {
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT154ja"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada",
+            "Zakros"
+          ],
+          "record_ids": [
+            "HT84",
+            "ZA9"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "PA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "RE"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "RE"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "total_occurrences": 2,
+      "score": 12,
+      "tokens": [
+        "PA-JA",
+        "PA-RE"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT41a"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT4"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "A-TA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "NA",
+        "RE"
+      ],
+      "hc_suffixes": [
+        "NA",
+        "RE"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Zakros"
+      ],
+      "total_occurrences": 2,
+      "score": 12,
+      "tokens": [
+        "A-TA-NA",
+        "A-TA-RE"
+      ],
+      "variants": {
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA9"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA8"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "U",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "TE",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "TE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Vrysinas"
+      ],
+      "total_occurrences": 2,
+      "score": 11,
+      "tokens": [
+        "U-TE",
+        "U-TI"
+      ],
+      "variants": {
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 1,
+          "sites": [
+            "Vrysinas"
+          ],
+          "record_ids": [
+            "VRYZb3"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT10b"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "QA",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "NE",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "RU"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Khania"
+      ],
+      "total_occurrences": 2,
+      "score": 11,
+      "tokens": [
+        "QA-NE",
+        "QA-RU"
+      ],
+      "variants": {
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 1,
+          "sites": [
+            "Khania"
+          ],
+          "record_ids": [
+            "KH47"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT111a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "O",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "DA",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "DA"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Knossos"
+      ],
+      "total_occurrences": 2,
+      "score": 11,
+      "tokens": [
+        "O-DA",
+        "O-TI"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Knossos"
+          ],
+          "record_ids": [
+            "KNZe56"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT93a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "TI",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "MA",
+        "NA"
+      ],
+      "hc_suffixes": [
+        "NA"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos"
+      ],
+      "total_occurrences": 2,
+      "score": 11,
+      "tokens": [
+        "TI-MA",
+        "TI-NA"
+      ],
+      "variants": {
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HTZf(HM767)"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Phaistos"
+          ],
+          "record_ids": [
+            "PH16a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "MA-TE",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "RE",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "RE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Palaikastro",
+        "Phaistos"
+      ],
+      "total_occurrences": 2,
+      "score": 11,
+      "tokens": [
+        "MA-TE-RE",
+        "MA-TE-TI"
+      ],
+      "variants": {
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Phaistos"
+          ],
+          "record_ids": [
+            "PH15a"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 1,
+          "sites": [
+            "Palaikastro"
+          ],
+          "record_ids": [
+            "PK1"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "RA",
+      "suffix_count": 2,
+      "hc_suffix_count": 1,
+      "suffixes": [
+        "ME",
+        "TE"
+      ],
+      "hc_suffixes": [
+        "TE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Palaikastro",
+        "Zakros"
+      ],
+      "total_occurrences": 2,
+      "score": 11,
+      "tokens": [
+        "RA-ME",
+        "RA-TE"
+      ],
+      "variants": {
+        "ME": {
+          "suffix": "ME",
+          "occurrences": 1,
+          "sites": [
+            "Palaikastro"
+          ],
+          "record_ids": [
+            "PKZa12"
+          ]
+        },
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA19"
+          ]
+        }
+      }
+    }
+  ],
+  "strong_paradigms": [
+    {
+      "stem": "A",
+      "suffix_count": 7,
+      "hc_suffix_count": 5,
+      "suffixes": [
+        "DA",
+        "JA",
+        "MA",
+        "NA",
+        "NE",
+        "RE",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "JA",
+        "NA",
+        "RE",
+        "RU"
+      ],
+      "total_site_count": 9,
+      "sites": [
+        "Haghia Triada",
+        "Haghios Stehanos",
+        "Malia",
+        "Palaikastro",
+        "Petras",
+        "Syme",
+        "Thera",
+        "Tylissos",
+        "Zakros"
+      ],
+      "total_occurrences": 13,
+      "score": 50,
+      "tokens": [
+        "A-DA",
+        "A-JA",
+        "A-MA",
+        "A-NA",
+        "A-NE",
+        "A-RE",
+        "A-RU"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Tylissos"
+          ],
+          "record_ids": [
+            "TY3a"
+          ]
+        },
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 3,
+          "sites": [
+            "Malia",
+            "Petras",
+            "Syme"
+          ],
+          "record_ids": [
+            "MA4b",
+            "PEZc4",
+            "SYZa2"
+          ]
+        },
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 3,
+          "sites": [
+            "Haghios Stehanos",
+            "Malia",
+            "Zakros"
+          ],
+          "record_ids": [
+            "HSZg1",
+            "MA1b",
+            "ZA7b"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT126a"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 2,
+          "sites": [
+            "Palaikastro",
+            "Thera"
+          ],
+          "record_ids": [
+            "PKZa12",
+            "THEZb3"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Thera"
+          ],
+          "record_ids": [
+            "THEZb4"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT49a",
+            "HT9a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "I",
+      "suffix_count": 5,
+      "hc_suffix_count": 3,
+      "suffixes": [
+        "DA",
+        "JA",
+        "MA",
+        "NA",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "JA",
+        "NA"
+      ],
+      "total_site_count": 8,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Knossos",
+        "Nerokurou",
+        "Palaikastro",
+        "Petras",
+        "Zakros"
+      ],
+      "total_occurrences": 11,
+      "score": 40,
+      "tokens": [
+        "I-DA",
+        "I-JA",
+        "I-MA",
+        "I-NA",
+        "I-TI"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 5,
+          "sites": [
+            "Nerokurou",
+            "Palaikastro",
+            "Zakros"
+          ],
+          "record_ids": [
+            "NEZa1",
+            "PKZa17",
+            "PKZa18",
+            "ZA21b",
+            "ZA24a"
+          ]
+        },
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 2,
+          "sites": [
+            "Crete",
+            "Knossos"
+          ],
+          "record_ids": [
+            "CR(?)Zf1",
+            "KNZa10"
+          ]
+        },
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA6b"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Petras"
+          ],
+          "record_ids": [
+            "PEZg6"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada",
+            "Iouktas"
+          ],
+          "record_ids": [
+            "HT25b",
+            "IOZa12"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "MI",
+      "suffix_count": 6,
+      "hc_suffix_count": 4,
+      "suffixes": [
+        "DA",
+        "JA",
+        "NA",
+        "NE",
+        "RE",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "JA",
+        "NA",
+        "RE"
+      ],
+      "total_site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Syme",
+        "Trypiti",
+        "Zakros"
+      ],
+      "total_occurrences": 6,
+      "score": 34,
+      "tokens": [
+        "MI-DA",
+        "MI-JA",
+        "MI-NA",
+        "MI-NE",
+        "MI-RE",
+        "MI-TI"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT27b"
+          ]
+        },
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Syme"
+          ],
+          "record_ids": [
+            "SYZa5"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Khania"
+          ],
+          "record_ids": [
+            "KH79+89"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 1,
+          "sites": [
+            "Trypiti"
+          ],
+          "record_ids": [
+            "TRYZb1"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA23"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT61"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "SI",
+      "suffix_count": 4,
+      "hc_suffix_count": 3,
+      "suffixes": [
+        "MA",
+        "NA",
+        "RU",
+        "TE"
+      ],
+      "hc_suffixes": [
+        "NA",
+        "RU",
+        "TE"
+      ],
+      "total_site_count": 6,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Miletos",
+        "Palaikastro",
+        "Phaistos",
+        "Zakros"
+      ],
+      "total_occurrences": 6,
+      "score": 31,
+      "tokens": [
+        "SI-MA",
+        "SI-NA",
+        "SI-RU",
+        "SI-TE"
+      ],
+      "variants": {
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 1,
+          "sites": [
+            "Phaistos"
+          ],
+          "record_ids": [
+            "PHZb4"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Khania"
+          ],
+          "record_ids": [
+            "KH40"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada",
+            "Palaikastro"
+          ],
+          "record_ids": [
+            "HT55a",
+            "PKZa11"
+          ]
+        },
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 2,
+          "sites": [
+            "Miletos",
+            "Zakros"
+          ],
+          "record_ids": [
+            "MILZb3",
+            "ZA26a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "DA",
+      "suffix_count": 3,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "DA",
+        "ME",
+        "RE"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "RE"
+      ],
+      "total_site_count": 4,
+      "sites": [
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Palaikastro"
+      ],
+      "total_occurrences": 12,
+      "score": 27,
+      "tokens": [
+        "DA-DA",
+        "DA-ME",
+        "DA-RE"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Iouktas"
+          ],
+          "record_ids": [
+            "IOZa11"
+          ]
+        },
+        "ME": {
+          "suffix": "ME",
+          "occurrences": 4,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT120",
+            "HT86a",
+            "HT95a",
+            "HT95b"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 7,
+          "sites": [
+            "Haghia Triada",
+            "Khania",
+            "Palaikastro"
+          ],
+          "record_ids": [
+            "HT10a",
+            "HT10b",
+            "HT122b",
+            "HT7a",
+            "HT85a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "KA",
+      "suffix_count": 4,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "NA",
+        "NE",
+        "RU",
+        "TI"
+      ],
+      "hc_suffixes": [
+        "NA",
+        "RU"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada"
+      ],
+      "total_occurrences": 6,
+      "score": 20,
+      "tokens": [
+        "KA-NA",
+        "KA-NE",
+        "KA-RU",
+        "KA-TI"
+      ],
+      "variants": {
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT123+124b",
+            "HT23a"
+          ]
+        },
+        "NE": {
+          "suffix": "NE",
+          "occurrences": 1,
+          "sites": [
+            "Arkhalkhori"
+          ],
+          "record_ids": [
+            "ARKH3a"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT75",
+            "HT97a"
+          ]
+        },
+        "TI": {
+          "suffix": "TI",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT63"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "JA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "RE"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "RE"
+      ],
+      "total_site_count": 3,
+      "sites": [
+        "Arkhalkhori",
+        "Palaikastro",
+        "Syme"
+      ],
+      "total_occurrences": 3,
+      "score": 17,
+      "tokens": [
+        "JA-JA",
+        "JA-RE"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 2,
+          "sites": [
+            "Palaikastro",
+            "Syme"
+          ],
+          "record_ids": [
+            "PKZa18",
+            "SYZa8"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Arkhalkhori"
+          ],
+          "record_ids": [
+            "ARKH1b"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "QA-QA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "DA",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "RU"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Petras"
+      ],
+      "total_occurrences": 4,
+      "score": 16,
+      "tokens": [
+        "QA-QA-DA",
+        "QA-QA-RU"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Petras"
+          ],
+          "record_ids": [
+            "PE2"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 3,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT118",
+            "HT122b",
+            "HT93a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "RU",
+      "suffix_count": 3,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "MA",
+        "NA"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "NA"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Knossos"
+      ],
+      "total_occurrences": 3,
+      "score": 16,
+      "tokens": [
+        "RU-JA",
+        "RU-MA",
+        "RU-NA"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Knossos"
+          ],
+          "record_ids": [
+            "KNWc26"
+          ]
+        },
+        "MA": {
+          "suffix": "MA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT64"
+          ]
+        },
+        "NA": {
+          "suffix": "NA",
+          "occurrences": 1,
+          "sites": [
+            "Knossos"
+          ],
+          "record_ids": [
+            "KN2"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "SI-DA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "RE",
+        "TE"
+      ],
+      "hc_suffixes": [
+        "RE",
+        "TE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada"
+      ],
+      "total_occurrences": 3,
+      "score": 15,
+      "tokens": [
+        "SI-DA-RE",
+        "SI-DA-TE"
+      ],
+      "variants": {
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT122a",
+            "HT17"
+          ]
+        },
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 1,
+          "sites": [
+            "Arkhalkhori"
+          ],
+          "record_ids": [
+            "ARKH2"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "KI",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "DA",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "RU"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Haghia Triada",
+        "Milos"
+      ],
+      "total_occurrences": 2,
+      "score": 14,
+      "tokens": [
+        "KI-DA",
+        "KI-RU"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT27a"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 1,
+          "sites": [
+            "Milos"
+          ],
+          "record_ids": [
+            "MIZb1"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "TE",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "TE"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "TE"
+      ],
+      "total_site_count": 2,
+      "sites": [
+        "Pyrgos",
+        "Zakros"
+      ],
+      "total_occurrences": 2,
+      "score": 14,
+      "tokens": [
+        "TE-JA",
+        "TE-TE"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Pyrgos"
+          ],
+          "record_ids": [
+            "PYRZb5"
+          ]
+        },
+        "TE": {
+          "suffix": "TE",
+          "occurrences": 1,
+          "sites": [
+            "Zakros"
+          ],
+          "record_ids": [
+            "ZA23"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "KU",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "DA",
+        "RE"
+      ],
+      "hc_suffixes": [
+        "DA",
+        "RE"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "total_occurrences": 3,
+      "score": 13,
+      "tokens": [
+        "KU-DA",
+        "KU-RE"
+      ],
+      "variants": {
+        "DA": {
+          "suffix": "DA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT122a"
+          ]
+        },
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 2,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT39",
+            "HT53b"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "MA",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "RE",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "RE",
+        "RU"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "total_occurrences": 2,
+      "score": 12,
+      "tokens": [
+        "MA-RE",
+        "MA-RU"
+      ],
+      "variants": {
+        "RE": {
+          "suffix": "RE",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT55a"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT117a"
+          ]
+        }
+      }
+    },
+    {
+      "stem": "KO",
+      "suffix_count": 2,
+      "hc_suffix_count": 2,
+      "suffixes": [
+        "JA",
+        "RU"
+      ],
+      "hc_suffixes": [
+        "JA",
+        "RU"
+      ],
+      "total_site_count": 1,
+      "sites": [
+        "Haghia Triada"
+      ],
+      "total_occurrences": 2,
+      "score": 12,
+      "tokens": [
+        "KO-JA",
+        "KO-RU"
+      ],
+      "variants": {
+        "JA": {
+          "suffix": "JA",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT119"
+          ]
+        },
+        "RU": {
+          "suffix": "RU",
+          "occurrences": 1,
+          "sites": [
+            "Haghia Triada"
+          ],
+          "record_ids": [
+            "HT23a"
+          ]
+        }
+      }
+    }
+  ]
+}

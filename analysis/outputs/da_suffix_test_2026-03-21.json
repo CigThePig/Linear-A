@@ -1,0 +1,343 @@
+{
+  "analysis": "da_suffix_test",
+  "date": "2026-03-21",
+  "corpus_records": 1721,
+  "baseline_ritual_rate": 0.08657757117954677,
+  "known_suffix_profiles_for_comparison": {
+    "-JA": {
+      "kiro_rate": 0.0,
+      "kuro_rate": null,
+      "ritual_enrichment": 1.0,
+      "word_terminal": 0.41,
+      "vir_rate": 0.103,
+      "sites": 17
+    },
+    "-RU": {
+      "kiro_rate": 0.133,
+      "kuro_rate": null,
+      "ritual_enrichment": null,
+      "word_terminal": 0.722,
+      "vir_rate": 0.133,
+      "sites": 5
+    },
+    "-TE": {
+      "kiro_rate": null,
+      "kuro_rate": null,
+      "ritual_enrichment": 3.04,
+      "word_terminal": null,
+      "vir_rate": null,
+      "sites": 20
+    },
+    "-RE": {
+      "kiro_rate": null,
+      "kuro_rate": 0.19,
+      "ritual_enrichment": null,
+      "word_terminal": null,
+      "vir_rate": null,
+      "sites": null
+    }
+  },
+  "results": {
+    "-DA": {
+      "suffix": "-DA",
+      "records_with_suffix": 21,
+      "total_suffix_token_occurrences": 23,
+      "unique_token_count": 16,
+      "unique_tokens_list": [
+        "*164-RI-DA",
+        "A-DA",
+        "A-RA-U-DA",
+        "DA-DA",
+        "DA-RI-DA",
+        "I-DA",
+        "I-DA-DA",
+        "I-NA-I-DA",
+        "JA-U-PA-MA-I-DA",
+        "KI-DA",
+        "KU-DA",
+        "MI-DA",
+        "O-DA",
+        "PA-TA-DA",
+        "QA-QA-DA",
+        "TU-PA-DI-DA"
+      ],
+      "site_count": 12,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Nerokurou",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Thera",
+        "Tylissos",
+        "Zakros"
+      ],
+      "kiro_rate": 0.0476,
+      "kuro_rate": 0.2381,
+      "ritual_rate": 0.381,
+      "ritual_enrichment": 4.4,
+      "vir_rate": 0.1429,
+      "word_terminal_rate": 0.4783,
+      "sample_contexts": [
+        {
+          "record": "CRZg4",
+          "site": "Crete",
+          "token": "I-DA-DA",
+          "context": [
+            "I-DA-DA",
+            "A-RO-TE"
+          ]
+        },
+        {
+          "record": "HT10a",
+          "site": "Haghia Triada",
+          "token": "DA-RI-DA",
+          "context": [
+            "2",
+            "¹⁄₂",
+            "DA-RI-DA",
+            "8",
+            "ME-ZA",
+            "3"
+          ]
+        },
+        {
+          "record": "HT122a",
+          "site": "Haghia Triada",
+          "token": "DA-RI-DA",
+          "context": [
+            "KU-PA₃-NU",
+            "1",
+            "DA-RI-DA",
+            "1",
+            "KU-RO",
+            "31"
+          ]
+        },
+        {
+          "record": "HT122a",
+          "site": "Haghia Triada",
+          "token": "KU-DA",
+          "context": [
+            "KU-RO",
+            "31",
+            "KU-DA",
+            "1"
+          ]
+        },
+        {
+          "record": "HT123+124b",
+          "site": "Haghia Triada",
+          "token": "TU-PA-DI-DA",
+          "context": [
+            "𐄁",
+            "10",
+            "TU-PA-DI-DA",
+            "13/20",
+            "KA-NA",
+            "SI-DU"
+          ]
+        },
+        {
+          "record": "HT27a",
+          "site": "Haghia Triada",
+          "token": "KI-DA",
+          "context": [
+            "QE",
+            "21",
+            "KI-DA",
+            "KI-*310",
+            "𐄁",
+            "KU-*305"
+          ]
+        },
+        {
+          "record": "HT27b",
+          "site": "Haghia Triada",
+          "token": "MI-DA",
+          "context": [
+            "MI-DA",
+            "𐄁",
+            "VIN+WA",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT85a",
+          "site": "Haghia Triada",
+          "token": "DA-RI-DA",
+          "context": [
+            "VIR+[?]",
+            "𐄁",
+            "DA-RI-DA",
+            "12",
+            "PA₃-NI",
+            "12"
+          ]
+        }
+      ],
+      "hurrian_profile_expected": {
+        "word_terminal": "> 0.5",
+        "kiro_rate": "< 0.1",
+        "ritual_enrichment": "< 2.0 (dative is administrative, not ritual)",
+        "vir_rate": "could vary",
+        "interpretation": "Entity receiving action (dative); should appear in administrative receipts"
+      }
+    },
+    "-NE": {
+      "suffix": "-NE",
+      "records_with_suffix": 34,
+      "total_suffix_token_occurrences": 35,
+      "unique_token_count": 27,
+      "unique_tokens_list": [
+        "*21F-TU-NE",
+        "A-DI-NE",
+        "A-KO-A-NE",
+        "A-MA-RA-NE",
+        "A-NE",
+        "A-PA-RA-NE",
+        "A-SA-MU-NE",
+        "DA-DU-MI-NE",
+        "DA-KU-SE-NE",
+        "JA-RU-MA-NE",
+        "JA-SA-RA-A-NA-NE",
+        "KA-DU-MA-NE",
+        "KA-NE",
+        "KI-SA-NE",
+        "MI-KI-SA-NE",
+        "MI-NE",
+        "NA-*21F-NE",
+        "NA-TU-*301-NE",
+        "O-RA₂-DI-NE",
+        "PA-RA-NE"
+      ],
+      "site_count": 11,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Phaistos",
+        "Skhinia",
+        "Skoteino Cave",
+        "Thera",
+        "Trypiti",
+        "Zakros"
+      ],
+      "kiro_rate": 0.0294,
+      "kuro_rate": 0.0588,
+      "ritual_rate": 0.1176,
+      "ritual_enrichment": 1.359,
+      "vir_rate": 0.0,
+      "word_terminal_rate": 0.4571,
+      "sample_contexts": [
+        {
+          "record": "ARKH1a",
+          "site": "Arkhalkhori",
+          "token": "MI-KI-SA-NE",
+          "context": [
+            "¹⁄₂",
+            "A-PA",
+            "MI-KI-SA-NE"
+          ]
+        },
+        {
+          "record": "ARKH3a",
+          "site": "Arkhalkhori",
+          "token": "KA-NE",
+          "context": [
+            "KA-NE",
+            "GRA",
+            "¹⁄₅",
+            "OLIV"
+          ]
+        },
+        {
+          "record": "HT103",
+          "site": "Haghia Triada",
+          "token": "DA-KU-SE-NE",
+          "context": [
+            "40",
+            "PA₃",
+            "DA-KU-SE-NE",
+            "6",
+            "¹⁄₂",
+            "*188"
+          ]
+        },
+        {
+          "record": "HT103",
+          "site": "Haghia Triada",
+          "token": "DA-KU-SE-NE",
+          "context": [
+            "DA-KU-NA",
+            "1",
+            "DA-KU-SE-NE",
+            "1",
+            "KI-RA",
+            "5"
+          ]
+        },
+        {
+          "record": "HT115a",
+          "site": "Haghia Triada",
+          "token": "PA-RA-NE",
+          "context": [
+            "SE-KU-TU",
+            "¹⁄₂",
+            "PA-RA-NE",
+            "1",
+            "A-SE-JA",
+            "𐝂𐝂𐝂𐝂"
+          ]
+        },
+        {
+          "record": "HT115b",
+          "site": "Haghia Triada",
+          "token": "PA-RA-NE",
+          "context": [
+            "RU",
+            "𐄁",
+            "PA-RA-NE",
+            "¹⁄₂",
+            "TI-NU-JA",
+            "𐄁"
+          ]
+        },
+        {
+          "record": "HT116a",
+          "site": "Haghia Triada",
+          "token": "SI-KI-NE",
+          "context": [
+            "*OLIV+TU",
+            "2",
+            "SI-KI-NE",
+            "GRA",
+            "12",
+            "*304"
+          ]
+        },
+        {
+          "record": "HT117b",
+          "site": "Haghia Triada",
+          "token": "*21F-TU-NE",
+          "context": [
+            "*21F-TU-NE",
+            "𐄁",
+            "KU-RE-JU",
+            "1"
+          ]
+        }
+      ],
+      "hurrian_profile_expected": {
+        "interpretation": "-NE: nominative plural marker",
+        "expected": "appears with VIR (person-plural contexts), low ritual, moderate site count"
+      }
+    }
+  }
+}
