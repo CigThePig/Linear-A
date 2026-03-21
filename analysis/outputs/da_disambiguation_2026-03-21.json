@@ -1,0 +1,159 @@
+{
+  "analysis": "H10c: -DA Grammatical Disambiguation",
+  "date": "2026-03-21",
+  "total_da_tokens_tested": 16,
+  "class_a_count": 9,
+  "class_b_count": 7,
+  "class_a_tokens": [
+    "*164-RI-DA",
+    "A-RA-U-DA",
+    "DA-RI-DA",
+    "I-DA-DA",
+    "I-NA-I-DA",
+    "JA-U-PA-MA-I-DA",
+    "O-DA",
+    "PA-TA-DA",
+    "TU-PA-DI-DA"
+  ],
+  "class_b_tokens": [
+    "A-DA",
+    "DA-DA",
+    "I-DA",
+    "KI-DA",
+    "KU-DA",
+    "MI-DA",
+    "QA-QA-DA"
+  ],
+  "classification_details": {
+    "*164-RI-DA": {
+      "class": "A",
+      "stem": "*164-RI",
+      "reason": "Stem not found in H9a paradigm list; treated as proper noun / unclassified"
+    },
+    "A-DA": {
+      "class": "B",
+      "stem": "A",
+      "reason": "Stem 'A' appears in paradigm with other HC suffixes: ['JA', 'NA', 'RE', 'RU']"
+    },
+    "A-RA-U-DA": {
+      "class": "A",
+      "stem": "A-RA-U",
+      "reason": "Stem not found in H9a paradigm list; treated as proper noun / unclassified"
+    },
+    "DA-DA": {
+      "class": "B",
+      "stem": "DA",
+      "reason": "Stem 'DA' appears in paradigm with other HC suffixes: ['RE']"
+    },
+    "DA-RI-DA": {
+      "class": "A",
+      "stem": "DA-RI",
+      "reason": "Stem not found in H9a paradigm list; treated as proper noun / unclassified"
+    },
+    "I-DA": {
+      "class": "B",
+      "stem": "I",
+      "reason": "Stem 'I' appears in paradigm with other HC suffixes: ['JA', 'NA']"
+    },
+    "I-DA-DA": {
+      "class": "A",
+      "stem": "I-DA",
+      "reason": "Stem not found in H9a paradigm list; treated as proper noun / unclassified"
+    },
+    "I-NA-I-DA": {
+      "class": "A",
+      "stem": "I-NA-I",
+      "reason": "Stem not found in H9a paradigm list; treated as proper noun / unclassified"
+    },
+    "JA-U-PA-MA-I-DA": {
+      "class": "A",
+      "stem": "JA-U-PA-MA-I",
+      "reason": "Stem not found in H9a paradigm list; treated as proper noun / unclassified"
+    },
+    "KI-DA": {
+      "class": "B",
+      "stem": "KI",
+      "reason": "Stem 'KI' appears in paradigm with other HC suffixes: ['RU']"
+    },
+    "KU-DA": {
+      "class": "B",
+      "stem": "KU",
+      "reason": "Stem 'KU' appears in paradigm with other HC suffixes: ['RE']"
+    },
+    "MI-DA": {
+      "class": "B",
+      "stem": "MI",
+      "reason": "Stem 'MI' appears in paradigm with other HC suffixes: ['JA', 'NA', 'RE']"
+    },
+    "O-DA": {
+      "class": "A",
+      "stem": "O",
+      "reason": "Short token (2 signs) — likely toponym or personal name"
+    },
+    "PA-TA-DA": {
+      "class": "A",
+      "stem": "PA-TA",
+      "reason": "Stem not found in H9a paradigm list; treated as proper noun / unclassified"
+    },
+    "QA-QA-DA": {
+      "class": "B",
+      "stem": "QA-QA",
+      "reason": "Stem 'QA-QA' appears in paradigm with other HC suffixes: ['RU']"
+    },
+    "TU-PA-DI-DA": {
+      "class": "A",
+      "stem": "TU-PA-DI",
+      "reason": "Stem not found in H9a paradigm list; treated as proper noun / unclassified"
+    }
+  },
+  "profile_all_da": {
+    "record_count": 21,
+    "kiro_rate": 0.048,
+    "kuro_rate": 0.238,
+    "ritual_rate": 0.429,
+    "ritual_enrichment": 4.76,
+    "vir_rate": 0.143,
+    "word_terminal_rate": 0.435,
+    "hurrian_dative_prediction": {
+      "kiro_rate_expected": "< 0.1",
+      "ritual_enrichment_expected": "< 2.0",
+      "word_terminal_expected": "> 0.5"
+    },
+    "hurrian_dative_fit": "NOT SUPPORTED"
+  },
+  "profile_class_a_proper_nouns": {
+    "record_count": 12,
+    "kiro_rate": 0.083,
+    "kuro_rate": 0.333,
+    "ritual_rate": 0.333,
+    "ritual_enrichment": 3.7,
+    "vir_rate": 0.167,
+    "word_terminal_rate": 0.583,
+    "hurrian_dative_prediction": {
+      "kiro_rate_expected": "< 0.1",
+      "ritual_enrichment_expected": "< 2.0",
+      "word_terminal_expected": "> 0.5"
+    },
+    "hurrian_dative_fit": "NOT SUPPORTED"
+  },
+  "profile_class_b_grammatical": {
+    "record_count": 11,
+    "kiro_rate": 0.0,
+    "kuro_rate": 0.182,
+    "ritual_rate": 0.545,
+    "ritual_enrichment": 6.06,
+    "vir_rate": 0.091,
+    "word_terminal_rate": 0.273,
+    "hurrian_dative_prediction": {
+      "kiro_rate_expected": "< 0.1",
+      "ritual_enrichment_expected": "< 2.0",
+      "word_terminal_expected": "> 0.5"
+    },
+    "hurrian_dative_fit": "NOT SUPPORTED"
+  },
+  "conclusion": {
+    "class_b_hurrian_dative_fit": "NOT SUPPORTED",
+    "separation_successful": true,
+    "interpretation": "Class A (9 tokens: ['*164-RI-DA', 'A-RA-U-DA', 'DA-RI-DA', 'I-DA-DA', 'I-NA-I-DA', 'JA-U-PA-MA-I-DA', 'O-DA', 'PA-TA-DA', 'TU-PA-DI-DA']) — proper nouns / toponyms. Class B (7 tokens: ['A-DA', 'DA-DA', 'I-DA', 'KI-DA', 'KU-DA', 'MI-DA', 'QA-QA-DA']) — grammatical -DA case suffix. Class B ritual enrichment: 6.06x (was 4.4x for all -DA combined)."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "analysis": "H10a: Intra-Inscription Case Paradigm Validation",
+  "date": "2026-03-21",
+  "corpus_records": 1721,
+  "paradigm_stems_tested": 17,
+  "inscriptions_with_cooccurrence": 0,
+  "sites_represented": [],
+  "stems_represented": [],
+  "positional_analysis_JA_vs_RU": {
+    "cooccurrence_count": 0,
+    "ja_mean_position": null,
+    "ru_mean_position": null,
+    "ja_before_ru_count": 0,
+    "ja_before_ru_rate": null,
+    "interpretation": "insufficient data or no positional asymmetry"
+  },
+  "suffix_pair_positional_stats": {},
+  "ja_ru_cooccurrence_details": [],
+  "all_cooccurrence_records": []
+}

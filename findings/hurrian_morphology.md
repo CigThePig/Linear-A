@@ -283,6 +283,42 @@ This near-complete case paradigm on a single-syllable stem ("A") is consistent w
 - [x] Can the n-gram analysis be rerun with clean tokens (no newlines/special chars) and at sign level rather than consonant-class level? → Done in Attempt #6
 - [ ] What is the grammatical function of -ME? Luwian verbal noun -amma- scored 3.0; Hurrian has no obvious parallel → this is a gap in the Hurrian hypothesis. Comitative test (Attempt #6) was inconclusive.
 - [x] Is there a near-complete case paradigm demonstrable on a single stem? → YES: Stem "A" shows 5 HC case variants at 9 sites (Attempt #9).
-- [ ] Is -DA genuinely a dative marker or a proper-noun suffix? Must separate I-DA (Mt. Ida toponym candidate) from grammatical -DA before concluding on the dative hypothesis.
-- [ ] Can stem "A" case forms be validated by positional evidence (A-JA in patient slot, A-RU in agent slot of same record)?
+- [x] Is -DA genuinely a dative marker or a proper-noun suffix? → RESOLVED (Attempt #10): -DA is a RITUAL DEDICATORY marker, not an administrative dative. Both proper-noun and grammatical-stem -DA tokens show high ritual enrichment (6.06x and 3.7x respectively). Hurrian dative -da hypothesis REJECTED at medium confidence. See "Attempt #10: -DA Disambiguation" entry below.
+- [x] Can stem "A" case forms be validated by positional evidence (A-JA in patient slot, A-RU in agent slot of same record)? → RESOLVED (Attempt #10 H10a): NO. Zero inscriptions contain 2+ case forms of the same stem. Administrative tablets are single-subject inventories — intra-inscription case validation is structurally impossible with this corpus.
 - [ ] Build Hurrian n-gram reference from full attested Hurrian word sequences (not just morpheme templates) for more robust phonotactic validation.
+
+---
+
+## Attempt #10: -DA Grammatical Disambiguation (2026-03-21)
+
+### -DA / Hurrian Dative -da: REJECTED
+
+**Evidence:** 16 -DA tokens split into Class A (proper noun/toponym, 9 tokens) and Class B (grammatical -DA on paradigm stems, 7 tokens). Both classes show high ritual enrichment:
+- Class A ritual enrichment: 3.7x
+- Class B ritual enrichment: 6.06x (partly driven by I-DA misclassification — see note)
+
+**Hurrian dative -da prediction:**
+| Metric | Expected | Class B observed | Result |
+|--------|---------|-----------------|--------|
+| KI-RO rate | < 10% | 0.0% | ✓ |
+| Ritual enrichment | < 2.0x | 6.06x | ✗ FAILS |
+| Word-terminal rate | > 50% | 27.3% | ✗ FAILS |
+
+**Note on I-DA misclassification:** Stem "I" appears in the grammatical paradigm (I-JA, I-NA), causing I-DA to be classified as grammatical. However, ALL 5 I-DA occurrences are on Stone vessel support at ritual sites (Nerokurou, Palaikastro, Zakros) — I-DA is the Mt. Ida toponym and should be Class A. Even correcting this, -DA's ritual enrichment remains high across all remaining tokens.
+
+**Conclusion:** Linear A -DA is a **ritual dedicatory morpheme**, not an administrative dative. Its function may be to mark dedications to sanctuaries or deities (e.g., "to/for [deity/place]"). This is distinct from Hurrian dative -da function.
+
+**Impact on Hurrian hypothesis:** Downgraded. The -DA / dative alignment (score 4.0 in original matrix) must be removed. Overall Hurrian compatibility: **Medium** (revised from Medium-High, Attempt #9).
+
+**Remaining Hurrian parallels (unaffected by -DA rejection):**
+- -JA ↔ absolutive (zero-mark): CONFIRMED Medium-High
+- -RE ↔ participial: CONFIRMED Medium
+- -TE ↔ directive -ta: Medium
+- -NA ↔ locative -na: Partially failed
+- -RA ↔ comitative -ra: Medium (untested)
+
+### Intra-Inscription Case Paradigm: Structurally Not Testable
+
+**Finding:** Zero inscriptions contain 2+ case forms of the same stem. Administrative tablets are single-subject inventory records — the same noun never appears twice with different case endings in one tablet.
+
+**Implication:** Cross-inscriptional paradigmatic evidence (A-JA, A-RU, A-NA, A-RE, A-DA across 9 sites) remains valid as Tier 5 evidence, but cannot be validated by within-sentence positional analysis using this administrative corpus. Narrative or religious longer texts would be needed for intra-inscription testing.

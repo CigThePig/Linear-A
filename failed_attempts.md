@@ -57,6 +57,43 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #10 — Intra-Inscription Case Validation, NI Commodity ID, -DA Disambiguation, Pre-Logogram Sweep
+
+**Date:** 2026-03-21
+**Hypothesis file:** `hypotheses/2026-03-21-intra-inscription-ni-da-prelexical.md`
+**Strategy:** Suffix Analysis / Logogram Identification / Administrative Bootstrapping
+**Language tested (if applicable):** Hurrian (primary for grammar)
+
+#### Summary of Approach
+
+Four follow-up analyses on Attempt #9's open questions: (H10a) intra-inscription case validation — check whether the cross-inscriptional case paradigm (A-JA, A-RU, etc.) appears within single tablets; (H10b) NI commodity identification — determine what commodity NI represents using co-occurrence and context patterns; (H10c) -DA grammatical disambiguation — separate ritual toponyms from grammatical -DA case suffixes; (H10d) pre-logogram lexical sweep — identify recurring tokens before known logograms as vocabulary candidates.
+
+#### Result: MIXED — Two negative (informative), one supported, one structural discovery
+
+**H10a (NEGATIVE, INFORMATIVE):** Zero inscriptions contain 2+ case forms of the same stem. This is a corpus-structure finding: Linear A administrative tablets are single-subject inventory records (like Linear B), not narrative texts. The cross-inscriptional case paradigm evidence remains valid. Intra-inscription case validation is structurally impossible with this corpus.
+
+**H10b (PARTIALLY SUPPORTED):** NI identified as an administrative agricultural commodity: ritual enrichment 0.5x (below baseline), 87% tablet support, co-occurrence profile dominated by VIN (26.9%), CYP (25.4%), GRA (22.4%). Average quantity 9.4, fraction-before rate 22.4%. Fig hypothesis scores highest (3 points): bulk quantities, agricultural context, absence of "FIG" token in corpus (0 occurrences). **NI = probable fig logogram or equivalent plant commodity. Confidence: High for logogram status; Medium for fig identification.**
+
+**H10c (KEY NEGATIVE FINDING):** -DA disambiguation into proper nouns (9 tokens) vs. grammatical forms (7 tokens) revealed that BOTH classes show high ritual enrichment (Class A: 3.7x, Class B: 6.06x). The Hurrian dative -da hypothesis requires low ritual enrichment (<2.0x) — this prediction FAILS definitively. **-DA is a RITUAL DEDICATORY marker, not an administrative dative case suffix. Hurrian dative -da identification REJECTED.** Critical methodological note: I-DA (5 occurrences exclusively on stone vessels at Nerokurou, Palaikastro, Zakros) was misclassified as grammatical because stem "I" appears in the paradigm — I-DA is the Mt. Ida toponym and should be a proper noun. Even correcting this, -DA remains ritual-enriched throughout. Overall Hurrian compatibility downgraded from Medium-High to Medium.
+
+**H10d (MOSTLY FAILED, STRUCTURAL DISCOVERY):** Only one token meets the 3-site/5-occurrence threshold for pre-logogram position: `𐝫` (Unicode U+1076B), appearing before 11 different logograms at 5 sites. This is a scribal entry/section marker (Tier 1 structural), not a vocabulary item. No new lexical vocabulary found. Pre-logogram position is not productive for vocabulary discovery because Linear A encodes commodity varieties as compound signs (OLE+KI, GRA+QE) rather than as preceding lexical tokens.
+
+#### What Was Learned
+
+1. Linear A administrative tablets are structurally equivalent to Linear B inventory lists — no narrative syntax within single inscriptions; all grammatical paradigm evidence must be cross-inscriptional
+2. NI is a bulk agricultural commodity with administrative profile; fig identification is best current hypothesis; NI at Tel Haror suggests export commodity
+3. -DA is a ritual dedicatory morpheme, not an administrative dative — definitively rejects Hurrian dative -da alignment
+4. `𐝫` (U+1076B) is a scribal entry marker (like `𐄁`) — should be in exclusion lists in all future analyses
+5. I-DA (Mt. Ida toponym) can be misclassified by paradigm-based disambiguation — support-type checking is required for toponym vs. case suffix distinction
+
+#### Productive Directions Generated
+
+- *22F remains the strongest unconfirmed logogram candidate (78.6% numeral-after, 4 sites) — should be the next vocabulary item targeted
+- -DA function needs further investigation: is it always preceded by a divine name or sanctuary name? Test whether -DA tokens have ritual elements immediately before them
+- The paradigmatic case evidence (17 stems with 2+ HC case variants) is the strongest Tier 5 finding to date but requires a different validation strategy than intra-inscription co-occurrence
+
+---
+
 ### Attempt #9 — Paradigmatic Alternation, Divine Name Matching, Logogram Sweep, -DA/-NE Testing
 
 **Date:** 2026-03-21

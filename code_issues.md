@@ -74,6 +74,44 @@ What pattern or check would catch this class of bug in the future.
 
 ---
 
+### CI-004
+
+**Date:** 2026-03-21
+**Severity:** Medium
+**Scripts affected:** `da_disambiguation_2026-03-21.py`, `ni_commodity_context_2026-03-21.py`
+**Outputs affected:** `da_disambiguation_2026-03-21.json`, `ni_commodity_context_2026-03-21.json`
+
+#### Description
+
+Both scripts defined `RITUAL_SUPPORTS = {"stone vessel", "metal object", "stone object", "architecture"}` (all lowercase). The corpus `support` field uses Title Case values: `"Stone vessel"`, `"Metal object"`, `"Stone object"`, `"Architecture"`. The mismatch caused `baseline_ritual_rate = 0.0` and `ritual_enrichment = None` or `ZeroDivisionError`. The ni_commodity_context script computed ritual_rate=0 for NI records (should be 0.045) and baseline=0 (should be 0.090), causing ritual_enrichment to compute as infinity or divide-by-zero instead of 0.5.
+
+#### Analytical Impact
+
+`da_disambiguation_2026-03-21.py`: Class B and Class A ritual enrichment was initially computed as `null`/`INCONCLUSIVE`. After fix: Class B = 6.06x, Class A = 3.7x. This STRENGTHENS the conclusion that -DA is ritual-enriched (the bug had hidden the enrichment).
+
+`ni_commodity_context_2026-03-21.py`: Ritual enrichment was initially `None`; after fix: 0.5x (below baseline). This CHANGES the commodity classification note from "insufficient data" to "NI is administrative, not ritual" — strengthening the fig/agricultural commodity hypothesis.
+
+#### Fix Applied
+
+Changed `RITUAL_SUPPORTS` values to Title Case in both scripts:
+- `da_disambiguation_2026-03-21.py`: line ~30
+- `ni_commodity_context_2026-03-21.py`: line ~25
+
+Both scripts re-run after fix; outputs regenerated.
+
+#### Conclusion Status
+
+- `da_disambiguation` H10c: **Strengthened** — ritual enrichment evidence is now correctly computed; the Hurrian dative rejection is stronger after fix
+- `ni_commodity_context` H10b: **Strengthened** — NI's administrative (non-ritual) character is now correctly confirmed; fig hypothesis score unchanged but ritual evidence is now valid
+
+#### Prevention Note
+
+Before using any support-type filter in a new script, always check the corpus support field values against the actual values in `corpus/linear_a_llm_master.jsonl`. Run `Counter(r.get('support','') for r in records).most_common()` at the top of the script as a diagnostic step. The corpus uses Title Case (e.g., "Stone vessel", not "stone vessel").
+
+---
+
+---
+
 ### CI-003 — Mixed Sample-Space PMI in *304 Logogram Analysis
 
 | Field | Value |

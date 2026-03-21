@@ -200,9 +200,47 @@ The following have been proposed but not yet confirmed to High confidence:
 
 ---
 
+## Structural Signs (Not Logograms)
+
+### 𐝫 (Unicode U+1076B) — Administrative Entry Marker
+
+| Property | Value |
+|----------|-------|
+| Sign label | 𐝫 (U+1076B) |
+| Function | Scribal section / entry separator in administrative tablets |
+| Confidence | High |
+| Evidence tier | Tier 1 (Structural) |
+| Basis | Appears immediately before 11 different logograms (GRA, VIN, OLE+KI, OLE+MI, OLE+RI, OLE+TA, CYP, CYP+D, GRA+KU, GRA+PA, NI) across 5 sites (HT, KH, KN, TY, ZA); 22 occurrences. Precedes diverse commodity types — not a logogram for a specific commodity but a format marker. |
+| Attested sites | Haghia Triada, Khania, Knossos, Tylissos, Zakros |
+| First documented | 2026-03-21 (Attempt #10, H10d) |
+
+**Notes:**
+- Should be treated as equivalent to 𐄁 (word/line separator) in parsing and exclusion lists
+- Does NOT precede personal names or closing formulas — strictly commodity-entry position
+
+---
+
+## NI — Identification Reinforced (2026-03-21)
+
+Commodity context analysis (Attempt #10 H10b) provides additional evidence for NI as an agricultural plant/fruit commodity logogram:
+
+**Reinforcing evidence from H10b:**
+- Ritual enrichment: 0.5x (below baseline) — NI is an ADMINISTRATIVE commodity, not ritual
+- Support type: 87% tablet (58/67 records) — consistent with commodity accounting
+- Co-occurrence profile: VIN (26.9%), CYP (25.4%), GRA (22.4%) — agricultural commodity cluster
+- Average quantity: 9.4 units, maximum 62 — bulk agricultural product
+- Fraction-before rate: 22.4% — measured in fractional units
+- Tel Haror (Levant) occurrence — likely export commodity
+
+**Commodity identification:** Fig hypothesis confirmed as top candidate (score 3/3). NI appears in the same commodity position as Linear B *NI/FIG. The absence of token "FIG" from the corpus (0 occurrences) and NI's consistent agricultural context supports the FIG logogram identification. **Confidence upgraded to High for logogram status; Medium for specific fig identification.**
+
+---
+
 ## Open Questions
 
 - [ ] Are there logograms in the corpus with no Linear B equivalent? (Would indicate Minoan-specific commodities) — *304 may be one such sign
 - [ ] Do any logograms appear exclusively on libation tables vs. administrative tablets? (If so, they may be ritual offerings, not trade goods)
 - [ ] What is the full range of sign variants for OLE? Are OLE, OLE2, and OLE3 distinct commodities or scribal variants?
 - [ ] What specific olive product is *304? Is it olive paste, a quality grade, or a container type? Check for compound signs (*304+A, *304+B variants)
+- [ ] Is NI specifically figs? Cross-reference 7-site NI corpus distribution with archaeobotanical records from those sites (HT, KH, KN, PH, ZA, Crete, Tel Haror)
+- [ ] What is *22F? Highest numeral-after rate among unconfirmed candidates (78.6%, 4 sites). Strongest remaining candidate for the 20th vocabulary item.
