@@ -1,0 +1,795 @@
+{
+  "analysis": "H10b: NI Commodity Identification",
+  "date": "2026-03-21",
+  "corpus_records_total": 1721,
+  "ni_total_records": 67,
+  "ni_total_occurrences": 76,
+  "numeral_after_count": 51,
+  "numeral_after_rate": 0.671,
+  "fraction_before_count": 17,
+  "fraction_before_rate": 0.224,
+  "ritual_rate": 0.045,
+  "baseline_ritual_rate": 0.09,
+  "ritual_enrichment": 0.5,
+  "support_type_breakdown": {
+    "Stone object": 1,
+    "Tablet": 58,
+    "Clay vessel": 4,
+    "ivory object": 1,
+    "Lames (short thin tablet)": 1,
+    "Stone vessel": 2
+  },
+  "site_breakdown": {
+    "Crete": {
+      "records": 1,
+      "occurrences": 1,
+      "numeral_after_count": 0
+    },
+    "Haghia Triada": {
+      "records": 35,
+      "occurrences": 41,
+      "numeral_after_count": 32
+    },
+    "Khania": {
+      "records": 23,
+      "occurrences": 26,
+      "numeral_after_count": 15
+    },
+    "Knossos": {
+      "records": 3,
+      "occurrences": 3,
+      "numeral_after_count": 1
+    },
+    "Phaistos": {
+      "records": 2,
+      "occurrences": 2,
+      "numeral_after_count": 1
+    },
+    "Tel Haror": {
+      "records": 1,
+      "occurrences": 1,
+      "numeral_after_count": 0
+    },
+    "Zakros": {
+      "records": 2,
+      "occurrences": 2,
+      "numeral_after_count": 2
+    }
+  },
+  "quantity_stats": {
+    "count": 41,
+    "avg": 9.4,
+    "max": 62.0
+  },
+  "vin_adjacent_occurrences": 18,
+  "plant_commodity_record_cooccurrence": 36,
+  "logogram_cooccurrence_rates": {
+    "VIN": {
+      "record_cooccurrences": 18,
+      "rate_among_NI_records": 0.269,
+      "immediate_cooccurrences_within3": 19
+    },
+    "CYP": {
+      "record_cooccurrences": 17,
+      "rate_among_NI_records": 0.254,
+      "immediate_cooccurrences_within3": 16
+    },
+    "GRA": {
+      "record_cooccurrences": 15,
+      "rate_among_NI_records": 0.224,
+      "immediate_cooccurrences_within3": 5
+    },
+    "*304": {
+      "record_cooccurrences": 9,
+      "rate_among_NI_records": 0.134,
+      "immediate_cooccurrences_within3": 2
+    },
+    "CYP+E": {
+      "record_cooccurrences": 7,
+      "rate_among_NI_records": 0.104,
+      "immediate_cooccurrences_within3": 5
+    },
+    "OLE": {
+      "record_cooccurrences": 6,
+      "rate_among_NI_records": 0.09,
+      "immediate_cooccurrences_within3": 3
+    },
+    "OLE+U": {
+      "record_cooccurrences": 5,
+      "rate_among_NI_records": 0.075,
+      "immediate_cooccurrences_within3": 1
+    },
+    "OLE+KI": {
+      "record_cooccurrences": 5,
+      "rate_among_NI_records": 0.075,
+      "immediate_cooccurrences_within3": 0
+    },
+    "OLE+MI": {
+      "record_cooccurrences": 4,
+      "rate_among_NI_records": 0.06,
+      "immediate_cooccurrences_within3": 1
+    },
+    "OLIV": {
+      "record_cooccurrences": 3,
+      "rate_among_NI_records": 0.045,
+      "immediate_cooccurrences_within3": 3
+    },
+    "GRA+QE": {
+      "record_cooccurrences": 3,
+      "rate_among_NI_records": 0.045,
+      "immediate_cooccurrences_within3": 0
+    },
+    "GRA+PA": {
+      "record_cooccurrences": 2,
+      "rate_among_NI_records": 0.03,
+      "immediate_cooccurrences_within3": 1
+    },
+    "OLE+TA": {
+      "record_cooccurrences": 2,
+      "rate_among_NI_records": 0.03,
+      "immediate_cooccurrences_within3": 1
+    },
+    "CYP+D": {
+      "record_cooccurrences": 2,
+      "rate_among_NI_records": 0.03,
+      "immediate_cooccurrences_within3": 1
+    },
+    "VIN+RA": {
+      "record_cooccurrences": 1,
+      "rate_among_NI_records": 0.015,
+      "immediate_cooccurrences_within3": 1
+    },
+    "OLE+NE": {
+      "record_cooccurrences": 1,
+      "rate_among_NI_records": 0.015,
+      "immediate_cooccurrences_within3": 0
+    },
+    "OLE+TU": {
+      "record_cooccurrences": 1,
+      "rate_among_NI_records": 0.015,
+      "immediate_cooccurrences_within3": 0
+    }
+  },
+  "top_10_tokens_after_NI": [
+    [
+      "2",
+      12
+    ],
+    [
+      "1",
+      9
+    ],
+    [
+      "𐝫",
+      7
+    ],
+    [
+      "10",
+      4
+    ],
+    [
+      "𐄁",
+      4
+    ],
+    [
+      "¹⁄₄",
+      4
+    ],
+    [
+      "15",
+      3
+    ],
+    [
+      "¹⁄₂",
+      3
+    ],
+    [
+      "6",
+      2
+    ],
+    [
+      "≈",
+      1
+    ]
+  ],
+  "top_10_tokens_before_NI": [
+    [
+      "¹⁄₂",
+      8
+    ],
+    [
+      "𐝫",
+      6
+    ],
+    [
+      "𐄁",
+      5
+    ],
+    [
+      "4",
+      4
+    ],
+    [
+      "1",
+      4
+    ],
+    [
+      "5",
+      4
+    ],
+    [
+      "3",
+      3
+    ],
+    [
+      "10",
+      3
+    ],
+    [
+      "8",
+      3
+    ],
+    [
+      "¹⁄₁₆",
+      3
+    ]
+  ],
+  "commodity_classification": {
+    "top_hypothesis": "fig",
+    "scores": {
+      "fig": 3,
+      "wine_adjunct": 1,
+      "grain_adjunct": 0
+    },
+    "notes": [
+      "avg quantity > 5 is consistent with bulk agricultural product (figs)",
+      "NI appears in plant-commodity records 36/67 times",
+      "NI appears within ±3 of VIN tokens in 18 occurrences",
+      "NI has lower ritual rate than baseline — consistent with administrative commodity"
+    ],
+    "wine_cooc": 19,
+    "oil_cooc": 24,
+    "grain_cooc": 15
+  },
+  "sample_occurrences": [
+    {
+      "record_id": "CRZg3",
+      "site": "Crete",
+      "support": "Stone object",
+      "ni_position": 2,
+      "total_tokens": 5,
+      "context_window": [
+        "VIN",
+        "≈",
+        "NI",
+        "≈",
+        "VIN+RA"
+      ],
+      "token_before": "≈",
+      "token_after": "≈",
+      "numeral_after": false,
+      "fraction_before": false,
+      "full_tokens": [
+        "VIN",
+        "≈",
+        "NI",
+        "≈",
+        "VIN+RA"
+      ]
+    },
+    {
+      "record_id": "HT100",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 18,
+      "total_tokens": 31,
+      "context_window": [
+        "CYP",
+        "5",
+        "¹⁄₄",
+        "NI",
+        "2",
+        "double mina",
+        "VIN"
+      ],
+      "token_before": "¹⁄₄",
+      "token_after": "2",
+      "numeral_after": true,
+      "fraction_before": true,
+      "full_tokens": [
+        "VIR+KA",
+        "58",
+        "*304+PA",
+        "𐝫",
+        "TI+A",
+        "12",
+        "KI",
+        "2",
+        "*305",
+        "5",
+        "VIR+*313a",
+        "16",
+        "KU-RO",
+        "97",
+        "SA-RA₂",
+        "CYP",
+        "5",
+        "¹⁄₄",
+        "NI",
+        "2",
+        "double mina",
+        "VIN",
+        "2",
+        "¹⁄₂",
+        "OLE+U",
+        "2",
+        "≈ ¹⁄₆",
+        "OLE+MI",
+        "3",
+        "OLE+NE",
+        "³⁄₄"
+      ]
+    },
+    {
+      "record_id": "HT103",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 2,
+      "total_tokens": 17,
+      "context_window": [
+        "U-TA₂",
+        "𐄁",
+        "NI",
+        "40",
+        "PA₃",
+        "DA-KU-SE-NE"
+      ],
+      "token_before": "𐄁",
+      "token_after": "40",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "U-TA₂",
+        "𐄁",
+        "NI",
+        "40",
+        "PA₃",
+        "DA-KU-SE-NE",
+        "6",
+        "¹⁄₂",
+        "*188",
+        "13",
+        "DA-KU-NA",
+        "1",
+        "DA-KU-SE-NE",
+        "1",
+        "KI-RA",
+        "5",
+        "¹⁄₂"
+      ]
+    },
+    {
+      "record_id": "HT110a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 7,
+      "total_tokens": 10,
+      "context_window": [
+        "1",
+        "KU-RO",
+        "100",
+        "NI",
+        "15",
+        "60"
+      ],
+      "token_before": "100",
+      "token_after": "15",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "SI-DU-*34-KU-MI",
+        "CYP+E",
+        "20",
+        "KU-PA",
+        "1",
+        "KU-RO",
+        "100",
+        "NI",
+        "15",
+        "60"
+      ]
+    },
+    {
+      "record_id": "HT110b",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 10,
+      "total_tokens": 18,
+      "context_window": [
+        "5",
+        "¹⁄₂",
+        "2",
+        "NI",
+        "1",
+        "¹⁄₂",
+        "1"
+      ],
+      "token_before": "2",
+      "token_after": "1",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "GRA",
+        "RO",
+        "20",
+        "*648",
+        "3",
+        "1",
+        "MA",
+        "5",
+        "¹⁄₂",
+        "2",
+        "NI",
+        "1",
+        "¹⁄₂",
+        "1",
+        "MA",
+        "2",
+        "*301",
+        "³⁄₄"
+      ]
+    },
+    {
+      "record_id": "HT111a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 9,
+      "total_tokens": 11,
+      "context_window": [
+        "8",
+        "DI",
+        "14",
+        "NI",
+        "𐝫"
+      ],
+      "token_before": "14",
+      "token_after": "𐝫",
+      "numeral_after": false,
+      "fraction_before": false,
+      "full_tokens": [
+        "𐝫",
+        "𐝫",
+        "QE-KA",
+        "8",
+        "QA-SA",
+        "QA-RU",
+        "8",
+        "DI",
+        "14",
+        "NI",
+        "𐝫"
+      ]
+    },
+    {
+      "record_id": "HT111b",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 7,
+      "total_tokens": 10,
+      "context_window": [
+        "3",
+        "QE",
+        "NA",
+        "NI",
+        "1",
+        "𐝫"
+      ],
+      "token_before": "NA",
+      "token_after": "1",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "𐝫",
+        "18",
+        "SA-DI",
+        "4",
+        "3",
+        "QE",
+        "NA",
+        "NI",
+        "1",
+        "𐝫"
+      ]
+    },
+    {
+      "record_id": "HT114a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 6,
+      "total_tokens": 12,
+      "context_window": [
+        "10",
+        "OLE",
+        "7",
+        "NI",
+        "1",
+        "VIN",
+        "1"
+      ],
+      "token_before": "7",
+      "token_after": "1",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "KI-RI-TA₂",
+        "SA-RA₂",
+        "GRA",
+        "10",
+        "OLE",
+        "7",
+        "NI",
+        "1",
+        "VIN",
+        "1",
+        "*23M",
+        "3"
+      ]
+    },
+    {
+      "record_id": "HT12",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 18,
+      "total_tokens": 24,
+      "context_window": [
+        "5",
+        "CYP+E",
+        "3",
+        "NI",
+        "1",
+        "QA2+[?]+PU+RE",
+        "¹⁄₁₆"
+      ],
+      "token_before": "3",
+      "token_after": "1",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "QA-TI-DA-TE",
+        "𐄁",
+        "OLE+DI",
+        "5",
+        "*304",
+        "5",
+        "QE-TU-NE",
+        "𐄁",
+        "QA2+[?]+PU",
+        "1",
+        "E",
+        "30",
+        "*560",
+        "𐄁",
+        "*118",
+        "5",
+        "CYP+E",
+        "3",
+        "NI",
+        "1",
+        "QA2+[?]+PU+RE",
+        "¹⁄₁₆",
+        "DA-I",
+        "50"
+      ]
+    },
+    {
+      "record_id": "HT121",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 8,
+      "total_tokens": 14,
+      "context_window": [
+        "5",
+        "OLE",
+        "4",
+        "NI",
+        "2",
+        "VIN",
+        "3"
+      ],
+      "token_before": "4",
+      "token_after": "2",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "KI-RI-TA₂",
+        "OLE+QE+DI",
+        "10",
+        "SA-RA₂",
+        "GRA",
+        "5",
+        "OLE",
+        "4",
+        "NI",
+        "2",
+        "VIN",
+        "3",
+        "*23M",
+        "3"
+      ]
+    },
+    {
+      "record_id": "HT125b",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 11,
+      "total_tokens": 13,
+      "context_window": [
+        "¹⁄₂",
+        "*304",
+        "10",
+        "NI",
+        "23"
+      ],
+      "token_before": "10",
+      "token_after": "23",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "𐝫",
+        "𐝫",
+        "20",
+        "RE-TA₂",
+        "GRA+PA",
+        "20",
+        "GRA+F",
+        "7",
+        "¹⁄₂",
+        "*304",
+        "10",
+        "NI",
+        "23"
+      ]
+    },
+    {
+      "record_id": "HT129",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 6,
+      "total_tokens": 18,
+      "context_window": [
+        "𐝆𐝁",
+        "*304",
+        "10",
+        "NI",
+        "22",
+        "TU-*21F-RI-NA",
+        "GRA"
+      ],
+      "token_before": "10",
+      "token_after": "22",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "KI-RE-TA₂",
+        "GRA",
+        "33",
+        "𐝆𐝁",
+        "*304",
+        "10",
+        "NI",
+        "22",
+        "TU-*21F-RI-NA",
+        "GRA",
+        "40",
+        "¹⁄₂",
+        "OLE+DI",
+        "1",
+        "OLE+KI",
+        "6",
+        "OLE",
+        "𐝫"
+      ]
+    },
+    {
+      "record_id": "HT130",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 11,
+      "total_tokens": 15,
+      "context_window": [
+        "—",
+        "SI-CYP",
+        "8",
+        "NI",
+        "6",
+        "VIN",
+        "3"
+      ],
+      "token_before": "8",
+      "token_after": "6",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "𐝫",
+        "SI",
+        "3",
+        "SA-RA₂",
+        "CYP",
+        "𐝫",
+        "RA₂",
+        "KU-RO",
+        "—",
+        "SI-CYP",
+        "8",
+        "NI",
+        "6",
+        "VIN",
+        "3"
+      ]
+    },
+    {
+      "record_id": "HT131a",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 1,
+      "total_tokens": 14,
+      "context_window": [
+        "𐝫",
+        "NI",
+        "62",
+        "KU",
+        "353"
+      ],
+      "token_before": "𐝫",
+      "token_after": "62",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "𐝫",
+        "NI",
+        "62",
+        "KU",
+        "353",
+        "I-QA-*118",
+        "GRA",
+        "58",
+        "OLE",
+        "12",
+        "¹⁄₂",
+        "*304",
+        "12",
+        "³⁄₄"
+      ]
+    },
+    {
+      "record_id": "HT131b",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "ni_position": 1,
+      "total_tokens": 10,
+      "context_window": [
+        "𐝫",
+        "NI",
+        "30",
+        "OLIV",
+        "2"
+      ],
+      "token_before": "𐝫",
+      "token_after": "30",
+      "numeral_after": true,
+      "fraction_before": false,
+      "full_tokens": [
+        "𐝫",
+        "NI",
+        "30",
+        "OLIV",
+        "2",
+        "VIN+SA",
+        "—",
+        "PO-TO-KU-RO",
+        "451",
+        "¹⁄₂"
+      ]
+    }
+  ]
+}

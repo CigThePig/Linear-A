@@ -1,0 +1,158 @@
+{
+  "analysis": "H10d: Pre-Logogram Lexical Sweep",
+  "date": "2026-03-21",
+  "corpus_records": 1721,
+  "target_logograms": [
+    "*304",
+    "CYP",
+    "CYP+D",
+    "CYP+E",
+    "GRA",
+    "GRA+KU",
+    "GRA+PA",
+    "GRA+QE",
+    "MUL",
+    "NI",
+    "OLE",
+    "OLE+KI",
+    "OLE+MI",
+    "OLE+NE",
+    "OLE+RI",
+    "OLE+TA",
+    "OLE+TU",
+    "OLE+U",
+    "OLIV",
+    "VIN",
+    "VIN+A",
+    "VIN+RA",
+    "VIR"
+  ],
+  "total_candidates_before_filter": 92,
+  "candidates_meeting_threshold": 1,
+  "threshold": {
+    "min_site_count": 3,
+    "min_occurrences": 5
+  },
+  "all_candidates_ranked": [
+    {
+      "pre_token": "𐝫",
+      "total_occurrences": 22,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Tylissos",
+        "Zakros"
+      ],
+      "logograms_preceded": [
+        "CYP",
+        "CYP+D",
+        "GRA",
+        "GRA+KU",
+        "GRA+PA",
+        "NI",
+        "OLE+KI",
+        "OLE+MI",
+        "OLE+RI",
+        "OLE+TA",
+        "VIN"
+      ],
+      "n_distinct_logograms": 11,
+      "candidate_type": "functional/grammatical (precedes multiple logogram types)",
+      "score": 110,
+      "sample_records": [
+        "HT128b",
+        "HT131a",
+        "HT131b",
+        "HT154e",
+        "HT42+59",
+        "HT50b",
+        "HT60",
+        "KH21"
+      ]
+    }
+  ],
+  "functional_grammatical_candidates": [
+    {
+      "pre_token": "𐝫",
+      "total_occurrences": 22,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Tylissos",
+        "Zakros"
+      ],
+      "logograms_preceded": [
+        "CYP",
+        "CYP+D",
+        "GRA",
+        "GRA+KU",
+        "GRA+PA",
+        "NI",
+        "OLE+KI",
+        "OLE+MI",
+        "OLE+RI",
+        "OLE+TA",
+        "VIN"
+      ],
+      "n_distinct_logograms": 11,
+      "candidate_type": "functional/grammatical (precedes multiple logogram types)",
+      "score": 110,
+      "sample_records": [
+        "HT128b",
+        "HT131a",
+        "HT131b",
+        "HT154e",
+        "HT42+59",
+        "HT50b",
+        "HT60",
+        "KH21"
+      ]
+    }
+  ],
+  "commodity_specific_descriptors": [],
+  "commodity_group_modifiers": [],
+  "vocabulary_promotion_recommendations": [
+    {
+      "pre_token": "𐝫",
+      "total_occurrences": 22,
+      "site_count": 5,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Tylissos",
+        "Zakros"
+      ],
+      "logograms_preceded": [
+        "CYP",
+        "CYP+D",
+        "GRA",
+        "GRA+KU",
+        "GRA+PA",
+        "NI",
+        "OLE+KI",
+        "OLE+MI",
+        "OLE+RI",
+        "OLE+TA",
+        "VIN"
+      ],
+      "n_distinct_logograms": 11,
+      "candidate_type": "functional/grammatical (precedes multiple logogram types)",
+      "score": 110,
+      "sample_records": [
+        "HT128b",
+        "HT131a",
+        "HT131b",
+        "HT154e",
+        "HT42+59",
+        "HT50b",
+        "HT60",
+        "KH21"
+      ]
+    }
+  ]
+}
