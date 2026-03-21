@@ -80,6 +80,16 @@ def is_punct(token):
     return token in PUNCT_CHARS or token.startswith("\\") or len(token) == 0
 
 
+def is_vir_family(token):
+    """Match the bare VIR logogram and all VIR+ compound forms (e.g. VIR+KA, VIR+MUL).
+    The corpus uses both bare VIR and gendered/qualified compounds; checking only 'VIR'
+    misses all compounds and produces vir_cooccurrence_rate = 0.0 for every suffix.
+    Bug-fix note (2026-03-21): prior code used `'VIR' in tokens` (list membership),
+    which is an exact-string match and cannot detect VIR+ compound tokens.
+    """
+    return token == "VIR" or token.startswith("VIR+")
+
+
 def is_syllabic(token):
     """A syllabic phonetic token (not numeral, logogram, punct)."""
     if is_numeral(token) or is_logogram(token) or is_punct(token):
@@ -153,7 +163,8 @@ def compute_suffix_profile(suffix, records):
                 kuro_cooc += 1
             if "KI-RO" in tokens:
                 kiro_cooc += 1
-            if "VIR" in tokens:
+            # Use is_vir_family() to match both bare VIR and compound forms (VIR+KA etc.)
+            if any(is_vir_family(t) for t in tokens):
                 vir_cooc += 1
 
     n = len(records_with_suffix)
@@ -239,10 +250,16 @@ def main():
     records = load_corpus(CORPUS_PATH)
     print(f"Loaded {len(records)} records.")
 
-    # All candidate suffixes to test
+    # All candidate suffixes to test.
+    # Bug-fix note (2026-03-21): SA was missing despite the docstring explicitly predicting
+    # that the Hurrian ergative -š may surface as -SI or -SA. Without SA in this list,
+    # profiles["SA"] was always None and only half the Hurrian prediction was testable.
+    # Note: bare "SA" token is in KNOWN_LOGOGRAMS, so it is classified as a logogram and
+    # filtered out by is_syllabic(); the suffix sweep correctly targets multi-syllable tokens
+    # whose FINAL syllable is SA (e.g. "TA-SA", "KA-SA"), which are unaffected by that.
     suffixes_to_test = [
         "JA",  # absolutive baseline
-        "TE", "NA", "RE", "RO", "TI", "MI", "NE", "SI", "WA", "KA", "RA", "DA",
+        "TE", "NA", "RE", "RO", "TI", "MI", "NE", "SI", "SA", "WA", "KA", "RA", "DA",
         "SE", "MU", "NU", "KE", "DI", "RU", "TU", "DU", "PA", "PI",
     ]
 
@@ -299,7 +316,8 @@ def main():
         hypothesis_supported = False
         strong_confirmation = False
 
-    # Hurrian prediction check: -SI or -SA should rank high
+    # Hurrian prediction check: -SI or -SA should rank high.
+    # Both are now actually profiled in suffixes_to_test (SA was missing before 2026-03-21 fix).
     hurrian_candidates = {"SI", "SA"}
     si_rank = next((i for i, s in enumerate(non_ja_candidates) if s["suffix"] in hurrian_candidates), None)
 

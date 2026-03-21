@@ -53,11 +53,12 @@
   "formula_cooccurrence_rate": 0.045,
   "kuro_cooccurrence": 1,
   "kiro_cooccurrence": 0,
+  "pmi_sample_space": "record_level",
   "pmi_with_logograms": {
-    "OLE": 3.968,
-    "OLIV": 4.328,
-    "GRA": 3.958,
-    "VIN": 1.377,
+    "OLE": 4.219,
+    "OLIV": 5.009,
+    "GRA": 4.512,
+    "VIN": 1.798,
     "VIR": 0.0
   },
   "control_logogram_stats": {

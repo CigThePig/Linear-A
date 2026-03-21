@@ -78,7 +78,7 @@ Tested four sub-hypotheses identified from Attempt #7's unresolved questions: (1
 
 **H8a (*304 logogram) — SUCCESS:**
 - *304 numeral-after rate: 84.0% (above GRA control at 72.6%)
-- PMI with OLIV: 4.328, with OLE: 3.968 — olive-product commodity confirmed
+- PMI with OLIV: 5.009, with OLE: 4.219 — olive-product commodity confirmed (values corrected 2026-03-21 from record-level PMI recomputation; prior values 4.328/3.968 used mixed sample space — see code_issues.md CI-003)
 - 5 sites: HT, Khania, Phaistos, Pyrgos, Zakros
 - **14th confirmed lexical item. High confidence, Tier 2.**
 
@@ -89,9 +89,10 @@ Tested four sub-hypotheses identified from Attempt #7's unresolved questions: (1
 - Status: Retain at Low-Medium confidence; may be CYP-specific rather than general section header
 
 **H8c (-RU ergative marker) — SUCCESS (with caveats):**
-- Inverse-JA score: 4.448; 5 sites; 83.3% complementarity with -JA
+- Inverse-JA score: 3.761; 5 sites; 83.3% complementarity with -JA (score corrected 2026-03-21; prior value 4.448 used VIR co-occurrence = 0.0 due to VIR-family matching bug — see code_issues.md CI-001)
 - KI-RO co-occurrence 13.3% vs. -JA 0.0%; word-terminal 72.2% vs. -JA word-initial 67.2%
-- CAVEAT: VIR co-occurrence = 0.0%; Hurrian ergative -š prediction (-SI) ranks 17th
+- Corrected VIR co-occurrence: -RU 13.3%, -JA 10.3% (small but real difference, consistent with ergative interpretation)
+- Hurrian ergative -š prediction (-SI) ranks 18th; -SA (now properly profiled) scores 0.990, below -JA baseline — Hurrian ergative prediction definitively rejected (both SI and SA; previously only SI was tested — see code_issues.md CI-002)
 - **-RU is best ergative/oblique candidate. Medium confidence, Tier 5.**
 
 **H8d (PO-TO-KU-RO cross-site) — FAILED:**
@@ -118,7 +119,7 @@ Tested four sub-hypotheses identified from Attempt #7's unresolved questions: (1
 
 - [ ] What is *304 specifically? (olive paste, container, quality grade, by-product?)
 - [ ] Is -TU allomorphic with -RU or a distinct case marker?
-- [ ] Is -RU instrumental rather than ergative? (Would explain 0% VIR co-occurrence)
+- [ ] Is -RU instrumental rather than ergative? (Corrected VIR rate is 13.3% vs. 10.3% for -JA — small difference, not diagnostic alone)
 - [ ] Why does Hurrian -š not correspond to -RU? Phonological bridge needed.
 - [ ] Is A-DU specifically a CYP-section marker rather than a general section header?
 

@@ -120,13 +120,13 @@ This file documents logograms in Linear A with high-confidence identifications. 
 | Commodity | Unknown olive-related product (specific type, container, or quality grade) |
 | Confidence | High |
 | Evidence tier | Tier 2 (Logographic) |
-| Basis | Positional analysis: 84% numeral-after rate (above GRA control at 72.6%); PMI with OLIV = 4.328 and OLE = 3.968 (strongest logogram co-occurrence); formula co-occurrence (KU-RO/KI-RO) only 4.5%; appears in accounting tablet context at 5 sites |
+| Basis | Positional analysis: 84% numeral-after rate (above GRA control at 72.6%); PMI with OLIV = 5.009 and OLE = 4.219 (strongest logogram co-occurrence; values corrected 2026-03-21 from record-level PMI recomputation — see code_issues.md entry CI-003); formula co-occurrence (KU-RO/KI-RO) only 4.5%; appears in accounting tablet context at 5 sites |
 | Attested sites | Haghia Triada (16), Khania (2), Phaistos (2), Pyrgos (1), Zakros (1) — geographically dispersed |
 | First documented | 2026-03-20 (Attempt #8) |
 
 **Notes:**
 - Fractions appear as pre-tokens in 4/25 cases (¹⁄₂, ³⁄₄, .3) — measured in fractional units, suggesting a liquid or semi-solid
-- Strongest PMI partner is OLIV (whole olives, 4.328) rather than OLE (pressed oil, 3.968), consistent with an olive paste, residue, or specific quality designation
+- Strongest PMI partner is OLIV (whole olives, 5.009) rather than OLE (pressed oil, 4.219), consistent with an olive paste, residue, or specific quality designation (PMI values corrected 2026-03-21; prior values 4.328 / 3.968 used mixed sample space — see code_issues.md CI-003)
 - No Linear B equivalent identified — may be a Minoan-specific olive product category
 - Full occurrence list: HT101, HT116a (×2), HT116b, HT12, HT125b, HT129, HT131a, HT14 (×2), HT18, HT21, HT28a, HT41a (×2), HT50a, HT90, HT91, HT92, KH8, KH85, PH28b, PH8a, PYR2, ZA6a
 
