@@ -25,7 +25,7 @@
     "site_count": 17,
     "kuro_cooccurrence_rate": 0.034,
     "kiro_cooccurrence_rate": 0.0,
-    "vir_cooccurrence_rate": 0.0,
+    "vir_cooccurrence_rate": 0.103,
     "word_initial_rate": 0.672,
     "word_terminal_rate": 0.281
   },
@@ -44,10 +44,10 @@
       "site_count": 5,
       "kuro_cooccurrence_rate": 0.233,
       "kiro_cooccurrence_rate": 0.133,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.133,
       "word_initial_rate": 0.25,
       "word_terminal_rate": 0.722,
-      "inverse_ja_score": 4.448
+      "inverse_ja_score": 3.761
     },
     {
       "suffix": "TU",
@@ -63,31 +63,10 @@
       "site_count": 5,
       "kuro_cooccurrence_rate": 0.364,
       "kiro_cooccurrence_rate": 0.136,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.091,
       "word_initial_rate": 0.208,
       "word_terminal_rate": 0.75,
-      "inverse_ja_score": 3.892
-    },
-    {
-      "suffix": "SE",
-      "total_token_occurrences": 31,
-      "records_with_suffix": 27,
-      "sites": [
-        "Gournia",
-        "Haghia Triada",
-        "Khania",
-        "Knossos",
-        "Psykhro",
-        "Syme",
-        "Zakros"
-      ],
-      "site_count": 7,
-      "kuro_cooccurrence_rate": 0.0,
-      "kiro_cooccurrence_rate": 0.0,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.419,
-      "word_terminal_rate": 0.516,
-      "inverse_ja_score": 3.094
+      "inverse_ja_score": 3.14
     },
     {
       "suffix": "RE",
@@ -109,28 +88,31 @@
       "site_count": 11,
       "kuro_cooccurrence_rate": 0.137,
       "kiro_cooccurrence_rate": 0.098,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.078,
       "word_initial_rate": 0.397,
       "word_terminal_rate": 0.552,
-      "inverse_ja_score": 3.058
+      "inverse_ja_score": 2.506
     },
     {
-      "suffix": "MU",
-      "total_token_occurrences": 6,
-      "records_with_suffix": 6,
+      "suffix": "SE",
+      "total_token_occurrences": 31,
+      "records_with_suffix": 27,
       "sites": [
+        "Gournia",
         "Haghia Triada",
-        "Mokhilos",
-        "Platanos",
+        "Khania",
+        "Knossos",
+        "Psykhro",
+        "Syme",
         "Zakros"
       ],
-      "site_count": 4,
-      "kuro_cooccurrence_rate": 0.167,
-      "kiro_cooccurrence_rate": 0.167,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.5,
-      "word_terminal_rate": 0.5,
-      "inverse_ja_score": 2.512
+      "site_count": 7,
+      "kuro_cooccurrence_rate": 0.0,
+      "kiro_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.037,
+      "word_initial_rate": 0.419,
+      "word_terminal_rate": 0.516,
+      "inverse_ja_score": 2.427
     },
     {
       "suffix": "RO",
@@ -148,33 +130,10 @@
       "site_count": 8,
       "kuro_cooccurrence_rate": 0.557,
       "kiro_cooccurrence_rate": 0.197,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.213,
       "word_initial_rate": 0.295,
       "word_terminal_rate": 0.641,
-      "inverse_ja_score": 2.471
-    },
-    {
-      "suffix": "NU",
-      "total_token_occurrences": 22,
-      "records_with_suffix": 20,
-      "sites": [
-        "Arkhalkhori",
-        "Haghia Triada",
-        "Iouktas",
-        "Kardamoutsa",
-        "Khania",
-        "Knossos",
-        "Malia",
-        "Petras",
-        "Phaistos"
-      ],
-      "site_count": 9,
-      "kuro_cooccurrence_rate": 0.25,
-      "kiro_cooccurrence_rate": 0.15,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.409,
-      "word_terminal_rate": 0.455,
-      "inverse_ja_score": 2.307
+      "inverse_ja_score": 2.268
     },
     {
       "suffix": "DI",
@@ -190,35 +149,10 @@
       "site_count": 5,
       "kuro_cooccurrence_rate": 0.222,
       "kiro_cooccurrence_rate": 0.037,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.111,
       "word_initial_rate": 0.481,
       "word_terminal_rate": 0.593,
-      "inverse_ja_score": 2.252
-    },
-    {
-      "suffix": "MI",
-      "total_token_occurrences": 33,
-      "records_with_suffix": 32,
-      "sites": [
-        "Arkhalkhori",
-        "Crete",
-        "Haghia Triada",
-        "Khania",
-        "Knossos",
-        "Palaikastro",
-        "Petras",
-        "Phaistos",
-        "Syme",
-        "Trypiti",
-        "Zakros"
-      ],
-      "site_count": 11,
-      "kuro_cooccurrence_rate": 0.094,
-      "kiro_cooccurrence_rate": 0.031,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.485,
-      "word_terminal_rate": 0.455,
-      "inverse_ja_score": 2.109
+      "inverse_ja_score": 1.938
     },
     {
       "suffix": "NA",
@@ -241,10 +175,122 @@
       "site_count": 12,
       "kuro_cooccurrence_rate": 0.1,
       "kiro_cooccurrence_rate": 0.04,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.12,
       "word_initial_rate": 0.5,
       "word_terminal_rate": 0.463,
-      "inverse_ja_score": 2.106
+      "inverse_ja_score": 1.909
+    },
+    {
+      "suffix": "MU",
+      "total_token_occurrences": 6,
+      "records_with_suffix": 6,
+      "sites": [
+        "Haghia Triada",
+        "Mokhilos",
+        "Platanos",
+        "Zakros"
+      ],
+      "site_count": 4,
+      "kuro_cooccurrence_rate": 0.167,
+      "kiro_cooccurrence_rate": 0.167,
+      "vir_cooccurrence_rate": 0.0,
+      "word_initial_rate": 0.5,
+      "word_terminal_rate": 0.5,
+      "inverse_ja_score": 1.839
+    },
+    {
+      "suffix": "KE",
+      "total_token_occurrences": 7,
+      "records_with_suffix": 7,
+      "sites": [
+        "Haghia Triada",
+        "Phaistos",
+        "Prassa",
+        "Psykhro",
+        "Zakros"
+      ],
+      "site_count": 5,
+      "kuro_cooccurrence_rate": 0.143,
+      "kiro_cooccurrence_rate": 0.143,
+      "vir_cooccurrence_rate": 0.143,
+      "word_initial_rate": 0.429,
+      "word_terminal_rate": 0.286,
+      "inverse_ja_score": 1.839
+    },
+    {
+      "suffix": "NU",
+      "total_token_occurrences": 22,
+      "records_with_suffix": 20,
+      "sites": [
+        "Arkhalkhori",
+        "Haghia Triada",
+        "Iouktas",
+        "Kardamoutsa",
+        "Khania",
+        "Knossos",
+        "Malia",
+        "Petras",
+        "Phaistos"
+      ],
+      "site_count": 9,
+      "kuro_cooccurrence_rate": 0.25,
+      "kiro_cooccurrence_rate": 0.15,
+      "vir_cooccurrence_rate": 0.05,
+      "word_initial_rate": 0.409,
+      "word_terminal_rate": 0.455,
+      "inverse_ja_score": 1.827
+    },
+    {
+      "suffix": "MI",
+      "total_token_occurrences": 33,
+      "records_with_suffix": 32,
+      "sites": [
+        "Arkhalkhori",
+        "Crete",
+        "Haghia Triada",
+        "Khania",
+        "Knossos",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Syme",
+        "Trypiti",
+        "Zakros"
+      ],
+      "site_count": 11,
+      "kuro_cooccurrence_rate": 0.094,
+      "kiro_cooccurrence_rate": 0.031,
+      "vir_cooccurrence_rate": 0.062,
+      "word_initial_rate": 0.485,
+      "word_terminal_rate": 0.455,
+      "inverse_ja_score": 1.74
+    },
+    {
+      "suffix": "TI",
+      "total_token_occurrences": 49,
+      "records_with_suffix": 40,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Malia",
+        "Milos",
+        "Palaikastro",
+        "Phaistos",
+        "Platanos",
+        "Psykhro",
+        "Skoteino Cave",
+        "Zakros"
+      ],
+      "site_count": 13,
+      "kuro_cooccurrence_rate": 0.1,
+      "kiro_cooccurrence_rate": 0.025,
+      "vir_cooccurrence_rate": 0.175,
+      "word_initial_rate": 0.571,
+      "word_terminal_rate": 0.429,
+      "inverse_ja_score": 1.723
     },
     {
       "suffix": "WA",
@@ -265,7 +311,7 @@
       "vir_cooccurrence_rate": 0.0,
       "word_initial_rate": 0.556,
       "word_terminal_rate": 0.444,
-      "inverse_ja_score": 2.006
+      "inverse_ja_score": 1.468
     },
     {
       "suffix": "NE",
@@ -290,53 +336,7 @@
       "vir_cooccurrence_rate": 0.0,
       "word_initial_rate": 0.571,
       "word_terminal_rate": 0.457,
-      "inverse_ja_score": 1.938
-    },
-    {
-      "suffix": "KE",
-      "total_token_occurrences": 7,
-      "records_with_suffix": 7,
-      "sites": [
-        "Haghia Triada",
-        "Phaistos",
-        "Prassa",
-        "Psykhro",
-        "Zakros"
-      ],
-      "site_count": 5,
-      "kuro_cooccurrence_rate": 0.143,
-      "kiro_cooccurrence_rate": 0.143,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.429,
-      "word_terminal_rate": 0.286,
-      "inverse_ja_score": 1.884
-    },
-    {
-      "suffix": "TI",
-      "total_token_occurrences": 49,
-      "records_with_suffix": 40,
-      "sites": [
-        "Crete",
-        "Haghia Triada",
-        "Iouktas",
-        "Khania",
-        "Knossos",
-        "Malia",
-        "Milos",
-        "Palaikastro",
-        "Phaistos",
-        "Platanos",
-        "Psykhro",
-        "Skoteino Cave",
-        "Zakros"
-      ],
-      "site_count": 13,
-      "kuro_cooccurrence_rate": 0.1,
-      "kiro_cooccurrence_rate": 0.025,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.571,
-      "word_terminal_rate": 0.429,
-      "inverse_ja_score": 1.7
+      "inverse_ja_score": 1.418
     },
     {
       "suffix": "PI",
@@ -355,10 +355,10 @@
       "site_count": 8,
       "kuro_cooccurrence_rate": 0.077,
       "kiro_cooccurrence_rate": 0.0,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.077,
       "word_initial_rate": 0.538,
       "word_terminal_rate": 0.385,
-      "inverse_ja_score": 1.573
+      "inverse_ja_score": 1.381
     },
     {
       "suffix": "RA",
@@ -379,10 +379,140 @@
       "site_count": 10,
       "kuro_cooccurrence_rate": 0.152,
       "kiro_cooccurrence_rate": 0.043,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.109,
       "word_initial_rate": 0.542,
       "word_terminal_rate": 0.354,
-      "inverse_ja_score": 1.437
+      "inverse_ja_score": 1.34
+    },
+    {
+      "suffix": "DU",
+      "total_token_occurrences": 26,
+      "records_with_suffix": 25,
+      "sites": [
+        "Haghia Triada",
+        "Khania",
+        "Tylissos"
+      ],
+      "site_count": 3,
+      "kuro_cooccurrence_rate": 0.12,
+      "kiro_cooccurrence_rate": 0.08,
+      "vir_cooccurrence_rate": 0.16,
+      "word_initial_rate": 0.654,
+      "word_terminal_rate": 0.231,
+      "inverse_ja_score": 1.119
+    },
+    {
+      "suffix": "DA",
+      "total_token_occurrences": 23,
+      "records_with_suffix": 21,
+      "sites": [
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Nerokurou",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Thera",
+        "Tylissos",
+        "Zakros"
+      ],
+      "site_count": 12,
+      "kuro_cooccurrence_rate": 0.238,
+      "kiro_cooccurrence_rate": 0.048,
+      "vir_cooccurrence_rate": 0.143,
+      "word_initial_rate": 0.652,
+      "word_terminal_rate": 0.348,
+      "inverse_ja_score": 1.113
+    },
+    {
+      "suffix": "SI",
+      "total_token_occurrences": 36,
+      "records_with_suffix": 35,
+      "sites": [
+        "Apodoulou",
+        "Crete",
+        "Gournia",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Pyrgos",
+        "Syme",
+        "Tiryns",
+        "Tylissos",
+        "Zakros"
+      ],
+      "site_count": 16,
+      "kuro_cooccurrence_rate": 0.114,
+      "kiro_cooccurrence_rate": 0.057,
+      "vir_cooccurrence_rate": 0.086,
+      "word_initial_rate": 0.611,
+      "word_terminal_rate": 0.278,
+      "inverse_ja_score": 1.068
+    },
+    {
+      "suffix": "JA",
+      "total_token_occurrences": 64,
+      "records_with_suffix": 58,
+      "sites": [
+        "Apodoulou",
+        "Crete",
+        "Haghia Triada",
+        "Iouktas",
+        "Khania",
+        "Knossos",
+        "Kophinas",
+        "Malia",
+        "Palaikastro",
+        "Petras",
+        "Phaistos",
+        "Prassa",
+        "Pyrgos",
+        "Syme",
+        "Traostalos",
+        "Troullos",
+        "Zakros"
+      ],
+      "site_count": 17,
+      "kuro_cooccurrence_rate": 0.034,
+      "kiro_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.103,
+      "word_initial_rate": 0.672,
+      "word_terminal_rate": 0.281,
+      "inverse_ja_score": 1.0
+    },
+    {
+      "suffix": "SA",
+      "total_token_occurrences": 19,
+      "records_with_suffix": 19,
+      "sites": [
+        "Haghia Triada",
+        "Iouktas",
+        "Kea",
+        "Khania",
+        "Kophinas",
+        "Malia",
+        "Palaikastro",
+        "Phaistos",
+        "Samothrace",
+        "Thera",
+        "Vrysinas",
+        "Zakros"
+      ],
+      "site_count": 12,
+      "kuro_cooccurrence_rate": 0.053,
+      "kiro_cooccurrence_rate": 0.053,
+      "vir_cooccurrence_rate": 0.0,
+      "word_initial_rate": 0.632,
+      "word_terminal_rate": 0.316,
+      "inverse_ja_score": 0.99
     },
     {
       "suffix": "TE",
@@ -416,111 +546,29 @@
       "vir_cooccurrence_rate": 0.0,
       "word_initial_rate": 0.643,
       "word_terminal_rate": 0.304,
-      "inverse_ja_score": 1.336
+      "inverse_ja_score": 0.977
     },
     {
-      "suffix": "SI",
-      "total_token_occurrences": 36,
-      "records_with_suffix": 35,
-      "sites": [
-        "Apodoulou",
-        "Crete",
-        "Gournia",
-        "Haghia Triada",
-        "Iouktas",
-        "Khania",
-        "Knossos",
-        "Kophinas",
-        "Palaikastro",
-        "Petras",
-        "Phaistos",
-        "Pyrgos",
-        "Syme",
-        "Tiryns",
-        "Tylissos",
-        "Zakros"
-      ],
-      "site_count": 16,
-      "kuro_cooccurrence_rate": 0.114,
-      "kiro_cooccurrence_rate": 0.057,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.611,
-      "word_terminal_rate": 0.278,
-      "inverse_ja_score": 1.161
-    },
-    {
-      "suffix": "DA",
-      "total_token_occurrences": 23,
-      "records_with_suffix": 21,
-      "sites": [
-        "Crete",
-        "Haghia Triada",
-        "Iouktas",
-        "Khania",
-        "Knossos",
-        "Nerokurou",
-        "Palaikastro",
-        "Petras",
-        "Phaistos",
-        "Thera",
-        "Tylissos",
-        "Zakros"
-      ],
-      "site_count": 12,
-      "kuro_cooccurrence_rate": 0.238,
-      "kiro_cooccurrence_rate": 0.048,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.652,
-      "word_terminal_rate": 0.348,
-      "inverse_ja_score": 1.118
-    },
-    {
-      "suffix": "DU",
-      "total_token_occurrences": 26,
+      "suffix": "PA",
+      "total_token_occurrences": 25,
       "records_with_suffix": 25,
       "sites": [
-        "Haghia Triada",
-        "Khania",
-        "Tylissos"
-      ],
-      "site_count": 3,
-      "kuro_cooccurrence_rate": 0.12,
-      "kiro_cooccurrence_rate": 0.08,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.654,
-      "word_terminal_rate": 0.231,
-      "inverse_ja_score": 1.01
-    },
-    {
-      "suffix": "JA",
-      "total_token_occurrences": 64,
-      "records_with_suffix": 58,
-      "sites": [
-        "Apodoulou",
-        "Crete",
+        "Arkhalkhori",
         "Haghia Triada",
         "Iouktas",
         "Khania",
         "Knossos",
-        "Kophinas",
-        "Malia",
         "Palaikastro",
         "Petras",
-        "Phaistos",
-        "Prassa",
-        "Pyrgos",
-        "Syme",
-        "Traostalos",
-        "Troullos",
         "Zakros"
       ],
-      "site_count": 17,
-      "kuro_cooccurrence_rate": 0.034,
+      "site_count": 8,
+      "kuro_cooccurrence_rate": 0.16,
       "kiro_cooccurrence_rate": 0.0,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.672,
-      "word_terminal_rate": 0.281,
-      "inverse_ja_score": 1.0
+      "vir_cooccurrence_rate": 0.12,
+      "word_initial_rate": 0.52,
+      "word_terminal_rate": 0.24,
+      "inverse_ja_score": 0.973
     },
     {
       "suffix": "KA",
@@ -541,32 +589,10 @@
       "site_count": 10,
       "kuro_cooccurrence_rate": 0.057,
       "kiro_cooccurrence_rate": 0.0,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.114,
       "word_initial_rate": 0.8,
       "word_terminal_rate": 0.314,
-      "inverse_ja_score": 0.921
-    },
-    {
-      "suffix": "PA",
-      "total_token_occurrences": 25,
-      "records_with_suffix": 25,
-      "sites": [
-        "Arkhalkhori",
-        "Haghia Triada",
-        "Iouktas",
-        "Khania",
-        "Knossos",
-        "Palaikastro",
-        "Petras",
-        "Zakros"
-      ],
-      "site_count": 8,
-      "kuro_cooccurrence_rate": 0.16,
-      "kiro_cooccurrence_rate": 0.0,
-      "vir_cooccurrence_rate": 0.0,
-      "word_initial_rate": 0.52,
-      "word_terminal_rate": 0.24,
-      "inverse_ja_score": 0.887
+      "inverse_ja_score": 0.918
     }
   ],
   "top_ergative_candidate": {
@@ -583,10 +609,10 @@
     "site_count": 5,
     "kuro_cooccurrence_rate": 0.233,
     "kiro_cooccurrence_rate": 0.133,
-    "vir_cooccurrence_rate": 0.0,
+    "vir_cooccurrence_rate": 0.133,
     "word_initial_rate": 0.25,
     "word_terminal_rate": 0.722,
-    "inverse_ja_score": 4.448
+    "inverse_ja_score": 3.761
   },
   "complementarity_tests": {
     "RU": {
@@ -605,14 +631,6 @@
       "complementarity_rate": 0.727,
       "complementarity_threshold_60pct_met": true
     },
-    "SE": {
-      "candidate_records": 27,
-      "ja_records": 58,
-      "overlap_records": 3,
-      "candidate_only_records": 24,
-      "complementarity_rate": 0.889,
-      "complementarity_threshold_60pct_met": true
-    },
     "RE": {
       "candidate_records": 51,
       "ja_records": 58,
@@ -621,16 +639,24 @@
       "complementarity_rate": 0.882,
       "complementarity_threshold_60pct_met": true
     },
-    "MU": {
-      "candidate_records": 6,
+    "SE": {
+      "candidate_records": 27,
       "ja_records": 58,
-      "overlap_records": 1,
-      "candidate_only_records": 5,
-      "complementarity_rate": 0.833,
+      "overlap_records": 3,
+      "candidate_only_records": 24,
+      "complementarity_rate": 0.889,
+      "complementarity_threshold_60pct_met": true
+    },
+    "RO": {
+      "candidate_records": 61,
+      "ja_records": 58,
+      "overlap_records": 3,
+      "candidate_only_records": 58,
+      "complementarity_rate": 0.951,
       "complementarity_threshold_60pct_met": true
     }
   },
-  "hurrian_si_sa_rank": 17,
+  "hurrian_si_sa_rank": 18,
   "hurrian_prediction_check": {
     "si_profile": {
       "suffix": "SI",
@@ -657,17 +683,41 @@
       "site_count": 16,
       "kuro_cooccurrence_rate": 0.114,
       "kiro_cooccurrence_rate": 0.057,
-      "vir_cooccurrence_rate": 0.0,
+      "vir_cooccurrence_rate": 0.086,
       "word_initial_rate": 0.611,
       "word_terminal_rate": 0.278
     },
-    "sa_profile": null,
-    "si_rank_among_candidates": 17,
+    "sa_profile": {
+      "suffix": "SA",
+      "total_token_occurrences": 19,
+      "records_with_suffix": 19,
+      "sites": [
+        "Haghia Triada",
+        "Iouktas",
+        "Kea",
+        "Khania",
+        "Kophinas",
+        "Malia",
+        "Palaikastro",
+        "Phaistos",
+        "Samothrace",
+        "Thera",
+        "Vrysinas",
+        "Zakros"
+      ],
+      "site_count": 12,
+      "kuro_cooccurrence_rate": 0.053,
+      "kiro_cooccurrence_rate": 0.053,
+      "vir_cooccurrence_rate": 0.0,
+      "word_initial_rate": 0.632,
+      "word_terminal_rate": 0.316
+    },
+    "si_rank_among_candidates": 18,
     "hurrian_prediction_supported": false
   },
   "hypothesis_assessment": {
     "top_candidate_suffix": "RU",
-    "top_inverse_ja_score": 4.448,
+    "top_inverse_ja_score": 3.761,
     "threshold_score_ge_3x": true,
     "threshold_site_count_ge_5": true,
     "threshold_complementarity_ge_60pct": true,

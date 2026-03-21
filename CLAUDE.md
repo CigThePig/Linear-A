@@ -20,12 +20,32 @@ Every hypothesis must be testable against the 1721-inscription corpus in `corpus
 Before proposing any new decipherment approach, you MUST:
 
 1. **Read `failed_attempts.md` in full.**
-2. **Enumerate all hypothesis files** with `ls hypotheses/` and read each one.
-3. **State explicitly** which prior hypothesis your new attempt differs from and how.
+2. **Read `code_issues.md` in full.**
+3. **Enumerate all hypothesis files** with `ls hypotheses/` and read each one.
+4. **State explicitly** which prior hypothesis your new attempt differs from and how.
+
+Before writing or patching any analysis script, you MUST additionally:
+
+5. **Re-read `code_issues.md`** to check whether the pattern you are implementing resembles a previously logged bug.
 
 Never repeat a strategy that has already been documented as failed or inconclusive unless you have a documented reason to believe a substantially different angle will yield different results.
 
 Never assert that Linear A has been deciphered. All claims must be phrased as hypotheses with explicit confidence levels.
+
+### The Two Mandatory Error Logs Are Distinct — Do Not Confuse Them
+
+| File | Purpose |
+|------|---------|
+| `failed_attempts.md` | Records **research and hypothesis failures**: inconclusive analyses, rejected decipherment strategies, methodological dead ends in the linguistics or decipherment work. A research failure is expected and useful — it is how hypotheses are tested. |
+| `code_issues.md` | Records **implementation errors**: script bugs, incorrect metric definitions, wrong sample spaces, silent calculation errors, data-handling mistakes, output-generation mistakes, and other engineering defects that could distort or disable analytical measurements. |
+
+**Coding problems must NOT be buried or silently corrected.** If you discover a bug while working — even a minor one — you must:
+1. Fix the script.
+2. Regenerate any affected outputs.
+3. Update any findings or hypothesis files that cited numbers derived from the buggy code.
+4. Log the issue in `code_issues.md` using the entry schema in that file.
+
+Do not treat a code fix as a research event logged in `failed_attempts.md`. Do not treat a research failure as a bug logged in `code_issues.md`. They are separate audit trails.
 
 ---
 
@@ -313,7 +333,8 @@ Always update `failed_attempts.md` at the end of each session, even for inconclu
 ```
 Linear-A/
 ├── CLAUDE.md                          # This file — project instructions
-├── failed_attempts.md                 # MANDATORY READ before every session
+├── failed_attempts.md                 # MANDATORY READ — research/hypothesis failures
+├── code_issues.md                     # MANDATORY READ — implementation bugs and code defects
 ├── corpus/                            # Source data (read-only)
 │   ├── README.md
 │   ├── manifest.json

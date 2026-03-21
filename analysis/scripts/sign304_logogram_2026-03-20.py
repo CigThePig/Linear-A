@@ -189,18 +189,29 @@ def analyze_sign304(records):
             "post_class_distribution": dict(ctrl_post),
         }
 
-    # PMI between *304 and known logograms
-    total_tokens = sum(len(get_tokens(r)) for r in records)
-    count_304 = total_occ
+    # PMI between *304 and known logograms.
+    # Bug-fix note (2026-03-21): prior version mixed sample spaces:
+    #   count_304  = total token occurrences (occurrence-level, =25)
+    #   count_lgm  = sum of per-record token counts (occurrence-level)
+    #   count_both = records containing both (record-level)
+    #   denominator = len(records) (record-level)
+    # This inconsistency distorts PMI when logograms appear multiple times per record
+    # (e.g. GRA, which is very frequent). Fixed to use a fully record-level formulation:
+    #   p(*304) = records containing *304 / total records
+    #   p(lgm)  = records containing lgm  / total records
+    #   p(*304, lgm) = records containing both / total records
+    # This is the standard document-level PMI used in corpus linguistics.
+    count_304_records = len(target_records)  # records containing *304 (not raw occurrences)
     pmi_with_logograms = {}
     for lgm in ["OLE", "OLIV", "GRA", "VIN", "VIR"]:
-        count_lgm = sum(tokens.count(lgm) for _, tokens in [(r, get_tokens(r)) for r in records])
-        count_both = 0
-        for r in records:
-            tokens = get_tokens(r)
-            if target in tokens and lgm in tokens:
-                count_both += 1
-        pmi_with_logograms[lgm] = round(compute_pmi(count_both, count_304, count_lgm, len(records)), 3)
+        count_lgm_records = sum(1 for r in records if lgm in get_tokens(r))
+        count_both = sum(
+            1 for r in records
+            if target in get_tokens(r) and lgm in get_tokens(r)
+        )
+        pmi_with_logograms[lgm] = round(
+            compute_pmi(count_both, count_304_records, count_lgm_records, len(records)), 3
+        )
 
     # Assessment
     passed_numeral_threshold = numeral_after_rate >= 0.70
@@ -222,6 +233,7 @@ def analyze_sign304(records):
         "formula_cooccurrence_rate": round(formula_cooccurrence_rate, 3),
         "kuro_cooccurrence": kuro_cooccurrence,
         "kiro_cooccurrence": kiro_cooccurrence,
+        "pmi_sample_space": "record_level",  # p(*304) and p(lgm) both use records-containing counts / total records
         "pmi_with_logograms": pmi_with_logograms,
         "control_logogram_stats": control_stats,
         "hypothesis_assessment": {
