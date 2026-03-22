@@ -57,6 +57,150 @@ Linear A has defeated every serious decipherment attempt for 70+ years. That mea
 
 ---
 
+### Attempt #14 — Dedicant Name Extraction from Ritual Formula Slot-2
+
+**Date:** 2026-03-22
+**Hypothesis file:** `hypotheses/2026-03-22-dedicant-name-extraction.md`
+**Strategy:** Proper Noun Isolation / Libation Table Analysis
+**Language tested (if applicable):** N/A
+
+#### Summary of Approach
+Applied Davis (2026) VSO model to extract the subject (slot-2) from all 11 inscriptions containing A-TA-I-*301-WA-JA. Tested whether slot-2 tokens are variable personal names (dedicants) or fixed divine names. Ran LCS consonant-skeleton matching of candidates against Bronze Age Aegean and Hurrian name inventories.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl`, `analysis/outputs/vso_ritual_reanalysis_2026-03-22.json`
+- Inscriptions analyzed: 11 (all containing the ritual header)
+- Methods: slot extraction, personal name profile scoring, LCS consonant-skeleton matching
+
+#### Results
+**Outcome:** PARTIAL SUCCESS
+**Key finding:** TU-RU-SA and SE-KA-NA-SI are high-confidence personal name candidates (unique corpus hapaxes, site-specific); the scribal section divider `𐄁` dominates slot-2 in 9/11 inscriptions as punctuation. JA-DI-KI-TU is NOT in slot-2 — it occupies slot-3+ (consistent with divine addressee).
+**Confidence:** High (structural), Low (specific name identifications)
+
+#### What Was Learned
+- The section divider `𐄁` acts as punctuation between A-TA-I-*301-WA-JA and the subsequent ritual content in 9/11 inscriptions; slot-2 is not consistently a lexical position
+- TU-RU-SA and SE-KA-NA-SI are the first dedicant-profile personal name candidates from the ritual formula (consonant skeleton [T,R,S] and [S,K,N,S] respectively)
+- JA-DI-KI-TU is confirmed as a slot-3+ element (divine object/addressee), not subject — strengthens its identification as Diktynna
+- Only 2 of 11 inscriptions yield direct personal names — most ritual formula inscriptions appear to omit the dedicant
+
+#### Why a Re-attempt Needs to Differ
+Future attempts should search for the dedicant's name in a different structural position — perhaps as a standalone token at inscription-end or encoded within the ritual formula in a non-slot-2 position.
+
+#### Follow-up Questions Generated
+- [ ] Which cult sites do the TU-RU-SA and SE-KA-NA-SI inscriptions come from?
+- [ ] Is SE-KA-NA-SI related to SE-KA-NA (a sub-sequence that may appear in other inscriptions)?
+- [ ] Does TU-RU-SA have a Hurrian-compatible phonological structure (Teshup-compound)?
+
+---
+
+### Attempt #13 — Numeral-Free Ritual Token Sweep (Ritual Logogram Class)
+
+**Date:** 2026-03-22
+**Hypothesis file:** `hypotheses/2026-03-22-ritual-logogram-sweep.md`
+**Strategy:** Logogram Identification / Libation Table Analysis
+**Language tested (if applicable):** N/A
+
+#### Summary of Approach
+Swept for ritual logograms using the inverse of the prior logogram test: required numeral_after_rate < 20% AND ritual_enrichment ≥ 3×, motivated by the Knossos Ivory Scepter (2025) where quadruped animal logograms appear WITHOUT numerals. Excluded all known formula words and administrative logograms.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl`
+- Inscriptions analyzed: 155 ritual records (stone vessel, metal object, architecture) and full 1721-record corpus for enrichment baseline
+- Methods: enrichment ratio computation, numeral-after rate, co-occurrence with known logograms
+
+#### Results
+**Outcome:** PARTIAL SUCCESS
+**Key finding:** I-DA confirmed as a ritual-only toponym (11.1× ritual enrichment, 3 non-HT ritual sites, 0% numeral-after). No animal/quadruped logograms found — Knossos Ivory Scepter format not represented in current corpus.
+**Confidence:** High (I-DA result), Low (ME and A-MA candidates)
+
+#### What Was Learned
+- I-DA (Mt. Ida toponym) is confirmed as a ritual token — exclusively appears in ritual contexts (0% numeral-after, 3 sites), reinforcing H10c's finding that -DA in ritual contexts is toponymic/dedicatory
+- No quadruped animal logograms were found; the Knossos Ivory Scepter's numeral-free animal inventory format either uses sign forms not in our transliteration system, or is not in our 1721-record corpus
+- The `𐄁` section divider appears at 18 ritual sites (highest cross-site distribution in the ritual corpus) — confirms its pan-Aegean scribal convention status
+- The numeral-free + ritual enrichment filter successfully separates the logogram search space into a ritual class complementary to the prior administrative logogram sweeps
+
+#### Why a Re-attempt Needs to Differ
+Identifying the specific quadruped/animal logograms from the Knossos Ivory Scepter would require paleographic comparison (SigLA database) since our corpus uses conventional transliterations that may not capture the specific sign shapes.
+
+#### Follow-up Questions Generated
+- [ ] What full inscription contexts do ME and A-MA appear in at Iouktas and Zakros?
+- [ ] Does A-MA have parallels in known Aegean divine epithets (cf. Egyptian Amun, Luwian place names)?
+- [ ] Can SigLA database cross-reference identify which sign numbers correspond to the scepter's quadruped signs?
+
+---
+
+### Attempt #12 — PA-RE Luwian Particle Test
+
+**Date:** 2026-03-22
+**Hypothesis file:** `hypotheses/2026-03-22-pa-re-luwian-particle.md`
+**Strategy:** Luwian Comparison / Administrative Bootstrapping
+**Language tested (if applicable):** Luwian
+
+#### Summary of Approach
+Tested Nepal & Perono Cacciafoco (2024) claim that PA-RE corresponds to Luwian *pari* = "forth/away". Searched corpus for PA-RE as standalone token and in compound forms; computed positional profile, site distribution, and numeral-after rate.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl`
+- Inscriptions analyzed: 1721 (full corpus scan)
+- Methods: occurrence count, positional analysis, site-specificity, consonant skeleton comparison
+
+#### Results
+**Outcome:** NEGATIVE — INSUFFICIENT DATA
+**Key finding:** PA-RE appears only 1 time in the entire corpus (Haghia Triada). Threshold for evaluation is 3+ records. The Luwian particle hypothesis cannot be evaluated.
+**Confidence:** N/A (insufficient data)
+
+#### What Was Learned
+- PA-RE is effectively absent from our 1,721-record corpus (1 occurrence)
+- Nepal & Perono Cacciafoco's finding may stem from alternative sign-value assignments not used in our conventional transliteration system
+- The -RE suffix (58 word-final occurrences) shares the [P,R] consonant skeleton with Luwian *pari* — worth future testing as a directional suffix
+- The Luwian vocabulary-level claim from 2024 is untestable with our current dataset
+
+#### Why a Re-attempt Needs to Differ
+A re-attempt would need to: (1) use Nepal & Perono Cacciafoco's specific sign-value assignments to re-transliterate the corpus, or (2) test the -RE suffix (58 occurrences) as a possible reduced/bound form of *pari*.
+
+#### Follow-up Questions Generated
+- [ ] What alternative sign-value assignments from Nepal & Perono Cacciafoco (2024) might yield PA-RE in our corpus?
+- [ ] Does -RE (58 occurrences) show directional enrichment consistent with "forth/away" meaning?
+- [ ] Are there other Luwian particles in Melchert's glossary that map to high-frequency Linear A tokens?
+
+---
+
+### Attempt #11 — VSO Word Order Validation and Ritual Formula Slot Reassignment
+
+**Date:** 2026-03-22
+**Hypothesis file:** `hypotheses/2026-03-22-vso-ritual-reanalysis.md`
+**Strategy:** Libation Table Analysis / Administrative Bootstrapping
+**Language tested (if applicable):** N/A (word order is pre-linguistic)
+
+#### Summary of Approach
+Applied Davis (2026) VSO word order model to the 11 corpus inscriptions containing A-TA-I-*301-WA-JA. Tested: (1) whether this token is inscription-initial (verbal phrase); (2) whether slot-2 contains variable dedicant names or fixed divine names; (3) whether slot-3+ contains stable liturgical objects.
+
+#### Data Used
+- Files: `corpus/linear_a_llm_master.jsonl`
+- Inscriptions analyzed: 11 (all containing A-TA-I-*301-WA-JA)
+- Methods: positional indexing, slot extraction, site-specificity scoring, personal name profile scoring
+
+#### Results
+**Outcome:** PARTIAL SUCCESS
+**Key finding:** A-TA-I-*301-WA-JA is inscription-initial in 90.9% of cases (10/11) — consistent with verbal phrase hypothesis. Two personal name candidates (TU-RU-SA, SE-KA-NA-SI) found in slot-2 in exceptional inscriptions.
+**Confidence:** High (verbal phrase finding), Low (personal name identifications)
+
+#### What Was Learned
+- A-TA-I-*301-WA-JA overwhelmingly appears at inscription position 0 — strongly consistent with Davis's verbal phrase claim
+- The scribal section divider `𐄁` occupies slot-2 in 9/11 inscriptions as punctuation, not as a lexical element
+- JA-DI-KI-TU is NOT in slot-2 (divine addressee/object position confirmed), strengthening its Diktynna identification from Attempt #9
+- TU-RU-SA and SE-KA-NA-SI are new personal name candidates (unique hapaxes, site-specific, Hurrian-compatible consonant skeletons)
+
+#### Why a Re-attempt Needs to Differ
+A more targeted re-attempt should examine the full inscription sequences for the 9 `𐄁`-containing inscriptions to map where the dedicant's name might appear relative to the divider, rather than treating slot-2 as the only candidate position.
+
+#### Follow-up Questions Generated
+- [ ] What comes after `𐄁` in the 9 inscriptions where it fills slot-2? Is JA-DI-KI-TU consistently in position 3?
+- [ ] Does A-TA-I contain a recognizable verbal root? (A-TA-I potentially = "I place/offer" in Hurrian-compatible morphology?)
+- [ ] Are TU-RU-SA and SE-KA-NA-SI from Iouktas or Palaikastro inscriptions specifically?
+
+---
+
 ### Attempt #10 — Intra-Inscription Case Validation, NI Commodity ID, -DA Disambiguation, Pre-Logogram Sweep
 
 **Date:** 2026-03-21

@@ -230,13 +230,33 @@ The divine name root **JA-SA-SA-RA** is confirmed by the attestion of three infl
 | Evidence tier | Tier 3 (Formulaic) |
 | Confidence | High (ritual header function) |
 
-**Function:** This formula functions as a **ritual inscription header** — it appears at the start of ritual inscriptions and is followed by varying companion formulas at different sites.
+**VSO Verbal Phrase Test (Added 2026-03-22, Attempt #11):** Under Davis (2026) VSO word order model, A-TA-I-*301-WA-JA is interpreted as a **ritual verbal phrase** ("I offer / I dedicate") rather than just a header label. The 90.9% inscription-initial rate (10/11 records) is consistent with this interpretation. This does not change the token's confirmed function, but reframes it as the VERB in the VSO formula structure.
+
+**Function:** This formula functions as a **ritual inscription header / verbal phrase** — it appears at the start of ritual inscriptions and is followed by varying companion formulas at different sites.
 
 **Variants (likely scribal):**
 - `A-NA-TI-*301-WA-JA` — N instead of T in slot 2
 - `A-TA-I-*301-WA-E` — -E instead of -JA at end
 - `JA-TA-I-*301-U-JA` — JA- prefix; -U- in *301 slot
 - `TA-NA-I-*301-U-TI-NU` — **header variant** (inscription-initial in IOZa6; NOT a coda variant as originally believed)
+
+**VSO Slot Structure (Added 2026-03-22, Attempt #11 + #14):**
+Under the VSO model, the slot structure is:
+```
+[VERB]       A-TA-I-*301-WA-JA  (verbal phrase: "I offer/dedicate")
+[DIVIDER]    𐄁                  (scribal section separator; present in 9/11 inscriptions)
+[SUBJECT]    variable            (TU-RU-SA or SE-KA-NA-SI in 2/11 inscriptions where 𐄁 absent)
+[SLOT 1]     JA-DI-KI-TU / A-DI-KI-TE-TE  (divine object/addressee position — NOT subject)
+[DIV NAME]   JA-SA-SA-RA-ME     (divine name / object)
+[COMPANION]  U-NA-KA-NA-SI
+[ELEMENT 3]  I-PI-NA-MA
+[CLOSING]    SI-RU-TE
+```
+Key revision: JA-DI-KI-TU occupies the OBJECT position (slot-3+, not slot-2), consistent with it being the divine addressee (Diktynna), not the subject.
+
+New personal name candidates from slot-2 in exceptional inscriptions (no divider):
+- **TU-RU-SA** — 1 occurrence, site-specific, consonant skeleton [T,R,S]; Low confidence personal name
+- **SE-KA-NA-SI** — 1 occurrence, site-specific, consonant skeleton [S,K,N,S]; Low confidence personal name
 
 **Note on *301 duality:** Sign *301 has TWO distinct uses:
 1. In `A-TA-I-*301-WA-JA` (ritual formula): *301 is part of a phonetic/logographic ritual header

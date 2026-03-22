@@ -1,0 +1,70 @@
+{
+  "analysis": "Attempt #12: PA-RE Luwian Particle Test",
+  "date": "2026-03-22",
+  "new_information_source": "Nepal & Perono Cacciafoco (2024) MDPI Information 15:2:73",
+  "target_token": "PA-RE",
+  "standalone_record_count": 1,
+  "standalone_token_occurrences": 1,
+  "site_distribution": {
+    "Haghia Triada": 1
+  },
+  "support_distribution": {
+    "Tablet": 1
+  },
+  "ritual_enrichment": null,
+  "positional_stats": {
+    "record_initial_rate": 0.0,
+    "numeral_after_rate": 0.0,
+    "pre_logogram_rate": 0.0,
+    "post_numeral_rate": 1.0,
+    "kuro_cooccurrence_rate": 0.0,
+    "kiro_cooccurrence_rate": 0.0
+  },
+  "context_before_top10": {
+    "2": 1
+  },
+  "context_after_top10": {
+    "TA-PI-SI-DI": 1
+  },
+  "particle_criteria": {
+    "site_count": 1,
+    "site_specificity": 1.0,
+    "site_confined": true,
+    "numeral_after_rate": 0.0,
+    "logogram_profile": false,
+    "record_initial_rate": 0.0,
+    "pre_logogram_rate": 0.0,
+    "particle_profile": false
+  },
+  "compound_tokens_containing_pa_re": {},
+  "tokens_with_pr_consonant_skeleton": {
+    "PA-RA": 2,
+    "PA-RE": 1,
+    "PU-RA": 1,
+    "A-RI-PA": 1
+  },
+  "record_details": [
+    {
+      "id": "HT4",
+      "site": "Haghia Triada",
+      "support": "Tablet",
+      "tokens": [
+        "𐝫",
+        "*306-TI-KA-A-RE",
+        "DU-RI-TE",
+        "2",
+        "PA-RE",
+        "TA-PI-SI-DI",
+        "1"
+      ]
+    }
+  ],
+  "conclusion": {
+    "hypothesis_status": "INSUFFICIENT DATA (< 3 records)",
+    "site_count": 1,
+    "dominant_site": "Haghia Triada",
+    "numeral_after_rate": 0.0,
+    "record_initial_rate": 0.0,
+    "luwian_pari_match_assessment": "Not supported by positional distribution"
+  }
+}

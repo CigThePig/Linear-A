@@ -236,6 +236,28 @@ Commodity context analysis (Attempt #10 H10b) provides additional evidence for N
 
 ---
 
+---
+
+## I-DA — Ritual Toponym (Mt. Ida)
+
+| Property | Value |
+|----------|-------|
+| Sign label / token | I-DA |
+| Function | Ritual toponym — sacred mountain name (Mt. Ida / Idhi) |
+| Confidence | High |
+| Evidence tier | Tier 1–2 (Structural + Topographic) |
+| Basis | Numeral-free ritual token sweep (Attempt #13, 2026-03-22): 11.1× ritual enrichment (highest of all candidates); 0% numeral-after rate; 3 non-Haghia-Triada ritual sites (Nerokurou, Palaikastro, Zakros); zero co-occurrence with administrative commodity logograms. Also: H10c disambiguation (Attempt #10) identified I-DA as proper noun, not case suffix. |
+| Attested sites | Nerokurou, Palaikastro, Zakros (ritual); Haghia Triada (1 occurrence near GRA — likely dedicatory context) |
+| First documented | 2026-03-21 (H10c), confirmed 2026-03-22 (Attempt #13) |
+
+**Notes:**
+- I-DA corresponds to Mt. Ida (modern Psiloritis / Idhi), the highest peak of Crete and a major Minoan sacred site; associated with the birth cave of Zeus in later Greek tradition
+- The 0% numeral-after rate distinguishes I-DA from administrative logograms — it is never quantified
+- The 3 non-HT attestation sites are all known cult or sacred sites, consistent with a sacred toponym
+- NOT to be confused with the grammatical suffix -DA (disambiguated in Attempt #10)
+
+---
+
 ## Open Questions
 
 - [ ] Are there logograms in the corpus with no Linear B equivalent? (Would indicate Minoan-specific commodities) — *304 may be one such sign
@@ -244,3 +266,5 @@ Commodity context analysis (Attempt #10 H10b) provides additional evidence for N
 - [ ] What specific olive product is *304? Is it olive paste, a quality grade, or a container type? Check for compound signs (*304+A, *304+B variants)
 - [ ] Is NI specifically figs? Cross-reference 7-site NI corpus distribution with archaeobotanical records from those sites (HT, KH, KN, PH, ZA, Crete, Tel Haror)
 - [ ] What is *22F? Highest numeral-after rate among unconfirmed candidates (78.6%, 4 sites). Strongest remaining candidate for the 20th vocabulary item.
+- [ ] Do ME and A-MA (3 occurrences each, 2 ritual sites each) represent additional ritual tokens? Investigate full inscription context.
+- [ ] Could the Knossos Ivory Scepter's quadruped animal logograms correspond to sign numbers in our corpus that use alternative transliteration conventions?
