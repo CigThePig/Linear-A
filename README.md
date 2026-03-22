@@ -1,6 +1,6 @@
 # Linear A Decipherment Research: Most Promising Results
 
-*Last updated: 2026-03-18 | Research sessions completed: 5 | Corpus: 1721 inscriptions, 52 sites*
+*Last updated: 2026-03-22 | Research sessions completed: 10 | Corpus: 1721 inscriptions, 52 sites*
 
 This project applies systematic computational and linguistic methods to Linear A, the undeciphered writing system of Minoan Crete (~1800–1450 BCE). All claims are hypotheses with stated confidence levels — nothing here constitutes a decipherment.
 
@@ -27,8 +27,26 @@ This project applies systematic computational and linguistic methods to Linear A
 | MUL | woman | High |
 | CYP | cyperus plant | Medium |
 | FIG | figs | Medium |
+| **NI** | agricultural commodity (figs?) | **Medium** |
 
 All identified through Linear B parallels and archaeological context. The numeral system is fully understood: decimal positional (1, 10, 100, 1000) plus fractions (1/2, 1/3, 1/4, 1/5).
+
+### Logograms Under Active Investigation (Medium Confidence)
+
+Identified via numeral-after rate analysis (Attempts #9–#10):
+
+| Sign | Candidate Commodity | Sites | Numeral-After Rate | Key Evidence |
+|------|--------------------|----|-----|------|
+| **NI** | Agricultural commodity (figs?) | 7 (broadest of group) | 68.4% | Strong PMI with VIN, CYP, GRA; large quantities (max 62); 87% tablets |
+| ***304** | Olive-related product | 5 (HT, KH, PH, ZA, Pyrgos) | 84% | Strongest PMI with OLIV (5.009) and OLE (4.219); fractional quantities common |
+| ***22F** | Unknown commodity | 4 (HT, KN, PH, ZA) | 78.6% (highest unconfirmed) | Large quantities (27–100); no Linear B parallel |
+| ***308** | Olive oil variant | 3 (Arkhalkhori, HT, KH) | 75% | Appears in OLE compound family; fractional quantities |
+
+### Structural Signs (Not Lexical)
+
+| Sign | Function | Evidence |
+|------|----------|----------|
+| **𐝫 (U+1076B)** | Administrative entry/section marker | Precedes 11 different logograms; should be excluded from lexical analysis like 𐄁 word separator |
 
 ---
 
@@ -100,9 +118,10 @@ Zero KI-RO co-occurrence across 17 sites for -JA words is the strongest single n
 | -JA | 65 | 17 | 0% KI-RO co-occurrence | absolutive | **Medium-High** |
 | -RE | 58 | 11 | 19% KU-RO co-occurrence | participle -ri/-re | Medium |
 | -TE | 56 | 20 | 3.04× ritual enrichment | directive -da/-ta | Low-Medium |
-| -NA | 54 | 12 | 33% terminal accounting use | locative -na (PARTIAL FAIL) | Low |
-| -ME | ~26 | 8 | **5.13× ritual enrichment**; divine name attachment | unknown | Low |
+| -NA | 54 | 12 | 33% terminal accounting; locative -na alignment **failed** (inconclusive) | locative -na (REJECTED for this corpus) | Low |
+| -ME | ~26 | 8 | **5.13× ritual enrichment**; exclusive divine-name attachment | unknown | Low |
 | -TI | 49 | 13 | VIR (person) co-occurrence | directive -da/-ta | Low-Medium |
+| **-DA** | — | — | **REJECTED as administrative dative** (Attempt #10); 3.7×–6.06× ritual enrichment; ritual dedicatory marker, not grammatical suffix | Hurrian dative -da **REJECTED** | — |
 
 ---
 
@@ -131,12 +150,12 @@ No language family identification has been achieved. Current evidence is compati
 
 | Language Family | Best Evidence | Problem |
 |----------------|---------------|---------|
-| **Hurrian** | 14 high-confidence suffix alignments (≥4.0/5.0); -JA absolutive alignment; -TE directive alignment | Compatibility ≠ relatedness; Luwian test (0 high-conf alignments) favors Hurrian only marginally |
-| **Luwian/Anatolian** | Woudhuizen debate (not resolved) | 0 high-confidence morpheme alignments in systematic test |
-| **Proto-Semitic** | N-gram fingerprinting ranked it first (but method was contaminated) | N-gram test inconclusive; methodological problems |
+| **Hurrian** | 14 high-confidence suffix alignments (≥4.0/5.0); -JA absolutive; -TE directive | Best current structural fit; compatibility ≠ relatedness; Luwian test (0 high-conf alignments) favors Hurrian over Luwian. Note: -DA as Hurrian dative **REJECTED** (Attempt #10) |
+| **Luwian/Anatolian** | Woudhuizen debate (not resolved); external studies find vocabulary matches (Nepal & Perono Cacciafoco 2024) | 0 high-confidence morpheme alignments in systematic test; vocabulary matches may be loanwords, not genetic |
+| **Proto-Semitic** | N-gram fingerprinting ranked it first (but method was contaminated) | N-gram test inconclusive; methodological problems; needs clean re-test |
 | **Isolate** | Most parsimonious given failures | Does not explain Hurrian suffix compatibility |
 
-The language appears to be **agglutinative** (Brent Davis 2014; confirmed by suffix paradigm structure). Ergative or active-stative alignment is possible but not proven.
+The language appears to be **agglutinative** (Brent Davis 2014; confirmed by suffix paradigm structure). Brent Davis (Univ. of Melbourne) has additionally established **VSO (Verb-Subject-Object) word order** via libation formula analysis — the same ritual corpus we are analyzing. Ergative or active-stative alignment is possible but not proven.
 
 ---
 
@@ -156,12 +175,14 @@ The ritual register appears to be a separate linguistic/formulaic system from th
 ## Active Research Questions (Priority Order)
 
 1. **What is U-NA-KA-NA-SI?** Locked companion to JA-SA-SA-RA-ME in 4/4 co-occurrences. Most frequently recurring unknown ritual term after the divine name itself.
-2. **What is sign *301?** Appears in ritual header formula and as standalone sign on 230+ HT administrative nodules — dual use suggests it may be polyfunctional (logographic + phonetic). Highest-priority paleographic identification needed.
+2. **What is sign *301?** Appears in ritual header formula and as standalone sign on 230+ HT administrative nodules — dual use suggests it may be polyfunctional (logographic + phonetic). Cross-reference against SigLA database for paleographic parallels.
 3. **What does the -TU vs -TE contrast on DI-KI mean?** JA-DI-KI-TU (Iouktas) vs A-DI-KI-TE (Palaikastro) — could reveal the Minoan case system if DI-KI is indeed a toponym.
 4. **Is -U-TI-NU a sanctuary identifier for Iouktas?** If so, it may appear in Linear B records of goods sent to/from Iouktas.
 5. **Does DI-KI appear in Linear B Knossos tablets?** Cross-script comparison could confirm or refute the sacred toponym hypothesis.
 6. **What is the grammatical function of -ME?** 5.13× ritual enrichment; exclusive divine-name attachment; positional analysis inconclusive. Next test: check whether bare JA-SA-SA-RA vs -ME form differs by inscription type, site, or structural position.
 7. **Can the Proto-Semitic hypothesis be constrained and tested?** N-gram analysis ranked it first (contaminated method) — needs clean re-test with triconsonantal root comparison.
+8. **What commodity is NI?** 7-site distribution, 68.4% numeral-after rate, PMI evidence for agricultural context. Figs is the leading candidate (Medium confidence) but not confirmed.
+9. **Does IOZa2 VSO order hold?** Brent Davis established VSO word order via libation formula analysis — re-analyze our IOZa2 slot assignments assuming VSO; does the current header/slot/element assignment remain consistent?
 
 ---
 
@@ -175,3 +196,16 @@ The ritual register appears to be a separate linguistic/formulaic system from th
 All findings use a tier system: Tier 1 (structural/statistical) → Tier 6 (translational). No finding above Tier 5 has been achieved. All confidence levels are explicitly stated. Negative results are documented in `failed_attempts.md`.
 
 **Analysis scripts:** `analysis/scripts/` | **Outputs:** `analysis/outputs/` | **Findings:** `findings/` | **Hypotheses:** `hypotheses/`
+
+---
+
+## External Resources
+
+Key external tools and scholarship relevant to this project:
+
+- **[SigLA](https://sigla.phis.me)** — Open-access paleographic database of all Linear A inscriptions (Salgarella & Castellan, 2020). 3,000+ individual signs from 400 inscriptions; cross-referencing sign shapes against SigLA can help identify unknown signs (e.g. *301).
+- **Salgarella & Petrakis (eds.) 2026** — *The Wor(l)ds of Linear A: Interdisciplinary Approaches to Documents and Inscriptions of a Cretan Bronze Age Script*, Athens University Review of Archaeology. First international conference volume dedicated entirely to Linear A; includes B. Davis chapter on recent linguistic advances.
+- **Nepal & Perono Cacciafoco (2024)** — "Minoan Cryptanalysis", MDPI *Information* Vol. 15, No. 2. Computational comparison of Linear A to Carian, Cypriot, Egyptian, Luwian, Hittite, Proto-Celtic, Uralic. Found vocabulary-level Luwian matches; confirms grammar-level comparison remains unresolved.
+- **Knossos Ivory Scepter (2025)** — Longest known Linear A inscription (119 signs), found at Knossos Cult Center (Anetaki plot). Kanta, Nakassis, Palaima & Perna (2025), *Ariadne*. Confirms robust non-administrative register; dual-use object (ritual ring + administrative handle).
+
+See `references/` for full notes on external scholarship.
