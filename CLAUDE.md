@@ -10,7 +10,7 @@ Every hypothesis must be testable against the 1721-inscription corpus in `corpus
 
 **A successful outcome is defined as:**
 - Identifying the language family with high confidence
-- Reading 20+ lexical items with cross-inscription consistency
+- Reading 30+ lexical items with cross-inscription consistency
 - Constructing a partial grammar sketch
 
 ---
